@@ -1,0 +1,97 @@
+%background.TeX
+In addition to the Monte Carlo simulation, a datadriven method is used to estimate a significant portion of background that simulation alone is not sufficient to measure. $\tau$ leptons decay hadronically about 65\% of the time forming intermediate mesons. The jets that these decays produce are very similar to Quantum Chromodynamic (QCD) processes. These QCD events effectively fake the hadronic $\tau$ signature for the $a$ decay. In order to conduct the datadriven method, an "ABCD" region proportionality method is implored. 
+
+\subsection{Brief Outline of the Fake Rate Method}
+The general outline to measure the fake rate is as follows:
+\begin{itemize}
+\item{FakeRate Function in Same Sign 
+region is \textit{known}}
+\item{Events passing loose identification in Opposite 
+Sign region is \textit{known} }
+\item{Events passing signal region is 
+\textit{unknown}}
+\item{For channels with enough statistics in the O.S. Tight region, 
+data – prompt MC is conducted. This is motivated by estimating the true jet faking taus background (non-prompt taus). If MC is matched to prompt then it is unlikely a jet faking tau – so they are removed }
+\[f_r(pt)=\frac{\text{Data Events S.S. Tight - Prompt MC Background}}{\text{Data Events S.S. Loose - Prompt MC Background}}\] 
+\item{After the measurement is 
+made for each leg, then apply that as weight to the Opposite Sign "tight" region (the signal region) for one leg at a time weight}
+\item{The Fake Rate function is parametrized in lepton candidate transverse momentum}
+\end{itemize}
+
+\subsection{Measurement of the Fake Rate}
+To measure the fake rate multiple categories are entertained. As outlined in the SM Higgs decays to tau leptons analysis and it's supporting document on fake rate measurements ~\cite{AN16355} , several regions are used to determine the fake rate. The separate "enriched" background regions are considered 
+\begin{itemize}
+	\item QCD multijet (large majority of jet→ \tauh fake events in the \tauh \tauh final state)
+	\item W+jets (mostly in the e\tauh and µ\tauh final states)
+	\item tt events with fully-hadronic or semi-leptonic decays (mostly in the VBF category)
+	\item diboson events with fully-hadronic or semi-leptonic decays.
+\end{itemize} 
+
+These are then measured as a function of $P_T$ of the object and split into sub categories depending on the decay mode.  
+
+
+
+In the $\ttbar$ isolated region, the $\ttbar$ background with a fake $\tauh$ is only a small fraction of the total number of events, which leads to large uncertainties when other processes are subtracted from data. Therefore we choose to instead use the $\ttbar$ simulation to estimate the fake rates. We will see later that this gives generally compatible results with what would be obtained from data, and the $\ttbar$ background is anyway a small fraction of the total fake background in the signal region of the analysis.
+
+  In the QCD multijet region, all backgrounds estimated from MC simulation are subtracted from the data in both regions to obtain the
+effective QCD contribution. In the W+jets region, all backgrounds estimated from MC simulation except for the
+W+jets simulated process are subtracted from the data in both regions to obtain the effective W+jets contribution.
+In the $\ttbar$ region, all backgrounds estimated from MC simulation except for the $\ttbar$ events with a
+jet misidentified as a $\tauh$ candidate are subtracted from the data in both regions to obtain the effective $\ttbar$ with fakes contribution.
+
+The fake rates are fitted as a function of the $\tauh$ $\pt$ with a linear function. The fits are shown in Fig.~\ref{fig:fit_raw_et_0jet_w} (Fig.~\ref{fig:fit_raw_mt_0jet_w}) for the W+jets region with 0 jet, 
+in Fig.~\ref{fig:fit_raw_et_1jet_w} (Fig.~\ref{fig:fit_raw_mt_1jet_w}) for the W+jets region with  
+one jet, in Fig.~\ref{fig:fit_raw_et_2jet_w} (Fig.~\ref{fig:fit_raw_mt_2jet_w}) for the W+jets region with         
+more than one jet, in Fig.~\ref{fig:fit_raw_et_0jet_qcd} (Fig.~\ref{fig:fit_raw_mt_0jet_qcd}) 
+for the QCD multijet region with 0 jet, in Fig.~\ref{fig:fit_raw_et_1jet_qcd} (Fig.~\ref{fig:fit_raw_mt_1jet_qcd}) 
+for the QCD multijet region with 1 jet, 
+in Fig.~\ref{fig:fit_raw_et_2jet_qcd} (Fig.~\ref{fig:fit_raw_mt_2jet_qcd})
+for the QCD multijet region with more than 1 jet,
+and in Fig.~\ref{fig:fit_raw_et_tt} (Fig.~\ref{fig:fit_raw_mt_tt}) 
+for the $\ttbar$ region in data, in Fig.~\ref{fig:fit_raw_et_ttmc} (Fig.~\ref{fig:fit_raw_mt_ttmc}) 
+for the $\ttbar$ simulation in the $\Pe\tauh$ ($\Pgm\tauh$) final state. As shown in the last two figures, the fake factors for $\ttbar$ events are compatible when measured in the simulation and in data, even if the last suffers from large uncertainties. 
+
+Because of the lack of statistics at high $\tauh$ $\pt$, the fact that a decreasing linear function inevitably leads to negative fake factors at high enough $\tauh$ $\pt$, and the fact that our signal typically does not lie at very high $\tauh$ $\pt$, we take the fake factors evaluated at a $\tauh$ \pt of 100\GeV for any $\tauh$ with $\pt\geq100\GeV$. Fake factor measurements for the $\mu\mu\mu\tau$ channel in the QCD 0jet region is included in figure \ref{fig:fit_raw_mt_0jet_qcd}, the rest of all the regions are included in the appendix \ref{app:ffmeas}.
+
+\begin{figure}[ht!b]
+\centering
+\includegraphics[width=0.31\textwidth]{Figures/FF/plots_mt_2016/fit_rawFF_mt_qcd_0jet.pdf}
+\includegraphics[width=0.31\textwidth]{Figures/FF/plots_mt_2017/fit_rawFF_mt_qcd_0jet.pdf}
+\includegraphics[width=0.31\textwidth]{Figures/FF/plots_mt_2018/fit_rawFF_mt_qcd_0jet.pdf}\\
+\caption{\label{fig:fit_raw_mt_0jet_qcd} Fake factors determined in the QCD multijet determination region with 0 jet in the $\Pgm\tauh$ final state in 2016 (left), 2017 (center), and 2018 (right). They are fitted with linear functions as a function of the $\tauh$ $\pt$. The green and purple lines indicate the shape systematics obtained by uncorrelating the uncertainties in the two fit parameters returned by the fit.  }
+\end{figure}
+
+
+
+
+
+\clearpage
+
+\subsection{Application of the Fake Rate Method}
+
+After the jet faking tau rate is measured, it is then applied to events that identifiy as loose. Due to the final state involving two tau leptons, this procedure is applied to each tau lepton in the final state thus requiring application of the fake rate to four different possibilities. Each lepton "leg" may identify as loose or failing the tight idenification. Alternately they could pass. The fake rate is then applied depending on the idenfication for each leg and in the case the event fails both legs then a minus sign is included to avoid the case of double counting. 
+\begin{itemize}
+\item{The final weight is then 
+applied depending on the 
+pass and fail criteria of each 
+lepton candidate}
+\item{If event fails id for leg 1:\[f_1(pt)=\frac{f_{r_1}(pt)}{1-f_{r_1}(pt)}\]}
+\item{If event fails id for leg 2:\[f_2(pt)=\frac{f_{r_2}(pt)}{1-f_{r_2}(pt)}\]}
+\item{If event fails id for both:\[f_{12}(pt)=-\frac{f_{r_1}(pt)}{1-f_{r_1}(pt)}\cdot\frac{f_{r_2}(pt)}{1-f_{r_2}(pt)}\]}
+\end{itemize}
+
+
+To illustrate the different regions please consider 
+\begin{figure}[ht!b]
+  \includegraphics[width=0.9\textwidth]{"Figures/fakefactor_diagram.pdf"}
+    \caption{\label{fig:fakefactor_reg} Diagram depicting the measurement and application regions this ABCD method is multiplied by the two $\tau$ leptons in the final sate}
+\end{figure}
+
+This fake factor methodology has been supported by other analyses such as the standard model Higgs measurement with an associated Z boson ~\cite{CMS-PAS-HIG-19-010} . 
+
+For a closure test, the same application criteria is applied to the selection of the tight same sign region. The vast majority of the background should be jets faking taus in that case. Indeed it is shown in figure \ref{fig:fakefactor_validation}.
+  
+\begin{figure}[ht!b]
+  \includegraphics[width=0.65\textwidth]{"Figures/outplots_2016_smFF_mmmt_Nominal/AMass_blinded_mmmt_FF_SS_validation.png"}
+    \caption{\label{fig:fakefactor_validation} Validation of the fake factor method, fake factors are applied to the same sign tight region}
+\end{figure}

@@ -1,0 +1,124 @@
+\documentclass[phd,black]{PrincetonThesis}
+\usepackage[margin = 1in]{geometry}
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{hepnames}
+\usepackage{multirow}
+\usepackage{epsfig}
+\usepackage{subfigure}
+\usepackage{slashed}
+\usepackage{amssymb}
+\usepackage{array}
+\usepackage{fp}
+\usepackage{acronym} %texorpdfstring
+\usepackage{ifthen}
+\usepackage{ptdr-definitions}
+\usepackage{topcapt}
+\pagestyle{fancy}
+
+\newcolumntype{T}{>{\trunc}r}
+\def\trunc\ignorespaces#1\\{%
+  \FPset\a{#1}
+  \FPround\a\a4
+  \a
+  \\
+}
+
+%  Needed to insert AN-20-208 in to thesis.
+\newboolean{cms@an}
+\setboolean{cms@an}{true}
+
+%\newcommand{\registered}{\ooalign{\hfil\raise .00ex\hbox{\scriptsize R}\hfil\crcr\mathhexbox20D} }
+\newcommand{\lt}{\!<\! }
+\newcommand{\gt}{\!>\! }
+\newcommand{\instLumiUnit}{cm$^{-2}$s$^{-1}$ }
+\newcommand{\CHECK}[1]{\textbf{\color{red}[#1]}\xspace }
+\newcommand{\chk}[1]{\CHECK{CHECK THIS!} }
+
+%\ from AN-12-402
+\newcommand{\cmsSymbolFace}{\mathrm}
+\newcommand{\X}{\ensuremath{\mathrm{X^{0}}}\xspace}
+\newcommand{\XX}{\ensuremath{\mathrm{X^{0}X^{0}}}\xspace}
+\newcommand{\BR}{\ensuremath{\mathrm{B}}\xspace}
+\newcommand{\Higgs}{\Hz}
+\newcommand{\Kshort}{\ensuremath{\mathrm{K}^0_\mathrm{S}}\xspace}
+\newcommand{\Zprime}{\cPZpr\xspace}
+\newcommand{\Pshiggs}{\Az}
+\newcommand{\Y}{\ensuremath{\mathrm{Y}}\xspace}
+\newcommand{\qq}{\Pq\Paq\xspace}
+
+\title{A Search for Higgs Decay to Pseudoscalar Higgs-like Particles at CMS}
+\author{Samuel Higginbotham}
+\department{Physics}
+\advisor{Daniel Marlow}
+\degreemonth{August}
+\degreeyear{2022}
+
+\begin{document}
+\begin{frontmatter}
+  \begin{thesisabstract}
+    \input abstract.tex
+  \end{thesisabstract}
+  \begin{acknowledgements}
+    \input acknowledgements.tex
+  \end{acknowledgements}
+\end{frontmatter}
+\graphicspath{{/mnt/c/Users/Sam Higginbotham/Dropbox/HAA/}{/mnt/c/Users/Sam Higginbotham/Dropbox/HAA/plots/}{/mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/}{/mnt/c/Users/Sam Higginbotham/Dropbox/MyPhD/figures}}
+
+
+%%%%%%%%%%%%% local definitions %%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Introduction}
+\label{chap:Introduction}
+\input{chapters/Introduction.tex}
+
+\chapter{The Large Hadron Collider}
+\label{chap:cmsdet}
+\input{chapters/CMSdetector.tex}
+
+\chapter{Silicon Detectors and Luminosity}
+\label{chap:lumi}
+\input{chapters/luminosity.tex}
+
+\chapter{Data and Simulation}
+\label{chap:samples}
+\input{chapters/samples.tex}
+
+\chapter{Event Selection}
+\label{chap:selection}
+\input{chapters/selection.tex}
+
+\chapter{Background}
+\label{chap:background}
+\input{chapters/Background.tex}
+
+\chapter{Statistical Inference Modeling}
+\label{chap:stat}
+\input{chapters/fitmodel.tex}
+\input{chapters/systematics.tex}
+
+\chapter{Results}
+\label{chap:results}
+\input{chapters/Results.tex}
+
+\chapter{Conclusions}
+
+
+\appendix
+\chapter{Data and Simulation Samples}
+\label{app:data}
+\input{chapters/app-data.tex}
+
+\chapter{Fake Rate Measurements}
+\label{app:ffmeas}
+\input{chapters/app-ffmeas.tex}
+
+\chapter{Systematic Uncertainties}
+\label{app:sysunc}
+\input{chapters/app-sysunc.tex}
+
+\cleardoublepage
+\bibliographystyle{ieeetr}  %or your favorite style plain/abbrv/alpha/unsrt/acm/apalike
+\bibliography{thesis}  %assuming your bibtex file is thesis.bib
+\end{document}

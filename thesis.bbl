@@ -1,0 +1,77 @@
+\begin{thebibliography}{10}
+
+\bibitem{Tully:1417476}
+C.~G. Tully, {\em Elementary particle physics in a nutshell}.
+\newblock Princeton, NJ: Princeton Univ. Press, 2011.
+
+\bibitem{Lancaster:1629337}
+T.~Lancaster and S.~J. Blundell, {\em {Quantum field theory for the gifted
+  amateur}}.
+\newblock Oxford: Oxford University Press, Apr 2014.
+
+\bibitem{Branco_2012}
+G.~Branco, P.~Ferreira, L.~Lavoura, M.~Rebelo, M.~Sher, and J.~P. Silva,
+  ``Theory and phenomenology of two-higgs-doublet models,'' {\em Physics
+  Reports}, vol.~516, pp.~1--102, jul 2012.
+
+\bibitem{Curtin_2014}
+D.~Curtin, R.~Essig, S.~Gori, P.~Jaiswal, A.~Katz, T.~Liu, Z.~Liu, D.~McKeen,
+  J.~Shelton, M.~Strassler, Z.~Surujon, B.~Tweedie, and Y.-M. Zhong, ``Exotic
+  decays of the 125~{GeV} higgs boson,'' {\em Physical Review D}, vol.~90, oct
+  2014.
+
+\bibitem{CMS-HIG-17-029}
+A.~M. Sirunyan {\em et~al.}, ``Search for an exotic decay of the higgs boson to
+  a pair of light pseudoscalars in the final state of two muons and two $\tau$
+  leptons in proton-proton collisions at s=13$$ \sqrt{s}=13 $$tev leptons with
+  the {CMS} detector,'' {\em Journal of High Energy Physics}, p.~283, 2017.
+
+\bibitem{Chatrchyan:2008zzk}
+S.~Chatrchyan {\em et~al.}, ``The {CMS} experiment at the {CERN} {LHC},'' {\em
+  JINST}, vol.~03, p.~S08004, 2008.
+
+\bibitem{Chatrchyan:1129810}
+S.~Chatrchyan, G.~Hmayakyan, V.~Khachatryan, A.~M. Sirunyan, R.~Adolphi,
+  G.~Anagnostou, S.~Brauer, ...~Hansel, T.~Nobauer, M.~Droge, U.~Roser,
+  A.~Schoning, F.~Stockli, and P.~Trub, ``{The CMS experiment at the CERN LHC.
+  The Compact Muon Solenoid experiment},'' {\em JINST}, vol.~3, p.~S08004. 361
+  p, 2008.
+\newblock Also published by CERN Geneva in 2010.
+
+\bibitem{CMS-PAS-PFT-09-001}
+{CMS Collaboration}, ``Particle--flow event reconstruction in {CMS} and
+  performance for jets, taus, and {\MET},'' CMS Physics Analysis Summary
+  CMS-PAS-PFT-09-001, CERN, 2009.
+
+\bibitem{Kratschmer:1956760}
+I.~Kratschmer, ``{Muon reconstruction and identification in CMS Run I and
+  towards Run II},'' tech. rep., CERN, Geneva, Oct 2014.
+
+\bibitem{AN16355}
+CMS, ``Search for the standard model higgs boson decaying to a pair of tau
+  leptons in 2016 data,'' CMS Note 2016/355, 2016.
+
+\bibitem{Khachatryan:2015hwa}
+V.~Khachatryan {\em et~al.}, ``{Performance of electron reconstruction and
+  selection with the CMS detector in proton-proton collisions at $\sqrt{s} = 8$
+  TeV},'' {\em JINST}, vol.~10, p.~P06005, 2015.
+
+\bibitem{Sirunyan:2018pgf}
+A.~M. Sirunyan {\em et~al.}, ``Performance of reconstruction and identification
+  of $\tau$ leptons decaying to hadrons and $\nu_\tau$ in pp collisions at
+  $\sqrt{s}=$ 13 {TeV},'' {\em JINST}, vol.~13, p.~P10005, 2018.
+
+\bibitem{https://doi.org/10.48550/arxiv.2201.08458}
+{CMS Collaboration}, ``Identification of hadronic tau lepton decays using a
+  deep neural network,'' 2022.
+
+\bibitem{CMS-PAS-HIG-19-010}
+``{Measurement of Higgs boson production in the decay channel with a pair of
+  $\tau$ leptons},'' tech. rep., CERN, Geneva, 2020.
+
+\bibitem{Cowan_2011}
+G.~Cowan, K.~Cranmer, E.~Gross, and O.~Vitells, ``Asymptotic formulae for
+  likelihood-based tests of new physics,'' {\em The European Physical Journal
+  C}, vol.~71, feb 2011.
+
+\end{thebibliography}

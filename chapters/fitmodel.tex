@@ -1,0 +1,290 @@
+%fit Models
+\section{Statistical Inference at CERN}
+In order to conduct a hypothesis test, a test statistic is needed. This is constructed through the \textit{profile likelihood ratio} and then a confidence level is set using the test statistic ~\cite{Cowan_2011}.
+So construction of a likelihood is required, the test statistic from the likelihood, and a way to calculate a confidence level to complete the hypothesis test.
+To construct the likelihood, the typical approach is to assume a Poisson distribution for the events in the $i-th$ bin and then "smear" it by multiplying it with a Gaussian that is also dependent on the events. The events are split, into signal and background. Because an alternative hypothesis is explored and a-priori the amount of signal events isn't known, it is floated by a coefficient denoted as $\mu$ - the signal strength. For an upper limit this value is changed until the cumulative distribution function of the likelihood reaches the desired confidence or p-value.  
+
+\[\mathcal{L}(\text{data}|\mu,\theta) = \text{Poisson}(\text{data},\mu\cdot s(\theta)+b(\theta)) \cdot p(\tilde{\theta}|\theta) \]
+For binned $n_i$ events in bin label $i$:
+\begin{equation}Poisson(\text{data},\mu\cdot s(\theta)+b(\theta)) = \prod_i \frac{(\mu s_i+b_i)^n}{n_i !}e^{-\mu s_i -b_i}
+\end{equation}
+
+In the case of the pseudoscalar analysis discussed in this paper a slightly different likelihood is considered. A shape-based approach is considered, which instead of a product of many simple Poisson probability density functions, probability distribution functions are used over the entirety of the fit variable (or parameter of interest POI). Multiple PDFs can be combined in this scenario, but the important difference is the absence of any binning. Therefore a good fit is required to have a good description of the events.  
+
+Unbinned or Parametric likelihood functions over $k$ events, $S$ and $B$ the total event rate, $f_s(x_i)$ and $f_b(x_i)$ the \textit{pdfs}
+ \[Poisson(\text{data},\mu\cdot s(\theta)+b(\theta)) = k^-1 \prod_i(\mu S f_s(x_i) + B f_b(x_i))e^{-\mu S - B}\]
+
+Specifically for the pseudoscalar analysis, a product of Bernstein polynomials for $f_b(x_i)$ and Voigtian functions for $f_s(x_i)$ are used. The Bernstein captures the slow changing background that is basically constant in a 2GeV mass window and the Voigtian captures the sharp peaking dimuon mass signal. Details in the analysis will be saved for after the overview of the stat inference model. 
+
+To outline the typical approach in the profile likelihood method, the follow steps are done in an effort to set the limit
+\begin{enumerate}
+\item {To form the test statistic, the \textit{profile likelihood ratio} is used 
+  \[\tilde{q}_\mu = -2 \ln \frac{\mathcal{L}(\text{data}|\mu,\hat{\hat{\theta}}_\mu)}{\mathcal{L}_\text{max}(\text{data}|\hat{\mu},\hat{\theta})} \;\; 0\leq \hat{\mu} \leq \mu \]
+  Where $\hat{\mu}$ and $\hat{\theta}$ are the maximum likelihood estimators. 
+  }
+  \item Find the \textit{observed} value of the test statistic $\tilde{q}_\mu^{obs}$ for given signal strength $\mu$.
+  \item Find values of the nuisance parameters that best describe the experimentally observed data by maximizing the likelihood.
+  \item Generate toy MC pseudo data to construct probability density functions for signal and background $f(\tilde{q}_\mu|\mu,\hat{\theta}_\mu)$ and $f(\tilde{q}_\mu|0,\hat{\theta}_\mu)$ for background only hypothesis. These pdfs are the pdfs of the test statistic under the assumption of a signal strength.
+  \item Generate toy MC pseudo data to construct probability density functions for signal and background $f(\tilde{q}_\mu|\mu,\hat{\theta}_\mu)$ and $f(\tilde{q}_\mu|0,\hat{\theta}_\mu)$ for background only hypothesis.
+  \item {Define p-values to be associated with the actual observation for both s+b and b only hypotheses
+  \[ p_\mu = P(\tilde{q}_\mu \ge \tilde{q}_\mu^{obs}| s+b) = \int_{\tilde{q}_\mu^{obs}}^\infty f(\tilde{q}_\mu |\mu,\hat{\theta}_\mu^{obs} ) d\tilde{q}_\mu\]
+  \[ 1- p_b = P(\tilde{q}_\mu \ge \tilde{q}_b^{obs}| b) = \int_{\tilde{q}_b^{obs}}^\infty f(\tilde{q}_\mu |\mu,\hat{\theta}_b^{obs} ) d\tilde{q}_\mu\]
+   Then take the ratio to form the confidence levels
+  \[ CL_s (\mu)  = \frac{p_\mu}{1-p_b}\]
+  }
+  \item{ Let $\alpha$ be the measure of confidence, then for $\mu=1$ if $CL_s \leq \alpha$ then the signal hypothesis is rejected in favor of the background only hypothesis}
+  \item {Further to quote the $95\%$ confidence level on $\mu$, we need to adjust the signal strength ($\mu$) , until $CL_s = 0.05$}
+\end{enumerate}
+
+
+\section{Worked Example for Low Stat Analyses}
+Order of magnitude estimates for low stat analyses like the Higgs decay to pseudoscalars can be obtained by considering a very simple statistical inference model. 
+
+Suppose there are $N$ events 
+\begin{equation}
+\label{eq:Nevents}
+N = B\cdot \sigma \cdot A\cdot \mathcal{L}
+\end{equation}
+where $B$ is the branching fraction for the physics process, $A$ is the signal acceptance, $\sigma$ is the cross section, and $\mathcal{L}$ is the luminosity.
+
+Thus given a model that has the dependent variables, the upper 95\% limit on the branching fraction can be found. 
+
+In general \ref{eq:Nevents} works; however, a likelihood model is needed to fully get the estimate of the number of events expected. 
+
+As outlined in binned-likelihood models in CMS ~\cite{Cowan_2011}, suppose that the number of expected events follows a Poisson distribution. Then in that case if the background model would predict 0 average events, then the upper 95\% bound in that case is 3.7 events. 
+
+Inverting the relation
+\[B = \frac{N}{\sigma \cdot A\cdot \mathcal{L}}\]
+Selecting the signal acceptance from the pseudoscalar analysis (2016 $\mu\mu\mu\tau$) 
+\[ A = \frac{\text{events pass all cuts}}{\text{starting events}} = \frac{1293}{250000} \approx 0.005 \]
+and taking the cross section of the gluon gluon fusion for the parent particle in the decay chain $\sigma = 48 \text{pb}$ along with the luminosity for 2016 $\mathcal{L} = 35,900 \text{pb}^{-1}$
+
+Then the upper 95\% limit on the branching fraction is 
+
+\[B =  \frac{N}{\sigma \cdot A\cdot \mathcal{L}} = 0.00043 = 4.3 \times 10^{-4}\]
+
+
+
+\section{Fit model for pseudoscalar Higgs search}
+After the signal extraction cuts are applied, an unbinned parametric likelihood fit was done with various shapes depending on the background and signal categorization. There is one signal distribution depending on the hypothesized $a$ mass, and two background distributions that are considered in the final fit. The two contributing background distributions originate from "Irreducible" events coming from two Z bosons (ZZ) and from "Reducible" events coming from jets faking tau leptons (FF).  
+
+%%For the signal, a Voigtian function is used to fit the $a$ mass spectrum in a small window - 2GeV - of the hypothesized $a$ mass for the sample \ref{fig:fit_sig}. The Voigtian shape was chosen to reflect the narrow simulated peak that is statistically smeared by experimental measurement.
+
+For the signal, a Voigtian function is used to fit the pseudoscalar $a$ mass spectrum in a small window - 2GeV - of the hypothesized $a$ mass for the sample as in figure \ref{fig:fit_sig}. The Voigtian shape was chosen to reflect the narrow simulated peak that is statistically smeared by experimental measurement. The Voigtian shape has one extra degree of freedom compared to the Gaussian. This parameter controls the Lorentzian factor in the Voigtian. For the signal MC the distributions tend to increase in standard deviation as the mass approaches 60 GeV. To compare the signal MC distributions, they are all plotted in figure \ref{fig:fit_sig_all}.
+
+
+\begin{figure}[ht!b]
+    \centering 
+    \includegraphics[width=0.47\textwidth]{Figures/DiMuonMass_combined_sig.pdf}
+    \caption{\label{fig:fit_sig_all} Signal fit using a Voigtian function}
+\end{figure}
+%\begin{figure}[ht!b]
+%  \centering
+%  \includegraphics[width=0.47\textwidth]{Figures/Fits_Dec2020/DiMuonMass_sig_mmet.pdf}
+%  \includegraphics[width=0.47\textwidth]{Figures/Fits_Dec2020/DiMuonMass_sig_mmmt.pdf}\\
+%  \includegraphics[width=0.47\textwidth]{Figures/Fits_Dec2020/DiMuonMass_sig_mmtt.pdf}
+%  \includegraphics[width=0.47\textwidth]{Figures/Fits_Dec2020/DiMuonMass_sig_mmem.pdf}\\
+%    \caption{\label{fig:fit_sig} Signal fit using a Voigtian function}
+%\end{figure}
+\begin{figure}[ht!b]
+  \centering
+  \includegraphics[width=0.47\textwidth]{Figures/2016_mmmt_combination/40_Nominal_a40_2016_mmmt_Nominal.png}
+  \includegraphics[width=0.47\textwidth]{Figures/2016_mmet_combination/40_Nominal_a40_2016_mmet_Nominal.png}\\
+  \includegraphics[width=0.47\textwidth]{Figures/2016_mmtt_combination/40_Nominal_a40_2016_mmtt_Nominal.png}
+  \includegraphics[width=0.47\textwidth]{Figures/2016_mmem_combination/40_Nominal_a40_2016_mmem_Nominal.png}\\
+    \caption{\label{fig:fit_sig} Signal fits using a voiigtian function for a-mass at 40GeV }
+\end{figure}
+
+In order to obtain precise signal resolution, shapes from the signal samples in intervals of 5 GeV accross the whole fit range 20-60 GeV are interpolated using spline functions. Thus precise limits can be obtained at the 1 GeV granularity. Predicated upon the fit model, using the spline in a refit would produce reults that are close to the original fit to signal ensuring that in the statistical inference model that the signal is well modeled for all mass points. A spline function is necessary for each degree of freedom in the model. An example of such functions are shown in figure \ref{fig:spline_2016_mmmt}. The bands that envelope the spline indicate the spread and the accepted error on the spline in the statistical inference model, more details are discussed in the systematics section.  
+\begin{figure}[ht!b]
+    \centering 
+    \includegraphics[width=0.47\textwidth]{Figures/2016_mmmt_combination/DiMuonMass_AlphaConstraint_2016_mmmt.pdf}
+    \includegraphics[width=0.47\textwidth]{Figures/2016_mmmt_combination/DiMuonMass_SigmaConstraint_2016_mmmt.pdf}\\
+    \includegraphics[width=0.47\textwidth]{Figures/2016_mmmt_combination/DiMuonMass_MeanConstraint_2016_mmmt.pdf}
+    \includegraphics[width=0.47\textwidth]{Figures/2016_mmmt_combination/DiMuonMass_NormConstraint_2016_mmmt.pdf}\\
+    \caption{\label{fig:spline_2016_mmmt} spline functions for 2016 mmmt 3rd order used for Alpha, Sigma, and Normalization, linear fit for the Mean}
+\end{figure}
+\begin{figure}[ht!b]
+    \centering 
+    \includegraphics[width=0.47\textwidth]{Figures/2016_mmet_combination/DiMuonMass_AlphaConstraint_2016_mmet.pdf}
+    \includegraphics[width=0.47\textwidth]{Figures/2016_mmet_combination/DiMuonMass_SigmaConstraint_2016_mmet.pdf}\\
+    \includegraphics[width=0.47\textwidth]{Figures/2016_mmet_combination/DiMuonMass_MeanConstraint_2016_mmet.pdf}
+    \includegraphics[width=0.47\textwidth]{Figures/2016_mmet_combination/DiMuonMass_NormConstraint_2016_mmet.pdf}\\
+    \caption{\label{fig:spline_2016_mmet} spline functions for 2016 mmet 3rd order used for Alpha, Sigma, and Normalization, linear fit for the Mean}
+\end{figure}
+\begin{figure}[ht!b]
+    \centering 
+    \includegraphics[width=0.47\textwidth]{Figures/2016_mmtt_combination/DiMuonMass_AlphaConstraint_2016_mmtt.pdf}
+    \includegraphics[width=0.47\textwidth]{Figures/2016_mmtt_combination/DiMuonMass_SigmaConstraint_2016_mmtt.pdf}\\
+    \includegraphics[width=0.47\textwidth]{Figures/2016_mmtt_combination/DiMuonMass_MeanConstraint_2016_mmtt.pdf}
+    \includegraphics[width=0.47\textwidth]{Figures/2016_mmtt_combination/DiMuonMass_NormConstraint_2016_mmtt.pdf}\\
+    \caption{\label{fig:spline_2016_mmtt} spline functions for 2016 mmtt 3rd order used for Alpha, Sigma, and Normalization, linear fit for the Mean}
+\end{figure}
+\begin{figure}[ht!b]
+    \centering 
+    \includegraphics[width=0.47\textwidth]{Figures/2016_mmem_combination/DiMuonMass_AlphaConstraint_2016_mmem.pdf}
+    \includegraphics[width=0.47\textwidth]{Figures/2016_mmem_combination/DiMuonMass_SigmaConstraint_2016_mmem.pdf}\\
+    \includegraphics[width=0.47\textwidth]{Figures/2016_mmem_combination/DiMuonMass_MeanConstraint_2016_mmem.pdf}
+    \includegraphics[width=0.47\textwidth]{Figures/2016_mmem_combination/DiMuonMass_NormConstraint_2016_mmem.pdf}\\
+    \caption{\label{fig:spline_2016_mmem} spline functions for 2016 mmem 3rd order used for Alpha, Sigma, and Normalization, linear fit for the Mean}
+\end{figure}
+
+For the irreducible background coming from $ZZ\rightarrow 4 l$, a Bernstein polynomial is used to fit the shape over the entire $a$ mass range in figure \ref{fig:fit_ZZ}. Depending on the final state and shape the degree is chosen to reflect accurate errors in the model. A Fischer F-test was conducted and there doesn't seem to be enough statistics in the bins to provide an accurate difference in the log-likelihood in order to recommend a leading degree. Thus for $\mu\mu\tau\tau$ and $\mu\mu e \tau$, a linear fit is used. For the channels that do have more events like $\mu\mu\mu\tau$ and $\mu\mu e \mu$ - albeit even for a lower number of integrated events - a parabolic order is used. Plotted error bands reflect a simulation of 315 events in a RooFit simulation and is only meant to visualize possible 1 sigma differences in the shape. The true value of the error estimation on the parameters are take from the fit itself and can be seen in the plots, and are later shown in the impacts which demonstrate how the fit parameters effect the overall statistical inference model \ref{fig:impacts_2016_mmmt}. 
+
+%\begin{figure}[ht!b]
+%  \centering
+%  \includegraphics[width=0.47\textwidth]{Figures/Fits_Dec2020/DiMuonMass_ZZ_mmet.pdf}
+%  \includegraphics[width=0.47\textwidth]{Figures/Fits_Dec2020/DiMuonMass_ZZ_mmmt.pdf}\\
+%  \includegraphics[width=0.47\textwidth]{Figures/Fits_Dec2020/DiMuonMass_ZZ_mmtt.pdf}
+%  \includegraphics[width=0.47\textwidth]{Figures/Fits_Dec2020/DiMuonMass_ZZ_mmem.pdf}\\
+%    \caption{\label{fig:fit_ZZ} irreducible background fit using 4th degree Bernstein polynomial}
+%\end{figure}
+\begin{figure}[ht!b]
+  \centering
+  \includegraphics[width=0.47\textwidth]{Figures/2016_mmmt_combination/2_Nominal_irBkg_2016_mmmt_Nominal.png}
+  \includegraphics[width=0.47\textwidth]{Figures/2016_mmet_combination/1_Nominal_irBkg_2016_mmet_Nominal.png}\\
+  \includegraphics[width=0.47\textwidth]{Figures/2016_mmtt_combination/1_Nominal_irBkg_2016_mmtt_Nominal.png}
+  \includegraphics[width=0.47\textwidth]{Figures/2016_mmem_combination/2_Nominal_irBkg_2016_mmem_Nominal.png}\\
+    \caption{\label{fig:fit_ZZ} irreducible background fit using Bernstein polynomials}
+\end{figure}
+
+For the jet faking tau background, a Bernstein polynomial is also used to fit the shape over the entire $a$ mass range in figure \ref{fig:fit_FF}. As with the ZZ - irreducible background - the jet faking tau background polynomial degree is chosen to reflect accurate errors in the model. 
+
+
+%\begin{figure}[ht!b]
+%  \centering
+%  \includegraphics[width=0.47\textwidth]{Figures/Fits_Dec2020/DiMuonMass_FF_mmet.pdf}
+%  \includegraphics[width=0.47\textwidth]{Figures/Fits_Dec2020/DiMuonMass_FF_mmmt.pdf}\\
+%  \includegraphics[width=0.47\textwidth]{Figures/Fits_Dec2020/DiMuonMass_FF_mmtt.pdf}
+%  \includegraphics[width=0.47\textwidth]{Figures/Fits_Dec2020/DiMuonMass_FF_mmem.pdf}\\
+%    \caption{\label{fig:fit_FF} irreducible background fit using 4th degree Bernstein polynomial}
+%\end{figure}
+
+\begin{figure}[ht!b]
+  \centering
+  \includegraphics[width=0.47\textwidth]{Figures/2016_mmmt_combination/2_Nominal_Bkg_2016_mmmt_Nominal.png}
+  \includegraphics[width=0.47\textwidth]{Figures/2016_mmet_combination/1_Nominal_Bkg_2016_mmet_Nominal.png}\\
+  \includegraphics[width=0.47\textwidth]{Figures/2016_mmtt_combination/1_Nominal_Bkg_2016_mmtt_Nominal.png}
+  \includegraphics[width=0.47\textwidth]{Figures/2016_mmem_combination/2_Nominal_Bkg_2016_mmem_Nominal.png}\\
+    \caption{\label{fig:fit_FF} reducible background fit using Bernstein polynomials}
+\end{figure}
+
+The rest of the channels and years are shown below. 
+
+\begin{figure}[ht!b]
+  \centering
+  \includegraphics[width=0.47\textwidth]{Figures/2017_mmmt_combination/40_Nominal_a40_2017_mmmt_Nominal.png}
+  \includegraphics[width=0.47\textwidth]{Figures/2017_mmet_combination/40_Nominal_a40_2017_mmet_Nominal.png}\\
+  \includegraphics[width=0.47\textwidth]{Figures/2017_mmtt_combination/40_Nominal_a40_2017_mmtt_Nominal.png}
+  \includegraphics[width=0.47\textwidth]{Figures/2017_mmem_combination/40_Nominal_a40_2017_mmem_Nominal.png}\\
+    \caption{\label{fig:2017_fit_sig} 2017 Signal fit using a Voigtian function}
+\end{figure}
+
+\begin{figure}[ht!b]
+    \centering 
+    \includegraphics[width=0.47\textwidth]{Figures/2017_mmmt_combination/DiMuonMass_AlphaConstraint_2017_mmmt.pdf}
+    \includegraphics[width=0.47\textwidth]{Figures/2017_mmmt_combination/DiMuonMass_SigmaConstraint_2017_mmmt.pdf}\\
+    \includegraphics[width=0.47\textwidth]{Figures/2017_mmmt_combination/DiMuonMass_MeanConstraint_2017_mmmt.pdf}
+    \includegraphics[width=0.47\textwidth]{Figures/2017_mmmt_combination/DiMuonMass_NormConstraint_2017_mmmt.pdf}\\
+    \caption{\label{fig:spline_2017_mmmt} spline functions for 2017 mmmt 3rd order used for Alpha, Sigma, and Normalization, linear fit for the Mean}
+\end{figure}
+\begin{figure}[ht!b]
+    \centering 
+    \includegraphics[width=0.47\textwidth]{Figures/2017_mmet_combination/DiMuonMass_AlphaConstraint_2017_mmet.pdf}
+    \includegraphics[width=0.47\textwidth]{Figures/2017_mmet_combination/DiMuonMass_SigmaConstraint_2017_mmet.pdf}\\
+    \includegraphics[width=0.47\textwidth]{Figures/2017_mmet_combination/DiMuonMass_MeanConstraint_2017_mmet.pdf}
+    \includegraphics[width=0.47\textwidth]{Figures/2017_mmet_combination/DiMuonMass_NormConstraint_2017_mmet.pdf}\\
+    \caption{\label{fig:spline_2017_mmet} spline functions for 2017 mmet 3rd order used for Alpha, Sigma, and Normalization, linear fit for the Mean}
+\end{figure}
+\begin{figure}[ht!b]
+    \centering 
+    \includegraphics[width=0.47\textwidth]{Figures/2017_mmtt_combination/DiMuonMass_AlphaConstraint_2017_mmtt.pdf}
+    \includegraphics[width=0.47\textwidth]{Figures/2017_mmtt_combination/DiMuonMass_SigmaConstraint_2017_mmtt.pdf}\\
+    \includegraphics[width=0.47\textwidth]{Figures/2017_mmtt_combination/DiMuonMass_MeanConstraint_2017_mmtt.pdf}
+    \includegraphics[width=0.47\textwidth]{Figures/2017_mmtt_combination/DiMuonMass_NormConstraint_2017_mmtt.pdf}\\
+    \caption{\label{fig:spline_2017_mmtt} spline functions for 2017 mmtt 3rd order used for Alpha, Sigma, and Normalization, linear fit for the Mean}
+\end{figure}
+\begin{figure}[ht!b]
+    \centering 
+    \includegraphics[width=0.47\textwidth]{Figures/2017_mmem_combination/DiMuonMass_AlphaConstraint_2017_mmem.pdf}
+    \includegraphics[width=0.47\textwidth]{Figures/2017_mmem_combination/DiMuonMass_SigmaConstraint_2017_mmem.pdf}\\
+    \includegraphics[width=0.47\textwidth]{Figures/2017_mmem_combination/DiMuonMass_MeanConstraint_2017_mmem.pdf}
+    \includegraphics[width=0.47\textwidth]{Figures/2017_mmem_combination/DiMuonMass_NormConstraint_2017_mmem.pdf}\\
+    \caption{\label{fig:spline_2017_mmem} spline functions for 2017 mmem 3rd order used for Alpha, Sigma, and Normalization, linear fit for the Mean}
+\end{figure}
+
+\begin{figure}[ht!b]
+  \centering
+  \includegraphics[width=0.47\textwidth]{Figures/2017_mmmt_combination/2_Nominal_irBkg_2017_mmmt_Nominal.png}
+  \includegraphics[width=0.47\textwidth]{Figures/2017_mmet_combination/1_Nominal_irBkg_2017_mmet_Nominal.png}\\
+  \includegraphics[width=0.47\textwidth]{Figures/2017_mmtt_combination/1_Nominal_irBkg_2017_mmtt_Nominal.png}
+  \includegraphics[width=0.47\textwidth]{Figures/2017_mmem_combination/2_Nominal_irBkg_2017_mmem_Nominal.png}\\
+    \caption{\label{fig:2017_fit_ZZ} 2017 irreducible background fit using Bernstein polynomials}
+\end{figure}
+\begin{figure}[ht!b]
+  \centering
+  \includegraphics[width=0.47\textwidth]{Figures/2017_mmmt_combination/2_Nominal_Bkg_2017_mmmt_Nominal.png}
+  \includegraphics[width=0.47\textwidth]{Figures/2017_mmet_combination/1_Nominal_Bkg_2017_mmet_Nominal.png}\\
+  \includegraphics[width=0.47\textwidth]{Figures/2017_mmtt_combination/1_Nominal_Bkg_2017_mmtt_Nominal.png}
+  \includegraphics[width=0.47\textwidth]{Figures/2017_mmem_combination/2_Nominal_Bkg_2017_mmem_Nominal.png}\\
+    \caption{\label{fig:2017_fit_FF} 2017 reducible background fit using Bernstein polynomials}
+\end{figure}
+
+\begin{figure}[ht!b]
+  \centering
+  \includegraphics[width=0.47\textwidth]{Figures/2018_mmmt_combination/40_Nominal_a40_2018_mmmt_Nominal.png}
+  \includegraphics[width=0.47\textwidth]{Figures/2018_mmet_combination/40_Nominal_a40_2018_mmet_Nominal.png}\\
+  \includegraphics[width=0.47\textwidth]{Figures/2018_mmtt_combination/40_Nominal_a40_2018_mmtt_Nominal.png}
+  \includegraphics[width=0.47\textwidth]{Figures/2018_mmem_combination/40_Nominal_a40_2018_mmem_Nominal.png}\\
+    \caption{\label{fig:2018_fit_sig} 2018 Signal fit using a Voigtian function}
+\end{figure}
+
+\begin{figure}[ht!b]
+    \centering 
+    \includegraphics[width=0.47\textwidth]{Figures/2018_mmmt_combination/DiMuonMass_AlphaConstraint_2018_mmmt.pdf}
+    \includegraphics[width=0.47\textwidth]{Figures/2018_mmmt_combination/DiMuonMass_SigmaConstraint_2018_mmmt.pdf}\\
+    \includegraphics[width=0.47\textwidth]{Figures/2018_mmmt_combination/DiMuonMass_MeanConstraint_2018_mmmt.pdf}
+    \includegraphics[width=0.47\textwidth]{Figures/2018_mmmt_combination/DiMuonMass_NormConstraint_2018_mmmt.pdf}\\
+    \caption{\label{fig:spline_2018_mmmt} spline functions for 2018 mmmt 3rd order used for Alpha, Sigma, and Normalization, linear fit for the Mean}
+\end{figure}
+\begin{figure}[ht!b]
+    \centering 
+    \includegraphics[width=0.47\textwidth]{Figures/2018_mmet_combination/DiMuonMass_AlphaConstraint_2018_mmet.pdf}
+    \includegraphics[width=0.47\textwidth]{Figures/2018_mmet_combination/DiMuonMass_SigmaConstraint_2018_mmet.pdf}\\
+    \includegraphics[width=0.47\textwidth]{Figures/2018_mmet_combination/DiMuonMass_MeanConstraint_2018_mmet.pdf}
+    \includegraphics[width=0.47\textwidth]{Figures/2018_mmet_combination/DiMuonMass_NormConstraint_2018_mmet.pdf}\\
+    \caption{\label{fig:spline_2018_mmet} spline functions for 2018 mmet 3rd order used for Alpha, Sigma, and Normalization, linear fit for the Mean}
+\end{figure}
+\begin{figure}[ht!b]
+    \centering 
+    \includegraphics[width=0.47\textwidth]{Figures/2018_mmtt_combination/DiMuonMass_AlphaConstraint_2018_mmtt.pdf}
+    \includegraphics[width=0.47\textwidth]{Figures/2018_mmtt_combination/DiMuonMass_SigmaConstraint_2018_mmtt.pdf}\\
+    \includegraphics[width=0.47\textwidth]{Figures/2018_mmtt_combination/DiMuonMass_MeanConstraint_2018_mmtt.pdf}
+    \includegraphics[width=0.47\textwidth]{Figures/2018_mmtt_combination/DiMuonMass_NormConstraint_2018_mmtt.pdf}\\
+    \caption{\label{fig:spline_2018_mmtt} spline functions for 2018 mmtt 3rd order used for Alpha, Sigma, and Normalization, linear fit for the Mean}
+\end{figure}
+\begin{figure}[ht!b]
+    \centering 
+    \includegraphics[width=0.47\textwidth]{Figures/2018_mmem_combination/DiMuonMass_AlphaConstraint_2018_mmem.pdf}
+    \includegraphics[width=0.47\textwidth]{Figures/2018_mmem_combination/DiMuonMass_SigmaConstraint_2018_mmem.pdf}\\
+    \includegraphics[width=0.47\textwidth]{Figures/2018_mmem_combination/DiMuonMass_MeanConstraint_2018_mmem.pdf}
+    \includegraphics[width=0.47\textwidth]{Figures/2018_mmem_combination/DiMuonMass_NormConstraint_2018_mmem.pdf}\\
+    \caption{\label{fig:spline_2018_mmem} spline functions for 2018 mmem 3rd order used for Alpha, Sigma, and Normalization, linear fit for the Mean}
+\end{figure}
+
+\begin{figure}[ht!b]
+  \centering
+  \includegraphics[width=0.47\textwidth]{Figures/2018_mmmt_combination/2_Nominal_irBkg_2018_mmmt_Nominal.png}
+  \includegraphics[width=0.47\textwidth]{Figures/2018_mmet_combination/1_Nominal_irBkg_2018_mmet_Nominal.png}\\
+  \includegraphics[width=0.47\textwidth]{Figures/2018_mmtt_combination/1_Nominal_irBkg_2018_mmtt_Nominal.png}
+  \includegraphics[width=0.47\textwidth]{Figures/2018_mmem_combination/2_Nominal_irBkg_2018_mmem_Nominal.png}\\
+    \caption{\label{fig:2018_fit_ZZ} 2018 irreducible background fit using Bernstein polynomials}
+\end{figure}
+\begin{figure}[ht!b]
+  \centering
+  \includegraphics[width=0.47\textwidth]{Figures/2018_mmmt_combination/2_Nominal_Bkg_2018_mmmt_Nominal.png}
+  \includegraphics[width=0.47\textwidth]{Figures/2018_mmet_combination/1_Nominal_Bkg_2018_mmet_Nominal.png}\\
+  \includegraphics[width=0.47\textwidth]{Figures/2018_mmtt_combination/1_Nominal_Bkg_2018_mmtt_Nominal.png}
+  \includegraphics[width=0.47\textwidth]{Figures/2018_mmem_combination/2_Nominal_Bkg_2018_mmem_Nominal.png}\\
+    \caption{\label{fig:2018_fit_FF} 2018 reducible background fit using Bernstein polynomials}
+\end{figure}
