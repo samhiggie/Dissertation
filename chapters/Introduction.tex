@@ -1,14 +1,17 @@
 %Introduction.TeX
 \section{The Standard Model and Beyond}
 
-Holding 18 particles, numerous interactions between particle fields, containing many symmetries and holding a description of the fundamental interactions within nature, the Standard Model is the most precise theory with empirical evidence in the universe. This introduction's purpose is not to derive the standard model or show all the fundamental interactions; however, the aim is to frame the analysis conducted by briefly showcasing the Standard Model and it's extension of supersymmetry with two Higgs doublet models. A table listing the particles can be referenced below in figure \ref{fig:SM}. 
+Comprising 18 particles, numerous interactions between particle fields, containing many symmetries and holding a description of the fundamental interactions within nature, the Standard Model is the leading theory that describes nature with empirical evidence. This introduction's purpose is not to derive the Standard Model or show all the fundamental interactions; however, the aim is to frame the analysis conducted by briefly showcasing the Standard Model and its extension of supersymmetry with two Higgs doublet models. A table listing the particles appears below in figure \ref{fig:SM}. 
 \begin{figure}[ht!b]
   \centering
   \includegraphics[width=0.60\textwidth]{Figures/750px-Standard_Model_of_Elementary_Particles.svg.png}
   \caption{\label{fig:SM} Standard Model particles }
 \end{figure}
 
-Particles can be represented by fields and interact within the theory. To frame the Standard Model the typical approach is to look at the Dirac Lagrangian and then establish $U(1) $ interactions that have a conserved quantity (charge). Emmy Noether originally proved that group global transformations implies conserved quantities which has extensive implications for particle physics and theories that predict quantum numbers \ref{Noether_1971}. After analyzing the $U(1)$ group, one typically extends the theory to include more fields and structure through higher dimensional groups. To parallel typical literature in a concise fashion, the gauge principle will be examined for $U(1)$ and then expanding to $SU(2)$, before taking the external product of these groups to form the Weinberg-Salam Model.
+Particles are represented by fields and interact within the theory. To frame the Standard Model the typical approach is to look at the Dirac Lagrangian and then establish $U(1) $ interactions that have a conserved quantity (charge). 
+Emmy Noether originally proved that group global transformations implies conserved quantities which has extensive implications for particle physics and theories that predict quantum numbers ~\cite{Noether_1971}. 
+
+After analyzing the $U(1)$ group, one typically extends the theory to include more fields and structure through higher dimensional groups. For a concise description, the gauge principle will be examined for $U(1)$ and then expanding to $SU(2)$, before taking the external product of these groups to form the Weinberg-Salam Model.
 
 %\subsection{Symmetry}
 \section{Gauge Principle, Yang Mills Theories, and the Weinberg-Salam Model}
@@ -19,7 +22,7 @@ How the field changes under the transformation will determine the nature of the 
 After expanding the unitary operator one can find the terms and phases that are carried under this transformation. 
 For the $U(1)$ group these actions give the electromagnetic field tensor and charge conservation. 
 
-So in any theory the typical thing to do is to define the transformation and field then work out the form of the covariant derivative and examine how the gauge field transforms ~\cite{Tully:1417476}. To put it generally
+One defines the transformation and field then works out the form of the covariant derivative and examines how the gauge field transforms ~\cite{Tully:1417476}. To put it generally
 \begin{equation}
 \label{eq:lt}
 \Psi'= U(\overrightarrow{x})\Psi \;\;\text{particle under local transformation}\end{equation}
@@ -32,17 +35,17 @@ So in any theory the typical thing to do is to define the transformation and fie
 B^\mu = UB^\mu U^{-1} + \frac{i}{g}(\partial^\mu U)U^{-1} \;\;\text{gauge field transform} 
 \end{equation} 
 
-For $U(1) $with a unitary transformation of the form $\exp{\frac{i}{2}Y\cdot\beta{x}}$ 
+For $U(1)$ with a unitary transformation of the form $\exp{\frac{i}{2}Y\cdot\beta{x}}$ 
 %\[m\Psi'(x)= i\gamma^\mu(\partial_\mu - ie\partial_\mu \chi(x))\Psi \;\;\text{particle field - Dirac Equation}\]
 \[\Psi'(x)= (1+i\alpha)\Psi \;\;\text{particle field with local transformation}\]
 \[\mathcal{D}_\mu = \partial_\mu + ieA_\mu \;\;\text{covariant derivative}\]
 \[B^\mu = B^\mu + \frac{1}{g}(\partial^\mu \beta) \;\;\text{gauge field transform} \] 
 
 
-An interesting commutation relation is worth pointing out. The commuter between the covariant derivatives yields the practical field that it carries. For the $U(1) $ case, it is the electromagnetic field tensor. 
+Notably, the commuter between the covariant derivatives yields the practical field that it carries. For the $U(1) $ case, it is the electromagnetic field tensor. 
 \[  \left[ \mathcal{D}^\mu,\mathcal{D}^\nu\right] \Psi = i\cdot e\cdot F^{\mu\nu} \Psi\]
 
-These relations are important when higher dimensional groups and more complex particle fields are considered. Yang Mill theories take these theoretical components and analyzes it under groups like $SU(2)$ or other special unitary groups. When one considers a local $SU(2)$ transformation, the terms that show up are more rich than $U(1)$.  
+These relations are important when higher dimensional groups and more complex particle fields are considered. Yang Mills theories take these components and analyzes them under groups like $SU(2)$ or other special unitary groups. When one considers a local $SU(2)$ transformation, the terms that show up are more rich than $U(1)$.  
 \[\partial_\mu \rightarrow \partial_\mu +\frac{i}{2}\left(\bf{\tau}\cdot\bf{\alpha}(x)\right)\partial_\mu \Psi +  +\frac{i}{2}\left(\bf{\tau}\cdot\partial_\mu\bf{\alpha}(x)\right) \Psi  \]
 implying the covariant derivative 
 \[\mathcal{D}_\mu = \partial_\mu -\frac{i}{2} g \bf{\tau}\cdot \bf{W}_\mu(x)\]
@@ -51,7 +54,7 @@ The gauge field then transforms as
 \[\bf{\tau}\cdot\bf{W}_\mu \rightarrow  \bf{\tau}\cdot\bf{W}_\mu + \frac{1}{g}\bf{\tau}\cdot(\partial_\mu \bf{\alpha}) - \bf{\tau}\cdot (\bf{\alpha}\times\bf{W}_\mu) \]
 So to concatenate the information: 
 
-For $SU(2) $with a unitary transformation of the form $\exp{\frac{i}{2}\bf{\tau}\cdot\alpha{x}}$ 
+For $SU(2)$ with a unitary transformation of the form $\exp{\frac{i}{2}\bf{\tau}\cdot\alpha{x}}$ 
 
 \[\Psi'(x)= (1 + \frac{i}{2}\bf{\tau}\cdot\bf{\alpha})\Psi \;\;\text{particle field with local transformation}\]
 
@@ -97,9 +100,9 @@ V &= m^2_1|H_1|^2 + m^2_2|H_2|^2 + \frac{\lambda_1}{2}|H_1|^2 + \frac{\lambda_2}
     &+\left(\lambda_7|H_2|^2(H_1 H_2) + c.c.\right) \nonumber 
 \end{align}
 
-Expanding around the minima of the potential yields two doublets with vacuum expectation values, which is usually mixed under a rotation parameter $\tan \beta = \frac{v_1}{v_2}$. After one carries out the interactions with the SM gauge bosons which consume the complex field components and a neutral pseudoscalar combination of scalar Higgs field components, the surviving three real degrees of freedom yield one neutral pseudoscalar mass eigenstate along with two, neutral sclar mass eigenstates, which will be denoted $A$ for the pseudoscalar, $h$ for the lighter neutral SM like Higgs, and $H^0$ for the remaining scalar. As with notation for fields with interact with the potential, the rotation matrix that mixes these scalars into the components that interact under the potential is parametrized by the continuous parameter $\alpha$. In literature this parameter is important because $\tan \beta$ and $\alpha$ set the possible couplings to SM particles. Next, if a complex scalar singlet is added, couplings to SM fermions and bosons are supported ~\cite{Curtin_2014}.
+Expanding around the minima of the potential yields two doublets with vacuum expectation values, which is usually mixed under a rotation parameter $\tan \beta = \frac{v_1}{v_2}$. After one carries out the interactions with the SM gauge bosons which consume the complex field components and a neutral pseudoscalar combination of scalar Higgs field components, the surviving three real degrees of freedom yield one neutral pseudoscalar mass eigenstate along with two, neutral scalar mass eigenstates, which will be denoted $A$ for the pseudoscalar, $h$ for the lighter neutral SM like Higgs, and $H^0$ for the remaining scalar. As with notation for fields with interact with the potential, the rotation matrix that mixes these scalars into the components that interact under the potential is parametrized by the continuous parameter $\alpha$. In literature this parameter is important because $\tan \beta$ and $\alpha$ set the possible couplings to SM particles. Next, if a complex scalar singlet is added, couplings to SM fermions and bosons are supported ~\cite{Curtin_2014}.
 \[S = \frac{1}{\sqrt{2}}(S_R + iS_I)\]
-It doesn't have Yukawa couplings and couples to $H_{1,2}$ - and correspondingly to Standard Model (SM) fermions. Preserving the SM Higgs $h$, the mixing needs to be small which then allows for decays like $h\rightarrow aa \rightarrow X\bar{X}Y\bar{Y}$, where $X$ and $Y$ are SM fermions or bosons. Looking into the phase space where the mixing is light then frames the Higgs pseudoscalar analysis in a region with little SM resonance - making it also a general search for any beyond SM phenomena.
+It doesn't have Yukawa couplings and couples to $H_{1,2}$ - and correspondingly to Standard Model (SM) fermions. Preserving the SM Higgs $h$, the mixing needs to be small which then allows for decays like $h\rightarrow aa \rightarrow X\bar{X}Y\bar{Y}$, where $X$ and $Y$ are SM fermions or bosons. Looking into the phase space where the mixing is light then frames the Higgs pseudoscalar analysis in a region with little SM resonance --- making it also a general search for any beyond SM phenomena.
 \[a \equiv \cos \theta_a S_i + \sin \theta_a A ,\;\; \theta_a << 1 \]
 There are terms in the effective lagrangian that support the $h \rightarrow aa $ decays:
 \begin{align}
@@ -107,42 +110,42 @@ There are terms in the effective lagrangian that support the $h \rightarrow aa $
 \mathcal{L} &\subset g_{hAA}hAA + \lambda_S|S^2|^2  \\
             &\subset g_{hAA}\sin^2\theta_a haa + 4\lambda_S v_s \sin{\zeta_1} \cos^2\theta_a haa \nonumber 
 \end{align}
-here $\zeta$ is just the angle that mixes the singlet with the SM Higgs (needed because of the added state). These interactions give rise to different scenarios that favor certain SM fermions and bosons. According the literature four distinct scenarios are typically entertained, enumerated below. The scenarios, supported by the effective lagrangian \ref{eq:efflag}, yield branching fractions as a function of a-mass and $\tan\beta$.  
+here $\zeta$ is just the angle that mixes the singlet with the SM Higgs (needed because of the added state). These interactions give rise to different scenarios that favor certain SM fermions and bosons. According the literature, four distinct scenarios are typically entertained. These are enumerated below. The scenarios, supported by the effective lagrangian \ref{eq:efflag}, yield branching fractions as a function of $a$-mass and $\tan\beta$.  
 \begin{itemize}
 \item Type I: Fermions couple only to the $H_2$ field and are independent of $\tan\beta$, pseudoscalar coupling are proportional to the SM Higgs (final state of the fermions) represented in figure \ref{fig:br2HDM-1}.
 \item Type II: Down-type fermions are particularly favored supporting more NMSSM models, and is dependent on $\tan\beta$ represented in figure \ref{fig:br2HDM-2}. 
-\item Type III: Branching ratios are directly dependent on $\tan\beta$ and are emphasized when more than one lepton is considered. $\tau^+ \tau^-$ can dominate in this scenario represented in figure\ref{fig:br2HDM-3}. 
+\item Type III: Branching ratios are directly dependent on $\tan\beta$ and are emphasized when more than one lepton is considered. $\tau^+ \tau^-$ can dominate in this scenario represented in figure \ref{fig:br2HDM-3}. 
 \item Type IV: Dependent on $\tan\beta$, for $\tan \beta < 1 $ branching ratios for $b\bar{b}$, $c\bar{c}$, and $\tau^+ \tau^-$ are similar (supports $2b2\tau$) represented in figure \ref{fig:br2HDM-4}.
 \end{itemize}
 
 
 \begin{figure}[ht!b]
   \centering
-\includegraphics[width=0.47\textwidth]{aToSMvsaMass_type1.png}           \\
-    \caption{\label{fig:br2HDM-1} Type I 2HDM+S scenario branching fractions}
+\includegraphics[width=0.9\textwidth]{aToSMvsaMass_type1.png}           \\
+    \caption{\label{fig:br2HDM-1} Type I 2HDM+S scenario branching fractions ~\cite{Branco_2012}}
 \end{figure}
 
 \begin{figure}[ht!b]
   \centering
-\includegraphics[width=0.47\textwidth]{aToSMvsaMass_type2_tbeta0.5.png}
-\includegraphics[width=0.47\textwidth]{aToSMvsaMass_type2_tbeta5.png}           \\
-    \caption{\label{fig:br2HDM-2} Type II 2HDM+S scenario branching fractions}
+\includegraphics[width=0.9\textwidth]{aToSMvsaMass_type2_tbeta0.5.png}
+\includegraphics[width=0.9\textwidth]{aToSMvsaMass_type2_tbeta5.png}           \\
+    \caption{\label{fig:br2HDM-2} Type II 2HDM+S scenario branching fractions ~\cite{Branco_2012}}
 \end{figure}
 
 \begin{figure}[ht!b]
   \centering
-\includegraphics[width=0.47\textwidth]{aToSMvsaMass_type3_tbeta0.5.png}
-\includegraphics[width=0.47\textwidth]{aToSMvsaMass_type3_tbeta5.png}           \\
-    \caption{\label{fig:br2HDM-3} Type III 2HDM+S scenario branching fractions}
+\includegraphics[width=0.9\textwidth]{aToSMvsaMass_type3_tbeta0.5.png}
+\includegraphics[width=0.9\textwidth]{aToSMvsaMass_type3_tbeta5.png}           \\
+    \caption{\label{fig:br2HDM-3} Type III 2HDM+S scenario branching fractions ~\cite{Branco_2012}}
 \end{figure}
 
 
 
 \begin{figure}[ht!b]
   \centering
-\includegraphics[width=0.47\textwidth]{aToSMvsaMass_type4_tbeta0.5.png}
-\includegraphics[width=0.47\textwidth]{aToSMvsaMass_type4_tbeta5.png}           \\
-    \caption{\label{fig:br2HDM-4} Type IV 2HDM+S scenario branching fractions}
+\includegraphics[width=0.9\textwidth]{aToSMvsaMass_type4_tbeta0.5.png}
+\includegraphics[width=0.9\textwidth]{aToSMvsaMass_type4_tbeta5.png}           \\
+    \caption{\label{fig:br2HDM-4} Type IV 2HDM+S scenario branching fractions ~\cite{Branco_2012}}
 \end{figure}
 
 \section{Previous and present searches in 2HDM+S models}
@@ -150,10 +153,10 @@ here $\zeta$ is just the angle that mixes the singlet with the SM Higgs (needed 
 %Due to the Nature of the Electroweak Symmetry Breaking Mechanism ~\cite{Englert:1964et,Higgs:1964ia,Higgs:1964pj,Guralnik:1964eu,Higgs:1966ev,Kibble:1967sv}, the Higgs couples to all Standard Model particles.
 As shown in the previous section, the Higgs couples to all SM particles and also to new particles provided that the new particle has mass.  
 Beyond Standard Model (BSM) theories contain ample room for the Higgs to couple to particles beyond the SM, making the Higgs an excellent window to investigate any physics beyond the SM.
-Notably, the two Higgs doublet model (2HDM) with it's extension of a scalar singlet is considered (2HDM+S).
+Notably, the two Higgs doublet model (2HDM) with its extension of a scalar singlet is considered (2HDM+S).
 These types of BSM theories can solve the $\mu$ coupling problem in Super Symmetry (SUSY), while maintaining general support of SUSY (Holomorphy), Axion-like Models (Peccei-Quinn), electroweak baryogensis and several Grand Unified Theories (GUTs) ~\cite{Branco_2012}.
 
-A representative diagram showing the physics process and the Branching ratio as a function of $\text{tan}\beta$ is shown in figure \ref{fig:feynman_haa}. This pseudoscalar Higgs search for "resolved" $a$ particles in the range of $20$ to $60$ GeV is a good search for new physics.
+A representative diagram showing the physics process and the branching ratio as a function of $\text{tan}\beta$ is shown in figure \ref{fig:feynman_haa}. This pseudoscalar Higgs search for ``resolved" $a$ particles in the range of $20$ to $60$ GeV is a good search for new physics.
 In 2016 this general search was carried out with 35.9 $\text{fb}^{-1}$ of data and new competitive limits were set in article ~\cite{CMS-HIG-17-029}.
 Given the improvement in the limits for different 2HDM+S types, this search has garnered attention for the full Run II dataset of CMS.
 
@@ -163,7 +166,7 @@ Given the improvement in the limits for different 2HDM+S types, this search has 
     \caption{\label{fig:feynman_haa} Diagram of Higgs decay to pseudoscalar $a$ particles (Left) and branching ratios for pseudoscalar production in different $\text{tan}\beta$ scenarios and different 2HDM+S Types (right)}
 \end{figure}
 
-Certain scenarios are entertained using yields provided by different 2HDM+S models. The branching ratios change based on the function of $\text{tan}\beta$ depending on the type of model under investigation. In particular, we look at types 1-4 which were showcased in the previous section and explained in detail here ~\cite{HExo:2017}. Type III is expected to be most sensitive as it maintains a larger branching ratio compared to other decay modes over the range of the pseudoscalar masses when focusing on the final state of two muons and two tau leptons.
+The branching ratios change based on the function of $\text{tan}\beta$ depending on the type of model under investigation. In particular, we look at types 1-4. Type III is expected to be most sensitive as it maintains a larger branching ratio compared to other decay modes over the range of the pseudoscalar masses when focusing on the final state of two muons and two tau leptons.
 
-Using the full Run II dataset, more constraints on these models are expected; however, the search is looking for any deviation of the standard model with the effective mass range making the search somewhat model independent. 
+Using the full Run II dataset, more constraints on these models are expected. Any deviation of the Standard Model within the effective mass range would indicate new phenomena, making this analysis model independent. 
 

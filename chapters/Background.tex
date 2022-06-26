@@ -29,17 +29,14 @@ To measure the fake rate multiple categories are entertained. As outlined in the
 
 These are then measured as a function of $P_T$ of the object and split into sub categories depending on the decay mode.  
 
+In the QCD multijet region, there is no way to estimate it with pure MC simulation. Therefore, in order to estimate the QCD contribution all MC simulation events are subtracted before the measurements. Then the remain fake rate measurement in the determination region is assumed to be from QCD.
+
+The W+Jets region, similarity all MC is subtracted except for the W+Jets simulation. Note that QCD contamination is minimal, because of the dominance of the W boson resonance. 
+
+In the $\ttbar$ region it is the same as the W+Jets regions, except the subtraction is $ttbar$; however, there is also an isolation region that is used because the fake rate for this process is expected to be very small and actually calculable using MC, so in addition to the genuine $\ttbar$ events the fraction that jets fake a hadronic tau are also included in the subtraction. 
 
 
-In the $\ttbar$ isolated region, the $\ttbar$ background with a fake $\tauh$ is only a small fraction of the total number of events, which leads to large uncertainties when other processes are subtracted from data. Therefore we choose to instead use the $\ttbar$ simulation to estimate the fake rates. We will see later that this gives generally compatible results with what would be obtained from data, and the $\ttbar$ background is anyway a small fraction of the total fake background in the signal region of the analysis.
-
-  In the QCD multijet region, all backgrounds estimated from MC simulation are subtracted from the data in both regions to obtain the
-effective QCD contribution. In the W+jets region, all backgrounds estimated from MC simulation except for the
-W+jets simulated process are subtracted from the data in both regions to obtain the effective W+jets contribution.
-In the $\ttbar$ region, all backgrounds estimated from MC simulation except for the $\ttbar$ events with a
-jet misidentified as a $\tauh$ candidate are subtracted from the data in both regions to obtain the effective $\ttbar$ with fakes contribution.
-
-The fake rates are fitted as a function of the $\tauh$ $\pt$ with a linear function. The fits are shown in Fig.~\ref{fig:fit_raw_et_0jet_w} (Fig.~\ref{fig:fit_raw_mt_0jet_w}) for the W+jets region with 0 jet, 
+The fake rate measurements are fitted using a first order polynomial in the $pt$ of the candidate tau. Fits are showcased in Fig.~\ref{fig:fit_raw_et_0jet_w} (Fig.~\ref{fig:fit_raw_mt_0jet_w}) for the W+jets region with 0 jet, 
 in Fig.~\ref{fig:fit_raw_et_1jet_w} (Fig.~\ref{fig:fit_raw_mt_1jet_w}) for the W+jets region with  
 one jet, in Fig.~\ref{fig:fit_raw_et_2jet_w} (Fig.~\ref{fig:fit_raw_mt_2jet_w}) for the W+jets region with         
 more than one jet, in Fig.~\ref{fig:fit_raw_et_0jet_qcd} (Fig.~\ref{fig:fit_raw_mt_0jet_qcd}) 
@@ -49,9 +46,17 @@ in Fig.~\ref{fig:fit_raw_et_2jet_qcd} (Fig.~\ref{fig:fit_raw_mt_2jet_qcd})
 for the QCD multijet region with more than 1 jet,
 and in Fig.~\ref{fig:fit_raw_et_tt} (Fig.~\ref{fig:fit_raw_mt_tt}) 
 for the $\ttbar$ region in data, in Fig.~\ref{fig:fit_raw_et_ttmc} (Fig.~\ref{fig:fit_raw_mt_ttmc}) 
-for the $\ttbar$ simulation in the $\Pe\tauh$ ($\Pgm\tauh$) final state. As shown in the last two figures, the fake factors for $\ttbar$ events are compatible when measured in the simulation and in data, even if the last suffers from large uncertainties. 
+for the $\ttbar$ simulation in the $\Pe\tauh$ ($\Pgm\tauh$) final state. 
 
-Because of the lack of statistics at high $\tauh$ $\pt$, the fact that a decreasing linear function inevitably leads to negative fake factors at high enough $\tauh$ $\pt$, and the fact that our signal typically does not lie at very high $\tauh$ $\pt$, we take the fake factors evaluated at a $\tauh$ \pt of 100\GeV for any $\tauh$ with $\pt\geq100\GeV$. Fake factor measurements for the $\mu\mu\mu\tau$ channel in the QCD 0jet region is included in figure \ref{fig:fit_raw_mt_0jet_qcd}, the rest of all the regions are included in the appendix \ref{app:ffmeas}.
+As indicated in the last two figures, $\ttbar$ fake rate measurements are compatible but suffer from low statistics and large uncertainties.  
+
+
+At high hadronic tau $pt$ (greater than 100\GeV), negative fake rates are possible because of low stats and the linear fit model extrapolation, so if the candidate tau has a $pt$ of greater than 100\GeV then the rate at 100\GeV is applied. 
+
+Fake factor measurements for the $\mu\mu\mu\tau$ channel in the QCD 0jet region is included in figure \ref{fig:fit_raw_mt_0jet_qcd}, the rest of all the regions are included in the appendix \ref{app:ffmeas}.
+
+
+
 
 \begin{figure}[ht!b]
 \centering
@@ -69,7 +74,7 @@ Because of the lack of statistics at high $\tauh$ $\pt$, the fact that a decreas
 
 \subsection{Application of the Fake Rate Method}
 
-After the jet faking tau rate is measured, it is then applied to events that identifiy as loose. Due to the final state involving two tau leptons, this procedure is applied to each tau lepton in the final state thus requiring application of the fake rate to four different possibilities. Each lepton "leg" may identify as loose or failing the tight idenification. Alternately they could pass. The fake rate is then applied depending on the idenfication for each leg and in the case the event fails both legs then a minus sign is included to avoid the case of double counting. 
+After the jet faking tau rate is measured, it is then applied to events that identify as loose. Due to the final state involving two tau leptons, this procedure is applied to each tau lepton in the final state thus requiring application of the fake rate to four different possibilities. Each lepton "leg" may identify as loose or failing the tight identification. Alternately they could pass. The fake rate is then applied depending on the identification for each leg and in the case the event fails both legs then a minus sign is included to avoid the case of double counting. 
 \begin{itemize}
 \item{The final weight is then 
 applied depending on the 

@@ -1,5 +1,9 @@
 \begin{thebibliography}{10}
 
+\bibitem{Noether_1971}
+E.~Noether, ``Invariant variation problems,'' {\em Transport Theory and
+  Statistical Physics}, vol.~1, pp.~186--207, jan 1971.
+
 \bibitem{Tully:1417476}
 C.~G. Tully, {\em Elementary particle physics in a nutshell}.
 \newblock Princeton, NJ: Princeton Univ. Press, 2011.
@@ -26,9 +30,23 @@ A.~M. Sirunyan {\em et~al.}, ``Search for an exotic decay of the higgs boson to
   leptons in proton-proton collisions at s=13$$ \sqrt{s}=13 $$tev leptons with
   the {CMS} detector,'' {\em Journal of High Energy Physics}, p.~283, 2017.
 
+\bibitem{Bruning:782076}
+O.~S. Brüning, P.~Collier, P.~Lebrun, S.~Myers, R.~Ostojic, J.~Poole, and
+  P.~Proudlock, {\em {LHC Design Report}}.
+\newblock CERN Yellow Reports: Monographs, Geneva: CERN, 2004.
+
+\bibitem{Khachatryan:2016bia}
+V.~Khachatryan {\em et~al.}, ``{The CMS trigger system},'' {\em JINST},
+  vol.~12, p.~P01020, 2017.
+
 \bibitem{Chatrchyan:2008zzk}
 S.~Chatrchyan {\em et~al.}, ``The {CMS} experiment at the {CERN} {LHC},'' {\em
   JINST}, vol.~03, p.~S08004, 2008.
+
+\bibitem{Eichhorn:2112017}
+T.~Eichhorn, ``{Development of Silicon Detectors for the High Luminosity
+  LHC},'' 2015.
+\newblock presented 8 Jul 2015.
 
 \bibitem{Chatrchyan:1129810}
 S.~Chatrchyan, G.~Hmayakyan, V.~Khachatryan, A.~M. Sirunyan, R.~Adolphi,
@@ -37,6 +55,23 @@ S.~Chatrchyan, G.~Hmayakyan, V.~Khachatryan, A.~M. Sirunyan, R.~Adolphi,
   The Compact Muon Solenoid experiment},'' {\em JINST}, vol.~3, p.~S08004. 361
   p, 2008.
 \newblock Also published by CERN Geneva in 2010.
+
+\bibitem{Foudas:2232067}
+C.~Foudas, ``{The CMS Level-1 Trigger at LHC and Super-LHC. The CMS Level-1
+  Trigger at LHC and Super-LHC},'' tech. rep., 2008.
+
+\bibitem{Thomas:2703017}
+L.~Thomas, ``{CMS High Level Trigger performance at 13 TeV},'' {\em PoS},
+  vol.~ICHEP2018, p.~226. 4 p, 2019.
+
+\bibitem{CMS-PAS-PFT-10-001}
+{CMS Collaboration}, ``Commissioning of the particle-flow event reconstruction
+  with the first {LHC} collisions recorded in the {CMS} detector,'' CMS Physics
+  Analysis Summary CMS-PAS-PFT-10-001, CERN, 2010.
+
+\bibitem{Hufnagel:1319049}
+D.~Hufnagel, ``{The architecture and operation of the CMS Tier-0},'' tech.
+  rep., CERN, Geneva, Nov 2010.
 
 \bibitem{CMS-PAS-PFT-09-001}
 {CMS Collaboration}, ``Particle--flow event reconstruction in {CMS} and
@@ -47,14 +82,41 @@ S.~Chatrchyan, G.~Hmayakyan, V.~Khachatryan, A.~M. Sirunyan, R.~Adolphi,
 I.~Kratschmer, ``{Muon reconstruction and identification in CMS Run I and
   towards Run II},'' tech. rep., CERN, Geneva, Oct 2014.
 
-\bibitem{AN16355}
-CMS, ``Search for the standard model higgs boson decaying to a pair of tau
-  leptons in 2016 data,'' CMS Note 2016/355, 2016.
-
 \bibitem{Khachatryan:2015hwa}
 V.~Khachatryan {\em et~al.}, ``{Performance of electron reconstruction and
   selection with the CMS detector in proton-proton collisions at $\sqrt{s} = 8$
   TeV},'' {\em JINST}, vol.~10, p.~P06005, 2015.
+
+\bibitem{Micheli:2727506}
+F.~Micheli, ``{CMS electron and photon performance at $\sqrt (s) = 13$ TeV},''
+  {\em PoS}, vol.~ICHEP2018, p.~032. 4 p, 2019.
+
+\bibitem{Sirunyan_2018}
+A.~Sirunyan, A.~Tumasyan, {\em et~al.}, ``Performance of reconstruction and
+  identification of $\tau$ leptons decaying to hadrons and $\nu_\tau$ in pp
+  collisions at $\sqrt{s}$ =13 {TeV},'' {\em Journal of Instrumentation},
+  vol.~13, pp.~P10005--P10005, oct 2018.
+
+\bibitem{Knolle:2792593}
+J.~Knolle, ``{Precision luminosity measurement with proton-proton collisions at
+  the CMS experiment in Run 2},'' tech. rep., CERN, Geneva, Oct 2020.
+
+\bibitem{MIP}
+S.~H. on~behalf~of B.R.I.L. and L.~P. groups, ``{MIP Timing Detector
+  Upgrade},'' tech. rep., 2017.
+
+\bibitem{AN16355}
+CMS, ``Search for the standard model higgs boson decaying to a pair of tau
+  leptons in 2016 data,'' CMS Note 2016/355, 2016.
+
+\bibitem{Hassanshahi:2797703}
+M.~H. Hassanshahi, ``{Tau identification in CMS during LHC Run 2},'' tech.
+  rep., CERN, Geneva, Nov 2021.
+
+\bibitem{Sirunyan_2017}
+A.~Sirunyan, A.~Tumasyan, {\em et~al.}, ``Particle-flow reconstruction and
+  global event description with the {CMS} detector,'' {\em Journal of
+  Instrumentation}, vol.~12, pp.~P10003--P10003, oct 2017.
 
 \bibitem{Sirunyan:2018pgf}
 A.~M. Sirunyan {\em et~al.}, ``Performance of reconstruction and identification

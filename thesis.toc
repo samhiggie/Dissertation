@@ -2,51 +2,63 @@
 \contentsline {chapter}{Acknowledgements}{iv}{chapter*.2}%
 \contentsline {chapter}{Contents}{v}{chapter*.2}%
 \contentsline {chapter}{List of Figures}{viii}{chapter*.3}%
-\contentsline {chapter}{List of Tables}{xiv}{chapter*.4}%
+\contentsline {chapter}{List of Tables}{xv}{chapter*.4}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}The Standard Model and Beyond}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Gauge Principle, Yang Mills Theories, and the Weinberg-Salam Model}{2}{section.1.2}%
 \contentsline {section}{\numberline {1.3}The Higgs Mechanism}{4}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Higgs Doublet Models}{5}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Previous and present searches in 2HDM+S models}{8}{section.1.5}%
-\contentsline {chapter}{\numberline {2}The Large Hadron Collider}{10}{chapter.2}%
-\contentsline {section}{\numberline {2.1}CERN and the Large Hadron Collider}{10}{section.2.1}%
-\contentsline {section}{\numberline {2.2}The Compact Muon Solenoid detector}{10}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Subdetector Systems}{13}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Muon Identification Systems}{13}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Tau Identification Systems}{13}{subsection.2.3.2}%
-\contentsline {chapter}{\numberline {3}Silicon Detectors and Luminosity}{15}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Data and Simulation}{18}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Data and Simluation Used for Analysis}{18}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}2 $\mu $ 2 $\tau $ Signal Samples }{19}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}Corrections to Simulations }{19}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Muon energy scale}{20}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Electron energy scale}{20}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}$\tau $ energy scale}{20}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}$\ensuremath {\tau _h}\xspace $ ID efficiency}{22}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}$\Pe \rightarrow \ensuremath {\tau _h}\xspace $ misidentification rate}{23}{subsection.4.2.5}%
-\contentsline {subsection}{\numberline {4.2.6}$\Pgm \rightarrow \ensuremath {\tau _h}\xspace $ misidentification rate}{23}{subsection.4.2.6}%
-\contentsline {subsection}{\numberline {4.2.7}Pileup reweighting}{24}{subsection.4.2.7}%
-\contentsline {subsection}{\numberline {4.2.8}Electron and muon identification efficiency}{24}{subsection.4.2.8}%
-\contentsline {subsection}{\numberline {4.2.9}Generator event weights and luminosity}{24}{subsection.4.2.9}%
-\contentsline {subsection}{\numberline {4.2.10}Offline Muon Selection}{25}{subsection.4.2.10}%
-\contentsline {subsection}{\numberline {4.2.11}Visualizing the Corrections}{25}{subsection.4.2.11}%
-\contentsline {chapter}{\numberline {5}Event Selection}{27}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Framing an Analysis at CERN}{27}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Defining Signal and Control Regions}{27}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Optimizing Lepton Pair Selection}{28}{subsection.5.2.1}%
-\contentsline {chapter}{\numberline {6}Background}{35}{chapter.6}%
-\contentsline {subsection}{\numberline {6.0.1}Brief Outline of the Fake Rate Method}{35}{subsection.6.0.1}%
-\contentsline {subsection}{\numberline {6.0.2}Measurement of the Fake Rate}{36}{subsection.6.0.2}%
-\contentsline {subsection}{\numberline {6.0.3}Application of the Fake Rate Method}{38}{subsection.6.0.3}%
-\contentsline {chapter}{\numberline {7}Statistical Inference Modeling}{40}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Statistical Inference at CERN}{40}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Worked Example for Low Stat Analyses}{42}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Fit model for pseudoscalar Higgs search}{43}{section.7.3}%
-\contentsline {chapter}{\numberline {8}Results}{68}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Conclusions}{74}{chapter.9}%
-\contentsline {chapter}{\numberline {A}Data and Simulation Samples}{75}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Data and Simluation Used for Analysis}{75}{section.A.1}%
-\contentsline {chapter}{\numberline {B}Fake Rate Measurements}{80}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Systematic Uncertainties}{86}{appendix.C}%
-\contentsline {chapter}{References}{97}{appendix*.6}%
+\contentsline {section}{\numberline {1.5}Previous and present searches in 2HDM+S models}{7}{section.1.5}%
+\contentsline {chapter}{\numberline {2}The Large Hadron Collider}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}CERN and the Large Hadron Collider}{13}{section.2.1}%
+\contentsline {section}{\numberline {2.2}The Compact Muon Solenoid detector}{13}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Subdetector Systems}{16}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Tracker}{16}{subsection.2.3.1}%
+\contentsline {subsubsection}{Pixel Detector}{17}{section*.6}%
+\contentsline {subsubsection}{Silicon Tracker}{18}{section*.7}%
+\contentsline {subsection}{\numberline {2.3.2}Electronic Calorimeter}{19}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Hadronic Calorimeter}{19}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Muon Chambers}{20}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Level 1 Trigger System and High Level Trigger}{20}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Particle Flow Algorithms}{22}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Computational Infrastructure}{22}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Lepton Identification}{23}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Muon Identification Systems}{23}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Electron Identification Systems}{24}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}Tau Identification Systems}{24}{subsection.2.7.3}%
+\contentsline {chapter}{\numberline {3}Silicon Detectors and Luminosity}{26}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Data and Simulation}{29}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Data and Simluation Used for Analysis}{29}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}2 $\mu $ 2 $\tau $ Signal Samples }{30}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Corrections to Simulations }{30}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Muon energy scale}{31}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Electron energy scale}{31}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}$\tau $ energy scale}{31}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}$\ensuremath {\tau _h}\xspace $ ID efficiency}{33}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}$e \rightarrow \ensuremath {\tau _h}\xspace $ misidentification rate}{34}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}$\mu \rightarrow \ensuremath {\tau _h}\xspace $ misidentification rate}{34}{subsection.4.2.6}%
+\contentsline {subsection}{\numberline {4.2.7}Pileup reweighting}{35}{subsection.4.2.7}%
+\contentsline {subsection}{\numberline {4.2.8}Electron and muon identification efficiency}{35}{subsection.4.2.8}%
+\contentsline {subsection}{\numberline {4.2.9}Generator event weights and luminosity}{35}{subsection.4.2.9}%
+\contentsline {subsection}{\numberline {4.2.10}Offline Muon Selection}{36}{subsection.4.2.10}%
+\contentsline {subsection}{\numberline {4.2.11}Visualizing the Corrections}{36}{subsection.4.2.11}%
+\contentsline {chapter}{\numberline {5}Event Selection}{38}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Framing an Analysis at CERN}{38}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Defining Signal and Control Regions}{38}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Optimizing Lepton Pair Selection}{39}{subsection.5.2.1}%
+\contentsline {chapter}{\numberline {6}Background Estimation}{44}{chapter.6}%
+\contentsline {subsection}{\numberline {6.0.1}Brief Outline of the Fake Rate Method}{44}{subsection.6.0.1}%
+\contentsline {subsection}{\numberline {6.0.2}Measurement of the Fake Rate}{45}{subsection.6.0.2}%
+\contentsline {subsection}{\numberline {6.0.3}Application of the Fake Rate Method}{47}{subsection.6.0.3}%
+\contentsline {chapter}{\numberline {7}Statistical Inference Modeling}{49}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Statistical Inference at CERN}{49}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Worked Example for Low Stat Analyses}{51}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Fit model for pseudoscalar Higgs search}{52}{section.7.3}%
+\contentsline {chapter}{\numberline {8}Results}{62}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Conclusions}{68}{chapter.9}%
+\contentsline {chapter}{\numberline {A}Data and Simulation Samples}{69}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Data and Simluation Used for Analysis}{69}{section.A.1}%
+\contentsline {chapter}{\numberline {B}Fake Rate Measurements}{74}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Systematic Uncertainties}{80}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Fit Models}{91}{appendix.D}%
+\contentsline {chapter}{References}{106}{appendix*.8}%

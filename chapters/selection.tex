@@ -1,34 +1,32 @@
 %Selections.TeX
 \section{Framing an Analysis at CERN}
-In order to make a definitive statement and concrete hypothesis test, two perspectives are made. There is the null hypothesis, ergo the hypothesis of the accepted standard within High Energy Physics - the Standard Model - which will be comprised of all possible events that are categorized as \textit{background}. 
+In order to make a definitive statement and concrete hypothesis test, two perspectives are taken. 
+There is the null hypothesis, ergo the hypothesis of the accepted standard within High Energy Physics --- the Standard Model --- which will comprise all possible events that are categorized as \textit{background}. 
+
+
 Then the alternative hypothesis is taken to be the model that encompasses the Standard Model and adds additional physics that will contain events from the theory under consideration in the analysis \textit{signal}. For this analysis, it's events pertaining to the pseudoscalar Higgs-like particle "a", with two muons and two tau leptons in the final state. 
 
 \section{Defining Signal and Control Regions}
-After obtaining sufficient motivation to conduct a search or measure particular processes, the next thing to consider is what data should be used to test that hypothesis. Working with CMS, central Standard Model simulation samples are provided and should be used along with the recommendation from the sub-groups of analyzers to ensure that the simulation can be used to compare to data. Then to make the analysis competitive, regions of the full data and simulation are cut away in order to increase the number of signal events relative to background events. This process is know as "making cuts". In order to not bias the result apriori, typically regions are setup to investigate the agreement of simulation to data (the control region) and to conduct the statistical hypothesis test (signal region). When the data and MC simulation agreement are reasonable in the control region then the statistical test can be made in the signal region.  
+The next thing to consider is what data should be used to test that hypothesis. Working with CMS, central Standard Model simulation samples are provided. Then to make the analysis competitive, regions of the full data and simulation are cut away in order to increase the number of signal events relative to background events. This process is known as "making cuts". In order to not bias the result, typically regions are setup to investigate the agreement of simulation with data (the control region) and to conduct the statistical hypothesis test (signal region). When the data and MC simulation agreement are reasonable in the control region then the statistical test can be made in the signal region.  
 
 
 
 %Selections.TeX
 \subsection{Optimizing Lepton Pair Selection}
-In order to maximize the signal event yield - as it is expected that the analysis is statistically limited - a simple selection algorithm was used in order to identify good lepton pairs that come from the pseudo scalar $a$. Standard working point cuts are made - in addition to delta R cleaning - two prompt-like muons with opposite charge and leading scalar summed $P_t$ are chosen to form the first decay products of the $a$ and two opposite charged leading scalar summed $P_t$ $\tau$ leptons are chosen to for the second $a$. This choice increased the signal acceptance compared to choosing mass window cuts to form the $a$ pairs. The follow table reflects the efficiency done on the preliminary dataset from 2016 NanoAODv6:
+In order to maximize the signal event yield - as it is expected that the analysis is statistically limited - a simple selection algorithm was used to identify good lepton pairs that come from the pseudo scalar $a$. Standard working point cuts are made, in addition to delta R cleaning, two prompt-like muons with opposite charge and leading scalar summed $P_t$ are chosen to form the first decay products of the $a$ and two opposite charged leading scalar summed $P_t$ $\tau$ leptons are chosen for the second $a$. This approach increased the signal acceptance compared to choosing mass window cuts to form the $a$ pairs. The following table reflects the pair matching efficiency study done with the preliminary dataset from 2016 NanoAODv6:
+\begin{table}[h]
 \begin{center}
-\begin{tabular}{|c|c|}\hline
-$a$ - Mass & Efficiency \\\hline
-M15 & 0.87 \\\hline
-M20 & 0.82 \\\hline
-M25 & 0.79 \\\hline
-M30 & 0.79 \\\hline
-M35 & 0.79 \\\hline
-M40 & 0.80 \\\hline
-M45 & 0.80 \\\hline
-M50 & 0.83 \\\hline
-M55 & 0.85 \\\hline
-M60 & 0.87 \\\hline
+    \topcaption{Lepton Pair Matching Efficiency}
+    \label{tab:paireff}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}\hline
+$a$ - Mass & 15     & 20    & 25    & 30    & 35    & 40    & 45    & 50    & 55    & 60 \\\hline
+Efficiency & 0.87   & 0.82  &0.79   & 0.79  & 0.79  & 0.80  & 0.80  & 0.83  & 0.85  & 0.87 \\\hline 
 \end{tabular}
 \end{center}
+\end{table}
 
 All selections follow the Physics Object Group (POG) recommendations for object selection.
-Since the search in 2016, a new identifier for $\tau$ leptons was considered using a Deep Neural Network (DNN).
+Since the search in 2016, a new identifier for $\tau$ leptons was considered using a Deep Neural Network (DNN) ~\cite{Hassanshahi:2797703}.
 To identify the dimuon pair which come from one pseudoscalar $a$, several cuts were applied across all channels:
 \begin{itemize}
     \item each $\mu_{pt} > 5.0$ GeV,
@@ -44,28 +42,28 @@ To identify the dimuon pair which come from one pseudoscalar $a$, several cuts w
 \end{itemize}
 
 
-The trigger requirements are inclusive, selecting events that pass single muon and double muon triggers. Single muon triggers contain muons that are isolated with $22$, $24$, and $27$ GeV muons. Double muon triggers have a $17$ GeV threshold for the leading muon and $8$ GeV for the subleading. Triple muon triggers are used for the $\mu\mu\mu\tau$ and $\mu\mu e \mu$ channels and have a descending threshold of $12$, $10$,and $5$ GeV. These triggers and other minimal selection requirements are listed in table ~\ref{tab:inclusive_selection}.
+The trigger requirements are inclusive, selecting events that pass single muon and double muon triggers. Events that are triggered by the single muon triggers criteria contain muons that are isolated with either $22$, $24$, and $27$ GeV muons. Double muon triggers have a $17$ GeV threshold for the leading muon and $8$ GeV for the subleading muon. Triple muon triggers are used for the channels that have three muons in the final state and have a descending threshold of $12$, $10$, and $5$ GeV. These triggers and other minimal selection requirements are listed in table ~\ref{tab:inclusive_selection}.
 
 
 \begin{table}[h!tbp]
 \centering
-\topcaption{Event selection requirements for the four decay channels.
+\topcaption{Event selection requirements for the four decay channels. These demarcate cuts that are applied to the $\pt$, $\eta$, and isolation of the particle in addition to the trigger requirements. 
 \label{tab:inclusive_selection}
 }
 \begin{tabular}{lllll}
   Channel     &  Trigger requirement                      & \multicolumn{3}{c}{Minimal lepton selection}                        \\ \cline{3-5}
               &                                            & $\pt$ ($\GeVns{}$)  & $\eta$                    &    Isolation      \\
 \hline
-$\mu\mu\tauh\tauh$  &  $\mu[22]$ $\mu[24]$  $\mu[27]$   or  $\mu\mu[17,8]$       & $\pt^{\tauh}>18.5$    & $\abs{\eta^{\tauh}}<2.3$  &   Med. DNN $\tauh$   \\
+$\mu\mu\tauh\tauh$  &  $\mu[22]$ $\mu[24]$  $\mu[27]$   or  $\mu\mu[17,8]$       &all $\pt^\mu>5$ $\pt^{\tauh}>18.5$    & $\abs{\eta^{\tauh}}<2.3$  &   Med. DNN $\tauh$   \\
 
 $\mu\mu\mu\tauh$    &  $\mu[22]$ $\mu[24]$  $\mu[27]$   or  $\mu\mu[17,8]$                     & all $\pt^\mu>5$ $\pt^{\tauh}>18.5$      &  $\abs{\eta^\mu}<2.3$    &   $I^{\mu}<0.2$ \\
 
 & or  $\mu\mu\mu[12,10,5]$  &  & & \\ 
 
-$\mu\mu e \tauh$    &$\mu[22]$ $\mu[24]$  $\mu[27]$   or  $\mu\mu[17,8]$                         & dimuon  $\pt^\mu>5$ $\pt^e>7$      &  $\abs{\eta^e}<2.5$     &   $I^{e}<0.15$  \\
+$\mu\mu e \tauh$    &$\mu[22]$ $\mu[24]$  $\mu[27]$   or  $\mu\mu[17,8]$                         & all $\pt^\mu>5$ $\pt^e>7$      &  $\abs{\eta^e}<2.5$     &   $I^{e}<0.15$  \\
               &                          & $\pt^{\tauh}>18.5$    &  $\abs{\eta^{\tauh}}<2.4$ &   Med. DNN $\tauh$   \\
 
-$\mu\mu e \mu $     & $\mu[22]$ $\mu[24]$  $\mu[27]$   or  $\mu\mu[17,8]$       & $p_T^e >7\; p_T^\mu >5$      & $\abs{\eta^e}<2.4$      & $I^{e}<0.15$    \\
+$\mu\mu e \mu $     & $\mu[22]$ $\mu[24]$  $\mu[27]$   or  $\mu\mu[17,8]$       &all $\pt^\mu>5$ $p_T^e >7\; p_T^\mu >5$      & $\abs{\eta^e}<2.4$      & $I^{e}<0.15$    \\
 & or  $\mu\mu\mu[12,10,5]$  &  & & \\ 
 
 \hline
@@ -76,7 +74,7 @@ $\mu\mu e \mu $     & $\mu[22]$ $\mu[24]$  $\mu[27]$   or  $\mu\mu[17,8]$       
 %quality of the track reconstruction and on the number of hits in the tracker and muon systems. %~\cite{Chatrchyan:2012xi}.
 %They are selected with $\pt>15\GeV$ and $\abs{\eta}<2.4$.
 
-As mentioned in the instrumentation and detector section, the muon identification system uses the tracker to identify charged tracks and the muon chambers identify the particles later in their trajectory after they exit the solenoid. Typically "good" muons are those that are both associated with a track and their subsequent decay in the drift tubes or the CSC chambers. The physics object group's recommendations are followed, which select muons with $\pt>15\GeV$ and $\abs{\eta}<2.4$ in addition to selecting only "good" muons.
+As mentioned in the instrumentation and detector section, the muon identification system uses the tracker to identify charged tracks and the muon chambers identify the particles later in their trajectory after they exit the solenoid. Typically "good" muons are those that are both associated with a track and their subsequent identification in the drift tubes or the CSC chambers. The average muon lifetime is 2.2 $\mu$s so they travel quite far from the interaction point the sub detectors.  The physics object group's recommendations are followed, which select muons with $\pt>15\GeV$ and $\abs{\eta}<2.4$ in addition to selecting only "good" muons.
 
 %Electrons are reconstructed using tracks from the tracking system,
 %calorimeter deposits in the ECAL, and a veto on objects with a large HCAL to
@@ -87,13 +85,13 @@ As mentioned in the instrumentation and detector section, the muon identificatio
 %~\cite{Khachatryan:2015hwa}.
 
 
-Electrons originating from the tau decay are reconstructed in by track association in tandem with energy deposition in the Electronic Calorimeter (ECAL). Events are not favored or vetoed for candidate electrons that also show a substantial energy deposition in the HCAL. The hits and quality of the tracks from two separate algorithms, along with the geometrical and energy matching from the ECAL are used in a Multivariate Analysis (MVA) technique like Boosted Decision Trees (BDTs) to qualify good electrons for analysis 
+Electrons originating from the tau decay are reconstructed in by track association in tandem with energy deposition in the Electronic Calorimeter (ECAL). To clarify selection in the calorimeter systems, events are vetoed for candidate electrons that also show a substantial energy deposition in the HCAL. The hits and track quality from two separate algorithms, along with the geometrical and energy matching from the ECAL are used in a Multivariate Analysis (MVA) technique like Boosted Decision Trees (BDTs) to select good electrons for analysis 
 ~\cite{Khachatryan:2015hwa}.
 
 %In order to reject leptons that originate from nonprompt interactions or are misidentified, a relative lepton
 %isolation is defined and used:
 
-Of critical importance in event selection is identification of unique particles, particularly differentiating between lepton candidates that come from process at the interaction vertex (prompt) and those that appear from decays down the line (nonprompt). Relative isolation is typically defined in order to ensure no overlap in prompt and non-prompt candidates. 
+Of critical importance in event selection is identification of unique particles, particularly differentiating between lepton candidates that come from the interaction vertex (prompt) and those that appear from decays down the line (nonprompt). Relative isolation is typically defined in order to ensure there is no overlap between candidate leptons. More details on this variable and it's usage in the Particle Flow algorithm can be found here  ~\cite{Sirunyan_2017}. 
 
 \begin{equation}
 I^{\ell} \equiv \frac{\sum_\text{charged}  \PT + \max\left( 0, \sum_\text{neutral}  \PT
@@ -127,7 +125,8 @@ a similar quantity for neutral particles.
 %Electrons are also selected using a Multivariate Analysis (MVA) technique, as recommended by the Electron POG.
 
 
-To identify $\tauh$ candidates, the hadron-plus-strips (HPS) algorithm is used to identify the major modes of the hadronic tau decay. Typically events with hadronic prong are considered in combination with a number of neutral pions and missing transverse energy from the neutrinos. $\pi^0$ almost always decay to photons, so an algorithm is considered that joins the identification of charged hadrons and neutral pions. The HPS algorithm combines inner track information, hits in the HCAL, and pion association in the ECAL by deposits in a $\eta,\phi$ strip region. 
+To identify $\tauh$ candidates, the hadron-plus-strips (HPS) algorithm is used to identify the major modes of the hadronic tau decay ~\cite{Sirunyan_2018}. Typically events with hadronic prong are considered in combination with a number of neutral pions and missing transverse energy from the neutrinos. Pions almost always decay to photons, so an algorithm is considered that joins the identification of charged hadrons and neutral pions. 
+The HPS algorithm combines inner track information, hits in the HCAL, and pion association in the ECAL by deposits in a $\eta,\phi$ strip region to identify hadronic tau leptons. 
 The $\tauh$ is matched to $h^{\pm}$, $h^{\pm}\pi^{0}$, $h^{\pm}h^{\mp}h^{\pm}$, or $h^{\pm}h^{\mp}h^{\pm}\pi^{0}$ depending on the overall charge vs neutral constituents ~\cite{Sirunyan:2018pgf}.
 In addition to HPS algorithms, a Deep Neural Network (DNN) was constructed to further aid in identification by discriminate between genuine tau leptons and those that originate from quark or gluon jets, electrons, or muons.  
 In the DNN, the tau four-momentum and charge,
@@ -139,32 +138,41 @@ observables related to the $\eta$ and $\phi$ distributions of energy reconstruct
 observables related to the compatibility of the tau candidate with being an electron, 
 and the estimated pileup density in the event are all used. In total, 47 high-level input variables are incorporated 
 ~\cite{https://doi.org/10.48550/arxiv.2201.08458}.
-In practice, the DNN has discriminators for muons, electrons, and jets that fake genuine taus and have performances that go from 40\% to 90\% in a 10\% granularity. The tau POG medium working point is used for each of these discriminators. 
+In practice, the DNN has discriminators for muons, electrons, and jets that fake genuine taus and have efficiencies that go from 40\% to 90\% in a 10\% granularity of the discriminating variable. The medium working point is used for each of these discriminators. 
 
 
+%\begin{figure}[ht!b]
+%  \centering
+%  \includegraphics[width=0.47\textwidth]{Figures/outplots_2016_combo_mmmt_Nominal/AMass_blinded_mmmt_inclusive.png}
+%  \includegraphics[width=0.47\textwidth]{Figures/outplots_2016_combo_mmet_Nominal/AMass_blinded_mmet_inclusive.png}\\
+%  \includegraphics[width=0.47\textwidth]{Figures/outplots_2016_combo_mmem_Nominal/AMass_blinded_mmem_inclusive.png}
+%  \includegraphics[width=0.47\textwidth]{Figures/outplots_2016_combo_mmtt_Nominal/AMass_blinded_mmtt_inclusive.png}\\
+%    \caption{\label{fig:AMass_2016_v1} Invariant Mass of the four lepton system for 2016 data in all Channels}
+%\end{figure}
+%\begin{figure}[ht!b]
+%  \centering
+%  \includegraphics[width=0.47\textwidth]{Figures/outplots_2017_combo_mmmt_Nominal/AMass_blinded_mmmt_inclusive.png}
+%  \includegraphics[width=0.47\textwidth]{Figures/outplots_2017_combo_mmet_Nominal/AMass_blinded_mmet_inclusive.png}\\
+%  \includegraphics[width=0.47\textwidth]{Figures/outplots_2017_combo_mmem_Nominal/AMass_blinded_mmem_inclusive.png}
+%  \includegraphics[width=0.47\textwidth]{Figures/outplots_2017_combo_mmtt_Nominal/AMass_blinded_mmtt_inclusive.png}\\
+%    \caption{\label{fig:AMass_2017_v1} Invariant Mass of the four lepton system for 2017 data in all Channels}
+%\end{figure}
+%\begin{figure}[ht!b]
+%  \centering
+%  \includegraphics[width=0.47\textwidth]{Figures/outplots_2018_combo_mmmt_Nominal/AMass_blinded_mmmt_inclusive.png}
+%  \includegraphics[width=0.47\textwidth]{Figures/outplots_2018_combo_mmet_Nominal/AMass_blinded_mmet_inclusive.png}\\
+%  \includegraphics[width=0.47\textwidth]{Figures/outplots_2018_combo_mmem_Nominal/AMass_blinded_mmem_inclusive.png}
+%  \includegraphics[width=0.47\textwidth]{Figures/outplots_2018_combo_mmtt_Nominal/AMass_blinded_mmtt_inclusive.png}\\
+%    \caption{\label{fig:AMass_2018_v1} Invariant Mass of the four lepton system for 2018 data in all Channels}
+%\end{figure}
+
 \begin{figure}[ht!b]
   \centering
-  \includegraphics[width=0.47\textwidth]{Figures/outplots_2016_combo_mmmt_Nominal/AMass_blinded_mmmt_inclusive.png}
-  \includegraphics[width=0.47\textwidth]{Figures/outplots_2016_combo_mmet_Nominal/AMass_blinded_mmet_inclusive.png}\\
-  \includegraphics[width=0.47\textwidth]{Figures/outplots_2016_combo_mmem_Nominal/AMass_blinded_mmem_inclusive.png}
-  \includegraphics[width=0.47\textwidth]{Figures/outplots_2016_combo_mmtt_Nominal/AMass_blinded_mmtt_inclusive.png}\\
-    \caption{\label{fig:AMass_2016_v1} Invariant Mass of the four lepton system for 2016 data in all Channels}
-\end{figure}
-\begin{figure}[ht!b]
-  \centering
-  \includegraphics[width=0.47\textwidth]{Figures/outplots_2017_combo_mmmt_Nominal/AMass_blinded_mmmt_inclusive.png}
-  \includegraphics[width=0.47\textwidth]{Figures/outplots_2017_combo_mmet_Nominal/AMass_blinded_mmet_inclusive.png}\\
-  \includegraphics[width=0.47\textwidth]{Figures/outplots_2017_combo_mmem_Nominal/AMass_blinded_mmem_inclusive.png}
-  \includegraphics[width=0.47\textwidth]{Figures/outplots_2017_combo_mmtt_Nominal/AMass_blinded_mmtt_inclusive.png}\\
-    \caption{\label{fig:AMass_2017_v1} Invariant Mass of the four lepton system for 2017 data in all Channels}
-\end{figure}
-\begin{figure}[ht!b]
-  \centering
-  \includegraphics[width=0.47\textwidth]{Figures/outplots_2018_combo_mmmt_Nominal/AMass_blinded_mmmt_inclusive.png}
-  \includegraphics[width=0.47\textwidth]{Figures/outplots_2018_combo_mmet_Nominal/AMass_blinded_mmet_inclusive.png}\\
-  \includegraphics[width=0.47\textwidth]{Figures/outplots_2018_combo_mmem_Nominal/AMass_blinded_mmem_inclusive.png}
-  \includegraphics[width=0.47\textwidth]{Figures/outplots_2018_combo_mmtt_Nominal/AMass_blinded_mmtt_inclusive.png}\\
-    \caption{\label{fig:AMass_2018_v1} Invariant Mass of the four lepton system for 2018 data in all Channels}
+  \includegraphics[width=0.47\textwidth]{Figures/outplots_mmmt_combo_Nominal/AMass_blinded_combined.png}
+  \includegraphics[width=0.47\textwidth]{Figures/outplots_mmet_combo_Nominal/AMass_blinded_combined.png}\\
+  \includegraphics[width=0.47\textwidth]{Figures/outplots_mmem_combo_Nominal/AMass_blinded_combined.png}
+  \includegraphics[width=0.47\textwidth]{Figures/outplots_mmtt_combo_Nominal/AMass_blinded_combined.png}\\
+    \caption{\label{fig:AMass_v1} Invariant mass of the four lepton system for 2018 data in all Channels}
 \end{figure}
 
 \begin{figure}[ht!b]
@@ -173,7 +181,7 @@ In practice, the DNN has discriminators for muons, electrons, and jets that fake
   \includegraphics[width=0.47\textwidth]{Figures/outplots_allyears_combo_Nominal/pt_1_combined.png}\\
   \includegraphics[width=0.47\textwidth]{Figures/outplots_allyears_combo_Nominal/eta_1_combined.png}
   \includegraphics[width=0.47\textwidth]{Figures/outplots_allyears_combo_Nominal/pt_3_combined.png}\\
-    \caption{\label{fig:AMass_RunII}  Several Data-MC control plots for full RunII data in all Channels}
+    \caption{\label{fig:AMass_RunII}  Several data-MC control plots for full RunII data in all Channels}
 \end{figure}
 
 

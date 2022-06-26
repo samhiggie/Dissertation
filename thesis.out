@@ -13,40 +13,50 @@
 \BOOKMARK [1][-]{section.2.1}{CERN and the Large Hadron Collider}{chapter.2}% 13
 \BOOKMARK [1][-]{section.2.2}{The Compact Muon Solenoid detector}{chapter.2}% 14
 \BOOKMARK [1][-]{section.2.3}{Subdetector Systems}{chapter.2}% 15
-\BOOKMARK [2][-]{subsection.2.3.1}{Muon Identification Systems}{section.2.3}% 16
-\BOOKMARK [2][-]{subsection.2.3.2}{Tau Identification Systems}{section.2.3}% 17
-\BOOKMARK [0][-]{chapter.3}{Silicon Detectors and Luminosity}{}% 18
-\BOOKMARK [0][-]{chapter.4}{Data and Simulation}{}% 19
-\BOOKMARK [1][-]{section.4.1}{Data and Simluation Used for Analysis}{chapter.4}% 20
-\BOOKMARK [2][-]{subsection.4.1.1}{2 \0402 \040Signal Samples }{section.4.1}% 21
-\BOOKMARK [1][-]{section.4.2}{Corrections to Simulations }{chapter.4}% 22
-\BOOKMARK [2][-]{subsection.4.2.1}{Muon energy scale}{section.4.2}% 23
-\BOOKMARK [2][-]{subsection.4.2.2}{Electron energy scale}{section.4.2}% 24
-\BOOKMARK [2][-]{subsection.4.2.3}{ energy scale}{section.4.2}% 25
-\BOOKMARK [2][-]{subsection.4.2.4}{h ID efficiency}{section.4.2}% 26
-\BOOKMARK [2][-]{subsection.4.2.5}{ h misidentification rate}{section.4.2}% 27
-\BOOKMARK [2][-]{subsection.4.2.6}{ h misidentification rate}{section.4.2}% 28
-\BOOKMARK [2][-]{subsection.4.2.7}{Pileup reweighting}{section.4.2}% 29
-\BOOKMARK [2][-]{subsection.4.2.8}{Electron and muon identification efficiency}{section.4.2}% 30
-\BOOKMARK [2][-]{subsection.4.2.9}{Generator event weights and luminosity}{section.4.2}% 31
-\BOOKMARK [2][-]{subsection.4.2.10}{Offline Muon Selection}{section.4.2}% 32
-\BOOKMARK [2][-]{subsection.4.2.11}{Visualizing the Corrections}{section.4.2}% 33
-\BOOKMARK [0][-]{chapter.5}{Event Selection}{}% 34
-\BOOKMARK [1][-]{section.5.1}{Framing an Analysis at CERN}{chapter.5}% 35
-\BOOKMARK [1][-]{section.5.2}{Defining Signal and Control Regions}{chapter.5}% 36
-\BOOKMARK [2][-]{subsection.5.2.1}{Optimizing Lepton Pair Selection}{section.5.2}% 37
-\BOOKMARK [0][-]{chapter.6}{Background}{}% 38
-\BOOKMARK [1][-]{subsection.6.0.1}{Brief Outline of the Fake Rate Method}{chapter.6}% 39
-\BOOKMARK [2][-]{subsection.6.0.2}{Measurement of the Fake Rate}{subsection.6.0.1}% 40
-\BOOKMARK [2][-]{subsection.6.0.3}{Application of the Fake Rate Method}{subsection.6.0.1}% 41
-\BOOKMARK [0][-]{chapter.7}{Statistical Inference Modeling}{}% 42
-\BOOKMARK [1][-]{section.7.1}{Statistical Inference at CERN}{chapter.7}% 43
-\BOOKMARK [1][-]{section.7.2}{Worked Example for Low Stat Analyses}{chapter.7}% 44
-\BOOKMARK [1][-]{section.7.3}{Fit model for pseudoscalar Higgs search}{chapter.7}% 45
-\BOOKMARK [0][-]{chapter.8}{Results}{}% 46
-\BOOKMARK [0][-]{chapter.9}{Conclusions}{}% 47
-\BOOKMARK [0][-]{appendix.A}{Data and Simulation Samples}{}% 48
-\BOOKMARK [1][-]{section.A.1}{Data and Simluation Used for Analysis}{appendix.A}% 49
-\BOOKMARK [0][-]{appendix.B}{Fake Rate Measurements}{}% 50
-\BOOKMARK [0][-]{appendix.C}{Systematic Uncertainties}{}% 51
-\BOOKMARK [0][-]{appendix*.6}{References}{}% 52
+\BOOKMARK [2][-]{subsection.2.3.1}{Tracker}{section.2.3}% 16
+\BOOKMARK [2][-]{subsection.2.3.2}{Electronic Calorimeter}{section.2.3}% 17
+\BOOKMARK [2][-]{subsection.2.3.3}{Hadronic Calorimeter}{section.2.3}% 18
+\BOOKMARK [2][-]{subsection.2.3.4}{Muon Chambers}{section.2.3}% 19
+\BOOKMARK [1][-]{section.2.4}{Level 1 Trigger System and High Level Trigger}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.5}{Particle Flow Algorithms}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.6}{Computational Infrastructure}{chapter.2}% 22
+\BOOKMARK [1][-]{section.2.7}{Lepton Identification}{chapter.2}% 23
+\BOOKMARK [2][-]{subsection.2.7.1}{Muon Identification Systems}{section.2.7}% 24
+\BOOKMARK [2][-]{subsection.2.7.2}{Electron Identification Systems}{section.2.7}% 25
+\BOOKMARK [2][-]{subsection.2.7.3}{Tau Identification Systems}{section.2.7}% 26
+\BOOKMARK [0][-]{chapter.3}{Silicon Detectors and Luminosity}{}% 27
+\BOOKMARK [0][-]{chapter.4}{Data and Simulation}{}% 28
+\BOOKMARK [1][-]{section.4.1}{Data and Simluation Used for Analysis}{chapter.4}% 29
+\BOOKMARK [2][-]{subsection.4.1.1}{2 \0402 \040Signal Samples }{section.4.1}% 30
+\BOOKMARK [1][-]{section.4.2}{Corrections to Simulations }{chapter.4}% 31
+\BOOKMARK [2][-]{subsection.4.2.1}{Muon energy scale}{section.4.2}% 32
+\BOOKMARK [2][-]{subsection.4.2.2}{Electron energy scale}{section.4.2}% 33
+\BOOKMARK [2][-]{subsection.4.2.3}{ energy scale}{section.4.2}% 34
+\BOOKMARK [2][-]{subsection.4.2.4}{h ID efficiency}{section.4.2}% 35
+\BOOKMARK [2][-]{subsection.4.2.5}{e h misidentification rate}{section.4.2}% 36
+\BOOKMARK [2][-]{subsection.4.2.6}{h misidentification rate}{section.4.2}% 37
+\BOOKMARK [2][-]{subsection.4.2.7}{Pileup reweighting}{section.4.2}% 38
+\BOOKMARK [2][-]{subsection.4.2.8}{Electron and muon identification efficiency}{section.4.2}% 39
+\BOOKMARK [2][-]{subsection.4.2.9}{Generator event weights and luminosity}{section.4.2}% 40
+\BOOKMARK [2][-]{subsection.4.2.10}{Offline Muon Selection}{section.4.2}% 41
+\BOOKMARK [2][-]{subsection.4.2.11}{Visualizing the Corrections}{section.4.2}% 42
+\BOOKMARK [0][-]{chapter.5}{Event Selection}{}% 43
+\BOOKMARK [1][-]{section.5.1}{Framing an Analysis at CERN}{chapter.5}% 44
+\BOOKMARK [1][-]{section.5.2}{Defining Signal and Control Regions}{chapter.5}% 45
+\BOOKMARK [2][-]{subsection.5.2.1}{Optimizing Lepton Pair Selection}{section.5.2}% 46
+\BOOKMARK [0][-]{chapter.6}{Background Estimation}{}% 47
+\BOOKMARK [1][-]{subsection.6.0.1}{Brief Outline of the Fake Rate Method}{chapter.6}% 48
+\BOOKMARK [2][-]{subsection.6.0.2}{Measurement of the Fake Rate}{subsection.6.0.1}% 49
+\BOOKMARK [2][-]{subsection.6.0.3}{Application of the Fake Rate Method}{subsection.6.0.1}% 50
+\BOOKMARK [0][-]{chapter.7}{Statistical Inference Modeling}{}% 51
+\BOOKMARK [1][-]{section.7.1}{Statistical Inference at CERN}{chapter.7}% 52
+\BOOKMARK [1][-]{section.7.2}{Worked Example for Low Stat Analyses}{chapter.7}% 53
+\BOOKMARK [1][-]{section.7.3}{Fit model for pseudoscalar Higgs search}{chapter.7}% 54
+\BOOKMARK [0][-]{chapter.8}{Results}{}% 55
+\BOOKMARK [0][-]{chapter.9}{Conclusions}{}% 56
+\BOOKMARK [0][-]{appendix.A}{Data and Simulation Samples}{}% 57
+\BOOKMARK [1][-]{section.A.1}{Data and Simluation Used for Analysis}{appendix.A}% 58
+\BOOKMARK [0][-]{appendix.B}{Fake Rate Measurements}{}% 59
+\BOOKMARK [0][-]{appendix.C}{Systematic Uncertainties}{}% 60
+\BOOKMARK [0][-]{appendix.D}{Fit Models}{}% 61
+\BOOKMARK [0][-]{appendix*.8}{References}{}% 62

@@ -28,7 +28,7 @@ https://cms-project-generators.web.cern.ch/cms-project-generators/ .
 For accurate results that reflect true experimental data, many corrections to MC samples are made. In general, in compliance with CMS's Physics Object Groups (POGs), standard techniques are applied to ensure proper simulation. Of critical importance is the corrections to energy scales for the leptons in the analysis. These corrections will affect the nominal energy recorded for the event as well as the rates in which objects are identified.  In order to protect against bias and to investigate systematic errors, corrections that could effect the results are considered in the overall error in the statistical inference model.
 
 \subsection{Muon energy scale}
-Corrections to the muon's energy scale are computed for the muons that pass selection for the analysis. Medium muon ID with track based isolation that pass the isolated single muon triggers at 24 GeV and 27GeV are then rescaled for pileup, efficiency, di-lepton $P_T$ and EWK reweighting of based on accurate gauge boson measurements. After selection, the scale factors for energy corrections are measured and prarmetrized in $\phi$ and $\eta$ in multiplicative and additive corrections 
+Corrections to the muon's energy scale are computed for the muons that pass selection for the analysis. Medium muon ID with track based isolation that pass the isolated single muon triggers at 24 GeV and 27GeV are then rescaled for pileup, efficiency, di-lepton $P_T$ and EWK re-weighting of based on accurate gauge boson measurements. After selection, the scale factors for energy corrections are measured and parametrized in $\phi$ and $\eta$ in multiplicative and additive corrections 
 \[\rho^{\text{cor}}=\kappa(\eta,\phi)\rho+Q \lambda(\eta,\phi)\] 
 
 In practice these are just scale factors applied to the energy scale in certain eta phi regions. \\
@@ -50,7 +50,7 @@ In practice these are just scale factors applied to the energy scale in certain 
 
 Genuine electron energy scale and resolution requires corrections to be applied to MC in order to match data \cite{EGammaEnergyScale}. These corrections are provided directly by the E/Gamma POG, and applied to genuine electrons coming from tau lepton decays for the channels $\mu\mu e \mu$ and $\mu\mu e \tau$.
 
-The energy shift is split depending on the $\eta$ of the electron\ref{tab:EES}.\\
+The energy shift is split depending on the $\eta$ of the electron shown in table \ref{tab:EES}.\\
 \begin{table}[h]
   \begin{center}
     \topcaption{Measured \Pe energy scale correction for genuine \Pe across all years.}
@@ -104,9 +104,9 @@ The deviation in the model is measured by between the difference in data and MC 
 
 \subsection{$\tauh$ ID efficiency}
 
-Genuine $\tauh$ identification efficiency can be different in Data and MC \cite{TAUIDTwiki}. To correct for this difference, measurements are 
+Genuine $\tauh$ identification efficiency can be different in Data and MC ~\cite{TAUIDTwiki}. To correct for this difference, measurements are 
 made in an inclusive $\mu\tau$ channel, using genuine Drell-Yan to $\tauh$ as a signal and using the invariant mass
-of the $\Pgm\tauh$ as an observable. Naturally, this region has far more statistics than the control and signal regions in the pseudoscalar anlaysis. To measure the identification efficency precisely, it is done in the inclusive regions with an emphaisis of simulation containing real taus. This measurement is done by the Tau POG, and the scale factors are provided to CMS. 
+of the $\Pgm\tauh$ as an observable. Naturally, this region has far more statistics than the control and signal regions in the pseudoscalar analysis. To measure the identification efficiency precisely, it is done in the inclusive regions with an emphasis of simulation containing real taus. This measurement is done by the Tau POG, and the scale factors are provided to CMS. 
 
 For the $\mu\mu e \tauh$ and $\mu\mu\mu\tauh$ channels, scale factors are binned in 3 different $\pt$ bins: 30--35, 35--40, and 40+ \GeV. In the $\tauh\tauh$ final state, the efficiencies are also binned by decay mode. 
 
@@ -114,9 +114,8 @@ For the $\mu\mu e \tauh$ and $\mu\mu\mu\tauh$ channels, scale factors are binned
 These efficiencies, while used in the primary event and the parameter of interest in the fit, they are not considered in the systematic model as they are expected to have very little impact on fit and limits based on the 2016 result. 
 
 
-\subsection{$\Pe \rightarrow \tauh$ misidentification rate}
-
-In accordance to the TauPOG, the efficiencies associated with $\tau$ identification through the Deep Neural Net approach is considered. 
+\subsection{$e \rightarrow \tauh$ misidentification rate}
+The efficiencies associated with $\tau$ identification through the Deep Neural Net approach is considered. 
 The efficiency of the discriminators against electrons misidentified as $\tauh$ candidates can be mismodeled in simulation. 
 These data/MC scale factors are
 binned by barrel/endcap region of the measured $\eta_{\tauh}$, and by $\tauh$ decay mode. They depend on the anti-electron discriminator used. 
@@ -124,18 +123,20 @@ Scale factors are measured to correct this and are applied to $\Pe \rightarrow \
 
 The scale factors are obtained by separating events with a reconstructed electron and a reconstructed $\tauh$ passing 
 the deep tau ID into a category where the $\tauh$ passes or fails the discriminator against electrons. All the processes in 
-these regions are taken from simulation, except the QCD multijet background, which is estimated from SS data, and the W+jets background, which is normalized in a region with high $m_T$. The visible mass distributions in the pass and fail regions are fitted using the $\Pe\to\tauh$ scale factor as parameter of interest. An increase of the POI causes an increase of the signal yield in the pass region and simultaneously a decrease of the signal in the fail region, such that the signal yield in the two regions combined is unchanged. Additionally, the normalization of the $\PZ\to\Pe\Pe$ background is freely floating to model a scale factor related to applying the discriminator against jets to electrons. The scale factor applied to electrons faking taus in the analysis is the product of the scale factor of the discriminator against jets and scale factor of the discriminator against electrons. 
+these regions are taken from simulation, except the QCD multijet background, which is estimated from SS data, and the W+jets background, which is normalized in a region with high transverse mass. The visible mass distributions in the pass and fail regions are fitted using the $e\to\tauh$ scale factor as the parameter of interest. An increase of the POI causes an increase of the signal yield in the pass region and simultaneously a decrease of the signal in the fail region, such that the signal yield in the two regions combined is unchanged. 
+
+Additionally, the normalization of the $Z \to e  e$ background is freely floating to model a scale factor related to applying the discriminator against jets to electrons. The scale factor applied to electrons faking taus in the analysis is the product of the scale factor of the discriminator against jets and scale factor of the discriminator against electrons. 
 The expected impact on the systematic model from these anti-lepton discriminators are expected to be very small so they are not included in the uncertainty model .
 
-\subsection{$\Pgm\rightarrow\tauh$ misidentification rate}
+\subsection{$\mu \rightarrow \tauh$ misidentification rate}
 
-In accordance to the TauPOG, the efficiencies associated with $\tau$ identification through the Deep Neural Net approach is considered similarly for muons.
-Efficiency at rejection of $\Pgm\to\tauh$ can be different between data and MC\cite{TAUIDTwiki}. Scale factors are measured to correct this
-and are applied to $\Pgm\to\tauh$ in MC. They are binned in pseudorapidity and decay mode of the fake $\tauh$.  
+The efficiencies associated with $\tau$ identification through the Deep Neural Net approach is considered similarly for muons.
+Efficiency at rejection of $\mu \to\tauh$ can be different between data and MC ~\cite{TAUIDTwiki}. Scale factors are measured to correct this
+and are applied to $\mu \to\tauh$ in MC. They are binned in pseudorapidity and decay mode of the fake $\tauh$.  
 
 The scale factors are obtained by separating events with a reconstructed muon and a reconstructed $\tauh$ passing
 the deep tau ID into a category where the $\tauh$ passes or fails the discriminator against muons. All the processes in
-these regions are taken from simulation, except the QCD multijet background, which is estimated from SS data, and the W+jets background, which is normalized in a region with high $m_T$. The visible mass distributions in the pass and fail regions are fitted using the $\Pe\to\tauh$ scale factor as parameter of interest. An increase of the POI causes an increase of the signal yield in the pass region and simultaneously a decrease of the signal in the fail region, such that the signal yield in the two regions combined is unchanged. Additionally, the normalization of the $\PZ\to\Pe\Pe$ background is freely floating to modelna scale
+these regions are taken from simulation, except the QCD multijet background, which is estimated from SS data, and the W+jets background, which is normalized in a region with high $m_T$. The visible mass distributions in the pass and fail regions are fitted using the $e\to\tauh$ scale factor as parameter of interest. An increase of the POI causes an increase of the signal yield in the pass region and simultaneously a decrease of the signal in the fail region, such that the signal yield in the two regions combined is unchanged. Additionally, the normalization of the $\PZ\to\Pe\Pe$ background is freely floating to modelna scale
 factor related to applying the discriminator against jets to muons. The scale factor applied to muons faking taus in the 
 analysis is the product of the scale factor of the discriminator against jets and scale factor of the discriminator against muons.
 The expected impact on the systematic model from these anti-lepton discriminators are expected to be very small so they are not included in the uncertainty model.
@@ -151,7 +152,7 @@ MC events are reweighted using a minimum bias cross section equal to the luminos
 
 \subsection{Electron and muon identification efficiency}
 
-Scale factors derived within the HTT group are applied for muons~\cite{AN16355}, and the EGamma POG scale factors are applied for electrons~\cite{EGammaMVAID}. The scale factors for muons with $5<\pt<9$ GeV and $9<\pt<10$ GeV, are computed privately as there are no official numbers, and are approved by the MUON POG. 
+Scale factors derived within the HTT group are applied for muons~\cite{AN16355}, and the EGamma POG scale factors are applied for electrons~\cite{EGammaMVAID}. The scale factors for muons with $5<\pt<9$ GeV and $9<\pt<10$ GeV, are computed privately as there are no official numbers, and were approved by the MuonPOG in the 2016 analysis. 
   
 %\subsection{B tagging efficiency}
 
