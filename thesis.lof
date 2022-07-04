@@ -7,23 +7,23 @@
 \contentsline {figure}{\numberline {1.6}{\ignorespaces Diagram of Higgs decay to pseudoscalar $a$ particles (Left) and branching ratios for pseudoscalar production in different $\text {tan}\beta $ scenarios and different 2HDM+S Types (right)}}{12}{figure.1.6}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Overview of the Large Hadron Collider spanning Switzerland and France - Maximilien Brice, CERN }}{14}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces (simulation) MIP particle traveling across a silicon strip sensor at $45^\circ $ over time from 0.0, 1.1,1.5,2,3,4,5,6,7 nanoseconds. The induced surface current dissapates and would be collected by the channels of the silicon module.}}{17}{figure.2.2}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces (simulation) MIP particle traveling across a silicon strip sensor at $45^\circ $ over time from 0.0, 1.1,1.5,2,3,4,5,6,7 nanoseconds. The induced surface current dissapates and would be collected by the channels of the silicon module \nobreakspace {}\cite {Eichhorn:2112017}.}}{17}{figure.2.2}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces encapsulated token bit manager of a forward pixel module currently installed in CMS}}{18}{figure.2.3}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces The silicon tracker system, consisting of the inner pixel system (BPIX and FPIX), The Tracker End Caps (TEC), Tracker Inner Detector(TID), Tracker Inner Barrel (TIB), and the Tracker Outer Barrel (TOB) by position in r, z , and $\eta $ \nobreakspace {}\cite {Chatrchyan:2008zzk}}}{19}{figure.2.4}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Overview of the HCAL system from the z---$\eta $ plane showing the hadron barrel (HB), encap(HE), outer (HO), and the forward (HF) subsystems \nobreakspace {}\cite {Chatrchyan:2008zzk}}}{20}{figure.2.5}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Muon system involving multiple subtector systems: tracker, solenoid, and the muon gas chambers around the iron yoke (grey) - Maximilien Brice, CERN }}{21}{figure.2.6}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Schematic overiew of Tier0 computing, data can be available from different sections allowing for data quality monitoring and also storage to several databases \nobreakspace {}\cite {Hufnagel:1319049} }}{23}{figure.2.7}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Schematic overiew of Tier0 computing, data can be available from different sections allowing for data quality monitoring and also storage to several databases \nobreakspace {}\cite {Hufnagel:1319049} }}{22}{figure.2.7}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces diagram depicting the possible decays of the tau lepton: 65\% of the time hadronically and 18\% to tau neutrino and electron with antielectron neutrino (17\% for muon)}}{32}{figure.4.1}%
 \contentsline {figure}{\numberline {4.2}{\ignorespaces Tau mass distributions considering the nominal $\tau _h$ energy scale in simulation (left), or the $\tau _h$ energy scale shifted by -6 (left) or +6\% (right), in the $\mu \tau _h$ final state, for the 1 prong + pizero decay mode.}}{33}{figure.4.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Systematic Shift in the Uncertainty Model for 2016 $\mu \mu \tau \tau $ for the muon energy scale shift down (left), nominal (mid), and up (right), no data is shown on this plot as it directly reflects the signal region without the extraction cuts }}{36}{figure.4.3}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Systematic Shift in the Uncertainty Model for 2016 $\mu \mu \tau \tau $ for the muon energy scale shift down (left), nominal (mid), and up (right), no data is shown on this plot as it directly reflects the signal region without the extraction cuts }}{35}{figure.4.3}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Invariant mass of the four lepton system for 2018 data in all Channels}}{42}{figure.5.1}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Several data-MC control plots for full RunII data in all Channels}}{43}{figure.5.2}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Invariant mass of the four lepton system for 2018 data in all Channels}}{41}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Several data-MC control plots for full RunII data in all Channels}}{42}{figure.5.2}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Fake factors determined in the QCD multijet determination region with 0 jet in the $\Pgm \ensuremath {\tau _h}\xspace $ final state in 2016 (left), 2017 (center), and 2018 (right). They are fitted with linear functions as a function of the $\ensuremath {\tau _h}\xspace $ $\ensuremath {p_{\mathrm {T}}}\xspace $. The green and purple lines indicate the shape systematics obtained by uncorrelating the uncertainties in the two fit parameters returned by the fit. }}{46}{figure.6.1}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Diagram depicting the measurement and application regions this ABCD method is multiplied by the two $\tau $ leptons in the final sate}}{48}{figure.6.2}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Diagram depicting the measurement and application regions, this ``ABCD'' method is multiplied by each of the $\tau $ leptons in the final sate}}{48}{figure.6.2}%
 \contentsline {figure}{\numberline {6.3}{\ignorespaces Validation of the fake factor method, fake factors are applied to the same sign tight region}}{48}{figure.6.3}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Signal fit using a Voigtian function}}{52}{figure.7.1}%
@@ -36,11 +36,11 @@
 \contentsline {figure}{\numberline {7.8}{\ignorespaces Reducible background fit using Bernstein polynomials}}{59}{figure.7.8}%
 \contentsline {figure}{\numberline {7.9}{\ignorespaces Expected systematic impacts for the fit model $\mu \mu \mu \tau $}}{61}{figure.7.9}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Asymptotic C.L. Limits on the Branching Fraction times ratio of the SM cross sections}}{63}{figure.8.1}%
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Asymptotic C.L. Limits on the Branching Fraction times ratio of the SM cross sections for 2017}}{64}{figure.8.2}%
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Asymptotic C.L. Limits on the Branching Fraction times ratio of the SM cross sections for 2018}}{65}{figure.8.3}%
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Asymptotic C.L. Limits on the Branching Fraction times ratio of the SM cross sections for the full Run II dataset $\text {137}^{-1} \text {fb}$}}{66}{figure.8.4}%
-\contentsline {figure}{\numberline {8.5}{\ignorespaces 2HDM model specific scenarios upper 95\% C.L. limits on the branch fraction of Higgs to a a times the ratio of the SM cross sections for the full Run II dataset $\text {137}^{-1} \text {fb}$ }}{67}{figure.8.5}%
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Asymptotic CL Limits on the branching fraction times ratio of the SM cross sections}}{63}{figure.8.1}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Asymptotic CL Limits on the branching fraction times ratio of the SM cross sections for 2017}}{64}{figure.8.2}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Asymptotic CL Limits on the branching fraction times ratio of the SM cross sections for 2018}}{65}{figure.8.3}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Asymptotic CL Limits on the branching fraction times ratio of the SM cross sections for the full Run II dataset $\text {137}\text {fb}^{-1}$}}{66}{figure.8.4}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces 2HDM model specific scenarios upper 95\% CL limits on the branch fraction of Higgs to a a times the ratio of the SM cross sections for the full Run II dataset $\text {137}\text {fb}^{-1}$ }}{67}{figure.8.5}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

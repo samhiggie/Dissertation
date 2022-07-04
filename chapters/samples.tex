@@ -1,4 +1,66 @@
-\section{Data and Simluation Used for Analysis}
+
+\section{Lepton Identification}
+The following three sections briefly describe how certain subsystems of the CMS detector work together to identify muons, electrons, and tau leptons. 
+
+\subsection{Muon Identification Systems}
+
+In order to identify good muons, several subdetector work together to reconstruct muons. Looking at muons that come from the interaction vertex --- prompt muons --- the tracker plays an important role in identifying charged particle tracks. 
+
+As CMS implies in its name, muons are certainly a focal point in particle detection. 
+
+The tracker system works in tandem with the gas chambers to reconstruct muons, and the solenoid measures charge particle's momentum allowing for an accurate mass resolution.  
+
+
+During reconstruction, tracker or global muons are identified and are ultimately divided into four sub types depending on the $\chi^2$ of the track and momentum of the candidate muon ~\cite{CMS-PAS-PFT-09-001,Kratschmer:1956760}
+
+
+\subsection{Electron Identification Systems}
+
+The main sub detector system that is involved with electron identification is the ECAL. To identify electrons a cluster of energy in the ECAL is associated with a track that is constructed in the silicon detector system. 
+
+The tracks are identified in the typical fashion by using the Kalman Filter tracking technique to pick good quality tracks, then the tracks are refitted using a Gaussian Sum Filter (GSF). 
+This track would then be associated with the ECAL super cluster (SC) by requiring matching in $\eta,\;\phi$ space
+\[|\Delta\eta| = |\eta_{\text{SC}} - \eta_{\text{in}}^{\text{extrap}}| < 0.02\]
+\[|\Delta\phi| = |\phi_{\text{SC}} - \phi_{\text{in}}^{\text{extrap}}| < 0.15\]
+This association amounts to an overall efficiency of about 93\% ~\cite{Khachatryan:2015hwa}. 
+
+
+%In 2016 better calibration studies were completed at lower energy increasing the ECAL performance and the pixel upgrade in 2017 helped track reconstruction resulting in better electron identification ~\cite{Micheli:2727506}.
+
+
+\subsection{Tau Identification Systems}
+Tau leptons are one of the most diverse particles in the Standard Model, decaying in many different ways. It is the heaviest lepton, so heavy that even tau decays to intermediate mesons are possible. The $\rho$, $a$, and $\pi$ mesons are several possible mesons that the tau can decay to. Therefore, when it comes to tau identification many subsystems are needed to properly identify them in addition to higher level algorithms. The focus of this section is on the hardware components that are needed to identify tau leptons. Tau leptons decay both hadronically and leptonically as shown in the table below \ref{tab:taudecay}. 
+
+
+
+\begin{table}[h!tbp]
+\centering
+    \topcaption{Possible hadronic tau decays ~\cite{Workman:2022}}
+\label{tab:taudecay}
+\begin{tabular}{c  c r}
+Decay Modes & Resonance & \multicolumn{1}{c}{$\mathcal{B}(\%)$} \\\hline
+Leptonic Decay && \multicolumn{1}{l}{35.2}\\
+$\tau^- \rightarrow e^- \bar{nu}_e \nu_\tau $ & & 17.8 \\
+$\tau^- \rightarrow \mu^- \bar{nu}_\mu \nu_\tau$ & & 17.4 \\\hline
+Hadronic Decay && \multicolumn{1}{l}{64.8}\\
+$\tau^- \rightarrow h^-\nu_\tau$ & & 11.5 \\
+$\tau^- \rightarrow h^-\pi^0 \nu_\tau$ & $\rho(770)$ & 25.9 \\
+$\tau^- \rightarrow h^-\pi^0 \pi^0 \nu_\tau$ & $a_1(1260)$ & 9.5 \\
+$\tau^- \rightarrow h^- h^+ h^- \nu_\tau$ & $a_1(1260)$ & 9.8 \\
+$\tau^- \rightarrow h^- h^+ h^- \pi^0 \nu_\tau$ & & 4.8 \\
+Other & & 3.3 \\\hline
+\end{tabular}
+\end{table}
+
+%The important algorithms directly related to hardware are the Hadron Plus Strips (HPS) algorithm which combines the use of the tracker system and the electromagnetic calorimeter (ECAL) for hadronic tau identification ~\cite{Sirunyan_2018}.  
+
+The Hadron Plus Strips (HPS) combines the use of the tracker system and the electromagnetic calorimeter (ECAL) for hadronic tau identification ~\cite{Sirunyan_2018}.  
+
+
+ 
+
+
+\section{Data and Simulation Used for Analysis}
 Data gathered at CMS is organized primarily on the trigger implemented to identify events. For this analysis, requiring muons is paramount and the search should be inclusive. Therefore datasets published by CMS that are considered are single muon, double muon, and electron plus photon datasets depending on the year. These datasets contain the triggers that are the most important for event selection. Single muon triggers that contain isolated muons at 24 and 27 GeV thresholds are implemented, along with double muon triggers with good reconstructed muons that have 17 GeV threshold. More information on triggers and selection will be given in the event selection section. 
 
 The simulation used to compare to data typically use MadGraph5@NLO along with a PYTHIA 8 hadronizer. These CMS-centrally generated samples are then digitized to the same format as real data events collected and processed at CMS high level trigger. These raw data formats are then reconstructed to physics objects - like tracks and higher level objects like muons and $\tau$leptons. A direct comparison between data and simulation can then be made after calibrating simulation in control regions. 
@@ -48,7 +110,7 @@ In practice these are just scale factors applied to the energy scale in certain 
 
 \subsection{Electron energy scale}
 
-Genuine electron energy scale and resolution requires corrections to be applied to MC in order to match data \cite{EGammaEnergyScale}. These corrections are provided directly by the E/Gamma POG, and applied to genuine electrons coming from tau lepton decays for the channels $\mu\mu e \mu$ and $\mu\mu e \tau$.
+Genuine electron energy scale and resolution requires corrections to be applied to MC in order to match data ~\cite{EGammaEnergyScale}. These corrections are provided directly by the E/Gamma POG, and applied to genuine electrons coming from tau lepton decays for the channels $\mu\mu e \mu$ and $\mu\mu e \tau$.
 
 The energy shift is split depending on the $\eta$ of the electron shown in table \ref{tab:EES}.\\
 \begin{table}[h]
@@ -114,41 +176,28 @@ For the $\mu\mu e \tauh$ and $\mu\mu\mu\tauh$ channels, scale factors are binned
 These efficiencies, while used in the primary event and the parameter of interest in the fit, they are not considered in the systematic model as they are expected to have very little impact on fit and limits based on the 2016 result. 
 
 
-\subsection{$e \rightarrow \tauh$ misidentification rate}
+\subsection{$e \rightarrow \tauh$  and $\mu \rightarrow \tauh$ misidentification rate}
 The efficiencies associated with $\tau$ identification through the Deep Neural Net approach is considered. 
-The efficiency of the discriminators against electrons misidentified as $\tauh$ candidates can be mismodeled in simulation. 
+The efficiency of the discriminators against electrons or muons misidentified as $\tauh$ candidates can be miss-modeled in simulation. 
 These data/MC scale factors are
-binned by barrel/endcap region of the measured $\eta_{\tauh}$, and by $\tauh$ decay mode. They depend on the anti-electron discriminator used. 
-Scale factors are measured to correct this and are applied to $\Pe \rightarrow \tauh$ in MC. 
+binned by barrel/endcap region of the measured $\eta_{\tauh}$, and by $\tauh$ decay mode. They depend on the anti-electron or anti-muon discriminator used. 
+Scale factors are measured to correct this and are applied to $\Pe \rightarrow \tauh$ in MC. Full information on misidentification measurements and application in analyses can be found in reference ~\cite{TAUIDTwiki}. 
 
-The scale factors are obtained by separating events with a reconstructed electron and a reconstructed $\tauh$ passing 
-the deep tau ID into a category where the $\tauh$ passes or fails the discriminator against electrons. All the processes in 
-these regions are taken from simulation, except the QCD multijet background, which is estimated from SS data, and the W+jets background, which is normalized in a region with high transverse mass. The visible mass distributions in the pass and fail regions are fitted using the $e\to\tauh$ scale factor as the parameter of interest. An increase of the POI causes an increase of the signal yield in the pass region and simultaneously a decrease of the signal in the fail region, such that the signal yield in the two regions combined is unchanged. 
 
-Additionally, the normalization of the $Z \to e  e$ background is freely floating to model a scale factor related to applying the discriminator against jets to electrons. The scale factor applied to electrons faking taus in the analysis is the product of the scale factor of the discriminator against jets and scale factor of the discriminator against electrons. 
-The expected impact on the systematic model from these anti-lepton discriminators are expected to be very small so they are not included in the uncertainty model .
-
-\subsection{$\mu \rightarrow \tauh$ misidentification rate}
-
-The efficiencies associated with $\tau$ identification through the Deep Neural Net approach is considered similarly for muons.
-Efficiency at rejection of $\mu \to\tauh$ can be different between data and MC ~\cite{TAUIDTwiki}. Scale factors are measured to correct this
-and are applied to $\mu \to\tauh$ in MC. They are binned in pseudorapidity and decay mode of the fake $\tauh$.  
-
-The scale factors are obtained by separating events with a reconstructed muon and a reconstructed $\tauh$ passing
-the deep tau ID into a category where the $\tauh$ passes or fails the discriminator against muons. All the processes in
-these regions are taken from simulation, except the QCD multijet background, which is estimated from SS data, and the W+jets background, which is normalized in a region with high $m_T$. The visible mass distributions in the pass and fail regions are fitted using the $e\to\tauh$ scale factor as parameter of interest. An increase of the POI causes an increase of the signal yield in the pass region and simultaneously a decrease of the signal in the fail region, such that the signal yield in the two regions combined is unchanged. Additionally, the normalization of the $\PZ\to\Pe\Pe$ background is freely floating to modelna scale
-factor related to applying the discriminator against jets to muons. The scale factor applied to muons faking taus in the 
-analysis is the product of the scale factor of the discriminator against jets and scale factor of the discriminator against muons.
+The misidentification scale factors are derived by pass and fail regions. The regions are set up by selecting events where a reconstructed $\tauh$ passes the DNN working point and also fails the DNN discriminant against muons. QCD multijet is estimated from same sign lepton region within data - similar to the fake rate calculation like in chapter \ref{chap:background}. W+Jets normalization is carefully selection from a region with high transverse mass. The visible mass distributions of the events in these regions are fit and the overall signal yield remains constant in the pass and fail regions. The normalization of $Z \to e e $ background is allowed to vary in this muon faking tau measurement.   
 The expected impact on the systematic model from these anti-lepton discriminators are expected to be very small so they are not included in the uncertainty model.
 
-%\subsection{$\Pe/\Pgm\rightarrow\Pgth$ identification efficiency}
+%The scale factors are obtained by separating events with a reconstructed muon and a reconstructed $\tauh$ passing
+%the deep tau ID into a category where the $\tauh$ passes or fails the discriminator against muons. All the processes in
+%these regions are taken from simulation, except the QCD multijet background, which is estimated from SS data, and the W+jets background, which is normalized in a region with high $m_T$. The visible mass distributions in the pass and fail regions are fitted using the $e\to\tauh$ scale factor as parameter of interest. An increase of the POI causes an increase of the signal yield in the pass region and simultaneously a decrease of the signal in the fail region, such that the signal yield in the two regions combined is unchanged. 
+%Additionally, the normalization of the $\PZ\to\Pe\Pe$ background is freely floating to modelna scale
+%factor related to applying the discriminator against jets to muons. The scale factor applied to muons faking taus in the 
+%analysis is the product of the scale factor of the discriminator against jets and scale factor of the discriminator against muons.
 
-%Scale factors derived within the TAU POG are applied. The corrections are substancial, and strongly depend on the pseudorapidity of the fake $\Pgth$.
 
+\subsection{Pileup Re-weighting}
 
-\subsection{Pileup reweighting}
-
-MC events are reweighted using a minimum bias cross section equal to the luminosity for the corresponding year.
+MC events are re-weighted using a minimum bias cross section equal to the luminosity for the corresponding year. This pileup re-weighting is to rescale the events for effective number of primary interactions during collisions. During Run II, pileup or the number of primary vertices in a crossing or underlying event could reach close to 100 and in Run III this will exceed 200.   
 
 \subsection{Electron and muon identification efficiency}
 

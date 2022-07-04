@@ -35,10 +35,6 @@ O.~S. Brüning, P.~Collier, P.~Lebrun, S.~Myers, R.~Ostojic, J.~Poole, and
   P.~Proudlock, {\em {LHC Design Report}}.
 \newblock CERN Yellow Reports: Monographs, Geneva: CERN, 2004.
 
-\bibitem{Khachatryan:2016bia}
-V.~Khachatryan {\em et~al.}, ``{The CMS trigger system},'' {\em JINST},
-  vol.~12, p.~P01020, 2017.
-
 \bibitem{Chatrchyan:2008zzk}
 S.~Chatrchyan {\em et~al.}, ``The {CMS} experiment at the {CERN} {LHC},'' {\em
   JINST}, vol.~03, p.~S08004, 2008.
@@ -73,6 +69,10 @@ L.~Thomas, ``{CMS High Level Trigger performance at 13 TeV},'' {\em PoS},
 D.~Hufnagel, ``{The architecture and operation of the CMS Tier-0},'' tech.
   rep., CERN, Geneva, Nov 2010.
 
+\bibitem{Knolle:2792593}
+J.~Knolle, ``{Precision luminosity measurement with proton-proton collisions at
+  the CMS experiment in Run 2},'' tech. rep., CERN, Geneva, Oct 2020.
+
 \bibitem{CMS-PAS-PFT-09-001}
 {CMS Collaboration}, ``Particle--flow event reconstruction in {CMS} and
   performance for jets, taus, and {\MET},'' CMS Physics Analysis Summary
@@ -87,9 +87,9 @@ V.~Khachatryan {\em et~al.}, ``{Performance of electron reconstruction and
   selection with the CMS detector in proton-proton collisions at $\sqrt{s} = 8$
   TeV},'' {\em JINST}, vol.~10, p.~P06005, 2015.
 
-\bibitem{Micheli:2727506}
-F.~Micheli, ``{CMS electron and photon performance at $\sqrt (s) = 13$ TeV},''
-  {\em PoS}, vol.~ICHEP2018, p.~032. 4 p, 2019.
+\bibitem{Workman:2022}
+R.~Workman {\em et~al.}, ``{Review of Particle Physics},''
+\newblock to be published (2022).
 
 \bibitem{Sirunyan_2018}
 A.~Sirunyan, A.~Tumasyan, {\em et~al.}, ``Performance of reconstruction and
@@ -97,17 +97,18 @@ A.~Sirunyan, A.~Tumasyan, {\em et~al.}, ``Performance of reconstruction and
   collisions at $\sqrt{s}$ =13 {TeV},'' {\em Journal of Instrumentation},
   vol.~13, pp.~P10005--P10005, oct 2018.
 
-\bibitem{Knolle:2792593}
-J.~Knolle, ``{Precision luminosity measurement with proton-proton collisions at
-  the CMS experiment in Run 2},'' tech. rep., CERN, Geneva, Oct 2020.
+\bibitem{EGammaEnergyScale}
+E.~P.~O. Group, ``Egamma miniaod v2 apply energy scale 13 tev,'' August 2022.
 
-\bibitem{MIP}
-S.~H. on~behalf~of B.R.I.L. and L.~P. groups, ``{MIP Timing Detector
-  Upgrade},'' tech. rep., 2017.
+\bibitem{TAUIDTwiki}
+T.~P.~O. Group, ``Tauid recommendations 13 tev,'' August 2022.
 
 \bibitem{AN16355}
 CMS, ``Search for the standard model higgs boson decaying to a pair of tau
   leptons in 2016 data,'' CMS Note 2016/355, 2016.
+
+\bibitem{EGammaMVAID}
+E.~P.~O. Group, ``Electron mva recommendations 13 tev,'' August 2022.
 
 \bibitem{Hassanshahi:2797703}
 M.~H. Hassanshahi, ``{Tau identification in CMS during LHC Run 2},'' tech.

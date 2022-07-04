@@ -1,5 +1,5 @@
 \section{CERN and the Large Hadron Collider}
-The organisation européenne pour la recherche nucléaire or CERN is the organization that conducting the world's frontier particle physics experiments. It's a coalition of scientists representing numerous countries around the world, who work together for a greater understanding of the universe. CERN hosts the Large Hadron Collider, currently the largest particle collider in the world. It is 27 km in circumference and hosts eight experimental caverns 150 meters underneath the earth. Accelerator physicists and engineers strive to provide high energy collisions along these eight sites. Monumental effort is made to guide the beam, utilizing more than 1500 superconducting magnets to steer, press, and shape the accelerating protons. Crossing points facilitated by crab-like magnets force these particles to cross, collide, and interact at the caverns where the experiments take data. Multiple campaigns for particle physics are done such as low intensity fills, lead-lead collisions, and proton collision. The Compact Muon Solenoid (CMS) is the general purpose proton-proton detector, located at P5 in Cessy, France, that took the data that will be analyzed in this dissertation ~\cite{Bruning:782076}. 
+The \textit{organisation européenne pour la recherche nucléaire} or CERN is the organization that conducts the world's frontier particle physics experiments. It's a coalition of scientists representing numerous countries around the world, who work together for a greater understanding of the universe. CERN hosts the Large Hadron Collider, currently the largest particle collider in the world. It is 27 km in circumference and hosts eight experimental caverns 150 meters underneath the earth. Accelerator physicists and engineers strive to provide high energy collisions along these eight sites. Monumental effort is made to guide the beam, utilizing more than 1500 superconducting magnets to steer, press, and shape the accelerating protons. Crossing points facilitated by crab cavities force these particles to cross, collide, and interact at the caverns where the experiments take data. Multiple campaigns for particle physics are done such as low intensity fills, lead-lead collisions, and proton collision. The Compact Muon Solenoid (CMS) is the general purpose proton-proton detector, located at P5 in Cessy, France, that took the data that will be analyzed in this dissertation ~\cite{Bruning:782076}. 
 
 \begin{figure}[ht!b]
   \centering
@@ -8,7 +8,7 @@ The organisation européenne pour la recherche nucléaire or CERN is the organiz
 \end{figure}
 
 \section{The Compact Muon Solenoid detector}
-At around 14,000 tonnes, the CMS detector may not seem like it would be compact; however, it is quite dense. As shown in the diagram, the detector contains many sub-detector systems and also features the most powerful solenoid magnet ever made for it's size. At 6 meters inner diameter, and a combined weight of the solenoid and the steel return yolk of 12,500 tonnes it is the central feature of the Compact Muon Solenoid (CMS) \ref{fig:cmsdet}.
+At around 14,000 tonnes, the CMS detector may not seem like it would be compact; however, it is quite dense. As shown in the diagram, the detector contains many sub-detector systems and also features the most powerful solenoid magnet ever made for its size. At 6 meters inner diameter, and a combined weight of the solenoid and the steel return yolk of 12,500 tonnes, the solenoid is the central feature of the Compact Muon Solenoid (CMS) \ref{fig:cmsdet}.
 \begin{figure}[!htb]
 \begin{center}
 \includegraphics[width=0.75\textwidth]{Figures/cmsDet.png}
@@ -24,27 +24,27 @@ coverage provided by the barrel and endcap detectors.
 Muons are detected in gas-ionization chambers embedded 
 in the steel flux-return yoke outside the solenoid.
 
-The coordinate system that is adopted is cylindrical in nature starting at the interaction or nominal collision point. The $y$-axis points vertically outward toward the sky, the $x$-axis tangent to the Earth, and the $z$-axis along the direction of the beam pipe. The azimuthal angle $\phi$ and the radial coordinate $r$ in the $x$ and $y$ plane, and the polar angle $\theta$ measured from the $z$ axis comprise the angular coordinate interpretation. Often pseudorapidity is used to describe angular distance from the beam pipe - useful in detector segmentation in forward and barrel regions:
+The coordinate system that is adopted is cylindrical in nature starting at the interaction or nominal collision point. The $y$-axis points vertically outward toward the sky, the $x$-axis tangent to the Earth, and the $z$-axis along the direction of the beam pipe. The azimuthal angle $\phi$ and the radial coordinate $r$ in the $x$ and $y$ plane, and the polar angle $\theta$ measured from the $z$ axis comprise the angular coordinate interpretation. Often pseudorapidity is used to describe angular distance from the beam pipe --- useful in detector segmentation in forward and barrel regions:
 \[\eta = - \ln \tan(\theta/2)\]  
 
 
 From the central interaction point, the CMS detector hosts
 the silicon pixel and strip tracker, the lead tungstate crystal electromagnetic
 calorimeter (ECAL), and the brass-scintillator hadron calorimeter (HCAL),
-each composed of a barrel and two endcap sections. The central feature of
-the CMS apparatus is a superconducting solenoid of 6\unit{m} internal diameter, providing
-a magnetic field of 3.8\unit{T}. The silicon pixel and tracking systems as well as
+each composed of a barrel and two endcap sections. The silicon pixel and tracking systems as well as
 the calorimeters are contained within the solenoid volume.  %cite
 
-The nominal $\Pp\Pp$ bunch crossing rate at the LHC is 40\unit{MHz}. This rate would be too extreme for any data taking system. In order to reduce the rate of events that are recorded for offline analysis, events of interest are selected using a two-step trigger system~\cite{Khachatryan:2016bia}.
-The first level (L1) is composed of custom built electronics which makes use of
-high speed optical links and large Field Programmable Gate Arrays (FPGAs). 
-L1 reduces the event rate from the nominal bunch crossing to a rate of around
-100\unit{kHz} within a time interval of less than 3.5\mus.
-The second level, known as the High Level Trigger (HLT), consists of a farm of 
-generic processors running a version of the full event reconstruction software that
- has been optimized for fast processing. The HLT reduces the event rate to about
-1\unit{kHz} before data storage.
+%The nominal $\Pp\Pp$ bunch crossing rate at the LHC is 40\unit{MHz}. This rate would be too extreme for any data taking system. In order to reduce the rate of events that are recorded for offline analysis, events of interest are selected using a two-step trigger system~\cite{Khachatryan:2016bia}.
+%The first level (L1) is composed of custom built electronics which makes use of
+%high speed optical links and large Field Programmable Gate Arrays (FPGAs). 
+
+%L1 reduces the event rate from the nominal bunch crossing to a rate of aroun 100\unit{kHz} within a time interval of less than 3.5\mus.
+%L1 reduces the rate from 40 MHz to 100 kHz.
+
+%The second level, known as the High Level Trigger (HLT), consists of a farm of 
+%generic processors running a version of the full event reconstruction software that
+% has been optimized for fast processing. The HLT reduces the event rate to about
+%1\unit{kHz} before data storage.
 
 %Since the 2012 data taking, significant upgrades of the L1 trigger 
 %have benefited this analysis, especially in the final state with two semi-hadronically decaying 
@@ -55,14 +55,14 @@ generic processors running a version of the full event reconstruction software t
 %crossing, and to reconstruct the L1 $\tauh$ object in a fiducial region that matches 
 %more closely that of a true $\tauh$ decay.
 
-A more detailed description of the CMS detector which was qualified and published in 2008 can be found in Ref. ~\cite{Chatrchyan:2008zzk}.
+A more detailed description of the CMS detector can be found in Reference ~\cite{Chatrchyan:2008zzk}.
 
-In Phase 2, many upgrades are planned after Run III --- which is currently on-going. 
+%In Phase 2, many upgrades are planned after Run III --- which is currently on-going. 
 
 
 \section{Subdetector Systems}
-Several subtector systems play an important role in the identification of muons and tau leptons that are used in the analysis and will be highlighted here along with some impressive infrastructure that supports physics at CMS and used by physicists worldwide. 
-While all subdector systems are important to physics at CMS due to the reconstruction of the event, there are a several detectors that contribute to the particles that are identified in the pseudoscalar search. These are the tracker system, electronic calorimeter, the hadronic calorimeter, and muon system all play important roles. 
+Several subfactor systems play an important role in the identification of muons and tau leptons that are used in the analysis and will be highlighted here along with some impressive infrastructure that supports physics at CMS and used by physicists worldwide. 
+While all subdetector systems are important to event reconstruction in CMS, there are a several detectors that contribute to the particles that are identified in the pseudoscalar search. These are the tracker system, electromagnetic calorimeter, the hadronic calorimeter, and muon system. 
 
 \subsection{Tracker}
 Working around silicon for almost 10 years, I have a slight bias in presenting this sub-detector system and I plan to share more details in this section than others. 
@@ -72,7 +72,7 @@ The tracker comprises several groups of silicon detectors.
 
 Going outward from the beam pipe and central interaction points, there is the pixel detector system and then the silicon tracker system. For better coverage, both are divided into barrel and endcap components. 
 
-A silicon detector, is a detector that can identify charge by disturbing the electron lattice that exists on the silicon itself. 
+A silicon detector is a detector that can identify charge by disturbing the electron lattice that exists on the silicon itself. 
 Typically multiple band gaps are created through the process of lithography which adds artificial impurities of p-type (holes) or n-type (electrons). This process is known as ``doping". When a minimum ionizing particle (MIP) disturbs the latent charge --- set by the bias voltage on the sensor --- there is a current generated in the n and p type components (Shockley Equation):
 \begin{equation}
 \label{eq:shockleyn}
@@ -92,7 +92,7 @@ This sets in motion the current which will be collected later by each of the cha
   \includegraphics[width=0.31\textwidth]{figures/silicon/silicon_t5.0.png}
   \includegraphics[width=0.31\textwidth]{figures/silicon/silicon_t6.0.png}
   \includegraphics[width=0.31\textwidth]{figures/silicon/silicon_t7.0.png}\\
-    \caption{\label{fig:sd} (simulation) MIP particle traveling across a silicon strip sensor at $45^\circ$ over time from 0.0, 1.1,1.5,2,3,4,5,6,7 nanoseconds. The induced surface current dissapates and would be collected by the channels of the silicon module.}
+    \caption{\label{fig:sd} (simulation) MIP particle traveling across a silicon strip sensor at $45^\circ$ over time from 0.0, 1.1,1.5,2,3,4,5,6,7 nanoseconds. The induced surface current dissapates and would be collected by the channels of the silicon module ~\cite{Eichhorn:2112017}.}
 \end{figure}
 
 
@@ -100,7 +100,9 @@ This sets in motion the current which will be collected later by each of the cha
 
 
 \subsubsection{Pixel Detector}
-Sitting closest to the beam pipe is the pixel detector system. It contains the Barrel Pixels (BPIX) and the Forward Pixel System (FPIX). Both have a similar construction from the point of the silicon detector modules that make up BPIX and FPIX. 
+\label{sec:pixeldet}
+Sitting closest to the beam pipe is the pixel detector system. It contains the Barrel Pixels (BPIX) and the Forward Pixel System (FPIX).  
+Similar 2x8 silicon detector modules make up both the BPIX and FPIX systems.
 
 In 2016, the phase 1 Forward Pixel System (FPIX) was constructed and tested. At Purdue University, an Aerotech robotic gantry control system was used to join a hybrid flex circuit to a bump-bonded silicon pixel module. Then after wirebonding, the gantry system encapsulated the wirebonds for protection from corrosion and magnetic field resonance. Purdue was one of the manufacturing sites alongside University Nebraska Lincoln. 
 
@@ -113,13 +115,12 @@ Using LabVIEW, we developed a state machine to assemble and encapsulate these pi
 \end{figure}
 
 
-In 2017, this system was installed in CMS, increasing the number of disks to three and the number barrel layers to four.  Due to the experimental design of CMS, the inner sub-detector systems may be taken out of the inner body - the solenoid - and serviced.  
-
-These forward disks are especially important for reconstruction of events with boosted charged particles. They are located at high regions on $\eta$ and are overlapped for improved hermeticity of the tracker.  
+In 2017, this system was installed in CMS, increasing the number of disks to three and the number of barrel layers to four.  Due to the experimental design of CMS, the inner sub-detector systems may be taken out of the inner body --- the solenoid --- and serviced.  
+These forward disks are especially important for reconstruction of events with boosted charged particles. They are located in high regions of $\eta$ and are overlapped for improved hermeticity.  
 
 
 \subsubsection{Silicon Tracker}
-The silicon tracker is comprised of larger silicon modules --- by area --- than the pixel system and is located further from the beam pipe. A representative layout of the silicon tracker and the pixel system can be found in figure \ref{fig:tracker} ~\cite{Chatrchyan:2008zzk}. 
+The silicon tracker comprises larger silicon modules --- by area --- than the pixel system and is located further from the beam pipe. A representative layout of the silicon tracker and the pixel system can be found in figure \ref{fig:tracker} ~\cite{Chatrchyan:2008zzk}. 
 
 \begin{figure}[ht!b]
 \label{fig:tracker}
@@ -132,7 +133,7 @@ The silicon tracker is comprised of larger silicon modules --- by area --- than 
 
 \subsection{Electronic Calorimeter}
 
-The principle components of the ECAL are the 76200 lead tungstate ($\text{PbWO}_4$) crystals, which scintillate and absorb energy from incoming particles. These detector components are also separated in barrel and endcap regions. Photomultipliers are attached to the crystal to detect the light signal. The relative energy resolution is 
+The principal components of the ECAL are the 76200 lead tungstate ($\text{PbWO}_4$) crystals, which scintillate and absorb energy from incoming particles. These detector components are also separated in barrel and endcap regions. Photomultipliers are attached to the crystal to detect the light signal. The relative energy resolution is 
 \begin{equation*}
 \label{eq:ecal}
 \left(\frac{\sigma}{E}\right)^2 = \left( \frac{2.8\%}{\sqrt{E}}  \right)^2 + \left( \frac{0.12}{E}  \right)^2 + (0.3\%)^2 
@@ -140,7 +141,12 @@ The principle components of the ECAL are the 76200 lead tungstate ($\text{PbWO}_
 The 2.8\% reflects the stochastic term, 0.12 the Noise term and 0.3\% the constant term in the fit under calibration with a 440 nm blue laser over 11.5 days ~\cite{Chatrchyan:2008zzk,Eichhorn:2112017}. 
 
 \subsection{Hadronic Calorimeter} 
-The Hadronic Calorimeter is the primary sub-detector to identify hadronic processes, which are generally a collection of ``jets". These jets have sub components of densely clustered energy. Absorber plates are used which cause showers of particles that can be identified through scintillation, similar to the ECAL these signals are read out through photodiodes as well. There are barrel (HB) and endcap (HE) inside the solenoid. The Hadronic Outer (H0) and super forward detector (HF) sit outside the solenoid. An overview of the HCAL system is shown in figure \ref{fig:hcal} ~\cite{Chatrchyan:2008zzk,Eichhorn:2112017}. 
+The Hadronic Calorimeter is the primary sub-detector to identify hadronic processes, which are generally a collection of ``jets". These jets have subcomponents of densely clustered energy. 
+
+%Absorber plates are used which cause showers of particles that can be identified through scintillation, similar to the ECAL these signals are read out through photodiodes as well. 
+Plates are used to induce particle showers, which can be identified through scintillation. Similar to the ECAL, these signals are read out through photodiodes as well. 
+
+There are barrel (HB) and endcap (HE) inside the solenoid. The Hadronic Outer (H0) and super forward detector (HF) sit outside the solenoid. An overview of the HCAL system is shown in figure \ref{fig:hcal} ~\cite{Chatrchyan:2008zzk,Eichhorn:2112017}. 
 
 \begin{figure}[ht!b]
   \centering
@@ -152,9 +158,11 @@ The Hadronic Calorimeter is the primary sub-detector to identify hadronic proces
 
 
 \subsection{Muon Chambers} 
-The gas chambers comprise of Drift Tubes which cover a pseudorapidity region ($|\eta|<1.2$) split into 4 stations in the flux return plates.
+The chambers comprises drift tubes which cover a pseudorapidity region ($|\eta|<1.2$) split into 4 stations in the flux return plates.
 
-In the higher $|\eta|$ regions, cathode strip chambers (CSCs) are used and preferred for their fas response time, fine segmentation, and radiation resistance ~\cite{Chatrchyan:1129810}. For a visual representation of a cross section of the muon system please refer to figure \ref{fig:muonsystem}. Notably, the track of the muon is bent inside the solenoid by the Lorentz force, but outside of that the muon isn't curved in the typical helical fashion. 
+In the higher $|\eta|$ regions, cathode strip chambers (CSCs) are used and preferred for their fast response time, fine segmentation, and radiation resistance ~\cite{Chatrchyan:1129810}. For a visual representation of a cross section of the muon system please refer to figure \ref{fig:muonsystem}. 
+
+Notably, the track of the muon is bent inside the solenoid by the Lorentz force, and then reverses after it exits. 
 
 \begin{figure}[ht!b]
   \centering
@@ -166,21 +174,26 @@ In the higher $|\eta|$ regions, cathode strip chambers (CSCs) are used and prefe
 \section{Level 1 Trigger System and High Level Trigger}
 Particle collisions happen at a rate of 40 MHz with 22 minimum bias events expected to occur on average, making full readout impossible to store because of the high bandwidth ~\cite{Bruning:782076,Foudas:2232067}. The Level 1 Trigger System and High Level Trigger work to reduce these rates by recording events that physicists agree are worth saving. 
 
-The Level-1 trigger system can process data close to the beam collision rate. It is the first online event selection that uses many subsystems in tandem to decide whether or not to save the event. Algorithms are in place that take input from the calorimeters, the muon systems, and other detectors in the form of ``trigger primatives'' and use pattern recognition along with fast summing techniques to trigger on the event. Many of these algorithms are run on Field Programmable Gate Arrays (FPGAs). These decisions are concatenated at the CMS Global Trigger (GT) that arrives at the front ends 144 beam crossing after the interaction. The Level-1 system also outputs physics objects from the algorithms so preliminary leptons, jets, missing transverse energy etc... can be used in algorithms operating at the High Level Trigger ~\cite{Foudas:2232067}. 
+The Level-1 trigger system can process data close to the beam collision rate. It is the first online event selection that uses many subsystems in tandem to decide whether or not to save the event. Algorithms are in place that take input from the calorimeters, the muon systems, and other detectors in the form of ``trigger primitives'' and use pattern recognition along with fast summing techniques to trigger on the event. Many of these algorithms are run on Field Programmable Gate Arrays (FPGAs). These decisions are concatenated at the CMS Global Trigger (GT) which signals at the front end electronics, 144 beam crossing after the interaction. The Level-1 system also outputs physics objects from the algorithms so preliminary leptons, jets, missing transverse energy etc... can be used in algorithms operating at the High Level Trigger ~\cite{Foudas:2232067}. 
 
 
-The HLT maximum input rate is 100KHz and the output is on the order of 100Hz. It is constrained by the processing power available, the data recording and transfer rate of Tier 0, and prompt reconstruction algorithms. Late in Run II  ``Scouting'' and ``Parking'' data was used to help reduce bandwidth constraints. ``Scouting'' reduces the event size by saving only objects reconstructed at HLT and ``Parking'' avoids prompt reconstruction by saving lower level information ~\cite{Thomas:2703017}.
+The HLT maximum input rate is 100KHz and the output is in the order of kHz. It is constrained by the processing power available, the data recording and transfer rate of Tier 0, and prompt reconstruction algorithms. Late in Run II  ``Scouting'' and ``Parking'' data was used to help reduce bandwidth constraints. ``Scouting'' reduces the event size by saving only objects reconstructed at HLT and ``Parking'' avoids prompt reconstruction by saving lower level information ~\cite{Thomas:2703017}.
 
 
 \section{Particle Flow Algorithms}
-The event data model requires association of higher level physics objects --- like leptons --- with energy deposits and tracks in the detector. The particle flow algorithm at CMS has the incredible goal of associating these primary experimental evidence with these particles so that direct comparison to Monte Carlo simulation can be done. The list includes but is not limited to jets, missing transverse energy, taus, charged-leptons, photon isolation, and bottom quark jet identification.
+The event data model requires association of higher level physics objects --- like leptons --- with energy deposits and tracks in the detector. 
+
+The particle flow algorithm at CMS has the goal of associating these primary detector signatures with these particles so that direct comparison to Monte Carlo simulation can be done. 
+
+The list includes, but is not limited to jets, missing transverse energy, taus, charged-leptons, photon isolation, and bottom quark jet identification.
+
 
 To outline the algorithm: Charged particle tracks reconstructed in the tracker, energy clusters from the ECAL, HCAL, and preshower detector (ES), and forward calorimeter (HF) are topologically linked into blocks. The linking is done through many associations of energy deposits and tracks in $\phi,\eta$ space. These blocks are then interpreted as particles and central energies are calibrated depending on their composition. This information and an exhaustive explanation can be found in ~\cite{CMS-PAS-PFT-10-001}.
 
 \section{Computational Infrastructure}
-The rate of data taking at CMS is truly a spectacle. Reaching the Exa-byte era in a fraction of the time of FaceBook and Google, the way data is gathered, computed, and stored should all be showcased. 
+Over 200 peta-bytes of information have been gathered in Run II, the way data is gathered, computed, and stored should all be showcased. 
 
-At CMS above ground there are 32,000 24-core processors at Tier 0 (T0). This is where higher level reconstruction of physics objects is done and was mentioned in previous sections. A schematic overview of the infrastructure can be found in figure \ref{fig:t0} ~\cite{Hufnagel:1319049}. 
+At CMS above ground there are 32,000 24-core processors at Tier 0 (T0). This is where higher level reconstruction of physics objects is done. A schematic overview of the infrastructure can be found in figure \ref{fig:t0} ~\cite{Hufnagel:1319049}. 
 
 \begin{figure}[ht!b]
   \centering
@@ -188,58 +201,7 @@ At CMS above ground there are 32,000 24-core processors at Tier 0 (T0). This is 
     \caption{\label{fig:t0} Schematic overiew of Tier0 computing, data can be available from different sections allowing for data quality monitoring and also storage to several databases ~\cite{Hufnagel:1319049} }
 \end{figure}
 
-The data can then be stored at many different sites. The sites are demarcated based on importance and functionality. There is one Tier-0, seven Tier-1, about one-hundred fifty Tier-2, and numerous Tier-3 centers. The sum of these tiers is the ``grid'' or the Worldwide LHC Computing Grid (WLCG), which in total combines 900 000 cpus from over 170 sites in 42 countries. \texttt{XrootD} and tools like \texttt{PhEDEx} are used for a global file lookup service that allows physicists from around the world to access and use centrally supported data. An abundance of information that is constantly changing can be found \texttt{https://home.cern/science/computing/grid}. 
+The data can then be stored at many different sites. The sites are demarcated based on importance and functionality. There is one Tier-0, seven Tier-1, about one-hundred fifty Tier-2, and numerous Tier-3 centers. The sum of these tiers is the ``grid'' or the Worldwide LHC Computing Grid (WLCG), which in total combines 900 000 cpus from over 170 sites in 42 countries. \texttt{XrootD} and tools like \texttt{Rucio} are used for a global file lookup service that allows physicists from around the world to access and use centrally supported data. An abundance of information that is constantly changing can be found \texttt{https://home.cern/science/computing/grid}. 
 
 
 
-\section{Lepton Identification}
-The following three sections briefly describe how certain subsystems of the CMS detector work together to identify muons, electrons, and tau leptons. 
-
-\subsection{Muon Identification Systems}
-
-In order to identify good muons, several subdetector systems work together in order to reconstruct muons. Looking at muons that come from the interaction vertex - prompt muons - the tracker plays an important role in identifying charged particle tracks. 
-
-As CMS implies in it's name, muons are certainly a focal point in particle detection. Muon reconstruction is possible for the whole kinematic range of the LHC. The tracker system works in tandem with the gas chambers to reconstruct muons, and the solenoid accentuates charge particle's momentum allowing for the most accurate mass resolution possible in a hadronic based physics detector.  
-
-
-During reconstruction, the particle flow algorithm ~\cite{CMS-PAS-PFT-09-001} can identify tracker or global muons which are ultimately divided into four sub types depending on the $\chi^2$ of the track reconstruction and momentum of the candidate muon ~\cite{Kratschmer:1956760}
-
-
-\subsection{Electron Identification Systems}
-
-The main sub detector system that is involved with electron identification is the ECAL. To identify electrons a cluster of energy in the ECAL is associated with a track that is constructed in the silicon detector system. The tracks are identified in the typical fashion by using the Kalman Filter tracking technique to pick good quality tracks, then it's refitted using a Gaussian Sum Filter (GSF). This track would then be associated with the ECAL super cluster (SC) by requiring matching in $\eta,\;\phi$ space
-\[|\Delta\eta| = |\eta_{\text{SC}} - \eta_{\text{in}}^{\text{extrap}}| < 0.02\]
-\[|\Delta\phi| = |\phi_{\text{SC}} - \phi_{\text{in}}^{\text{extrap}}| < 0.15\]
-This association amounts to an overall efficiency of about 93\% ~\cite{Khachatryan:2015hwa}. 
-
-
-In 2016 better calibration studies were completed at lower energy increasing the ECAL performance and the pixel upgrade in 2017 helped track reconstruction resulting in better electron identification ~\cite{Micheli:2727506}.
-
-
-\subsection{Tau Identification Systems}
-Tau leptons are one of the most diverse particle's in the Standard Model. It is the heaviest lepton, so heavy that even tau decays to intermediate mesons are possible. The $\rho$, $a$, and $\pi$ mesons are several possible mesons that the tau can decay to among many possible options. Therefore, when it comes to tau identification many sub systems are needed to properly identify them in addition to higher level algorithms. The focus of this section is on the hardware components that are needed to identify tau leptons. Tau leptons decay both hadronically and leptonically as shown in the table below \ref{tab:taudecay}. 
-
-
-
-\begin{table}[h!tbp]
-\centering
-\label{tab:taudecay}
-\begin{tabular}{c  c r}
-Decay Modes & Resonance & \multicolumn{1}{c}{$\mathcal{B}(\%)$} \\\hline
-Leptonic Decay && \multicolumn{1}{l}{35.2}\\
-$\tau^- \rightarrow e^- \bar{nu}_e \nu_\tau $ & & 17.8 \\
-$\tau^- \rightarrow \mu^- \bar{nu}_\mu \nu_\tau$ & & 17.4 \\\hline
-Hadronic Decay && \multicolumn{1}{l}{64.8}\\
-$\tau^- \rightarrow h^-\nu_\tau$ & & 11.5 \\
-$\tau^- \rightarrow h^-\pi^0 \nu_\tau$ & $\rho(770)$ & 25.9 \\
-$\tau^- \rightarrow h^-\pi^0 \pi^0 \nu_\tau$ & $a_1(1260)$ & 9.5 \\
-$\tau^- \rightarrow h^- h^+ h^- \nu_\tau$ & $a_1(1260)$ & 9.8 \\
-$\tau^- \rightarrow h^- h^+ h^- \pi^0 \nu_\tau$ & & 4.8 \\
-Other & & 3.3 \\\hline
-\end{tabular}
-\end{table}
-
-The important algorithms directly related to hardware are the Hadron Plus Strips (HPS) algorithm which combines the use of the tracker system and the electronic calorimeter (ECAL) for hadronic tau identification ~\cite{Sirunyan_2018}.  
-
-
- 
