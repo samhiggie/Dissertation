@@ -5,22 +5,30 @@ In order to conduct the data driven method, a proportionality is made to extract
 
 
 \subsection{Brief Outline of the Fake Rate Method}
-The general outline to measure the fake rate is as follows:
-The fake rate function in same sign (SS) region is \textit{known}
-Events passing loose identification in opposite sign (OS)region is \textit{known} 
-Events passing signal region is \textit{unknown}
- Prompt MC is subtracted from data, which is motivated by estimating the true jet faking taus background (non-prompt taus). If MC is matched to prompt then it is unlikely a jet faking tau – so they are removed 
+The general outline to measure the fake rate is as follows.
+The fake rate function in the same sign (SS) region is \textit{known}.
+Events passing loose identification in the opposite sign (OS) region is \textit{known}.
+Events passing in the signal region is \textit{unknown}. 
+Assuming the shapes are similar and that the loose and tight identification is not dependent on the sign of the leptons. Then one can make the equivalence statement: 
+\begin{equation}
+\label{eq:abcd}
+\frac{\text{Events}_\text{SS Tight}}{\text{Events}_\text{SS Loose}} \equiv \frac{\text{Events}_\text{OS Tight}}{\text{Events}_\text{OS Loose}}
+\end{equation}
+To make the expression more precise, the fake rate function is typically parametrized in lepton candidate transverse momentum. 
+ Also, prompt MC is subtracted from data, which is motivated by estimating the true jet faking taus background (non-prompt taus). If MC is matched to prompt then it is unlikely a jet faking tau, so they are removed. 
 \[f_r(pt)=\frac{\text{Data Events S.S. Tight - Prompt MC Background}}{\text{Data Events S.S. Loose - Prompt MC Background}}\] 
 
-After the measurement is made for each leg, then apply the fake rate as a weight to the Opposite Sign tight region (the signal region) for one leg at a time
-The fake rate function is parametrized in lepton candidate transverse momentum
+After the measurement is made for each leg, then apply the fake rate as an event weight to the Opposite Sign loose region one leg at a time to extrapolate to the signal region. So isolating the events in the signal region and flipping the relation in equation \ref{eq:abcd}, one obtains the result for each lepton candidate in the final state: 
+\begin{equation}
+\text{Events}_\text{OS Tight} = f_r(pt)\cdot \text{Events}_\text{OS Loose}  
+\end{equation}
 
 \subsection{Measurement of the Fake Rate}
-To measure the fake rate multiple categories are considered. As outlined in the standard model Higgs decays to tau leptons analysis and it's supporting document on fake rate measurements ~\cite{AN16355} , several regions are used to determine the fake rate. The separate ``enriched" background regions are considered 
+To measure the fake rate multiple categories are considered. As outlined in the standard model Higgs decays to tau leptons analysis and its supporting document on fake rate measurements, several regions are used to determine the fake rate ~\cite{AN16355}. The separate ``enriched" background regions are considered 
 \begin{itemize}
 	\item QCD multijet (large majority of jet→ \tauh fake events in the \tauh \tauh final state)
 	\item W+jets (mostly in the e\tauh and µ\tauh final states)
-	\item tt events with fully-hadronic or semi-leptonic decays (mostly in the VBF category)
+	\item tt events with fully-hadronic or semi-leptonic decays
 	\item diboson events with fully-hadronic or semi-leptonic decays.
 \end{itemize} 
 
@@ -28,9 +36,9 @@ These are then measured as a function of $p_T$ of the object and split into subc
 
 In the QCD multijet region, there is no way to estimate it with pure MC simulation. Therefore, in order to estimate the QCD contribution all MC simulation events are subtracted before the measurements. Then the remaining fake rate measurement in the determination region is assumed to be from QCD.
 
-The W+Jets region, similarly all MC is subtracted except for the W+Jets simulation. Note that QCD contamination is minimal because of the dominance of the W boson resonance. 
+In the W+Jets region, similarly all MC is subtracted except for the W+Jets simulation. Note that QCD contamination is minimal because of the dominance of the W boson resonance. 
 
-In the $t\bar{t}$ region it is the same as the W+Jets regions, except the subtraction is $ttbar$; however, there is also an isolation region that is used because the fake rate for this process is expected to be very small and actually calculable using MC, so in addition to the genuine $t\bar{t}$ events, the fraction of jets faking hadronic taus are also included in the subtraction. 
+In the $t\bar{t}$ region it is the same as the W+Jets regions, except the subtraction is $t\bar{t}$; however, there is also an isolation region that is used because the fake rate for this process is expected to be very small and actually calculable using MC, so in addition to the genuine $t\bar{t}$ events, the fraction of jets faking hadronic taus are also included in the subtraction. 
 
 
 
@@ -41,7 +49,7 @@ In addition to measuring the rate for each ``enriched" background region, they a
 
 W+jets with no jets and one jet, QCD multi-jet with no jets, one jet, and more jets, and $t\bar{t}$ make up the total number of background categories that are measured. Only plots pertaining to the $\mu\mu e \tau$ and $\mu\mu \mu \tau$ channels are created. 
 
-At high hadronic tau $p_T$ (greater than 100\GeV), negative fake rates are possible because of low stats and the linear fit model extrapolation, so if the candidate tau has a $p_T$ of greater than 100\GeV then the rate at 100\GeV is applied. 
+At high hadronic tau $p_T$ (greater than 100\GeV), negative fake rates are possible because of low statistics and the linear fit model extrapolation, so if the candidate tau has a $p_T$ of greater than 100\GeV then the rate at 100\GeV is applied. 
 
 Fake factor measurements for the $\mu\mu\mu\tau$ channel in the QCD 0jet region for 2017 is included in figure \ref{fig:fit_raw_mt_0jet_qcd}. 
 
