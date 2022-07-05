@@ -1,7 +1,7 @@
 %background.TeX
 In addition to the Monte Carlo simulation, a data driven method is used to estimate a significant portion of background that simulation alone is not sufficient to measure. Tau leptons decay hadronically about 65\% of the time forming intermediate mesons. The clusters of hadrons that these decays produce are very similar to Quantum Chromodynamic (QCD) processes. These QCD events effectively fake the hadronic $\tau$ signature for the $a$ decay. 
 
-In order to conduct the data driven method, a proportionality is made to extract the jet faking tau background. Generally,this proportion is constructed using an orthogonal region to the statistical hypthesis test (the test is conducted in the signal region). For example this could be sign inversion on the lepton pair used in the final state. In this orthogonal region and in the signal region, tight and loose identification criteria is made to extrapolate the scale factor. One of the critical assumptions for this method to hold is that the shape of the distribution doesn't change much by the tight to loose regions. Therefore using the orthogonal reigons --- tight and loose --- along with the loose signal region one can extrapolate the number of events in the tight signal region. Due to the four regions, the method is also referred to as the "ABCD" method. 
+In order to conduct the data driven method, a proportionality is made to extract the jet faking tau background. Generally,this proportion is constructed using an orthogonal region to the statistical hypthesis test (the test is conducted in the signal region). For example this could be sign inversion on the lepton pair used in the final state. In this orthogonal region and in the signal region, tight and loose identification criteria is made to extrapolate the scale factor. One of the critical assumptions for this method to hold is that the shape of the distribution doesn't change much by the tight to loose regions. Therefore using the orthogonal reigons --- tight and loose --- along with the loose signal region one can extrapolate the number of events in the tight signal region. Due to the four regions, the method is also referred to as the ``ABCD" method. 
 
 
 \subsection{Brief Outline of the Fake Rate Method}
@@ -12,7 +12,7 @@ Events passing signal region is \textit{unknown}
  Prompt MC is subtracted from data, which is motivated by estimating the true jet faking taus background (non-prompt taus). If MC is matched to prompt then it is unlikely a jet faking tau – so they are removed 
 \[f_r(pt)=\frac{\text{Data Events S.S. Tight - Prompt MC Background}}{\text{Data Events S.S. Loose - Prompt MC Background}}\] 
 
-After the measurement is made for each leg, then apply the fake rate as a weight to the Opposite Sign "tight" region (the signal region) for one leg at a time
+After the measurement is made for each leg, then apply the fake rate as a weight to the Opposite Sign tight region (the signal region) for one leg at a time
 The fake rate function is parametrized in lepton candidate transverse momentum
 
 \subsection{Measurement of the Fake Rate}
@@ -55,7 +55,7 @@ The rest of the regions are included in the Appendix \ref{app:ffmeas}.
 %\includegraphics[width=0.31\textwidth]{Figures/FF/plots_mt_2016/fit_rawFF_mt_qcd_0jet.pdf}
 \includegraphics[width=0.85\textwidth]{Figures/FF/plots_mt_2017/fit_rawFF_mt_qcd_0jet.pdf}\\
 %\includegraphics[width=0.31\textwidth]{Figures/FF/plots_mt_2018/fit_rawFF_mt_qcd_0jet.pdf}\\
-\caption{\label{fig:fit_raw_mt_0jet_qcd} Fake factors determined in the QCD multijet determination region with 0 jet in the $\Pgm\tauh$ final state in 2016 (left), 2017 (center), and 2018 (right). They are fitted with linear functions as a function of the $\tauh$ $\pt$. The green and purple lines indicate the shape systematics obtained by uncorrelating the uncertainties in the two fit parameters returned by the fit.  }
+\caption{\label{fig:fit_raw_mt_0jet_qcd} Fake factors determined in the QCD multijet determination region with 0 jet in the $\Pgm\tauh$ final state in 2017. They are fitted with linear functions as a function of the $\tauh$ $\pt$. The green and purple lines indicate the shape systematics obtained by uncorrelating the uncertainties in the two fit parameters returned by the fit.  }
 \end{figure}
 
 
@@ -72,9 +72,9 @@ After the jet faking tau rate is measured, it is then applied to events that are
 applied depending on the 
 pass and fail criteria of each 
 lepton candidate}
-\item{If event fails id for leg 1:\[f_1(pt)=\frac{f_{r_1}(pt)}{1-f_{r_1}(pt)}\]}
-\item{If event fails id for leg 2:\[f_2(pt)=\frac{f_{r_2}(pt)}{1-f_{r_2}(pt)}\]}
-\item{If event fails id for both:\[f_{12}(pt)=-\frac{f_{r_1}(pt)}{1-f_{r_1}(pt)}\cdot\frac{f_{r_2}(pt)}{1-f_{r_2}(pt)}\]}
+\item{If event fails identification for leg 1:\[f_1(pt)=\frac{f_{r_1}(pt)}{1-f_{r_1}(pt)}\]}
+\item{If event fails identification for leg 2:\[f_2(pt)=\frac{f_{r_2}(pt)}{1-f_{r_2}(pt)}\]}
+\item{If event fails identification for both:\[f_{12}(pt)=-\frac{f_{r_1}(pt)}{1-f_{r_1}(pt)}\cdot\frac{f_{r_2}(pt)}{1-f_{r_2}(pt)}\]}
 \end{itemize}
 
 

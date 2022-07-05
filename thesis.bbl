@@ -99,9 +99,12 @@ A.~Sirunyan, A.~Tumasyan, {\em et~al.}, ``Performance of reconstruction and
 
 \bibitem{EGammaEnergyScale}
 E.~P.~O. Group, ``Egamma miniaod v2 apply energy scale 13 tev,'' August 2022.
+\newblock https://twiki.cern.ch/twiki/bin/view/CMS/EgammaMiniAODV2.
 
 \bibitem{TAUIDTwiki}
 T.~P.~O. Group, ``Tauid recommendations 13 tev,'' August 2022.
+\newblock
+  https://twiki.cern.ch/twiki/bin/viewauth/CMS/TauIDRecommendation13TeV.
 
 \bibitem{AN16355}
 CMS, ``Search for the standard model higgs boson decaying to a pair of tau
@@ -109,6 +112,8 @@ CMS, ``Search for the standard model higgs boson decaying to a pair of tau
 
 \bibitem{EGammaMVAID}
 E.~P.~O. Group, ``Electron mva recommendations 13 tev,'' August 2022.
+\newblock
+  https://twiki.cern.ch/twiki/bin/view/CMS/MultivariateElectronIdentificationRun2.
 
 \bibitem{Hassanshahi:2797703}
 M.~H. Hassanshahi, ``{Tau identification in CMS during LHC Run 2},'' tech.

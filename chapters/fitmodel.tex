@@ -2,7 +2,7 @@
 \section{Statistical Inference at CERN}
 In order to conduct a hypothesis test, a test statistic is needed. This is constructed through the \textit{profile likelihood ratio} and then a confidence level is set using the test statistic ~\cite{Cowan_2011}.
 So construction of a likelihood is required, the test statistic from the likelihood, and a way to calculate a confidence level to complete the hypothesis test.
-To construct the likelihood, the typical approach is to assume a Poisson distribution for the events in the $i^{th}$ bin and then "smear" it by multiplying it with a Gaussian that is also dependent on the events. The events are split, into signal and background. Because an alternative hypothesis is explored and a-priori the amount of signal events isn't known, it is floated by a coefficient denoted as $\mu$ - the signal strength. For an upper limit this value is changed until the cumulative distribution function of the likelihood reaches the desired confidence or $p$-value.  
+To construct the likelihood, the typical approach is to assume a Poisson distribution for the events in the $i^{th}$ bin and then ``smear" it by multiplying it with a Gaussian that is also dependent on the events. The events are split, into signal and background. Because an alternative hypothesis is explored and a-priori the amount of signal events isn't known, it is floated by a coefficient denoted as $\mu$ - the signal strength. For an upper limit this value is changed until the cumulative distribution function of the likelihood reaches the desired confidence or $p$-value.  
 
 \[\mathcal{L}(\text{data}|\mu,\theta) = \text{Poisson}(\text{data},\mu\cdot s(\theta)+b(\theta)) \cdot p(\tilde{\theta}|\theta) \]
 For binned $n_i$ events in bin label $i$:
@@ -66,7 +66,7 @@ Then the upper 95\% limit on the branching fraction is
 
 
 \section{Fit model for pseudoscalar Higgs search}
-After the signal extraction cuts are applied, an unbinned parametric likelihood fit was done with various shapes depending on the background and signal categorization. There is one signal distribution depending on the hypothesized $a$ mass, and two background distributions that are considered in the final fit. The two contributing background distributions originate from "Irreducible" events coming from two Z bosons (ZZ) and from "Reducible" events coming from jets faking tau leptons (FF).  
+After the signal extraction cuts are applied, an unbinned parametric likelihood fit was done with various shapes depending on the background and signal categorization. There is one signal distribution depending on the hypothesized $a$ mass, and two background distributions that are considered in the final fit. The two contributing background distributions originate from ``Irreducible" events coming from two Z bosons (ZZ) and from ``Reducible" events coming from jets faking tau leptons (FF).  
 
 %%For the signal, a Voigtian function is used to fit the $a$ mass spectrum in a small window - 2GeV - of the hypothesized $a$ mass for the sample \ref{fig:fit_sig}. The Voigtian shape was chosen to reflect the narrow simulated peak that is statistically smeared by experimental measurement.
 
