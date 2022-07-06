@@ -1,5 +1,4 @@
-Luminosity sets the scale for the number of events recorded at the LHC. It is how bright the beam is and correspondingly, dictates how many interactions can be expected over a data taking period. Therefore, it is important for all physics analyses to use the correct luminosity --- and its measured error --- to obtain an accurate result. The number of expected events for any given process is the luminosity $\mathcal{L}$ times the cross section $\sigma$.  
-
+Luminosity sets the scale for the number of events recorded at the LHC. It is how bright the beam is and correspondingly, dictates how many interactions can be expected over a data taking period. Therefore, it is important for all physics analyses to use the correct luminosity, and its measured error, to obtain an accurate result. The number of expected events for any given process is the luminosity $\mathcal{L}$ times the cross section $\sigma$.  
 \begin{equation}
 N_{\text{event}} = \mathcal{L} \sigma_{\text{event}}
 \end{equation}
@@ -7,7 +6,7 @@ N_{\text{event}} = \mathcal{L} \sigma_{\text{event}}
 \mathcal{L} = \frac{N_b^2 n_b f_\text{LHC} \gamma_r}{4\pi\epsilon_n \beta*}\left( 1 / \sqrt{1+ (\frac{\theta_c \sigma_z}{2\sigma*})^2} \right)
 \end{equation}
 
-$N_b$ is the number of particles in the bunch crossing, $n_b$ the number of bunches, $f_{\text{LHC}}$ the revolution frequency of the LHC,$\gamma_r$ the relativistic factor, $\epsilon_n$ the normalized beam emmittance, $\beta*$ the beta function at the collision point --- related to the crossing angle ---, $\theta_c$ is the full crossing angle, $\sigma_z$ the RMS bunch length and $\sigma^*$ the transverse RMS beam size at the interaction point.
+$N_b$ is the number of particles in the bunch crossing, $n_b$ the number of bunches, $f_{\text{LHC}}$ the revolution frequency of the LHC,$\gamma_r$ the relativistic factor, $\epsilon_n$ the normalized beam emmittance, $\beta*$ the beta function at the collision point (related to the crossing angle), $\theta_c$ is the full crossing angle, $\sigma_z$ the RMS bunch length and $\sigma^*$ the transverse RMS beam size at the interaction point.
 
 Several subsystems are used to measure luminosity at CMS. Particularly the Pixel Luminosity Telescope, Hadronic Calorimeter (HF) with summed transverse energy(ET) and occupancy (OC), BCM1F, and Tracker based or Pixel based luminosity to name several. 
 In this section, the tracker based luminosity will be the focus. The pixel system is integral in the reconstruction of events for physics analysis and in measuring the luminosity.
@@ -15,13 +14,12 @@ In this section, the tracker based luminosity will be the focus. The pixel syste
 There was validation of the new pixel detector in early 2017, from the BPIX and FPIX upgrades mentioned in section \ref{sec:pixeldet}. The Lumi-POG (Luminosity physics object group) commisioned luminosity measurement using the clusters from the new pixel detector in an automated workflow. 
 %Taking many local hits in the pixel module - a.k.a. a pixel cluster - 
 We measure the luminosity by counting pixel clusters in a low channel occupancy setting and scaling it by a visual cross section determined in a separate analysis. Using the relation in equation \ref{eq:pcclum} the instantaneous luminosity can be obtained once the number of clusters and the visible cross section $\sigma_\text{cluster}$ are measured. 
-
 \begin{equation}
 \label{eq:pcclum}
 \langle N_{\text{cluster}}\rangle\equiv\frac{\sigma_{\text{cluster}}}{f_{\text{LHC}}}\mathcal{L}_{\text{SBIL}}
 \end{equation}
 
-Where $f_{\text{LHC}}$ is the revolution frequency of the LHC, and $\mathcal{L}_{\text{SBIL}}$ is the instantaneous luminosity of a single bunch crossing --- the aggregate collection of protons that are in the beam typically 3564 total bunches during standard pp-collisions. $\sigma_{\text{cluster}}$ , is the cross section that is measured in a separate analysis involving Van-de-Meer scans (beam dynamic scans), more details can be found here ~\cite{Knolle:2792593}. 
+Where $f_{\text{LHC}}$ is the revolution frequency of the LHC, and $\mathcal{L}_{\text{SBIL}}$ is the instantaneous luminosity of a single bunch crossing---the aggregate collection of protons that are in the beam typically 3564 total bunches during standard pp-collisions. $\sigma_{\text{cluster}}$ , is the cross section that is measured in a separate analysis involving Van-de-Meer scans (beam dynamic scans), more details can be found here ~\cite{Knolle:2792593}. 
 
 
 

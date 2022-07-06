@@ -4,7 +4,7 @@ In order to conduct a hypothesis test, a test statistic is needed. This is const
 So construction of a likelihood is required, the test statistic from the likelihood, and a way to calculate a confidence level to complete the hypothesis test.
 To construct the likelihood, the typical approach is to assume a Poisson distribution for the events in the $i^{th}$ bin and then ``smear" it by multiplying it with a Gaussian that is also dependent on the events. The events are split, into signal and background. Because an alternative hypothesis is explored and a-priori the amount of signal events isn't known, it is floated by a coefficient denoted as $\mu$ - the signal strength. For an upper limit this value is changed until the cumulative distribution function of the likelihood reaches the desired confidence or $p$-value.  
 
-\[\mathcal{L}(\text{data}|\mu,\theta) = \text{Poisson}(\text{data},\mu\cdot s(\theta)+b(\theta)) \cdot p(\tilde{\theta}|\theta) \]
+\begin{equation}\mathcal{L}(\text{data}|\mu,\theta) = \text{Poisson}(\text{data},\mu\cdot s(\theta)+b(\theta)) \cdot p(\tilde{\theta}|\theta) \end{equation}
 For binned $n_i$ events in bin label $i$:
 \begin{equation}
 \text{Poisson}(\text{data},\mu\cdot s(\theta)+b(\theta)) = \prod_i \frac{(\mu s_i+b_i)^n}{n_i !}e^{-\mu s_i -b_i}
@@ -13,14 +13,14 @@ For binned $n_i$ events in bin label $i$:
 In the case of the pseudoscalar analysis discussed in this paper a slightly different likelihood is considered. A shape-based approach is considered, which instead of a product of many simple Poisson probability density functions, probability distribution functions are used over the entirety of the fit variable (or parameter of interest POI). Multiple PDFs can be combined in this scenario, but the important difference is the absence of any binning. Therefore a good fit is required to have a good description of the events.  
 
 Unbinned or Parametric likelihood functions over $k$ events, $S$ and $B$ the total event rate, $f_s(x_i)$ and $f_b(x_i)$ the \textit{pdfs}
- \[\text{Poisson}(\text{data},\mu\cdot s(\theta)+b(\theta)) = k^-1 \prod_i(\mu S f_s(x_i) + B f_b(x_i))e^{-\mu S - B}\]
+ \begin{equation}\text{Poisson}(\text{data},\mu\cdot s(\theta)+b(\theta)) = k^-1 \prod_i(\mu S f_s(x_i) + B f_b(x_i))e^{-\mu S - B}\end{equation}
 
 Specifically for the pseudoscalar analysis, a product of Bernstein polynomials for $f_b(x_i)$ and Voigtian functions for $f_s(x_i)$ are used. The Bernstein captures the slow changing background that is basically constant in a 2GeV mass window and the Voigtian captures the sharp peaking dimuon mass signal. Details in the analysis will be saved for after the overview of the statistical inference model. 
 
 To outline the typical approach in the profile likelihood method, the follow steps are done in an effort to set the limit
 \begin{enumerate}
 \item {To form the test statistic, the \textit{profile likelihood ratio} is used 
-  \[\tilde{q}_\mu = -2 \ln \frac{\mathcal{L}(\text{data}|\mu,\hat{\hat{\theta}}_\mu)}{\mathcal{L}_\text{max}(\text{data}|\hat{\mu},\hat{\theta})} \;\; 0\leq \hat{\mu} \leq \mu \]
+  \begin{equation}\tilde{q}_\mu = -2 \ln \frac{\mathcal{L}(\text{data}|\mu,\hat{\hat{\theta}}_\mu)}{\mathcal{L}_\text{max}(\text{data}|\hat{\mu},\hat{\theta})} \;\; 0\leq \hat{\mu} \leq \mu \end{equation}
   Where $\hat{\mu}$ and $\hat{\theta}$ are the maximum likelihood estimators. 
   }
   \item Find the \textit{observed} value of the test statistic $\tilde{q}_\mu^{obs}$ for given signal strength $\mu$.
@@ -28,10 +28,10 @@ To outline the typical approach in the profile likelihood method, the follow ste
   \item Generate toy MC pseudo data to construct probability density functions for signal and background $f(\tilde{q}_\mu|\mu,\hat{\theta}_\mu)$ and $f(\tilde{q}_\mu|0,\hat{\theta}_\mu)$ for background only hypothesis. These pdfs are the pdfs of the test statistic under the assumption of a signal strength.
   \item Generate toy MC pseudo data to construct probability density functions for signal and background $f(\tilde{q}_\mu|\mu,\hat{\theta}_\mu)$ and $f(\tilde{q}_\mu|0,\hat{\theta}_\mu)$ for background only hypothesis.
   \item {Define $p$-values to be associated with the actual observation for both $s+b$ and $b$ only hypotheses
-  \[ p_\mu = P(\tilde{q}_\mu \ge \tilde{q}_\mu^{obs}| s+b) = \int_{\tilde{q}_\mu^{obs}}^\infty f(\tilde{q}_\mu |\mu,\hat{\theta}_\mu^{obs} ) d\tilde{q}_\mu\]
-  \[ 1- p_b = P(\tilde{q}_\mu \ge \tilde{q}_b^{obs}| b) = \int_{\tilde{q}_b^{obs}}^\infty f(\tilde{q}_\mu |\mu,\hat{\theta}_b^{obs} ) d\tilde{q}_\mu\]
+  \begin{equation} p_\mu = P(\tilde{q}_\mu \ge \tilde{q}_\mu^{obs}| s+b) = \int_{\tilde{q}_\mu^{obs}}^\infty f(\tilde{q}_\mu |\mu,\hat{\theta}_\mu^{obs} ) d\tilde{q}_\mu\end{equation}
+  \begin{equation} 1- p_b = P(\tilde{q}_\mu \ge \tilde{q}_b^{obs}| b) = \int_{\tilde{q}_b^{obs}}^\infty f(\tilde{q}_\mu |\mu,\hat{\theta}_b^{obs} ) d\tilde{q}_\mu\end{equation}
    Then take the ratio to form the confidence levels
-  \[ CL_s (\mu)  = \frac{p_\mu}{1-p_b}\]
+  \begin{equation} CL_s (\mu)  = \frac{p_\mu}{1-p_b}\end{equation}
   }
   \item{ Let $\alpha$ be the measure of confidence, then for $\mu=1$ if $CL_s \leq \alpha$ then the signal hypothesis is rejected in favor of the background only hypothesis}
   \item {Further to quote the $95\%$ confidence level on $\mu$, we need to adjust the signal strength ($\mu$) , until $CL_s = 0.05$}
@@ -54,14 +54,13 @@ In general \ref{eq:Nevents} works; however, a likelihood model is needed to full
 As outlined in binned-likelihood models in CMS ~\cite{Cowan_2011}, suppose that the number of expected events follows a Poisson distribution. Then in that case if the background model would predict 0 average events, then the upper 95\% bound in that case is 3.7 events. 
 
 Inverting the relation
-\[B = \frac{N}{\sigma \cdot A\cdot \mathcal{L}}\]
+\begin{equation}B = \frac{N}{\sigma \cdot A\cdot \mathcal{L}}\end{equation}
 Selecting the signal acceptance from the pseudoscalar analysis (2016 $\mu\mu\mu\tau$) 
-\[ A = \frac{\text{events pass all cuts}}{\text{starting events}} = \frac{1293}{250000} \approx 0.005 \]
+\begin{equation} A = \frac{\text{events pass all cuts}}{\text{starting events}} = \frac{1293}{250000} \approx 0.005 \end{equation}
 and taking the cross section of the gluon gluon fusion for the parent particle in the decay chain $\sigma = 48 \text{pb}$ along with the luminosity for 2016 $\mathcal{L} = 35,900 \text{pb}^{-1}$
 
 Then the upper 95\% limit on the branching fraction is 
-
-\[B =  \frac{N}{\sigma \cdot A\cdot \mathcal{L}} = 0.00043 = 4.3 \times 10^{-4}\]
+\begin{equation}B =  \frac{N}{\sigma \cdot A\cdot \mathcal{L}} = 0.00043 = 4.3 \times 10^{-4}\end{equation}
 
 
 

@@ -7,12 +7,13 @@
 \contentsline {figure}{\numberline {1.6}{\ignorespaces Diagram of Higgs decay to pseudoscalar $a$ particles (Left) and branching ratios for pseudoscalar production in different $\text {tan}\beta $ scenarios and different 2HDM+S Types (right)}}{12}{figure.1.6}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Overview of the Large Hadron Collider spanning Switzerland and France - Maximilien Brice, CERN }}{14}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces (simulation) MIP particle traveling across a silicon strip sensor at $45^\circ $ over time from 0.0, 1.1,1.5,2,3,4,5,6,7 nanoseconds. The induced surface current dissapates and would be collected by the channels of the silicon module \nobreakspace {}\cite {Eichhorn:2112017}.}}{17}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces encapsulated token bit manager of a forward pixel module currently installed in CMS}}{18}{figure.2.3}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces The silicon tracker system, consisting of the inner pixel system (BPIX and FPIX), The Tracker End Caps (TEC), Tracker Inner Detector(TID), Tracker Inner Barrel (TIB), and the Tracker Outer Barrel (TOB) by position in r, z , and $\eta $ \nobreakspace {}\cite {Chatrchyan:2008zzk}}}{19}{figure.2.4}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Overview of the HCAL system from the z---$\eta $ plane showing the hadron barrel (HB), encap(HE), outer (HO), and the forward (HF) subsystems \nobreakspace {}\cite {Chatrchyan:2008zzk}}}{20}{figure.2.5}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Muon system involving multiple subtector systems: tracker, solenoid, and the muon gas chambers around the iron yoke (grey) - Maximilien Brice, CERN }}{21}{figure.2.6}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Schematic overiew of Tier0 computing, data can be available from different sections allowing for data quality monitoring and also storage to several databases \nobreakspace {}\cite {Hufnagel:1319049} }}{22}{figure.2.7}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The CMS detector full 3D image with all subsystems labeled}}{15}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces (simulation) MIP particle traveling across a silicon strip sensor at $45^\circ $ over time from 0.0, 1.1,1.5,2,3,4,5,6,7 nanoseconds. The induced surface current dissapates and would be collected by the channels of the silicon module \nobreakspace {}\cite {Eichhorn:2112017}.}}{17}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces encapsulated token bit manager of a forward pixel module currently installed in CMS}}{18}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces The silicon tracker system, consisting of the inner pixel system (BPIX and FPIX), The Tracker End Caps (TEC), Tracker Inner Detector(TID), Tracker Inner Barrel (TIB), and the Tracker Outer Barrel (TOB) by position in r, z , and $\eta $ \nobreakspace {}\cite {Chatrchyan:2008zzk}}}{18}{figure.2.5}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Overview of the HCAL system from the z---$\eta $ plane showing the hadron barrel (HB), encap(HE), outer (HO), and the forward (HF) subsystems \nobreakspace {}\cite {Chatrchyan:2008zzk}}}{20}{figure.2.6}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Muon system involving multiple subtector systems: tracker, solenoid, and the muon gas chambers around the iron yoke (grey) - Maximilien Brice, CERN }}{21}{figure.2.7}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Schematic overiew of Tier0 computing, data can be available from different sections allowing for data quality monitoring and also storage to several databases \nobreakspace {}\cite {Hufnagel:1319049} }}{22}{figure.2.8}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces diagram depicting the possible decays of the tau lepton: 65\% of the time hadronically and 18\% to tau neutrino and electron with antielectron neutrino (17\% for muon)}}{32}{figure.4.1}%
@@ -41,7 +42,6 @@
 \contentsline {figure}{\numberline {8.3}{\ignorespaces Asymptotic CL Limits on the branching fraction times ratio of the SM cross sections for 2018}}{65}{figure.8.3}%
 \contentsline {figure}{\numberline {8.4}{\ignorespaces Asymptotic CL Limits on the branching fraction times ratio of the SM cross sections for the full Run II dataset $\text {137}\text {fb}^{-1}$}}{66}{figure.8.4}%
 \contentsline {figure}{\numberline {8.5}{\ignorespaces 2HDM model specific scenarios upper 95\% CL limits on the branch fraction of Higgs to a a times the ratio of the SM cross sections for the full Run II dataset $\text {137}\text {fb}^{-1}$ }}{67}{figure.8.5}%
-\addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {B.1}{\ignorespaces Fake factors determined in the W+jets determination region with 0 jet in the $e\ensuremath {\tau _h}\xspace $ final state in 2016 (left), 2017 (center), and 2018 (right). They are fitted with linear functions as a function of the $\ensuremath {\tau _h}\xspace $ $\ensuremath {p_{\mathrm {T}}}\xspace $. The green and purple lines indicate the shape systematics obtained by uncorrelating the uncertainties in the two fit parameters returned by the fit. }}{74}{figure.B.1}%

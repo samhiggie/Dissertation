@@ -2,7 +2,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Possible hadronic tau decays \nobreakspace {}\cite {Workman:2022}}}{28}{table.4.1}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Possible hadronic tau decays, $h$ doesn't indicate a Higgs particle but a hadronic prong\nobreakspace {}\cite {Workman:2022}}}{28}{table.4.1}%
 \contentsline {table}{\numberline {4.2}{\ignorespaces Measured \Pmu energy scale correction for genuine \Pmu across all years.}}{31}{table.4.2}%
 \contentsline {table}{\numberline {4.3}{\ignorespaces Measured \Pe energy scale correction for genuine \Pe across all years.}}{31}{table.4.3}%
 \contentsline {table}{\numberline {4.4}{\ignorespaces Measured $\ensuremath {\tau _h}\xspace $ energy scale correction for genuine $\ensuremath {\tau _h}\xspace $'s across all years.}}{32}{table.4.4}%
@@ -14,8 +14,7 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {7.1}{\ignorespaces }}{60}{table.7.1}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces Expected event yields of signal an background across all years }}{62}{table.8.1}%
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {8.1}{\ignorespaces Expected event yields of signal and background categories across all years pertaining to 137 $\text {fb}^{-1}$. }}{62}{table.8.1}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {A.1}{\ignorespaces List of data sets included in the analysis for the 2016 data taking period. }}{69}{table.A.1}%
 \contentsline {table}{\numberline {A.2}{\ignorespaces List of data sets included in the analysis for the 2017 data taking period. }}{70}{table.A.2}%

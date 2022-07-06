@@ -4,7 +4,7 @@ The following three sections briefly describe how certain subsystems of the CMS 
 
 \subsection{Muon Identification Systems}
 
-In order to identify good muons, several subdetector work together to reconstruct muons. Looking at muons that come from the interaction vertex --- prompt muons --- the tracker plays an important role in identifying charged particle tracks. 
+In order to identify good muons, several subdetector work together to reconstruct muons. Looking at muons that come from the interaction vertex---prompt muons---the tracker plays an important role in identifying charged particle tracks. 
 
 As CMS implies in its name, muons are certainly a focal point in particle detection. 
 
@@ -20,8 +20,8 @@ The main sub detector system that is involved with electron identification is th
 
 The tracks are identified in the typical fashion by using the Kalman Filter tracking technique to pick good quality tracks, then the tracks are refitted using a Gaussian Sum Filter (GSF). 
 This track would then be associated with the ECAL super cluster (SC) by requiring matching in $\eta,\;\phi$ space
-\[|\Delta\eta| = |\eta_{\text{SC}} - \eta_{\text{in}}^{\text{extrap}}| < 0.02\]
-\[|\Delta\phi| = |\phi_{\text{SC}} - \phi_{\text{in}}^{\text{extrap}}| < 0.15\]
+\begin{equation}|\Delta\eta| = |\eta_{\text{SC}} - \eta_{\text{in}}^{\text{extrap}}| < 0.02\end{equation}
+\begin{equation}|\Delta\phi| = |\phi_{\text{SC}} - \phi_{\text{in}}^{\text{extrap}}| < 0.15\end{equation}
 This association amounts to an overall efficiency of about 93\% ~\cite{Khachatryan:2015hwa}. 
 
 
@@ -35,13 +35,13 @@ Tau leptons are one of the most diverse particles in the Standard Model, decayin
 
 \begin{table}[h!tbp]
 \centering
-    \topcaption{Possible hadronic tau decays ~\cite{Workman:2022}}
+    \topcaption{Possible hadronic tau decays, $h$ doesn't indicate a Higgs particle but a hadronic prong~\cite{Workman:2022}}
 \label{tab:taudecay}
 \begin{tabular}{c  c r}
 Decay Modes & Resonance & \multicolumn{1}{c}{$\mathcal{B}(\%)$} \\\hline
 Leptonic Decay && \multicolumn{1}{l}{35.2}\\
-$\tau^- \rightarrow e^- \bar{nu}_e \nu_\tau $ & & 17.8 \\
-$\tau^- \rightarrow \mu^- \bar{nu}_\mu \nu_\tau$ & & 17.4 \\\hline
+$\tau^- \rightarrow e^- \bar{\nu}_e \nu_\tau $ & & 17.8 \\
+$\tau^- \rightarrow \mu^- \bar{\nu}_\mu \nu_\tau$ & & 17.4 \\\hline
 Hadronic Decay && \multicolumn{1}{l}{64.8}\\
 $\tau^- \rightarrow h^-\nu_\tau$ & & 11.5 \\
 $\tau^- \rightarrow h^-\pi^0 \nu_\tau$ & $\rho(770)$ & 25.9 \\
@@ -91,7 +91,7 @@ For accurate results that reflect true experimental data, many corrections to MC
 
 \subsection{Muon energy scale}
 Corrections to the muon's energy scale are computed for the muons that pass selection for the analysis. Medium muon ID with track based isolation that pass the isolated single muon triggers at 24 GeV and 27GeV are then rescaled for pileup, efficiency, di-lepton $P_T$ and EWK re-weighting of based on accurate gauge boson measurements. After selection, the scale factors for energy corrections are measured and parametrized in $\phi$ and $\eta$ in multiplicative and additive corrections 
-\[\rho^{\text{cor}}=\kappa(\eta,\phi)\rho+Q \lambda(\eta,\phi)\] 
+\begin{equation}\rho^{\text{cor}}=\kappa(\eta,\phi)\rho+Q \lambda(\eta,\phi)\end{equation} 
 
 In practice these are just scale factors applied to the energy scale in certain eta phi regions. \\
 \begin{table}[h]
