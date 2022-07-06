@@ -14,9 +14,9 @@
 \BOOKMARK [1][-]{section.2.2}{The Compact Muon Solenoid detector}{chapter.2}% 14
 \BOOKMARK [1][-]{section.2.3}{Subdetector Systems}{chapter.2}% 15
 \BOOKMARK [2][-]{subsection.2.3.1}{Tracker}{section.2.3}% 16
-\BOOKMARK [2][-]{subsection.2.3.2}{Electronic Calorimeter}{section.2.3}% 17
-\BOOKMARK [2][-]{subsection.2.3.3}{Hadronic Calorimeter}{section.2.3}% 18
-\BOOKMARK [2][-]{subsection.2.3.4}{Muon Chambers}{section.2.3}% 19
+\BOOKMARK [2][-]{subsection.2.3.2}{Electromagnetic Calorimeter \(ECAL\)}{section.2.3}% 17
+\BOOKMARK [2][-]{subsection.2.3.3}{Hadronic Calorimeter \(HCAL\)}{section.2.3}% 18
+\BOOKMARK [2][-]{subsection.2.3.4}{Muon System}{section.2.3}% 19
 \BOOKMARK [1][-]{section.2.4}{Level 1 Trigger System and High Level Trigger}{chapter.2}% 20
 \BOOKMARK [1][-]{section.2.5}{Particle Flow Algorithms}{chapter.2}% 21
 \BOOKMARK [1][-]{section.2.6}{Computational Infrastructure}{chapter.2}% 22
