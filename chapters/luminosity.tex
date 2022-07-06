@@ -6,12 +6,12 @@ N_{\text{event}} = \mathcal{L} \sigma_{\text{event}}
 \mathcal{L} = \frac{N_b^2 n_b f_\text{LHC} \gamma_r}{4\pi\epsilon_n \beta*}\left( 1 / \sqrt{1+ (\frac{\theta_c \sigma_z}{2\sigma*})^2} \right)
 \end{equation}
 
-$N_b$ is the number of particles in the bunch crossing, $n_b$ the number of bunches, $f_{\text{LHC}}$ the revolution frequency of the LHC,$\gamma_r$ the relativistic factor, $\epsilon_n$ the normalized beam emmittance, $\beta*$ the beta function at the collision point (related to the crossing angle), $\theta_c$ is the full crossing angle, $\sigma_z$ the RMS bunch length and $\sigma^*$ the transverse RMS beam size at the interaction point.
+$N_b$ is the number of particles in the bunch crossing, $n_b$ the number of bunches, $f_{\text{LHC}}$ the revolution frequency of the LHC, $\gamma_r$ the relativistic factor, $\epsilon_n$ the normalized beam emmittance, $\beta*$ the beta function at the collision point (related to the crossing angle), $\theta_c$ is the full crossing angle, $\sigma_z$ the RMS bunch length and $\sigma^*$ the transverse RMS beam size at the interaction point.
 
 Several subsystems are used to measure luminosity at CMS. Particularly the Pixel Luminosity Telescope, Hadronic Calorimeter (HF) with summed transverse energy(ET) and occupancy (OC), BCM1F, and Tracker based or Pixel based luminosity to name several. 
 In this section, the tracker based luminosity will be the focus. The pixel system is integral in the reconstruction of events for physics analysis and in measuring the luminosity.
 
-There was validation of the new pixel detector in early 2017, from the BPIX and FPIX upgrades mentioned in section \ref{sec:pixeldet}. The Lumi-POG (Luminosity physics object group) commisioned luminosity measurement using the clusters from the new pixel detector in an automated workflow. 
+There was validation of the new pixel detector in early 2017, from the BPIX and FPIX upgrades mentioned in section \ref{sec:pixeldet}. The Lumi-POG---Luminosity physics object group---commisioned luminosity measurement using the clusters from the new pixel detector in an automated workflow. 
 %Taking many local hits in the pixel module - a.k.a. a pixel cluster - 
 We measure the luminosity by counting pixel clusters in a low channel occupancy setting and scaling it by a visual cross section determined in a separate analysis. Using the relation in equation \ref{eq:pcclum} the instantaneous luminosity can be obtained once the number of clusters and the visible cross section $\sigma_\text{cluster}$ are measured. 
 \begin{equation}
@@ -19,17 +19,17 @@ We measure the luminosity by counting pixel clusters in a low channel occupancy 
 \langle N_{\text{cluster}}\rangle\equiv\frac{\sigma_{\text{cluster}}}{f_{\text{LHC}}}\mathcal{L}_{\text{SBIL}}
 \end{equation}
 
-Where $f_{\text{LHC}}$ is the revolution frequency of the LHC, and $\mathcal{L}_{\text{SBIL}}$ is the instantaneous luminosity of a single bunch crossing---the aggregate collection of protons that are in the beam typically 3564 total bunches during standard pp-collisions. $\sigma_{\text{cluster}}$ , is the cross section that is measured in a separate analysis involving Van-de-Meer scans (beam dynamic scans), more details can be found here ~\cite{Knolle:2792593}. 
+$\mathcal{L}_{\text{SBIL}}$ is the instantaneous luminosity of a single bunch crossing---the aggregate collection of protons that are in the beam typically 3564 total bunches during standard pp-collisions. $\sigma_{\text{cluster}}$ , is the cross section that is measured in a separate analysis involving Van-de-Meer scans (beam dynamic scans), more details can be found here ~\cite{Knolle:2792593}. 
 
 
 
 For the pixel luminosity, a two component correction is applied on the fly to correct for self-radiative effects on the pixel modules under particle fluence and for inefficiency.  
 One detail that is important in estimating the luminosity from the pixel detector is ensuring that the data that is taken and analyzed has consistent performance. Several times in a year, the Lumi-POG and Beam Radiation Instrumentation Luminosity (BRIL) groups analyze the performance of each sub-detector used to measure luminosity and certify the data once the analysis is complete. In 2017 and 2018 data taking campaigns, the luminosity from the pixel detector is vetted by looking at relative module performance over the runs of data taking for the year. If the modules don't have consistent performance they are removed from the final result. 
 
-Even though up to half of the modules are vetoed after this procedure, there are plenty of statistics (lots of pixel clusters per event) to keep the statistical uncertainties low. 
+Even though up to half of the modules are vetoed after this procedure, there are plenty of statistics due to the gathering of many pixel clusters per event. 
 This module veto descision was made by taking the total clusters in each module and scaling them so that the overall total clusters are 1. Then on a per module basis, the performance relative to the total clusters are compared. This helps the analyzer look at consistent performance and manage a list of passing modules to be used in a final luminosity measurement using the pixel detector. 
 
-For Run III data taking (Summer 2022 to Fall 2025), integration of the cluster counting procedure was made into the High Level Trigger at CMS. A data compression of $10^3$ was made by taking the raw level data from the silicon pixels and storing them in a simple data container, saving a peta-byte of data. Online luminosity using these data containers and methods are being investigated as more CMS-physicists are interested in using the central tracking system for luminosity measurements.
+For Run III data taking, integration of the cluster counting procedure was made into the High Level Trigger at CMS. A data compression of $10^3$ was made by taking the raw level data from the silicon pixels and storing them in a simple data container, saving a peta-byte of data. Online luminosity using these data containers and methods are being investigated as more CMS-physicists are interested in using the central tracking system for luminosity measurements.
 
 %In addition to measurements,  upgrade studies were also investigated at scenarios like $3000 \fbinv$, which will be the target integrated luminosity of the High Luminoisty Large Hadron Collider (HL-LHC) . At the HL-LHC many upgrades to the detector will be made. In particular, the MIP timing detector upgrade ~\cite{MIP} was investigated for performance in the $\PH \to \tau\tau$ analysis and results in luminosity measurements at the increased luminosity scenario. The timing upgrade will reproduce mean interactions - pile up - conditions like those that exist during Run II (2015-2018), making low occupancy methods of measuring luminosity possible at high pile up scenarios. Which will result in vast improvements to many physics analyses. 
 

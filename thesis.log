@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.14)  6 JUL 2022 02:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.14)  6 JUL 2022 16:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -986,9 +986,6 @@ LaTeX Info: Redefining \HepProcess on input line 17.
 LaTeX Info: Redefining \HepProcess on input line 85.
 LaTeX Info: Redefining \HepProcess on input line 85.
  [25]
-LaTeX Info: Redefining \HepProcess on input line 85.
-LaTeX Info: Redefining \HepProcess on input line 85.
- [26]
 Chapter 4.
 LaTeX Info: Redefining \HepProcess on input line 85.
 (./chapters/samples.tex
@@ -997,14 +994,14 @@ LaTeX Info: Redefining \HepProcess on input line 5.
 LaTeX Info: Redefining \HepProcess on input line 17.
 LaTeX Info: Redefining \HepProcess on input line 23.
 LaTeX Info: Redefining \HepProcess on input line 23.
- [27
+ [26
 
 ]
 LaTeX Info: Redefining \HepProcess on input line 31.
 LaTeX Info: Redefining \HepProcess on input line 63.
 LaTeX Info: Redefining \HepProcess on input line 65.
 LaTeX Info: Redefining \HepProcess on input line 65.
- [28]
+ [27]
 LaTeX Info: Redefining \HepProcess on input line 78.
 
 
@@ -1045,7 +1042,7 @@ ma-tion can be seen in the pack-age: https://cms-
 
 LaTeX Info: Redefining \HepProcess on input line 84.
 LaTeX Info: Redefining \HepProcess on input line 84.
-[29]
+[28]
 LaTeX Info: Redefining \HepProcess on input line 87.
 LaTeX Info: Redefining \HepProcess on input line 92.
 
@@ -1058,7 +1055,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Info: Redefining \HepProcess on input line 111.
 LaTeX Info: Redefining \HepProcess on input line 111.
-[30]
+[29]
 LaTeX Info: Redefining \HepProcess on input line 111.
 
 Underfull \hbox (badness 10000) in paragraph at lines 115--129
@@ -1084,7 +1081,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--132
  []
 
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/taudecay.pdf
-, id=976, 152.34315pt x 137.27888pt>
+, id=972, 152.34315pt x 137.27888pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/taudeca
 y.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/taudecay
@@ -1094,9 +1091,9 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 (pdftex.def)             Requested size: 220.78543pt x 198.97176pt.
 LaTeX Info: Redefining \HepProcess on input line 153.
 LaTeX Info: Redefining \HepProcess on input line 153.
-[31]
+[30]
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/TauPOG/mtau_
-1ProngPi0_nominal_v3.pdf, id=983, 569.12625pt x 546.04pt>
+1ProngPi0_nominal_v3.pdf, id=979, 569.12625pt x 546.04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/TauPOG/
 mtau_1ProngPi0_nominal_v3.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/TauPOG/m
@@ -1105,7 +1102,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/TauPOG/mtau_1ProngPi0_nominal_v3.pdf  used on input line 159.
 (pdftex.def)             Requested size: 150.32504pt x 144.22499pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/TauPOG/mtau_
-1ProngPi0_minus6percent_v3.pdf, id=984, 569.12625pt x 546.04pt>
+1ProngPi0_minus6percent_v3.pdf, id=980, 569.12625pt x 546.04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/TauPOG/
 mtau_1ProngPi0_minus6percent_v3.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/TauPOG/m
@@ -1115,7 +1112,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 
 (pdftex.def)             Requested size: 150.32504pt x 144.22499pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/TauPOG/mtau_
-1ProngPi0_plus6percent_v3.pdf, id=985, 569.12625pt x 546.04pt>
+1ProngPi0_plus6percent_v3.pdf, id=981, 569.12625pt x 546.04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/TauPOG/
 mtau_1ProngPi0_plus6percent_v3.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/TauPOG/m
@@ -1146,7 +1143,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 LaTeX Info: Redefining \HepProcess on input line 172.
 LaTeX Info: Redefining \HepProcess on input line 172.
-[32 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/taudecay
+[31 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/taudecay
 .pdf>]
 LaTeX Info: Redefining \HepProcess on input line 179.
 
@@ -1196,7 +1193,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 LaTeX Info: Redefining \HepProcess on input line 189.
 LaTeX Info: Redefining \HepProcess on input line 189.
-[33 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/TauPOG/m
+[32 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/TauPOG/m
 tau_1ProngPi0_nominal_v3.pdf, page is rotated 90 degrees> </mnt/c/Users/Sam Hig
 ginbotham/Dropbox/HAA/paper/AN-20-208/Figures/TauPOG/mtau_1ProngPi0_minus6perce
 nt_v3.pdf, page is rotated 90 degrees> </mnt/c/Users/Sam Higginbotham/Dropbox/H
@@ -1207,7 +1204,7 @@ LaTeX Info: Redefining \HepProcess on input line 202.
 LaTeX Info: Redefining \HepProcess on input line 210.
 LaTeX Info: Redefining \HepProcess on input line 224.
 LaTeX Info: Redefining \HepProcess on input line 224.
- [34]
+ [33]
 LaTeX Info: Redefining \HepProcess on input line 224.
 
 Underfull \hbox (badness 10000) in alignment at lines 231--235
@@ -1216,7 +1213,7 @@ Underfull \hbox (badness 10000) in alignment at lines 231--235
 
 LaTeX Info: Redefining \HepProcess on input line 239.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplots_v7p
-lots_allsys_scale_m_etalt1p2Down/mll_fine_mmtt_inclusive.png, id=1159, 598.235p
+lots_allsys_scale_m_etalt1p2Down/mll_fine_mmtt_inclusive.png, id=1154, 598.235p
 t x 574.145pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplot
 s_v7plots_allsys_scale_m_etalt1p2Down/mll_fine_mmtt_inclusive.png Graphic file 
@@ -1228,7 +1225,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 e.png  used on input line 244.
 (pdftex.def)             Requested size: 145.6229pt x 139.76001pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplots_v7p
-lots_allsys_Nominal/mll_fine_mmtt_inclusive.png, id=1160, 598.235pt x 574.145pt
+lots_allsys_Nominal/mll_fine_mmtt_inclusive.png, id=1155, 598.235pt x 574.145pt
 >
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplot
 s_v7plots_allsys_Nominal/mll_fine_mmtt_inclusive.png Graphic file (type png)
@@ -1239,7 +1236,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 n input line 245.
 (pdftex.def)             Requested size: 145.6229pt x 139.76001pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplots_v7p
-lots_allsys_scale_m_etalt1p2Up/mll_fine_mmtt_inclusive.png, id=1161, 598.235pt 
+lots_allsys_scale_m_etalt1p2Up/mll_fine_mmtt_inclusive.png, id=1156, 598.235pt 
 x 574.145pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplot
 s_v7plots_allsys_scale_m_etalt1p2Up/mll_fine_mmtt_inclusive.png Graphic file (t
@@ -1253,7 +1250,7 @@ png  used on input line 246.
 )
 LaTeX Info: Redefining \HepProcess on input line 88.
 LaTeX Info: Redefining \HepProcess on input line 88.
- [35 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplot
+ [34 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplot
 s_v7plots_allsys_scale_m_etalt1p2Down/mll_fine_mmtt_inclusive.png> </mnt/c/User
 s/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplots_v7plots_allsys_
 Nominal/mll_fine_mmtt_inclusive.png> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA
@@ -1261,7 +1258,7 @@ Nominal/mll_fine_mmtt_inclusive.png> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA
 tt_inclusive.png>]
 LaTeX Info: Redefining \HepProcess on input line 89.
 LaTeX Info: Redefining \HepProcess on input line 89.
- [36]
+ [35]
 Chapter 5.
 LaTeX Info: Redefining \HepProcess on input line 89.
 (./chapters/selection.tex
@@ -1269,22 +1266,22 @@ LaTeX Info: Redefining \HepProcess on input line 2.
 LaTeX Info: Redefining \HepProcess on input line 9.
 LaTeX Info: Redefining \HepProcess on input line 15.
 LaTeX Info: Redefining \HepProcess on input line 15.
- [37
+ [36
 
 ]
 LaTeX Info: Redefining \HepProcess on input line 15.
 LaTeX Info: Redefining \HepProcess on input line 47.
 LaTeX Info: Redefining \HepProcess on input line 47.
- [38]
+ [37]
 Overfull \hbox (1.31677pt too wide) in paragraph at lines 54--72
  [][] 
  []
 
 LaTeX Info: Redefining \HepProcess on input line 96.
 LaTeX Info: Redefining \HepProcess on input line 96.
-[39]
+[38]
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplots_mmm
-t_combo_Nominal/AMass_blinded_combined.png, id=1190, 598.235pt x 574.145pt>
+t_combo_Nominal/AMass_blinded_combined.png, id=1186, 598.235pt x 574.145pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplot
 s_mmmt_combo_Nominal/AMass_blinded_combined.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplots
@@ -1294,7 +1291,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 ut line 171.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplots_mme
-t_combo_Nominal/AMass_blinded_combined.png, id=1191, 598.235pt x 574.145pt>
+t_combo_Nominal/AMass_blinded_combined.png, id=1187, 598.235pt x 574.145pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplot
 s_mmet_combo_Nominal/AMass_blinded_combined.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplots
@@ -1304,7 +1301,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 ut line 172.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplots_mme
-m_combo_Nominal/AMass_blinded_combined.png, id=1192, 598.235pt x 574.145pt>
+m_combo_Nominal/AMass_blinded_combined.png, id=1188, 598.235pt x 574.145pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplot
 s_mmem_combo_Nominal/AMass_blinded_combined.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplots
@@ -1314,7 +1311,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 ut line 173.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplots_mmt
-t_combo_Nominal/AMass_blinded_combined.png, id=1193, 598.235pt x 574.145pt>
+t_combo_Nominal/AMass_blinded_combined.png, id=1189, 598.235pt x 574.145pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplot
 s_mmtt_combo_Nominal/AMass_blinded_combined.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplots
@@ -1324,7 +1321,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 ut line 174.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplots_all
-years_combo_Nominal/AMass_blinded_combined.png, id=1194, 598.235pt x 574.145pt>
+years_combo_Nominal/AMass_blinded_combined.png, id=1190, 598.235pt x 574.145pt>
 
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplot
 s_allyears_combo_Nominal/AMass_blinded_combined.png Graphic file (type png)
@@ -1335,7 +1332,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
  input line 180.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplots_all
-years_combo_Nominal/pt_1_combined.png, id=1195, 598.235pt x 574.145pt>
+years_combo_Nominal/pt_1_combined.png, id=1191, 598.235pt x 574.145pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplot
 s_allyears_combo_Nominal/pt_1_combined.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplots
@@ -1345,7 +1342,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 ne 181.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplots_all
-years_combo_Nominal/eta_1_combined.png, id=1196, 598.235pt x 574.145pt>
+years_combo_Nominal/eta_1_combined.png, id=1192, 598.235pt x 574.145pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplot
 s_allyears_combo_Nominal/eta_1_combined.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplots
@@ -1355,7 +1352,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 ine 182.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplots_all
-years_combo_Nominal/pt_3_combined.png, id=1197, 598.235pt x 574.145pt>
+years_combo_Nominal/pt_3_combined.png, id=1193, 598.235pt x 574.145pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplot
 s_allyears_combo_Nominal/pt_3_combined.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplots
@@ -1367,10 +1364,10 @@ ne 183.
 )
 LaTeX Info: Redefining \HepProcess on input line 93.
 LaTeX Info: Redefining \HepProcess on input line 93.
- [40]
+ [39]
 LaTeX Info: Redefining \HepProcess on input line 93.
 LaTeX Info: Redefining \HepProcess on input line 93.
- [41 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplot
+ [40 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplot
 s_mmmt_combo_Nominal/AMass_blinded_combined.png> </mnt/c/Users/Sam Higginbotham
 /Dropbox/HAA/paper/AN-20-208/Figures/outplots_mmet_combo_Nominal/AMass_blinded_
 combined.png> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figure
@@ -1379,7 +1376,7 @@ ginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplots_mmtt_combo_Nominal/AMass
 _blinded_combined.png>]
 LaTeX Info: Redefining \HepProcess on input line 93.
 LaTeX Info: Redefining \HepProcess on input line 93.
- [42 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplot
+ [41 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplot
 s_allyears_combo_Nominal/AMass_blinded_combined.png> </mnt/c/Users/Sam Higginbo
 tham/Dropbox/HAA/paper/AN-20-208/Figures/outplots_allyears_combo_Nominal/pt_1_c
 ombined.png> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures
@@ -1391,51 +1388,51 @@ LaTeX Info: Redefining \HepProcess on input line 93.
 (./chapters/Background.tex
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 7.
+(hyperref)                than one, level fixed on input line 14.
 
-LaTeX Info: Redefining \HepProcess on input line 7.
-LaTeX Info: Redefining \HepProcess on input line 16.
-LaTeX Info: Redefining \HepProcess on input line 16.
-[43
+LaTeX Info: Redefining \HepProcess on input line 14.
+LaTeX Info: Redefining \HepProcess on input line 20.
+LaTeX Info: Redefining \HepProcess on input line 20.
+[42
 
 ]
-LaTeX Info: Redefining \HepProcess on input line 26.
-LaTeX Info: Redefining \HepProcess on input line 40.
-LaTeX Info: Redefining \HepProcess on input line 40.
- [44]
+LaTeX Info: Redefining \HepProcess on input line 33.
+LaTeX Info: Redefining \HepProcess on input line 44.
+LaTeX Info: Redefining \HepProcess on input line 44.
+ [43]
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_mt_
-2017/fit_rawFF_mt_qcd_0jet.pdf, id=1231, 569.12625pt x 552.0625pt>
+2017/fit_rawFF_mt_qcd_0jet.pdf, id=1227, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_mt_2017/fit_rawFF_mt_qcd_0jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
 _mt_2017/fit_rawFF_mt_qcd_0jet.pdf>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
-208/Figures/FF/plots_mt_2017/fit_rawFF_mt_qcd_0jet.pdf  used on input line 64.
+208/Figures/FF/plots_mt_2017/fit_rawFF_mt_qcd_0jet.pdf  used on input line 73.
 (pdftex.def)             Requested size: 399.29463pt x 387.34245pt.
-LaTeX Info: Redefining \HepProcess on input line 73.
-LaTeX Info: Redefining \HepProcess on input line 73.
- [45]
-LaTeX Info: Redefining \HepProcess on input line 73.
-LaTeX Info: Redefining \HepProcess on input line 73.
- [46 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
+LaTeX Info: Redefining \HepProcess on input line 82.
+LaTeX Info: Redefining \HepProcess on input line 82.
+ [44]
+LaTeX Info: Redefining \HepProcess on input line 82.
+LaTeX Info: Redefining \HepProcess on input line 82.
+ [45 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_mt_2017/fit_rawFF_mt_qcd_0jet.pdf, page is rotated 90 degrees>]
-LaTeX Info: Redefining \HepProcess on input line 75.
+LaTeX Info: Redefining \HepProcess on input line 84.
 
 
 pdfTeX warning: pdflatex (file /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/
 AN-20-208/Figures/fakefactor_diagram.pdf): PDF inclusion: found PDF version <1.
 7>, but at most version <1.5> allowed
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/fakefactor_d
-iagram.pdf, id=1285, 794.97pt x 397.485pt>
+iagram.pdf, id=1280, 794.97pt x 397.485pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/fakefac
 tor_diagram.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/fakefact
 or_diagram.pdf>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
-208/Figures/fakefactor_diagram.pdf  used on input line 91.
+208/Figures/fakefactor_diagram.pdf  used on input line 100.
 (pdftex.def)             Requested size: 422.77664pt x 211.39386pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplots_201
-6_smFF_mmmt_Nominal/AMass_blinded_mmmt_FF_SS_validation.png, id=1288, 598.235pt
+6_smFF_mmmt_Nominal/AMass_blinded_mmmt_FF_SS_validation.png, id=1283, 598.235pt
  x 574.145pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplot
 s_2016_smFF_mmmt_Nominal/AMass_blinded_mmmt_FF_SS_validation.png Graphic file (
@@ -1444,47 +1441,47 @@ type png)
 _2016_smFF_mmmt_Nominal/AMass_blinded_mmmt_FF_SS_validation.png>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/outplots_2016_smFF_mmmt_Nominal/AMass_blinded_mmmt_FF_SS_validation
-.png  used on input line 100.
+.png  used on input line 109.
 (pdftex.def)             Requested size: 305.33789pt x 293.04662pt.
 )
 LaTeX Info: Redefining \HepProcess on input line 97.
 LaTeX Info: Redefining \HepProcess on input line 97.
- [47
+ [46
 
 ]
 LaTeX Info: Redefining \HepProcess on input line 97.
 LaTeX Info: Redefining \HepProcess on input line 97.
- [48 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/fakefac
+ [47 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/fakefac
 tor_diagram.pdf> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Fig
 ures/outplots_2016_smFF_mmmt_Nominal/AMass_blinded_mmmt_FF_SS_validation.png>]
 Chapter 7.
 LaTeX Info: Redefining \HepProcess on input line 97.
 (./chapters/fitmodel.tex
 LaTeX Info: Redefining \HepProcess on input line 2.
-LaTeX Info: Redefining \HepProcess on input line 14.
-LaTeX Info: Redefining \HepProcess on input line 14.
- [49
+LaTeX Info: Redefining \HepProcess on input line 13.
+LaTeX Info: Redefining \HepProcess on input line 13.
+ [48
 
 ]
-LaTeX Info: Redefining \HepProcess on input line 32.
-LaTeX Info: Redefining \HepProcess on input line 32.
+LaTeX Info: Redefining \HepProcess on input line 31.
+LaTeX Info: Redefining \HepProcess on input line 31.
+ [49]
+LaTeX Info: Redefining \HepProcess on input line 40.
+LaTeX Info: Redefining \HepProcess on input line 62.
+LaTeX Info: Redefining \HepProcess on input line 62.
  [50]
-LaTeX Info: Redefining \HepProcess on input line 41.
-LaTeX Info: Redefining \HepProcess on input line 63.
-LaTeX Info: Redefining \HepProcess on input line 63.
- [51]
-LaTeX Info: Redefining \HepProcess on input line 67.
+LaTeX Info: Redefining \HepProcess on input line 66.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/DiMuonMass_c
-ombined_sig.pdf, id=1358, 569.12625pt x 546.04pt>
+ombined_sig.pdf, id=1353, 569.12625pt x 546.04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/DiMuonM
 ass_combined_sig.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/DiMuonMa
 ss_combined_sig.pdf>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
-208/Figures/DiMuonMass_combined_sig.pdf  used on input line 77.
+208/Figures/DiMuonMass_combined_sig.pdf  used on input line 76.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmmt_co
-mbination/40_Nominal_a40_2016_mmmt_Nominal.png, id=1359, 598.235pt x 574.145pt>
+mbination/40_Nominal_a40_2016_mmmt_Nominal.png, id=1354, 598.235pt x 574.145pt>
 
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 mt_combination/40_Nominal_a40_2016_mmmt_Nominal.png Graphic file (type png)
@@ -1492,10 +1489,10 @@ mt_combination/40_Nominal_a40_2016_mmmt_Nominal.png Graphic file (type png)
 t_combination/40_Nominal_a40_2016_mmmt_Nominal.png>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmmt_combination/40_Nominal_a40_2016_mmmt_Nominal.png  used on
- input line 90.
+ input line 89.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmet_co
-mbination/40_Nominal_a40_2016_mmet_Nominal.png, id=1360, 598.235pt x 574.145pt>
+mbination/40_Nominal_a40_2016_mmet_Nominal.png, id=1355, 598.235pt x 574.145pt>
 
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 et_combination/40_Nominal_a40_2016_mmet_Nominal.png Graphic file (type png)
@@ -1503,10 +1500,10 @@ et_combination/40_Nominal_a40_2016_mmet_Nominal.png Graphic file (type png)
 t_combination/40_Nominal_a40_2016_mmet_Nominal.png>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmet_combination/40_Nominal_a40_2016_mmet_Nominal.png  used on
- input line 91.
+ input line 90.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmtt_co
-mbination/40_Nominal_a40_2016_mmtt_Nominal.png, id=1361, 598.235pt x 574.145pt>
+mbination/40_Nominal_a40_2016_mmtt_Nominal.png, id=1356, 598.235pt x 574.145pt>
 
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 tt_combination/40_Nominal_a40_2016_mmtt_Nominal.png Graphic file (type png)
@@ -1514,10 +1511,10 @@ tt_combination/40_Nominal_a40_2016_mmtt_Nominal.png Graphic file (type png)
 t_combination/40_Nominal_a40_2016_mmtt_Nominal.png>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmtt_combination/40_Nominal_a40_2016_mmtt_Nominal.png  used on
- input line 92.
+ input line 91.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmem_co
-mbination/40_Nominal_a40_2016_mmem_Nominal.png, id=1362, 598.235pt x 574.145pt>
+mbination/40_Nominal_a40_2016_mmem_Nominal.png, id=1357, 598.235pt x 574.145pt>
 
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 em_combination/40_Nominal_a40_2016_mmem_Nominal.png Graphic file (type png)
@@ -1525,10 +1522,10 @@ em_combination/40_Nominal_a40_2016_mmem_Nominal.png Graphic file (type png)
 m_combination/40_Nominal_a40_2016_mmem_Nominal.png>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmem_combination/40_Nominal_a40_2016_mmem_Nominal.png  used on
- input line 93.
+ input line 92.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmmt_co
-mbination/DiMuonMass_AlphaConstraint_2016_mmmt.pdf, id=1364, 569.12625pt x 546.
+mbination/DiMuonMass_AlphaConstraint_2016_mmmt.pdf, id=1359, 569.12625pt x 546.
 04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 mt_combination/DiMuonMass_AlphaConstraint_2016_mmmt.pdf Graphic file (type pdf)
@@ -1537,10 +1534,10 @@ mt_combination/DiMuonMass_AlphaConstraint_2016_mmmt.pdf Graphic file (type pdf)
 t_combination/DiMuonMass_AlphaConstraint_2016_mmmt.pdf>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmmt_combination/DiMuonMass_AlphaConstraint_2016_mmmt.pdf  use
-d on input line 100.
+d on input line 99.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmmt_co
-mbination/DiMuonMass_SigmaConstraint_2016_mmmt.pdf, id=1365, 569.12625pt x 546.
+mbination/DiMuonMass_SigmaConstraint_2016_mmmt.pdf, id=1360, 569.12625pt x 546.
 04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 mt_combination/DiMuonMass_SigmaConstraint_2016_mmmt.pdf Graphic file (type pdf)
@@ -1549,10 +1546,10 @@ mt_combination/DiMuonMass_SigmaConstraint_2016_mmmt.pdf Graphic file (type pdf)
 t_combination/DiMuonMass_SigmaConstraint_2016_mmmt.pdf>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmmt_combination/DiMuonMass_SigmaConstraint_2016_mmmt.pdf  use
-d on input line 101.
+d on input line 100.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmmt_co
-mbination/DiMuonMass_MeanConstraint_2016_mmmt.pdf, id=1366, 569.12625pt x 546.0
+mbination/DiMuonMass_MeanConstraint_2016_mmmt.pdf, id=1361, 569.12625pt x 546.0
 4pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 mt_combination/DiMuonMass_MeanConstraint_2016_mmmt.pdf Graphic file (type pdf)
@@ -1560,10 +1557,10 @@ mt_combination/DiMuonMass_MeanConstraint_2016_mmmt.pdf Graphic file (type pdf)
 t_combination/DiMuonMass_MeanConstraint_2016_mmmt.pdf>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmmt_combination/DiMuonMass_MeanConstraint_2016_mmmt.pdf  used
- on input line 102.
+ on input line 101.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmmt_co
-mbination/DiMuonMass_NormConstraint_2016_mmmt.pdf, id=1367, 569.12625pt x 546.0
+mbination/DiMuonMass_NormConstraint_2016_mmmt.pdf, id=1362, 569.12625pt x 546.0
 4pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 mt_combination/DiMuonMass_NormConstraint_2016_mmmt.pdf Graphic file (type pdf)
@@ -1571,10 +1568,10 @@ mt_combination/DiMuonMass_NormConstraint_2016_mmmt.pdf Graphic file (type pdf)
 t_combination/DiMuonMass_NormConstraint_2016_mmmt.pdf>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmmt_combination/DiMuonMass_NormConstraint_2016_mmmt.pdf  used
- on input line 103.
+ on input line 102.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmet_co
-mbination/DiMuonMass_AlphaConstraint_2016_mmet.pdf, id=1368, 569.12625pt x 546.
+mbination/DiMuonMass_AlphaConstraint_2016_mmet.pdf, id=1363, 569.12625pt x 546.
 04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 et_combination/DiMuonMass_AlphaConstraint_2016_mmet.pdf Graphic file (type pdf)
@@ -1583,10 +1580,10 @@ et_combination/DiMuonMass_AlphaConstraint_2016_mmet.pdf Graphic file (type pdf)
 t_combination/DiMuonMass_AlphaConstraint_2016_mmet.pdf>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmet_combination/DiMuonMass_AlphaConstraint_2016_mmet.pdf  use
-d on input line 108.
+d on input line 107.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmet_co
-mbination/DiMuonMass_SigmaConstraint_2016_mmet.pdf, id=1369, 569.12625pt x 546.
+mbination/DiMuonMass_SigmaConstraint_2016_mmet.pdf, id=1364, 569.12625pt x 546.
 04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 et_combination/DiMuonMass_SigmaConstraint_2016_mmet.pdf Graphic file (type pdf)
@@ -1595,10 +1592,10 @@ et_combination/DiMuonMass_SigmaConstraint_2016_mmet.pdf Graphic file (type pdf)
 t_combination/DiMuonMass_SigmaConstraint_2016_mmet.pdf>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmet_combination/DiMuonMass_SigmaConstraint_2016_mmet.pdf  use
-d on input line 109.
+d on input line 108.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmet_co
-mbination/DiMuonMass_MeanConstraint_2016_mmet.pdf, id=1370, 569.12625pt x 546.0
+mbination/DiMuonMass_MeanConstraint_2016_mmet.pdf, id=1365, 569.12625pt x 546.0
 4pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 et_combination/DiMuonMass_MeanConstraint_2016_mmet.pdf Graphic file (type pdf)
@@ -1606,10 +1603,10 @@ et_combination/DiMuonMass_MeanConstraint_2016_mmet.pdf Graphic file (type pdf)
 t_combination/DiMuonMass_MeanConstraint_2016_mmet.pdf>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmet_combination/DiMuonMass_MeanConstraint_2016_mmet.pdf  used
- on input line 110.
+ on input line 109.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmet_co
-mbination/DiMuonMass_NormConstraint_2016_mmet.pdf, id=1371, 569.12625pt x 546.0
+mbination/DiMuonMass_NormConstraint_2016_mmet.pdf, id=1366, 569.12625pt x 546.0
 4pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 et_combination/DiMuonMass_NormConstraint_2016_mmet.pdf Graphic file (type pdf)
@@ -1617,10 +1614,10 @@ et_combination/DiMuonMass_NormConstraint_2016_mmet.pdf Graphic file (type pdf)
 t_combination/DiMuonMass_NormConstraint_2016_mmet.pdf>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmet_combination/DiMuonMass_NormConstraint_2016_mmet.pdf  used
- on input line 111.
+ on input line 110.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmtt_co
-mbination/DiMuonMass_AlphaConstraint_2016_mmtt.pdf, id=1372, 569.12625pt x 546.
+mbination/DiMuonMass_AlphaConstraint_2016_mmtt.pdf, id=1367, 569.12625pt x 546.
 04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 tt_combination/DiMuonMass_AlphaConstraint_2016_mmtt.pdf Graphic file (type pdf)
@@ -1629,10 +1626,10 @@ tt_combination/DiMuonMass_AlphaConstraint_2016_mmtt.pdf Graphic file (type pdf)
 t_combination/DiMuonMass_AlphaConstraint_2016_mmtt.pdf>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmtt_combination/DiMuonMass_AlphaConstraint_2016_mmtt.pdf  use
-d on input line 116.
+d on input line 115.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmtt_co
-mbination/DiMuonMass_SigmaConstraint_2016_mmtt.pdf, id=1373, 569.12625pt x 546.
+mbination/DiMuonMass_SigmaConstraint_2016_mmtt.pdf, id=1368, 569.12625pt x 546.
 04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 tt_combination/DiMuonMass_SigmaConstraint_2016_mmtt.pdf Graphic file (type pdf)
@@ -1641,10 +1638,10 @@ tt_combination/DiMuonMass_SigmaConstraint_2016_mmtt.pdf Graphic file (type pdf)
 t_combination/DiMuonMass_SigmaConstraint_2016_mmtt.pdf>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmtt_combination/DiMuonMass_SigmaConstraint_2016_mmtt.pdf  use
-d on input line 117.
+d on input line 116.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmtt_co
-mbination/DiMuonMass_MeanConstraint_2016_mmtt.pdf, id=1374, 569.12625pt x 546.0
+mbination/DiMuonMass_MeanConstraint_2016_mmtt.pdf, id=1369, 569.12625pt x 546.0
 4pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 tt_combination/DiMuonMass_MeanConstraint_2016_mmtt.pdf Graphic file (type pdf)
@@ -1652,10 +1649,10 @@ tt_combination/DiMuonMass_MeanConstraint_2016_mmtt.pdf Graphic file (type pdf)
 t_combination/DiMuonMass_MeanConstraint_2016_mmtt.pdf>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmtt_combination/DiMuonMass_MeanConstraint_2016_mmtt.pdf  used
- on input line 118.
+ on input line 117.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmtt_co
-mbination/DiMuonMass_NormConstraint_2016_mmtt.pdf, id=1375, 569.12625pt x 546.0
+mbination/DiMuonMass_NormConstraint_2016_mmtt.pdf, id=1370, 569.12625pt x 546.0
 4pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 tt_combination/DiMuonMass_NormConstraint_2016_mmtt.pdf Graphic file (type pdf)
@@ -1663,10 +1660,10 @@ tt_combination/DiMuonMass_NormConstraint_2016_mmtt.pdf Graphic file (type pdf)
 t_combination/DiMuonMass_NormConstraint_2016_mmtt.pdf>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmtt_combination/DiMuonMass_NormConstraint_2016_mmtt.pdf  used
- on input line 119.
+ on input line 118.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmem_co
-mbination/DiMuonMass_AlphaConstraint_2016_mmem.pdf, id=1376, 569.12625pt x 546.
+mbination/DiMuonMass_AlphaConstraint_2016_mmem.pdf, id=1371, 569.12625pt x 546.
 04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 em_combination/DiMuonMass_AlphaConstraint_2016_mmem.pdf Graphic file (type pdf)
@@ -1675,10 +1672,10 @@ em_combination/DiMuonMass_AlphaConstraint_2016_mmem.pdf Graphic file (type pdf)
 m_combination/DiMuonMass_AlphaConstraint_2016_mmem.pdf>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmem_combination/DiMuonMass_AlphaConstraint_2016_mmem.pdf  use
-d on input line 124.
+d on input line 123.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmem_co
-mbination/DiMuonMass_SigmaConstraint_2016_mmem.pdf, id=1377, 569.12625pt x 546.
+mbination/DiMuonMass_SigmaConstraint_2016_mmem.pdf, id=1372, 569.12625pt x 546.
 04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 em_combination/DiMuonMass_SigmaConstraint_2016_mmem.pdf Graphic file (type pdf)
@@ -1687,10 +1684,10 @@ em_combination/DiMuonMass_SigmaConstraint_2016_mmem.pdf Graphic file (type pdf)
 m_combination/DiMuonMass_SigmaConstraint_2016_mmem.pdf>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmem_combination/DiMuonMass_SigmaConstraint_2016_mmem.pdf  use
-d on input line 125.
+d on input line 124.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmem_co
-mbination/DiMuonMass_MeanConstraint_2016_mmem.pdf, id=1378, 569.12625pt x 546.0
+mbination/DiMuonMass_MeanConstraint_2016_mmem.pdf, id=1373, 569.12625pt x 546.0
 4pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 em_combination/DiMuonMass_MeanConstraint_2016_mmem.pdf Graphic file (type pdf)
@@ -1698,10 +1695,10 @@ em_combination/DiMuonMass_MeanConstraint_2016_mmem.pdf Graphic file (type pdf)
 m_combination/DiMuonMass_MeanConstraint_2016_mmem.pdf>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmem_combination/DiMuonMass_MeanConstraint_2016_mmem.pdf  used
- on input line 126.
+ on input line 125.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmem_co
-mbination/DiMuonMass_NormConstraint_2016_mmem.pdf, id=1379, 569.12625pt x 546.0
+mbination/DiMuonMass_NormConstraint_2016_mmem.pdf, id=1374, 569.12625pt x 546.0
 4pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 em_combination/DiMuonMass_NormConstraint_2016_mmem.pdf Graphic file (type pdf)
@@ -1709,24 +1706,24 @@ em_combination/DiMuonMass_NormConstraint_2016_mmem.pdf Graphic file (type pdf)
 m_combination/DiMuonMass_NormConstraint_2016_mmem.pdf>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmem_combination/DiMuonMass_NormConstraint_2016_mmem.pdf  used
- on input line 127.
+ on input line 126.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
-LaTeX Info: Redefining \HepProcess on input line 130.
-LaTeX Info: Redefining \HepProcess on input line 130.
- [52 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/DiMuonM
+LaTeX Info: Redefining \HepProcess on input line 129.
+LaTeX Info: Redefining \HepProcess on input line 129.
+ [51 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/DiMuonM
 ass_combined_sig.pdf, page is rotated 90 degrees>]
-LaTeX Info: Redefining \HepProcess on input line 134.
-LaTeX Info: Redefining \HepProcess on input line 134.
- [53 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
+LaTeX Info: Redefining \HepProcess on input line 133.
+LaTeX Info: Redefining \HepProcess on input line 133.
+ [52 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 mt_combination/40_Nominal_a40_2016_mmmt_Nominal.png> </mnt/c/Users/Sam Higginbo
 tham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmet_combination/40_Nominal_a40_2
 016_mmet_Nominal.png> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-20
 8/Figures/2016_mmtt_combination/40_Nominal_a40_2016_mmtt_Nominal.png> </mnt/c/U
 sers/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmem_combination
 /40_Nominal_a40_2016_mmem_Nominal.png>]
-LaTeX Info: Redefining \HepProcess on input line 134.
-LaTeX Info: Redefining \HepProcess on input line 134.
- [54 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
+LaTeX Info: Redefining \HepProcess on input line 133.
+LaTeX Info: Redefining \HepProcess on input line 133.
+ [53 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 mt_combination/DiMuonMass_AlphaConstraint_2016_mmmt.pdf, page is rotated 90 deg
 rees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_m
 mmt_combination/DiMuonMass_SigmaConstraint_2016_mmmt.pdf, page is rotated 90 de
@@ -1736,7 +1733,7 @@ grees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_
 mmmt_combination/DiMuonMass_NormConstraint_2016_mmmt.pdf, page is rotated 90 de
 grees>]
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmmt_co
-mbination/2_Nominal_irBkg_2016_mmmt_Nominal.png, id=1613, 598.235pt x 574.145pt
+mbination/2_Nominal_irBkg_2016_mmmt_Nominal.png, id=1609, 598.235pt x 574.145pt
 >
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 mt_combination/2_Nominal_irBkg_2016_mmmt_Nominal.png Graphic file (type png)
@@ -1744,10 +1741,10 @@ mt_combination/2_Nominal_irBkg_2016_mmmt_Nominal.png Graphic file (type png)
 t_combination/2_Nominal_irBkg_2016_mmmt_Nominal.png>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmmt_combination/2_Nominal_irBkg_2016_mmmt_Nominal.png  used o
-n input line 145.
+n input line 144.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmet_co
-mbination/1_Nominal_irBkg_2016_mmet_Nominal.png, id=1614, 598.235pt x 574.145pt
+mbination/1_Nominal_irBkg_2016_mmet_Nominal.png, id=1610, 598.235pt x 574.145pt
 >
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 et_combination/1_Nominal_irBkg_2016_mmet_Nominal.png Graphic file (type png)
@@ -1755,10 +1752,10 @@ et_combination/1_Nominal_irBkg_2016_mmet_Nominal.png Graphic file (type png)
 t_combination/1_Nominal_irBkg_2016_mmet_Nominal.png>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmet_combination/1_Nominal_irBkg_2016_mmet_Nominal.png  used o
-n input line 146.
+n input line 145.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmtt_co
-mbination/1_Nominal_irBkg_2016_mmtt_Nominal.png, id=1615, 598.235pt x 574.145pt
+mbination/1_Nominal_irBkg_2016_mmtt_Nominal.png, id=1611, 598.235pt x 574.145pt
 >
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 tt_combination/1_Nominal_irBkg_2016_mmtt_Nominal.png Graphic file (type png)
@@ -1766,10 +1763,10 @@ tt_combination/1_Nominal_irBkg_2016_mmtt_Nominal.png Graphic file (type png)
 t_combination/1_Nominal_irBkg_2016_mmtt_Nominal.png>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmtt_combination/1_Nominal_irBkg_2016_mmtt_Nominal.png  used o
-n input line 147.
+n input line 146.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmem_co
-mbination/2_Nominal_irBkg_2016_mmem_Nominal.png, id=1616, 598.235pt x 574.145pt
+mbination/2_Nominal_irBkg_2016_mmem_Nominal.png, id=1612, 598.235pt x 574.145pt
 >
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 em_combination/2_Nominal_irBkg_2016_mmem_Nominal.png Graphic file (type png)
@@ -1777,53 +1774,53 @@ em_combination/2_Nominal_irBkg_2016_mmem_Nominal.png Graphic file (type png)
 m_combination/2_Nominal_irBkg_2016_mmem_Nominal.png>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmem_combination/2_Nominal_irBkg_2016_mmem_Nominal.png  used o
-n input line 148.
+n input line 147.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmmt_co
-mbination/2_Nominal_Bkg_2016_mmmt_Nominal.png, id=1618, 598.235pt x 574.145pt>
+mbination/2_Nominal_Bkg_2016_mmmt_Nominal.png, id=1614, 598.235pt x 574.145pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 mt_combination/2_Nominal_Bkg_2016_mmmt_Nominal.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmm
 t_combination/2_Nominal_Bkg_2016_mmmt_Nominal.png>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmmt_combination/2_Nominal_Bkg_2016_mmmt_Nominal.png  used on 
-input line 166.
+input line 165.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmet_co
-mbination/1_Nominal_Bkg_2016_mmet_Nominal.png, id=1619, 598.235pt x 574.145pt>
+mbination/1_Nominal_Bkg_2016_mmet_Nominal.png, id=1615, 598.235pt x 574.145pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 et_combination/1_Nominal_Bkg_2016_mmet_Nominal.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mme
 t_combination/1_Nominal_Bkg_2016_mmet_Nominal.png>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmet_combination/1_Nominal_Bkg_2016_mmet_Nominal.png  used on 
-input line 167.
+input line 166.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmtt_co
-mbination/1_Nominal_Bkg_2016_mmtt_Nominal.png, id=1620, 598.235pt x 574.145pt>
+mbination/1_Nominal_Bkg_2016_mmtt_Nominal.png, id=1616, 598.235pt x 574.145pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 tt_combination/1_Nominal_Bkg_2016_mmtt_Nominal.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmt
 t_combination/1_Nominal_Bkg_2016_mmtt_Nominal.png>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmtt_combination/1_Nominal_Bkg_2016_mmtt_Nominal.png  used on 
-input line 168.
+input line 167.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmem_co
-mbination/2_Nominal_Bkg_2016_mmem_Nominal.png, id=1621, 598.235pt x 574.145pt>
+mbination/2_Nominal_Bkg_2016_mmem_Nominal.png, id=1617, 598.235pt x 574.145pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 em_combination/2_Nominal_Bkg_2016_mmem_Nominal.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mme
 m_combination/2_Nominal_Bkg_2016_mmem_Nominal.png>
 Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/2016_mmem_combination/2_Nominal_Bkg_2016_mmem_Nominal.png  used on 
-input line 169.
+input line 168.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 )
 (./chapters/systematics.tex
 LaTeX Info: Redefining \HepProcess on input line 4.
 LaTeX Info: Redefining \HepProcess on input line 4.
- [55 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
+ [54 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 et_combination/DiMuonMass_AlphaConstraint_2016_mmet.pdf, page is rotated 90 deg
 rees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_m
 met_combination/DiMuonMass_SigmaConstraint_2016_mmet.pdf, page is rotated 90 de
@@ -1834,7 +1831,7 @@ mmet_combination/DiMuonMass_NormConstraint_2016_mmet.pdf, page is rotated 90 de
 grees>]
 LaTeX Info: Redefining \HepProcess on input line 6.
 LaTeX Info: Redefining \HepProcess on input line 6.
- [56 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
+ [55 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 tt_combination/DiMuonMass_AlphaConstraint_2016_mmtt.pdf, page is rotated 90 deg
 rees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_m
 mtt_combination/DiMuonMass_SigmaConstraint_2016_mmtt.pdf, page is rotated 90 de
@@ -1845,7 +1842,7 @@ mmtt_combination/DiMuonMass_NormConstraint_2016_mmtt.pdf, page is rotated 90 de
 grees>]
 LaTeX Info: Redefining \HepProcess on input line 11.
 LaTeX Info: Redefining \HepProcess on input line 11.
- [57 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
+ [56 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 em_combination/DiMuonMass_AlphaConstraint_2016_mmem.pdf, page is rotated 90 deg
 rees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_m
 mem_combination/DiMuonMass_SigmaConstraint_2016_mmem.pdf, page is rotated 90 de
@@ -1856,7 +1853,7 @@ mmem_combination/DiMuonMass_NormConstraint_2016_mmem.pdf, page is rotated 90 de
 grees>]
 LaTeX Info: Redefining \HepProcess on input line 28.
 LaTeX Info: Redefining \HepProcess on input line 28.
- [58 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
+ [57 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 mt_combination/2_Nominal_irBkg_2016_mmmt_Nominal.png> </mnt/c/Users/Sam Higginb
 otham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmet_combination/1_Nominal_irBkg
 _2016_mmet_Nominal.png> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
@@ -1865,7 +1862,7 @@ c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmem_combinat
 ion/2_Nominal_irBkg_2016_mmem_Nominal.png>]
 LaTeX Info: Redefining \HepProcess on input line 28.
 LaTeX Info: Redefining \HepProcess on input line 28.
- [59 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
+ [58 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mm
 mt_combination/2_Nominal_Bkg_2016_mmmt_Nominal.png> </mnt/c/Users/Sam Higginbot
 ham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmet_combination/1_Nominal_Bkg_201
 6_mmet_Nominal.png> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/
@@ -1874,9 +1871,9 @@ s/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2016_mmem_combination/2_
 Nominal_Bkg_2016_mmem_Nominal.png>]
 LaTeX Info: Redefining \HepProcess on input line 28.
 LaTeX Info: Redefining \HepProcess on input line 28.
- [60]
+ [59]
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalcards/2
-017_mmmt_combination/testimpacts_2017_mmmt-crop.pdf, id=2170, 571.13374pt x 454
+017_mmmt_combination/testimpacts_2017_mmmt-crop.pdf, id=2166, 571.13374pt x 454
 .69875pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2017_mmmt_combination/testimpacts_2017_mmmt-crop.pdf Graphic file (type pdf
@@ -1890,7 +1887,7 @@ ed on input line 34.
 )
 LaTeX Info: Redefining \HepProcess on input line 102.
 LaTeX Info: Redefining \HepProcess on input line 102.
- [61
+ [60
 
  </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalcards/
 2017_mmmt_combination/testimpacts_2017_mmmt-crop.pdf>]
@@ -1903,11 +1900,11 @@ Underfull \hbox (badness 10000) in alignment at lines 13--18
 
 LaTeX Info: Redefining \HepProcess on input line 31.
 LaTeX Info: Redefining \HepProcess on input line 31.
-[62
+[61
 
 ]
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plotLimi
-t_aa_2016_mmet_2016.png, id=2228, 702.625pt x 552.0625pt>
+t_aa_2016_mmet_2016.png, id=2224, 702.625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plo
 tLimit_aa_2016_mmet_2016.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plot
@@ -1916,7 +1913,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/CLs/plotLimit_aa_2016_mmet_2016.png  used on input line 35.
 (pdftex.def)             Requested size: 220.78543pt x 173.471pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plotLimi
-t_aa_2016_mmtt_2016.png, id=2229, 702.625pt x 552.0625pt>
+t_aa_2016_mmtt_2016.png, id=2225, 702.625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plo
 tLimit_aa_2016_mmtt_2016.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plot
@@ -1925,7 +1922,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/CLs/plotLimit_aa_2016_mmtt_2016.png  used on input line 36.
 (pdftex.def)             Requested size: 220.78543pt x 173.471pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plotLimi
-t_aa_2016_mmmt_2016.png, id=2230, 702.625pt x 552.0625pt>
+t_aa_2016_mmmt_2016.png, id=2226, 702.625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plo
 tLimit_aa_2016_mmmt_2016.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plot
@@ -1934,7 +1931,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/CLs/plotLimit_aa_2016_mmmt_2016.png  used on input line 37.
 (pdftex.def)             Requested size: 220.78543pt x 173.471pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plotLimi
-t_aa_2016_mmem_2016.png, id=2231, 702.625pt x 552.0625pt>
+t_aa_2016_mmem_2016.png, id=2227, 702.625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plo
 tLimit_aa_2016_mmem_2016.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plot
@@ -1943,7 +1940,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/CLs/plotLimit_aa_2016_mmem_2016.png  used on input line 38.
 (pdftex.def)             Requested size: 220.78543pt x 173.471pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plotLimi
-t_aa_2017_mmet_2017.png, id=2232, 702.625pt x 552.0625pt>
+t_aa_2017_mmet_2017.png, id=2228, 702.625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plo
 tLimit_aa_2017_mmet_2017.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plot
@@ -1952,7 +1949,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/CLs/plotLimit_aa_2017_mmet_2017.png  used on input line 44.
 (pdftex.def)             Requested size: 220.78543pt x 173.471pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plotLimi
-t_aa_2017_mmtt_2017.png, id=2233, 702.625pt x 552.0625pt>
+t_aa_2017_mmtt_2017.png, id=2229, 702.625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plo
 tLimit_aa_2017_mmtt_2017.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plot
@@ -1961,7 +1958,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/CLs/plotLimit_aa_2017_mmtt_2017.png  used on input line 45.
 (pdftex.def)             Requested size: 220.78543pt x 173.471pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plotLimi
-t_aa_2017_mmmt_2017.png, id=2234, 702.625pt x 552.0625pt>
+t_aa_2017_mmmt_2017.png, id=2230, 702.625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plo
 tLimit_aa_2017_mmmt_2017.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plot
@@ -1970,7 +1967,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/CLs/plotLimit_aa_2017_mmmt_2017.png  used on input line 46.
 (pdftex.def)             Requested size: 220.78543pt x 173.471pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plotLimi
-t_aa_2017_mmem_2017.png, id=2235, 702.625pt x 552.0625pt>
+t_aa_2017_mmem_2017.png, id=2231, 702.625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plo
 tLimit_aa_2017_mmem_2017.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plot
@@ -1979,7 +1976,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/CLs/plotLimit_aa_2017_mmem_2017.png  used on input line 47.
 (pdftex.def)             Requested size: 220.78543pt x 173.471pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plotLimi
-t_aa_2018_mmet_2018.png, id=2236, 702.625pt x 552.0625pt>
+t_aa_2018_mmet_2018.png, id=2232, 702.625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plo
 tLimit_aa_2018_mmet_2018.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plot
@@ -1988,7 +1985,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/CLs/plotLimit_aa_2018_mmet_2018.png  used on input line 53.
 (pdftex.def)             Requested size: 220.78543pt x 173.471pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plotLimi
-t_aa_2018_mmtt_2018.png, id=2237, 702.625pt x 552.0625pt>
+t_aa_2018_mmtt_2018.png, id=2233, 702.625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plo
 tLimit_aa_2018_mmtt_2018.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plot
@@ -1997,7 +1994,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/CLs/plotLimit_aa_2018_mmtt_2018.png  used on input line 54.
 (pdftex.def)             Requested size: 220.78543pt x 173.471pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plotLimi
-t_aa_2018_mmmt_2018.png, id=2238, 702.625pt x 552.0625pt>
+t_aa_2018_mmmt_2018.png, id=2234, 702.625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plo
 tLimit_aa_2018_mmmt_2018.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plot
@@ -2006,7 +2003,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/CLs/plotLimit_aa_2018_mmmt_2018.png  used on input line 55.
 (pdftex.def)             Requested size: 220.78543pt x 173.471pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plotLimi
-t_aa_2018_mmem_2018.png, id=2239, 702.625pt x 552.0625pt>
+t_aa_2018_mmem_2018.png, id=2235, 702.625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plo
 tLimit_aa_2018_mmem_2018.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plot
@@ -2016,7 +2013,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 (pdftex.def)             Requested size: 220.78543pt x 173.471pt.
 LaTeX Info: Redefining \HepProcess on input line 60.
 LaTeX Info: Redefining \HepProcess on input line 60.
- [63 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plo
+ [62 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plo
 tLimit_aa_2016_mmet_2016.png> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/
 AN-20-208/Figures/CLs/plotLimit_aa_2016_mmtt_2016.png> </mnt/c/Users/Sam Higgin
 botham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plotLimit_aa_2016_mmmt_2016.png>
@@ -2024,7 +2021,7 @@ botham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plotLimit_aa_2016_mmmt_2016.png>
 it_aa_2016_mmem_2016.png>]
 LaTeX Info: Redefining \HepProcess on input line 60.
 LaTeX Info: Redefining \HepProcess on input line 60.
- [64 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plo
+ [63 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plo
 tLimit_aa_2017_mmet_2017.png> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/
 AN-20-208/Figures/CLs/plotLimit_aa_2017_mmtt_2017.png> </mnt/c/Users/Sam Higgin
 botham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plotLimit_aa_2017_mmmt_2017.png>
@@ -2032,14 +2029,14 @@ botham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plotLimit_aa_2017_mmmt_2017.png>
 it_aa_2017_mmem_2017.png>]
 LaTeX Info: Redefining \HepProcess on input line 60.
 LaTeX Info: Redefining \HepProcess on input line 60.
- [65 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plo
+ [64 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plo
 tLimit_aa_2018_mmet_2018.png> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/
 AN-20-208/Figures/CLs/plotLimit_aa_2018_mmtt_2018.png> </mnt/c/Users/Sam Higgin
 botham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plotLimit_aa_2018_mmmt_2018.png>
  </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/CLs/plotLim
 it_aa_2018_mmem_2018.png>]
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/combination/
-plotLimit_aa_2022_all_2022_zoom.png, id=2254, 702.625pt x 552.0625pt>
+plotLimit_aa_2022_all_2022_zoom.png, id=2249, 702.625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/combina
 tion/plotLimit_aa_2022_all_2022_zoom.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/combinat
@@ -2049,7 +2046,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
  65.
 (pdftex.def)             Requested size: 305.33789pt x 239.9178pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/combination/
-2HDM_Model_2DLimits_I.png, id=2255, 598.235pt x 574.145pt>
+2HDM_Model_2DLimits_I.png, id=2250, 598.235pt x 574.145pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/combina
 tion/2HDM_Model_2DLimits_I.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/combinat
@@ -2058,7 +2055,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/combination/2HDM_Model_2DLimits_I.png  used on input line 71.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/combination/
-2HDM_Model_2DLimits_II.png, id=2256, 598.235pt x 574.145pt>
+2HDM_Model_2DLimits_II.png, id=2251, 598.235pt x 574.145pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/combina
 tion/2HDM_Model_2DLimits_II.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/combinat
@@ -2067,7 +2064,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/combination/2HDM_Model_2DLimits_II.png  used on input line 72.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/combination/
-2HDM_Model_2DLimits_III.png, id=2257, 598.235pt x 574.145pt>
+2HDM_Model_2DLimits_III.png, id=2252, 598.235pt x 574.145pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/combina
 tion/2HDM_Model_2DLimits_III.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/combinat
@@ -2076,7 +2073,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/combination/2HDM_Model_2DLimits_III.png  used on input line 73.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/combination/
-2HDM_Model_2DLimits_IV.png, id=2258, 598.235pt x 574.145pt>
+2HDM_Model_2DLimits_IV.png, id=2253, 598.235pt x 574.145pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/combina
 tion/2HDM_Model_2DLimits_IV.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/combinat
@@ -2086,13 +2083,13 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 LaTeX Info: Redefining \HepProcess on input line 78.
 LaTeX Info: Redefining \HepProcess on input line 78.
- [66
+ [65
 
  </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/combination
 /plotLimit_aa_2022_all_2022_zoom.png>]
 LaTeX Info: Redefining \HepProcess on input line 78.
 LaTeX Info: Redefining \HepProcess on input line 78.
- [67 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/combina
+ [66 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/combina
 tion/2HDM_Model_2DLimits_I.png> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/pape
 r/AN-20-208/Figures/combination/2HDM_Model_2DLimits_II.png> </mnt/c/Users/Sam H
 igginbotham/Dropbox/HAA/paper/AN-20-208/Figures/combination/2HDM_Model_2DLimits
@@ -2105,7 +2102,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
 )
 LaTeX Info: Redefining \HepProcess on input line 109.
 LaTeX Info: Redefining \HepProcess on input line 109.
- [68
+ [67
 
 ]
 Appendix A.
@@ -2121,32 +2118,32 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Info: Redefining \HepProcess on input line 111.
 LaTeX Info: Redefining \HepProcess on input line 111.
-[69
+[68
 
 ]
 LaTeX Info: Redefining \HepProcess on input line 111.
 LaTeX Info: Redefining \HepProcess on input line 111.
- [70]
+ [69]
 LaTeX Info: Redefining \HepProcess on input line 185.
 LaTeX Info: Redefining \HepProcess on input line 185.
+ [70
+
+]
+LaTeX Info: Redefining \HepProcess on input line 271.
+LaTeX Info: Redefining \HepProcess on input line 271.
  [71
 
 ]
-LaTeX Info: Redefining \HepProcess on input line 271.
-LaTeX Info: Redefining \HepProcess on input line 271.
+LaTeX Info: Redefining \HepProcess on input line 343.
+LaTeX Info: Redefining \HepProcess on input line 343.
  [72
-
-]
-LaTeX Info: Redefining \HepProcess on input line 343.
-LaTeX Info: Redefining \HepProcess on input line 343.
- [73
 
 ])
 Appendix B.
 LaTeX Info: Redefining \HepProcess on input line 113.
 (./chapters/app-ffmeas.tex
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_
-2016/fit_rawFF_et_w_0jet.pdf, id=2294, 569.12625pt x 552.0625pt>
+2016/fit_rawFF_et_w_0jet.pdf, id=2290, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_et_2016/fit_rawFF_et_w_0jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2155,7 +2152,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_et_2016/fit_rawFF_et_w_0jet.pdf  used on input line 5.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_
-2017/fit_rawFF_et_w_0jet.pdf, id=2295, 569.12625pt x 552.0625pt>
+2017/fit_rawFF_et_w_0jet.pdf, id=2291, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_et_2017/fit_rawFF_et_w_0jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2164,7 +2161,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_et_2017/fit_rawFF_et_w_0jet.pdf  used on input line 6.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_
-2018/fit_rawFF_et_w_0jet.pdf, id=2296, 569.12625pt x 552.0625pt>
+2018/fit_rawFF_et_w_0jet.pdf, id=2292, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_et_2018/fit_rawFF_et_w_0jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2173,7 +2170,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_et_2018/fit_rawFF_et_w_0jet.pdf  used on input line 7.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_
-2016/fit_rawFF_et_w_1jet.pdf, id=2297, 569.12625pt x 552.0625pt>
+2016/fit_rawFF_et_w_1jet.pdf, id=2293, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_et_2016/fit_rawFF_et_w_1jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2182,7 +2179,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_et_2016/fit_rawFF_et_w_1jet.pdf  used on input line 13.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_
-2017/fit_rawFF_et_w_1jet.pdf, id=2298, 569.12625pt x 552.0625pt>
+2017/fit_rawFF_et_w_1jet.pdf, id=2294, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_et_2017/fit_rawFF_et_w_1jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2191,7 +2188,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_et_2017/fit_rawFF_et_w_1jet.pdf  used on input line 14.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_
-2018/fit_rawFF_et_w_1jet.pdf, id=2299, 569.12625pt x 552.0625pt>
+2018/fit_rawFF_et_w_1jet.pdf, id=2295, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_et_2018/fit_rawFF_et_w_1jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2200,7 +2197,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_et_2018/fit_rawFF_et_w_1jet.pdf  used on input line 15.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_
-2016/fit_rawFF_et_w_2jet.pdf, id=2300, 569.12625pt x 552.0625pt>
+2016/fit_rawFF_et_w_2jet.pdf, id=2296, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_et_2016/fit_rawFF_et_w_2jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2209,7 +2206,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_et_2016/fit_rawFF_et_w_2jet.pdf  used on input line 21.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_
-2017/fit_rawFF_et_w_2jet.pdf, id=2301, 569.12625pt x 552.0625pt>
+2017/fit_rawFF_et_w_2jet.pdf, id=2297, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_et_2017/fit_rawFF_et_w_2jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2218,7 +2215,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_et_2017/fit_rawFF_et_w_2jet.pdf  used on input line 22.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_
-2018/fit_rawFF_et_w_2jet.pdf, id=2302, 569.12625pt x 552.0625pt>
+2018/fit_rawFF_et_w_2jet.pdf, id=2298, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_et_2018/fit_rawFF_et_w_2jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2227,7 +2224,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_et_2018/fit_rawFF_et_w_2jet.pdf  used on input line 23.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_mt_
-2016/fit_rawFF_mt_w_0jet.pdf, id=2303, 569.12625pt x 552.0625pt>
+2016/fit_rawFF_mt_w_0jet.pdf, id=2299, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_mt_2016/fit_rawFF_mt_w_0jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2236,7 +2233,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_mt_2016/fit_rawFF_mt_w_0jet.pdf  used on input line 30.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_mt_
-2017/fit_rawFF_mt_w_0jet.pdf, id=2304, 569.12625pt x 552.0625pt>
+2017/fit_rawFF_mt_w_0jet.pdf, id=2300, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_mt_2017/fit_rawFF_mt_w_0jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2245,7 +2242,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_mt_2017/fit_rawFF_mt_w_0jet.pdf  used on input line 31.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_mt_
-2018/fit_rawFF_mt_w_0jet.pdf, id=2305, 569.12625pt x 552.0625pt>
+2018/fit_rawFF_mt_w_0jet.pdf, id=2301, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_mt_2018/fit_rawFF_mt_w_0jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2254,7 +2251,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_mt_2018/fit_rawFF_mt_w_0jet.pdf  used on input line 32.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_mt_
-2016/fit_rawFF_mt_w_1jet.pdf, id=2306, 569.12625pt x 552.0625pt>
+2016/fit_rawFF_mt_w_1jet.pdf, id=2302, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_mt_2016/fit_rawFF_mt_w_1jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2263,7 +2260,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_mt_2016/fit_rawFF_mt_w_1jet.pdf  used on input line 38.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_mt_
-2017/fit_rawFF_mt_w_1jet.pdf, id=2307, 569.12625pt x 552.0625pt>
+2017/fit_rawFF_mt_w_1jet.pdf, id=2303, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_mt_2017/fit_rawFF_mt_w_1jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2272,7 +2269,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_mt_2017/fit_rawFF_mt_w_1jet.pdf  used on input line 39.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_mt_
-2018/fit_rawFF_mt_w_1jet.pdf, id=2308, 569.12625pt x 552.0625pt>
+2018/fit_rawFF_mt_w_1jet.pdf, id=2304, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_mt_2018/fit_rawFF_mt_w_1jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2281,7 +2278,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_mt_2018/fit_rawFF_mt_w_1jet.pdf  used on input line 40.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_mt_
-2016/fit_rawFF_mt_w_2jet.pdf, id=2309, 569.12625pt x 552.0625pt>
+2016/fit_rawFF_mt_w_2jet.pdf, id=2305, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_mt_2016/fit_rawFF_mt_w_2jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2290,7 +2287,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_mt_2016/fit_rawFF_mt_w_2jet.pdf  used on input line 46.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_mt_
-2017/fit_rawFF_mt_w_2jet.pdf, id=2310, 569.12625pt x 552.0625pt>
+2017/fit_rawFF_mt_w_2jet.pdf, id=2306, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_mt_2017/fit_rawFF_mt_w_2jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2299,7 +2296,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_mt_2017/fit_rawFF_mt_w_2jet.pdf  used on input line 47.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_mt_
-2018/fit_rawFF_mt_w_2jet.pdf, id=2311, 569.12625pt x 552.0625pt>
+2018/fit_rawFF_mt_w_2jet.pdf, id=2307, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_mt_2018/fit_rawFF_mt_w_2jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2308,7 +2305,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_mt_2018/fit_rawFF_mt_w_2jet.pdf  used on input line 48.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_
-2016/fit_rawFF_et_qcd_0jet.pdf, id=2312, 569.12625pt x 552.0625pt>
+2016/fit_rawFF_et_qcd_0jet.pdf, id=2308, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_et_2016/fit_rawFF_et_qcd_0jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2317,7 +2314,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_et_2016/fit_rawFF_et_qcd_0jet.pdf  used on input line 54.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_
-2017/fit_rawFF_et_qcd_0jet.pdf, id=2313, 569.12625pt x 552.0625pt>
+2017/fit_rawFF_et_qcd_0jet.pdf, id=2309, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_et_2017/fit_rawFF_et_qcd_0jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2326,7 +2323,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_et_2017/fit_rawFF_et_qcd_0jet.pdf  used on input line 55.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_
-2018/fit_rawFF_et_qcd_0jet.pdf, id=2314, 569.12625pt x 552.0625pt>
+2018/fit_rawFF_et_qcd_0jet.pdf, id=2310, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_et_2018/fit_rawFF_et_qcd_0jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2335,7 +2332,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_et_2018/fit_rawFF_et_qcd_0jet.pdf  used on input line 56.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_
-2016/fit_rawFF_et_qcd_1jet.pdf, id=2315, 569.12625pt x 552.0625pt>
+2016/fit_rawFF_et_qcd_1jet.pdf, id=2311, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_et_2016/fit_rawFF_et_qcd_1jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2344,7 +2341,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_et_2016/fit_rawFF_et_qcd_1jet.pdf  used on input line 63.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_
-2017/fit_rawFF_et_qcd_1jet.pdf, id=2316, 569.12625pt x 552.0625pt>
+2017/fit_rawFF_et_qcd_1jet.pdf, id=2312, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_et_2017/fit_rawFF_et_qcd_1jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2353,7 +2350,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_et_2017/fit_rawFF_et_qcd_1jet.pdf  used on input line 64.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_
-2018/fit_rawFF_et_qcd_1jet.pdf, id=2317, 569.12625pt x 552.0625pt>
+2018/fit_rawFF_et_qcd_1jet.pdf, id=2313, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_et_2018/fit_rawFF_et_qcd_1jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2362,7 +2359,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_et_2018/fit_rawFF_et_qcd_1jet.pdf  used on input line 65.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_
-2016/fit_rawFF_et_qcd_2jet.pdf, id=2318, 569.12625pt x 552.0625pt>
+2016/fit_rawFF_et_qcd_2jet.pdf, id=2314, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_et_2016/fit_rawFF_et_qcd_2jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2371,7 +2368,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_et_2016/fit_rawFF_et_qcd_2jet.pdf  used on input line 71.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_
-2017/fit_rawFF_et_qcd_2jet.pdf, id=2319, 569.12625pt x 552.0625pt>
+2017/fit_rawFF_et_qcd_2jet.pdf, id=2315, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_et_2017/fit_rawFF_et_qcd_2jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2380,7 +2377,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_et_2017/fit_rawFF_et_qcd_2jet.pdf  used on input line 72.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_
-2018/fit_rawFF_et_qcd_2jet.pdf, id=2320, 569.12625pt x 552.0625pt>
+2018/fit_rawFF_et_qcd_2jet.pdf, id=2316, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_et_2018/fit_rawFF_et_qcd_2jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2389,7 +2386,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_et_2018/fit_rawFF_et_qcd_2jet.pdf  used on input line 73.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_mt_
-2016/fit_rawFF_mt_qcd_1jet.pdf, id=2321, 569.12625pt x 552.0625pt>
+2016/fit_rawFF_mt_qcd_1jet.pdf, id=2317, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_mt_2016/fit_rawFF_mt_qcd_1jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2398,7 +2395,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_mt_2016/fit_rawFF_mt_qcd_1jet.pdf  used on input line 81.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_mt_
-2017/fit_rawFF_mt_qcd_1jet.pdf, id=2322, 569.12625pt x 552.0625pt>
+2017/fit_rawFF_mt_qcd_1jet.pdf, id=2318, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_mt_2017/fit_rawFF_mt_qcd_1jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2407,7 +2404,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_mt_2017/fit_rawFF_mt_qcd_1jet.pdf  used on input line 82.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_mt_
-2018/fit_rawFF_mt_qcd_1jet.pdf, id=2323, 569.12625pt x 552.0625pt>
+2018/fit_rawFF_mt_qcd_1jet.pdf, id=2319, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_mt_2018/fit_rawFF_mt_qcd_1jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2416,7 +2413,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_mt_2018/fit_rawFF_mt_qcd_1jet.pdf  used on input line 83.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_mt_
-2016/fit_rawFF_mt_qcd_2jet.pdf, id=2324, 569.12625pt x 552.0625pt>
+2016/fit_rawFF_mt_qcd_2jet.pdf, id=2320, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_mt_2016/fit_rawFF_mt_qcd_2jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2425,7 +2422,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_mt_2016/fit_rawFF_mt_qcd_2jet.pdf  used on input line 89.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_mt_
-2017/fit_rawFF_mt_qcd_2jet.pdf, id=2325, 569.12625pt x 552.0625pt>
+2017/fit_rawFF_mt_qcd_2jet.pdf, id=2321, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_mt_2017/fit_rawFF_mt_qcd_2jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2434,7 +2431,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_mt_2017/fit_rawFF_mt_qcd_2jet.pdf  used on input line 90.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_mt_
-2018/fit_rawFF_mt_qcd_2jet.pdf, id=2326, 569.12625pt x 552.0625pt>
+2018/fit_rawFF_mt_qcd_2jet.pdf, id=2322, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_mt_2018/fit_rawFF_mt_qcd_2jet.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2443,7 +2440,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_mt_2018/fit_rawFF_mt_qcd_2jet.pdf  used on input line 91.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_
-2016/fit_rawFF_et_tt.pdf, id=2327, 569.12625pt x 552.0625pt>
+2016/fit_rawFF_et_tt.pdf, id=2323, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_et_2016/fit_rawFF_et_tt.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2452,7 +2449,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_et_2016/fit_rawFF_et_tt.pdf  used on input line 97.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_
-2017/fit_rawFF_et_tt.pdf, id=2328, 569.12625pt x 552.0625pt>
+2017/fit_rawFF_et_tt.pdf, id=2324, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_et_2017/fit_rawFF_et_tt.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2461,7 +2458,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_et_2017/fit_rawFF_et_tt.pdf  used on input line 98.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_
-2018/fit_rawFF_et_tt.pdf, id=2329, 569.12625pt x 552.0625pt>
+2018/fit_rawFF_et_tt.pdf, id=2325, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_et_2018/fit_rawFF_et_tt.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2470,7 +2467,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_et_2018/fit_rawFF_et_tt.pdf  used on input line 99.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_
-2016/fit_mc_rawFF_et_tt.pdf, id=2330, 569.12625pt x 552.0625pt>
+2016/fit_mc_rawFF_et_tt.pdf, id=2326, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_et_2016/fit_mc_rawFF_et_tt.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2479,7 +2476,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_et_2016/fit_mc_rawFF_et_tt.pdf  used on input line 106.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_
-2017/fit_mc_rawFF_et_tt.pdf, id=2331, 569.12625pt x 552.0625pt>
+2017/fit_mc_rawFF_et_tt.pdf, id=2327, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_et_2017/fit_mc_rawFF_et_tt.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2488,7 +2485,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_et_2017/fit_mc_rawFF_et_tt.pdf  used on input line 107.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_
-2018/fit_mc_rawFF_et_tt.pdf, id=2332, 569.12625pt x 552.0625pt>
+2018/fit_mc_rawFF_et_tt.pdf, id=2328, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_et_2018/fit_mc_rawFF_et_tt.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2497,7 +2494,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_et_2018/fit_mc_rawFF_et_tt.pdf  used on input line 108.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_mt_
-2016/fit_rawFF_mt_tt.pdf, id=2333, 569.12625pt x 552.0625pt>
+2016/fit_rawFF_mt_tt.pdf, id=2329, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_mt_2016/fit_rawFF_mt_tt.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2506,7 +2503,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_mt_2016/fit_rawFF_mt_tt.pdf  used on input line 114.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_mt_
-2017/fit_rawFF_mt_tt.pdf, id=2334, 569.12625pt x 552.0625pt>
+2017/fit_rawFF_mt_tt.pdf, id=2330, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_mt_2017/fit_rawFF_mt_tt.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2515,7 +2512,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_mt_2017/fit_rawFF_mt_tt.pdf  used on input line 115.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_mt_
-2018/fit_rawFF_mt_tt.pdf, id=2335, 569.12625pt x 552.0625pt>
+2018/fit_rawFF_mt_tt.pdf, id=2331, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_mt_2018/fit_rawFF_mt_tt.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2524,7 +2521,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_mt_2018/fit_rawFF_mt_tt.pdf  used on input line 116.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_mt_
-2016/fit_mc_rawFF_mt_tt.pdf, id=2336, 569.12625pt x 552.0625pt>
+2016/fit_mc_rawFF_mt_tt.pdf, id=2332, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_mt_2016/fit_mc_rawFF_mt_tt.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2533,7 +2530,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_mt_2016/fit_mc_rawFF_mt_tt.pdf  used on input line 123.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_mt_
-2017/fit_mc_rawFF_mt_tt.pdf, id=2337, 569.12625pt x 552.0625pt>
+2017/fit_mc_rawFF_mt_tt.pdf, id=2333, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_mt_2017/fit_mc_rawFF_mt_tt.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2542,7 +2539,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 208/Figures/FF/plots_mt_2017/fit_mc_rawFF_mt_tt.pdf  used on input line 124.
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_mt_
-2018/fit_mc_rawFF_mt_tt.pdf, id=2338, 569.12625pt x 552.0625pt>
+2018/fit_mc_rawFF_mt_tt.pdf, id=2334, 569.12625pt x 552.0625pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_mt_2018/fit_mc_rawFF_mt_tt.pdf Graphic file (type pdf)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
@@ -2552,7 +2549,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 (pdftex.def)             Requested size: 145.6229pt x 141.25844pt.
 LaTeX Info: Redefining \HepProcess on input line 128.
 LaTeX Info: Redefining \HepProcess on input line 128.
- [74
+ [73
 
 
  </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et
@@ -2563,7 +2560,7 @@ A/paper/AN-20-208/Figures/FF/plots_et_2018/fit_rawFF_et_w_0jet.pdf, page is rot
 ated 90 degrees>]
 LaTeX Info: Redefining \HepProcess on input line 128.
 LaTeX Info: Redefining \HepProcess on input line 128.
- [75 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
+ [74 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_et_2016/fit_rawFF_et_w_1jet.pdf, page is rotated 90 degrees> </mnt/c/Users/Sa
 m Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_2017/fit_rawFF_e
 t_w_1jet.pdf, page is rotated 90 degrees> </mnt/c/Users/Sam Higginbotham/Dropbo
@@ -2581,7 +2578,7 @@ res/FF/plots_mt_2017/fit_rawFF_mt_w_0jet.pdf, page is rotated 90 degrees> </mnt
 fit_rawFF_mt_w_0jet.pdf, page is rotated 90 degrees>]
 LaTeX Info: Redefining \HepProcess on input line 128.
 LaTeX Info: Redefining \HepProcess on input line 128.
- [76 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
+ [75 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_mt_2016/fit_rawFF_mt_w_1jet.pdf, page is rotated 90 degrees> </mnt/c/Users/Sa
 m Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_mt_2017/fit_rawFF_m
 t_w_1jet.pdf, page is rotated 90 degrees> </mnt/c/Users/Sam Higginbotham/Dropbo
@@ -2599,7 +2596,7 @@ gures/FF/plots_et_2017/fit_rawFF_et_qcd_0jet.pdf, page is rotated 90 degrees> <
 018/fit_rawFF_et_qcd_0jet.pdf, page is rotated 90 degrees>]
 LaTeX Info: Redefining \HepProcess on input line 128.
 LaTeX Info: Redefining \HepProcess on input line 128.
- [77 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
+ [76 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_et_2016/fit_rawFF_et_qcd_1jet.pdf, page is rotated 90 degrees> </mnt/c/Users/
 Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_2017/fit_rawFF
 _et_qcd_1jet.pdf, page is rotated 90 degrees> </mnt/c/Users/Sam Higginbotham/Dr
@@ -2618,7 +2615,7 @@ F/plots_mt_2018/fit_rawFF_mt_qcd_1jet.pdf, page is rotated 90 degrees>]
 LaTeX Info: Redefining \HepProcess on input line 128.
 LaTeX Info: Redefining \HepProcess on input line 128.
 
-[78 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
+[77 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots
 _mt_2016/fit_rawFF_mt_qcd_2jet.pdf, page is rotated 90 degrees> </mnt/c/Users/S
 am Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_mt_2017/fit_rawFF_
 mt_qcd_2jet.pdf, page is rotated 90 degrees> </mnt/c/Users/Sam Higginbotham/Dro
@@ -2636,7 +2633,7 @@ Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_2018/fit_mc_ra
 wFF_et_tt.pdf, page is rotated 90 degrees>]
 LaTeX Info: Redefining \HepProcess on input line 128.
 LaTeX Info: Redefining \HepProcess on input line 128.
- [79 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
+ [78 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plot
 s_mt_2016/fit_rawFF_mt_tt.pdf, page is rotated 90 degrees> </mnt/c/Users/Sam Hi
 gginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_mt_2017/fit_rawFF_mt_tt
 .pdf, page is rotated 90 degrees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/pa
@@ -2651,7 +2648,7 @@ Appendix C.
 LaTeX Info: Redefining \HepProcess on input line 117.
 (./chapters/app-sysunc.tex
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalcards/2
-016_mmmt_combination/testimpacts_2016_mmmt-crop.pdf, id=4308, 571.13374pt x 454
+016_mmmt_combination/testimpacts_2016_mmmt-crop.pdf, id=4304, 571.13374pt x 454
 .69875pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2016_mmmt_combination/testimpacts_2016_mmmt-crop.pdf Graphic file (type pdf
@@ -2663,7 +2660,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 ed on input line 7.
 (pdftex.def)             Requested size: 446.26582pt x 355.28802pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalcards/2
-016_mmet_combination/testimpacts_2016_mmet-crop.pdf, id=4309, 571.13374pt x 454
+016_mmet_combination/testimpacts_2016_mmet-crop.pdf, id=4305, 571.13374pt x 454
 .69875pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2016_mmet_combination/testimpacts_2016_mmet-crop.pdf Graphic file (type pdf
@@ -2676,13 +2673,13 @@ ed on input line 13.
 (pdftex.def)             Requested size: 446.26582pt x 355.28802pt.
 LaTeX Info: Redefining \HepProcess on input line 15.
 LaTeX Info: Redefining \HepProcess on input line 15.
- [80
+ [79
 
 
  </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalcards/
 2016_mmmt_combination/testimpacts_2016_mmmt-crop.pdf>]
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalcards/2
-016_mmtt_combination/testimpacts_2016_mmtt-crop.pdf, id=4360, 571.13374pt x 454
+016_mmtt_combination/testimpacts_2016_mmtt-crop.pdf, id=4356, 571.13374pt x 454
 .69875pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2016_mmtt_combination/testimpacts_2016_mmtt-crop.pdf Graphic file (type pdf
@@ -2694,7 +2691,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 ed on input line 19.
 (pdftex.def)             Requested size: 446.26582pt x 355.28802pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalcards/2
-016_mmem_combination/testimpacts_2016_mmem-crop.pdf, id=4361, 571.13374pt x 454
+016_mmem_combination/testimpacts_2016_mmem-crop.pdf, id=4357, 571.13374pt x 454
 .69875pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2016_mmem_combination/testimpacts_2016_mmem-crop.pdf Graphic file (type pdf
@@ -2706,7 +2703,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 ed on input line 25.
 (pdftex.def)             Requested size: 446.26582pt x 355.28802pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalcards/2
-017_mmet_combination/testimpacts_2017_mmet-crop.pdf, id=4362, 571.13374pt x 454
+017_mmet_combination/testimpacts_2017_mmet-crop.pdf, id=4358, 571.13374pt x 454
 .69875pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2017_mmet_combination/testimpacts_2017_mmet-crop.pdf Graphic file (type pdf
@@ -2718,7 +2715,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 ed on input line 32.
 (pdftex.def)             Requested size: 446.26582pt x 355.28802pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalcards/2
-017_mmtt_combination/testimpacts_2017_mmtt-crop.pdf, id=4363, 571.13374pt x 454
+017_mmtt_combination/testimpacts_2017_mmtt-crop.pdf, id=4359, 571.13374pt x 454
 .69875pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2017_mmtt_combination/testimpacts_2017_mmtt-crop.pdf Graphic file (type pdf
@@ -2730,7 +2727,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 ed on input line 38.
 (pdftex.def)             Requested size: 446.26582pt x 355.28802pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalcards/2
-017_mmem_combination/testimpacts_2017_mmem-crop.pdf, id=4364, 571.13374pt x 454
+017_mmem_combination/testimpacts_2017_mmem-crop.pdf, id=4360, 571.13374pt x 454
 .69875pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2017_mmem_combination/testimpacts_2017_mmem-crop.pdf Graphic file (type pdf
@@ -2742,7 +2739,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 ed on input line 44.
 (pdftex.def)             Requested size: 446.26582pt x 355.28802pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalcards/2
-018_mmmt_combination/testimpacts_2018_mmmt-crop.pdf, id=4365, 571.13374pt x 454
+018_mmmt_combination/testimpacts_2018_mmmt-crop.pdf, id=4361, 571.13374pt x 454
 .69875pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2018_mmmt_combination/testimpacts_2018_mmmt-crop.pdf Graphic file (type pdf
@@ -2754,7 +2751,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 ed on input line 50.
 (pdftex.def)             Requested size: 446.26582pt x 355.28802pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalcards/2
-018_mmet_combination/testimpacts_2018_mmet-crop.pdf, id=4366, 571.13374pt x 454
+018_mmet_combination/testimpacts_2018_mmet-crop.pdf, id=4362, 571.13374pt x 454
 .69875pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2018_mmet_combination/testimpacts_2018_mmet-crop.pdf Graphic file (type pdf
@@ -2766,7 +2763,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 ed on input line 56.
 (pdftex.def)             Requested size: 446.26582pt x 355.28802pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalcards/2
-018_mmtt_combination/testimpacts_2018_mmtt-crop.pdf, id=4367, 571.13374pt x 454
+018_mmtt_combination/testimpacts_2018_mmtt-crop.pdf, id=4363, 571.13374pt x 454
 .69875pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2018_mmtt_combination/testimpacts_2018_mmtt-crop.pdf Graphic file (type pdf
@@ -2778,7 +2775,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 ed on input line 62.
 (pdftex.def)             Requested size: 446.26582pt x 355.28802pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalcards/2
-018_mmem_combination/testimpacts_2018_mmem-crop.pdf, id=4368, 571.13374pt x 454
+018_mmem_combination/testimpacts_2018_mmem-crop.pdf, id=4364, 571.13374pt x 454
 .69875pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2018_mmem_combination/testimpacts_2018_mmem-crop.pdf Graphic file (type pdf
@@ -2792,50 +2789,50 @@ ed on input line 68.
 )
 LaTeX Info: Redefining \HepProcess on input line 121.
 LaTeX Info: Redefining \HepProcess on input line 121.
- [81 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
+ [80 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2016_mmet_combination/testimpacts_2016_mmet-crop.pdf>]
 LaTeX Info: Redefining \HepProcess on input line 121.
 LaTeX Info: Redefining \HepProcess on input line 121.
- [82 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
+ [81 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2016_mmtt_combination/testimpacts_2016_mmtt-crop.pdf>]
 LaTeX Info: Redefining \HepProcess on input line 121.
 LaTeX Info: Redefining \HepProcess on input line 121.
- [83 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
+ [82 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2016_mmem_combination/testimpacts_2016_mmem-crop.pdf>]
 LaTeX Info: Redefining \HepProcess on input line 121.
 LaTeX Info: Redefining \HepProcess on input line 121.
- [84 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
+ [83 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2017_mmet_combination/testimpacts_2017_mmet-crop.pdf>]
 LaTeX Info: Redefining \HepProcess on input line 121.
 LaTeX Info: Redefining \HepProcess on input line 121.
- [85 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
+ [84 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2017_mmtt_combination/testimpacts_2017_mmtt-crop.pdf>]
 LaTeX Info: Redefining \HepProcess on input line 121.
 LaTeX Info: Redefining \HepProcess on input line 121.
- [86 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
+ [85 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2017_mmem_combination/testimpacts_2017_mmem-crop.pdf>]
 LaTeX Info: Redefining \HepProcess on input line 121.
 LaTeX Info: Redefining \HepProcess on input line 121.
- [87 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
+ [86 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2018_mmmt_combination/testimpacts_2018_mmmt-crop.pdf>]
 LaTeX Info: Redefining \HepProcess on input line 121.
 LaTeX Info: Redefining \HepProcess on input line 121.
- [88 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
+ [87 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2018_mmet_combination/testimpacts_2018_mmet-crop.pdf>]
 LaTeX Info: Redefining \HepProcess on input line 121.
 LaTeX Info: Redefining \HepProcess on input line 121.
 
-[89 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalcar
+[88 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalcar
 ds/2018_mmtt_combination/testimpacts_2018_mmtt-crop.pdf>]
 LaTeX Info: Redefining \HepProcess on input line 121.
 LaTeX Info: Redefining \HepProcess on input line 121.
- [90 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
+ [89 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2018_mmem_combination/testimpacts_2018_mmem-crop.pdf>]
 Appendix D.
 LaTeX Info: Redefining \HepProcess on input line 121.
 (./chapters/app-fitmodel.tex
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmmt_co
-mbination/40_Nominal_a40_2017_mmmt_Nominal.png, id=4864, 598.235pt x 574.145pt>
+mbination/40_Nominal_a40_2017_mmmt_Nominal.png, id=4860, 598.235pt x 574.145pt>
 
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 mt_combination/40_Nominal_a40_2017_mmmt_Nominal.png Graphic file (type png)
@@ -2846,7 +2843,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
  input line 6.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmet_co
-mbination/40_Nominal_a40_2017_mmet_Nominal.png, id=4865, 598.235pt x 574.145pt>
+mbination/40_Nominal_a40_2017_mmet_Nominal.png, id=4861, 598.235pt x 574.145pt>
 
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 et_combination/40_Nominal_a40_2017_mmet_Nominal.png Graphic file (type png)
@@ -2857,7 +2854,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
  input line 7.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmtt_co
-mbination/40_Nominal_a40_2017_mmtt_Nominal.png, id=4866, 598.235pt x 574.145pt>
+mbination/40_Nominal_a40_2017_mmtt_Nominal.png, id=4862, 598.235pt x 574.145pt>
 
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 tt_combination/40_Nominal_a40_2017_mmtt_Nominal.png Graphic file (type png)
@@ -2868,7 +2865,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
  input line 8.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmem_co
-mbination/40_Nominal_a40_2017_mmem_Nominal.png, id=4867, 598.235pt x 574.145pt>
+mbination/40_Nominal_a40_2017_mmem_Nominal.png, id=4863, 598.235pt x 574.145pt>
 
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 em_combination/40_Nominal_a40_2017_mmem_Nominal.png Graphic file (type png)
@@ -2879,7 +2876,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
  input line 9.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmmt_co
-mbination/DiMuonMass_AlphaConstraint_2017_mmmt.pdf, id=4868, 569.12625pt x 546.
+mbination/DiMuonMass_AlphaConstraint_2017_mmmt.pdf, id=4864, 569.12625pt x 546.
 04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 mt_combination/DiMuonMass_AlphaConstraint_2017_mmmt.pdf Graphic file (type pdf)
@@ -2891,7 +2888,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 d on input line 15.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmmt_co
-mbination/DiMuonMass_SigmaConstraint_2017_mmmt.pdf, id=4869, 569.12625pt x 546.
+mbination/DiMuonMass_SigmaConstraint_2017_mmmt.pdf, id=4865, 569.12625pt x 546.
 04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 mt_combination/DiMuonMass_SigmaConstraint_2017_mmmt.pdf Graphic file (type pdf)
@@ -2903,7 +2900,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 d on input line 16.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmmt_co
-mbination/DiMuonMass_MeanConstraint_2017_mmmt.pdf, id=4870, 569.12625pt x 546.0
+mbination/DiMuonMass_MeanConstraint_2017_mmmt.pdf, id=4866, 569.12625pt x 546.0
 4pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 mt_combination/DiMuonMass_MeanConstraint_2017_mmmt.pdf Graphic file (type pdf)
@@ -2914,7 +2911,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
  on input line 17.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmmt_co
-mbination/DiMuonMass_NormConstraint_2017_mmmt.pdf, id=4871, 569.12625pt x 546.0
+mbination/DiMuonMass_NormConstraint_2017_mmmt.pdf, id=4867, 569.12625pt x 546.0
 4pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 mt_combination/DiMuonMass_NormConstraint_2017_mmmt.pdf Graphic file (type pdf)
@@ -2925,7 +2922,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
  on input line 18.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmet_co
-mbination/DiMuonMass_AlphaConstraint_2017_mmet.pdf, id=4872, 569.12625pt x 546.
+mbination/DiMuonMass_AlphaConstraint_2017_mmet.pdf, id=4868, 569.12625pt x 546.
 04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 et_combination/DiMuonMass_AlphaConstraint_2017_mmet.pdf Graphic file (type pdf)
@@ -2937,7 +2934,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 d on input line 23.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmet_co
-mbination/DiMuonMass_SigmaConstraint_2017_mmet.pdf, id=4873, 569.12625pt x 546.
+mbination/DiMuonMass_SigmaConstraint_2017_mmet.pdf, id=4869, 569.12625pt x 546.
 04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 et_combination/DiMuonMass_SigmaConstraint_2017_mmet.pdf Graphic file (type pdf)
@@ -2949,7 +2946,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 d on input line 24.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmet_co
-mbination/DiMuonMass_MeanConstraint_2017_mmet.pdf, id=4874, 569.12625pt x 546.0
+mbination/DiMuonMass_MeanConstraint_2017_mmet.pdf, id=4870, 569.12625pt x 546.0
 4pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 et_combination/DiMuonMass_MeanConstraint_2017_mmet.pdf Graphic file (type pdf)
@@ -2960,7 +2957,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
  on input line 25.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmet_co
-mbination/DiMuonMass_NormConstraint_2017_mmet.pdf, id=4875, 569.12625pt x 546.0
+mbination/DiMuonMass_NormConstraint_2017_mmet.pdf, id=4871, 569.12625pt x 546.0
 4pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 et_combination/DiMuonMass_NormConstraint_2017_mmet.pdf Graphic file (type pdf)
@@ -2971,7 +2968,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
  on input line 26.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmtt_co
-mbination/DiMuonMass_AlphaConstraint_2017_mmtt.pdf, id=4876, 569.12625pt x 546.
+mbination/DiMuonMass_AlphaConstraint_2017_mmtt.pdf, id=4872, 569.12625pt x 546.
 04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 tt_combination/DiMuonMass_AlphaConstraint_2017_mmtt.pdf Graphic file (type pdf)
@@ -2983,7 +2980,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 d on input line 31.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmtt_co
-mbination/DiMuonMass_SigmaConstraint_2017_mmtt.pdf, id=4877, 569.12625pt x 546.
+mbination/DiMuonMass_SigmaConstraint_2017_mmtt.pdf, id=4873, 569.12625pt x 546.
 04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 tt_combination/DiMuonMass_SigmaConstraint_2017_mmtt.pdf Graphic file (type pdf)
@@ -2995,7 +2992,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 d on input line 32.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmtt_co
-mbination/DiMuonMass_MeanConstraint_2017_mmtt.pdf, id=4878, 569.12625pt x 546.0
+mbination/DiMuonMass_MeanConstraint_2017_mmtt.pdf, id=4874, 569.12625pt x 546.0
 4pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 tt_combination/DiMuonMass_MeanConstraint_2017_mmtt.pdf Graphic file (type pdf)
@@ -3006,7 +3003,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
  on input line 33.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmtt_co
-mbination/DiMuonMass_NormConstraint_2017_mmtt.pdf, id=4879, 569.12625pt x 546.0
+mbination/DiMuonMass_NormConstraint_2017_mmtt.pdf, id=4875, 569.12625pt x 546.0
 4pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 tt_combination/DiMuonMass_NormConstraint_2017_mmtt.pdf Graphic file (type pdf)
@@ -3017,7 +3014,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
  on input line 34.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmem_co
-mbination/DiMuonMass_AlphaConstraint_2017_mmem.pdf, id=4880, 569.12625pt x 546.
+mbination/DiMuonMass_AlphaConstraint_2017_mmem.pdf, id=4876, 569.12625pt x 546.
 04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 em_combination/DiMuonMass_AlphaConstraint_2017_mmem.pdf Graphic file (type pdf)
@@ -3029,7 +3026,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 d on input line 39.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmem_co
-mbination/DiMuonMass_SigmaConstraint_2017_mmem.pdf, id=4881, 569.12625pt x 546.
+mbination/DiMuonMass_SigmaConstraint_2017_mmem.pdf, id=4877, 569.12625pt x 546.
 04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 em_combination/DiMuonMass_SigmaConstraint_2017_mmem.pdf Graphic file (type pdf)
@@ -3041,7 +3038,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 d on input line 40.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmem_co
-mbination/DiMuonMass_MeanConstraint_2017_mmem.pdf, id=4882, 569.12625pt x 546.0
+mbination/DiMuonMass_MeanConstraint_2017_mmem.pdf, id=4878, 569.12625pt x 546.0
 4pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 em_combination/DiMuonMass_MeanConstraint_2017_mmem.pdf Graphic file (type pdf)
@@ -3052,7 +3049,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
  on input line 41.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmem_co
-mbination/DiMuonMass_NormConstraint_2017_mmem.pdf, id=4883, 569.12625pt x 546.0
+mbination/DiMuonMass_NormConstraint_2017_mmem.pdf, id=4879, 569.12625pt x 546.0
 4pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 em_combination/DiMuonMass_NormConstraint_2017_mmem.pdf Graphic file (type pdf)
@@ -3063,7 +3060,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
  on input line 42.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmmt_co
-mbination/2_Nominal_irBkg_2017_mmmt_Nominal.png, id=4884, 598.235pt x 574.145pt
+mbination/2_Nominal_irBkg_2017_mmmt_Nominal.png, id=4880, 598.235pt x 574.145pt
 >
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 mt_combination/2_Nominal_irBkg_2017_mmmt_Nominal.png Graphic file (type png)
@@ -3074,7 +3071,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 n input line 48.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmet_co
-mbination/1_Nominal_irBkg_2017_mmet_Nominal.png, id=4885, 598.235pt x 574.145pt
+mbination/1_Nominal_irBkg_2017_mmet_Nominal.png, id=4881, 598.235pt x 574.145pt
 >
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 et_combination/1_Nominal_irBkg_2017_mmet_Nominal.png Graphic file (type png)
@@ -3085,7 +3082,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 n input line 49.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmtt_co
-mbination/1_Nominal_irBkg_2017_mmtt_Nominal.png, id=4886, 598.235pt x 574.145pt
+mbination/1_Nominal_irBkg_2017_mmtt_Nominal.png, id=4882, 598.235pt x 574.145pt
 >
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 tt_combination/1_Nominal_irBkg_2017_mmtt_Nominal.png Graphic file (type png)
@@ -3096,7 +3093,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 n input line 50.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmem_co
-mbination/2_Nominal_irBkg_2017_mmem_Nominal.png, id=4887, 598.235pt x 574.145pt
+mbination/2_Nominal_irBkg_2017_mmem_Nominal.png, id=4883, 598.235pt x 574.145pt
 >
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 em_combination/2_Nominal_irBkg_2017_mmem_Nominal.png Graphic file (type png)
@@ -3107,7 +3104,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 n input line 51.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmmt_co
-mbination/2_Nominal_Bkg_2017_mmmt_Nominal.png, id=4888, 598.235pt x 574.145pt>
+mbination/2_Nominal_Bkg_2017_mmmt_Nominal.png, id=4884, 598.235pt x 574.145pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 mt_combination/2_Nominal_Bkg_2017_mmmt_Nominal.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmm
@@ -3117,7 +3114,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 input line 56.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmet_co
-mbination/1_Nominal_Bkg_2017_mmet_Nominal.png, id=4889, 598.235pt x 574.145pt>
+mbination/1_Nominal_Bkg_2017_mmet_Nominal.png, id=4885, 598.235pt x 574.145pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 et_combination/1_Nominal_Bkg_2017_mmet_Nominal.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mme
@@ -3127,7 +3124,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 input line 57.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmtt_co
-mbination/1_Nominal_Bkg_2017_mmtt_Nominal.png, id=4890, 598.235pt x 574.145pt>
+mbination/1_Nominal_Bkg_2017_mmtt_Nominal.png, id=4886, 598.235pt x 574.145pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 tt_combination/1_Nominal_Bkg_2017_mmtt_Nominal.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmt
@@ -3137,7 +3134,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 input line 58.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmem_co
-mbination/2_Nominal_Bkg_2017_mmem_Nominal.png, id=4891, 598.235pt x 574.145pt>
+mbination/2_Nominal_Bkg_2017_mmem_Nominal.png, id=4887, 598.235pt x 574.145pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 em_combination/2_Nominal_Bkg_2017_mmem_Nominal.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mme
@@ -3147,7 +3144,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 input line 59.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmmt_co
-mbination/40_Nominal_a40_2018_mmmt_Nominal.png, id=4892, 598.235pt x 574.145pt>
+mbination/40_Nominal_a40_2018_mmmt_Nominal.png, id=4888, 598.235pt x 574.145pt>
 
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 mt_combination/40_Nominal_a40_2018_mmmt_Nominal.png Graphic file (type png)
@@ -3158,7 +3155,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
  input line 65.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmet_co
-mbination/40_Nominal_a40_2018_mmet_Nominal.png, id=4893, 598.235pt x 574.145pt>
+mbination/40_Nominal_a40_2018_mmet_Nominal.png, id=4889, 598.235pt x 574.145pt>
 
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 et_combination/40_Nominal_a40_2018_mmet_Nominal.png Graphic file (type png)
@@ -3169,7 +3166,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
  input line 66.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmtt_co
-mbination/40_Nominal_a40_2018_mmtt_Nominal.png, id=4894, 598.235pt x 574.145pt>
+mbination/40_Nominal_a40_2018_mmtt_Nominal.png, id=4890, 598.235pt x 574.145pt>
 
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 tt_combination/40_Nominal_a40_2018_mmtt_Nominal.png Graphic file (type png)
@@ -3180,7 +3177,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
  input line 67.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmem_co
-mbination/40_Nominal_a40_2018_mmem_Nominal.png, id=4895, 598.235pt x 574.145pt>
+mbination/40_Nominal_a40_2018_mmem_Nominal.png, id=4891, 598.235pt x 574.145pt>
 
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 em_combination/40_Nominal_a40_2018_mmem_Nominal.png Graphic file (type png)
@@ -3191,7 +3188,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
  input line 68.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmmt_co
-mbination/DiMuonMass_AlphaConstraint_2018_mmmt.pdf, id=4896, 569.12625pt x 546.
+mbination/DiMuonMass_AlphaConstraint_2018_mmmt.pdf, id=4892, 569.12625pt x 546.
 04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 mt_combination/DiMuonMass_AlphaConstraint_2018_mmmt.pdf Graphic file (type pdf)
@@ -3203,7 +3200,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 d on input line 74.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmmt_co
-mbination/DiMuonMass_SigmaConstraint_2018_mmmt.pdf, id=4897, 569.12625pt x 546.
+mbination/DiMuonMass_SigmaConstraint_2018_mmmt.pdf, id=4893, 569.12625pt x 546.
 04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 mt_combination/DiMuonMass_SigmaConstraint_2018_mmmt.pdf Graphic file (type pdf)
@@ -3215,7 +3212,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 d on input line 75.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmmt_co
-mbination/DiMuonMass_MeanConstraint_2018_mmmt.pdf, id=4898, 569.12625pt x 546.0
+mbination/DiMuonMass_MeanConstraint_2018_mmmt.pdf, id=4894, 569.12625pt x 546.0
 4pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 mt_combination/DiMuonMass_MeanConstraint_2018_mmmt.pdf Graphic file (type pdf)
@@ -3226,7 +3223,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
  on input line 76.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmmt_co
-mbination/DiMuonMass_NormConstraint_2018_mmmt.pdf, id=4899, 569.12625pt x 546.0
+mbination/DiMuonMass_NormConstraint_2018_mmmt.pdf, id=4895, 569.12625pt x 546.0
 4pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 mt_combination/DiMuonMass_NormConstraint_2018_mmmt.pdf Graphic file (type pdf)
@@ -3237,7 +3234,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
  on input line 77.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmet_co
-mbination/DiMuonMass_AlphaConstraint_2018_mmet.pdf, id=4900, 569.12625pt x 546.
+mbination/DiMuonMass_AlphaConstraint_2018_mmet.pdf, id=4896, 569.12625pt x 546.
 04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 et_combination/DiMuonMass_AlphaConstraint_2018_mmet.pdf Graphic file (type pdf)
@@ -3249,7 +3246,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 d on input line 82.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmet_co
-mbination/DiMuonMass_SigmaConstraint_2018_mmet.pdf, id=4901, 569.12625pt x 546.
+mbination/DiMuonMass_SigmaConstraint_2018_mmet.pdf, id=4897, 569.12625pt x 546.
 04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 et_combination/DiMuonMass_SigmaConstraint_2018_mmet.pdf Graphic file (type pdf)
@@ -3261,7 +3258,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 d on input line 83.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmet_co
-mbination/DiMuonMass_MeanConstraint_2018_mmet.pdf, id=4902, 569.12625pt x 546.0
+mbination/DiMuonMass_MeanConstraint_2018_mmet.pdf, id=4898, 569.12625pt x 546.0
 4pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 et_combination/DiMuonMass_MeanConstraint_2018_mmet.pdf Graphic file (type pdf)
@@ -3272,7 +3269,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
  on input line 84.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmet_co
-mbination/DiMuonMass_NormConstraint_2018_mmet.pdf, id=4903, 569.12625pt x 546.0
+mbination/DiMuonMass_NormConstraint_2018_mmet.pdf, id=4899, 569.12625pt x 546.0
 4pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 et_combination/DiMuonMass_NormConstraint_2018_mmet.pdf Graphic file (type pdf)
@@ -3283,7 +3280,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
  on input line 85.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmtt_co
-mbination/DiMuonMass_AlphaConstraint_2018_mmtt.pdf, id=4904, 569.12625pt x 546.
+mbination/DiMuonMass_AlphaConstraint_2018_mmtt.pdf, id=4900, 569.12625pt x 546.
 04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 tt_combination/DiMuonMass_AlphaConstraint_2018_mmtt.pdf Graphic file (type pdf)
@@ -3295,7 +3292,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 d on input line 90.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmtt_co
-mbination/DiMuonMass_SigmaConstraint_2018_mmtt.pdf, id=4905, 569.12625pt x 546.
+mbination/DiMuonMass_SigmaConstraint_2018_mmtt.pdf, id=4901, 569.12625pt x 546.
 04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 tt_combination/DiMuonMass_SigmaConstraint_2018_mmtt.pdf Graphic file (type pdf)
@@ -3307,7 +3304,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 d on input line 91.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmtt_co
-mbination/DiMuonMass_MeanConstraint_2018_mmtt.pdf, id=4906, 569.12625pt x 546.0
+mbination/DiMuonMass_MeanConstraint_2018_mmtt.pdf, id=4902, 569.12625pt x 546.0
 4pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 tt_combination/DiMuonMass_MeanConstraint_2018_mmtt.pdf Graphic file (type pdf)
@@ -3318,7 +3315,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
  on input line 92.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmtt_co
-mbination/DiMuonMass_NormConstraint_2018_mmtt.pdf, id=4907, 569.12625pt x 546.0
+mbination/DiMuonMass_NormConstraint_2018_mmtt.pdf, id=4903, 569.12625pt x 546.0
 4pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 tt_combination/DiMuonMass_NormConstraint_2018_mmtt.pdf Graphic file (type pdf)
@@ -3329,7 +3326,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
  on input line 93.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmem_co
-mbination/DiMuonMass_AlphaConstraint_2018_mmem.pdf, id=4908, 569.12625pt x 546.
+mbination/DiMuonMass_AlphaConstraint_2018_mmem.pdf, id=4904, 569.12625pt x 546.
 04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 em_combination/DiMuonMass_AlphaConstraint_2018_mmem.pdf Graphic file (type pdf)
@@ -3341,7 +3338,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 d on input line 98.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmem_co
-mbination/DiMuonMass_SigmaConstraint_2018_mmem.pdf, id=4909, 569.12625pt x 546.
+mbination/DiMuonMass_SigmaConstraint_2018_mmem.pdf, id=4905, 569.12625pt x 546.
 04pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 em_combination/DiMuonMass_SigmaConstraint_2018_mmem.pdf Graphic file (type pdf)
@@ -3353,7 +3350,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 d on input line 99.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmem_co
-mbination/DiMuonMass_MeanConstraint_2018_mmem.pdf, id=4910, 569.12625pt x 546.0
+mbination/DiMuonMass_MeanConstraint_2018_mmem.pdf, id=4906, 569.12625pt x 546.0
 4pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 em_combination/DiMuonMass_MeanConstraint_2018_mmem.pdf Graphic file (type pdf)
@@ -3364,7 +3361,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
  on input line 100.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmem_co
-mbination/DiMuonMass_NormConstraint_2018_mmem.pdf, id=4911, 569.12625pt x 546.0
+mbination/DiMuonMass_NormConstraint_2018_mmem.pdf, id=4907, 569.12625pt x 546.0
 4pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 em_combination/DiMuonMass_NormConstraint_2018_mmem.pdf Graphic file (type pdf)
@@ -3375,7 +3372,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
  on input line 101.
 (pdftex.def)             Requested size: 220.78543pt x 211.82994pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmmt_co
-mbination/2_Nominal_irBkg_2018_mmmt_Nominal.png, id=4912, 598.235pt x 574.145pt
+mbination/2_Nominal_irBkg_2018_mmmt_Nominal.png, id=4908, 598.235pt x 574.145pt
 >
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 mt_combination/2_Nominal_irBkg_2018_mmmt_Nominal.png Graphic file (type png)
@@ -3386,7 +3383,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 n input line 107.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmet_co
-mbination/1_Nominal_irBkg_2018_mmet_Nominal.png, id=4913, 598.235pt x 574.145pt
+mbination/1_Nominal_irBkg_2018_mmet_Nominal.png, id=4909, 598.235pt x 574.145pt
 >
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 et_combination/1_Nominal_irBkg_2018_mmet_Nominal.png Graphic file (type png)
@@ -3397,7 +3394,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 n input line 108.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmtt_co
-mbination/1_Nominal_irBkg_2018_mmtt_Nominal.png, id=4914, 598.235pt x 574.145pt
+mbination/1_Nominal_irBkg_2018_mmtt_Nominal.png, id=4910, 598.235pt x 574.145pt
 >
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 tt_combination/1_Nominal_irBkg_2018_mmtt_Nominal.png Graphic file (type png)
@@ -3408,7 +3405,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 n input line 109.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmem_co
-mbination/2_Nominal_irBkg_2018_mmem_Nominal.png, id=4915, 598.235pt x 574.145pt
+mbination/2_Nominal_irBkg_2018_mmem_Nominal.png, id=4911, 598.235pt x 574.145pt
 >
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 em_combination/2_Nominal_irBkg_2018_mmem_Nominal.png Graphic file (type png)
@@ -3419,7 +3416,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 n input line 110.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmmt_co
-mbination/2_Nominal_Bkg_2018_mmmt_Nominal.png, id=4916, 598.235pt x 574.145pt>
+mbination/2_Nominal_Bkg_2018_mmmt_Nominal.png, id=4912, 598.235pt x 574.145pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 mt_combination/2_Nominal_Bkg_2018_mmmt_Nominal.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmm
@@ -3429,7 +3426,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 input line 115.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmet_co
-mbination/1_Nominal_Bkg_2018_mmet_Nominal.png, id=4917, 598.235pt x 574.145pt>
+mbination/1_Nominal_Bkg_2018_mmet_Nominal.png, id=4913, 598.235pt x 574.145pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 et_combination/1_Nominal_Bkg_2018_mmet_Nominal.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mme
@@ -3439,7 +3436,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 input line 116.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmtt_co
-mbination/1_Nominal_Bkg_2018_mmtt_Nominal.png, id=4918, 598.235pt x 574.145pt>
+mbination/1_Nominal_Bkg_2018_mmtt_Nominal.png, id=4914, 598.235pt x 574.145pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 tt_combination/1_Nominal_Bkg_2018_mmtt_Nominal.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmt
@@ -3449,7 +3446,7 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 input line 117.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmem_co
-mbination/2_Nominal_Bkg_2018_mmem_Nominal.png, id=4919, 598.235pt x 574.145pt>
+mbination/2_Nominal_Bkg_2018_mmem_Nominal.png, id=4915, 598.235pt x 574.145pt>
 File: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 em_combination/2_Nominal_Bkg_2018_mmem_Nominal.png Graphic file (type png)
 <use /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mme
@@ -3461,12 +3458,12 @@ input line 118.
 )
 LaTeX Info: Redefining \HepProcess on input line 125.
 LaTeX Info: Redefining \HepProcess on input line 125.
- [91
+ [90
 
 ]
 LaTeX Info: Redefining \HepProcess on input line 125.
 LaTeX Info: Redefining \HepProcess on input line 125.
- [92 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
+ [91 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 mt_combination/40_Nominal_a40_2017_mmmt_Nominal.png> </mnt/c/Users/Sam Higginbo
 tham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmet_combination/40_Nominal_a40_2
 017_mmet_Nominal.png> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-20
@@ -3476,7 +3473,7 @@ sers/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmem_combination
 LaTeX Info: Redefining \HepProcess on input line 125.
 LaTeX Info: Redefining \HepProcess on input line 125.
 
-[93 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmm
+[92 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmm
 t_combination/DiMuonMass_AlphaConstraint_2017_mmmt.pdf, page is rotated 90 degr
 ees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 mt_combination/DiMuonMass_SigmaConstraint_2017_mmmt.pdf, page is rotated 90 deg
@@ -3487,7 +3484,7 @@ mmt_combination/DiMuonMass_NormConstraint_2017_mmmt.pdf, page is rotated 90 deg
 rees>]
 LaTeX Info: Redefining \HepProcess on input line 125.
 LaTeX Info: Redefining \HepProcess on input line 125.
- [94 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
+ [93 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 et_combination/DiMuonMass_AlphaConstraint_2017_mmet.pdf, page is rotated 90 deg
 rees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_m
 met_combination/DiMuonMass_SigmaConstraint_2017_mmet.pdf, page is rotated 90 de
@@ -3498,7 +3495,7 @@ mmet_combination/DiMuonMass_NormConstraint_2017_mmet.pdf, page is rotated 90 de
 grees>]
 LaTeX Info: Redefining \HepProcess on input line 125.
 LaTeX Info: Redefining \HepProcess on input line 125.
- [95 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
+ [94 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 tt_combination/DiMuonMass_AlphaConstraint_2017_mmtt.pdf, page is rotated 90 deg
 rees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_m
 mtt_combination/DiMuonMass_SigmaConstraint_2017_mmtt.pdf, page is rotated 90 de
@@ -3509,7 +3506,7 @@ mmtt_combination/DiMuonMass_NormConstraint_2017_mmtt.pdf, page is rotated 90 de
 grees>]
 LaTeX Info: Redefining \HepProcess on input line 125.
 LaTeX Info: Redefining \HepProcess on input line 125.
- [96 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
+ [95 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 em_combination/DiMuonMass_AlphaConstraint_2017_mmem.pdf, page is rotated 90 deg
 rees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_m
 mem_combination/DiMuonMass_SigmaConstraint_2017_mmem.pdf, page is rotated 90 de
@@ -3520,7 +3517,7 @@ mmem_combination/DiMuonMass_NormConstraint_2017_mmem.pdf, page is rotated 90 de
 grees>]
 LaTeX Info: Redefining \HepProcess on input line 125.
 LaTeX Info: Redefining \HepProcess on input line 125.
- [97 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
+ [96 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 mt_combination/2_Nominal_irBkg_2017_mmmt_Nominal.png> </mnt/c/Users/Sam Higginb
 otham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmet_combination/1_Nominal_irBkg
 _2017_mmet_Nominal.png> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
@@ -3529,7 +3526,7 @@ c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmem_combinat
 ion/2_Nominal_irBkg_2017_mmem_Nominal.png>]
 LaTeX Info: Redefining \HepProcess on input line 125.
 LaTeX Info: Redefining \HepProcess on input line 125.
- [98 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
+ [97 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 mt_combination/2_Nominal_Bkg_2017_mmmt_Nominal.png> </mnt/c/Users/Sam Higginbot
 ham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmet_combination/1_Nominal_Bkg_201
 7_mmet_Nominal.png> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/
@@ -3538,7 +3535,7 @@ s/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmem_combination/2_
 Nominal_Bkg_2017_mmem_Nominal.png>]
 LaTeX Info: Redefining \HepProcess on input line 125.
 LaTeX Info: Redefining \HepProcess on input line 125.
- [99 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
+ [98 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 mt_combination/40_Nominal_a40_2018_mmmt_Nominal.png> </mnt/c/Users/Sam Higginbo
 tham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmet_combination/40_Nominal_a40_2
 018_mmet_Nominal.png> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-20
@@ -3547,19 +3544,19 @@ sers/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmem_combination
 /40_Nominal_a40_2018_mmem_Nominal.png>]
 LaTeX Info: Redefining \HepProcess on input line 125.
 LaTeX Info: Redefining \HepProcess on input line 125.
- [100 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_m
-mmt_combination/DiMuonMass_AlphaConstraint_2018_mmmt.pdf, page is rotated 90 de
+ [99 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
+mt_combination/DiMuonMass_AlphaConstraint_2018_mmmt.pdf, page is rotated 90 deg
+rees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_m
+mmt_combination/DiMuonMass_SigmaConstraint_2018_mmmt.pdf, page is rotated 90 de
 grees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_
-mmmt_combination/DiMuonMass_SigmaConstraint_2018_mmmt.pdf, page is rotated 90 d
-egrees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018
-_mmmt_combination/DiMuonMass_MeanConstraint_2018_mmmt.pdf, page is rotated 90 d
-egrees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018
-_mmmt_combination/DiMuonMass_NormConstraint_2018_mmmt.pdf, page is rotated 90 d
-egrees>]
+mmmt_combination/DiMuonMass_MeanConstraint_2018_mmmt.pdf, page is rotated 90 de
+grees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_
+mmmt_combination/DiMuonMass_NormConstraint_2018_mmmt.pdf, page is rotated 90 de
+grees>]
 LaTeX Info: Redefining \HepProcess on input line 125.
 LaTeX Info: Redefining \HepProcess on input line 125.
 
-[101 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
+[100 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 et_combination/DiMuonMass_AlphaConstraint_2018_mmet.pdf, page is rotated 90 deg
 rees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_m
 met_combination/DiMuonMass_SigmaConstraint_2018_mmet.pdf, page is rotated 90 de
@@ -3570,7 +3567,7 @@ mmet_combination/DiMuonMass_NormConstraint_2018_mmet.pdf, page is rotated 90 de
 grees>]
 LaTeX Info: Redefining \HepProcess on input line 125.
 LaTeX Info: Redefining \HepProcess on input line 125.
- [102 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_m
+ [101 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_m
 mtt_combination/DiMuonMass_AlphaConstraint_2018_mmtt.pdf, page is rotated 90 de
 grees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_
 mmtt_combination/DiMuonMass_SigmaConstraint_2018_mmtt.pdf, page is rotated 90 d
@@ -3581,7 +3578,7 @@ _mmtt_combination/DiMuonMass_NormConstraint_2018_mmtt.pdf, page is rotated 90 d
 egrees>]
 LaTeX Info: Redefining \HepProcess on input line 125.
 LaTeX Info: Redefining \HepProcess on input line 125.
- [103 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_m
+ [102 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_m
 mem_combination/DiMuonMass_AlphaConstraint_2018_mmem.pdf, page is rotated 90 de
 grees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_
 mmem_combination/DiMuonMass_SigmaConstraint_2018_mmem.pdf, page is rotated 90 d
@@ -3592,7 +3589,7 @@ _mmem_combination/DiMuonMass_NormConstraint_2018_mmem.pdf, page is rotated 90 d
 egrees>]
 LaTeX Info: Redefining \HepProcess on input line 125.
 LaTeX Info: Redefining \HepProcess on input line 125.
- [104 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_m
+ [103 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_m
 mmt_combination/2_Nominal_irBkg_2018_mmmt_Nominal.png> </mnt/c/Users/Sam Higgin
 botham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmet_combination/1_Nominal_irBk
 g_2018_mmet_Nominal.png> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20
@@ -3601,7 +3598,7 @@ g_2018_mmet_Nominal.png> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20
 tion/2_Nominal_irBkg_2018_mmem_Nominal.png>]
 LaTeX Info: Redefining \HepProcess on input line 125.
 LaTeX Info: Redefining \HepProcess on input line 125.
- [105 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_m
+ [104 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_m
 mmt_combination/2_Nominal_Bkg_2018_mmmt_Nominal.png> </mnt/c/Users/Sam Higginbo
 tham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmet_combination/1_Nominal_Bkg_20
 18_mmet_Nominal.png> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208
@@ -3611,13 +3608,13 @@ _Nominal_Bkg_2018_mmem_Nominal.png>] (./thesis.bbl
 LaTeX Info: Redefining \HepProcess on input line 1.
 LaTeX Info: Redefining \HepProcess on input line 46.
 LaTeX Info: Redefining \HepProcess on input line 46.
- [106
+ [105
 
 
 ]
 LaTeX Info: Redefining \HepProcess on input line 100.
 LaTeX Info: Redefining \HepProcess on input line 100.
- [107]
+ [106]
 Underfull \hbox (badness 1668) in paragraph at lines 101--103
 []\OT1/cmr/m/n/10.95 E. P. O. Group, ``Egamma miniaod v2 ap-ply en-ergy scale 1
 3 tev,'' Au-gust 2022.
@@ -3637,7 +3634,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--117
 
 LaTeX Info: Redefining \HepProcess on input line 145.
 LaTeX Info: Redefining \HepProcess on input line 145.
-[108])
+[107])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
  (./thesis.aux)
@@ -3652,9 +3649,9 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 128.
  ) 
 Here is how much of TeX's memory you used:
- 12318 strings out of 481239
- 267434 string characters out of 5920377
- 507400 words of memory out of 5000000
+ 12317 strings out of 481239
+ 267426 string characters out of 5920377
+ 507399 words of memory out of 5000000
  26579 multiletter control sequences out of 15000+600000
  549124 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3682,10 +3679,10 @@ msfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on thesis.pdf (123 pages, 9693569 bytes).
+Output written on thesis.pdf (122 pages, 9693465 bytes).
 PDF statistics:
- 6531 PDF objects out of 7423 (max. 8388607)
- 3348 compressed objects within 34 object streams
- 364 named destinations out of 1000 (max. 500000)
+ 6527 PDF objects out of 7423 (max. 8388607)
+ 3345 compressed objects within 34 object streams
+ 363 named destinations out of 1000 (max. 500000)
  1496 words of extra memory for PDF output out of 10000 (max. 10000000)
 

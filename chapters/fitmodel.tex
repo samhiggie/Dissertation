@@ -3,14 +3,13 @@
 In order to conduct a hypothesis test, a test statistic is needed. This is constructed through the \textit{profile likelihood ratio} and then a confidence level is set using the test statistic ~\cite{Cowan_2011}.
 So construction of a likelihood is required, the test statistic from the likelihood, and a way to calculate a confidence level to complete the hypothesis test.
 To construct the likelihood, the typical approach is to assume a Poisson distribution for the events in the $i^{th}$ bin and then ``smear" it by multiplying it with a Gaussian that is also dependent on the events. The events are split, into signal and background. Because an alternative hypothesis is explored and a-priori the amount of signal events isn't known, it is floated by a coefficient denoted as $\mu$ - the signal strength. For an upper limit this value is changed until the cumulative distribution function of the likelihood reaches the desired confidence or $p$-value.  
-
 \begin{equation}\mathcal{L}(\text{data}|\mu,\theta) = \text{Poisson}(\text{data},\mu\cdot s(\theta)+b(\theta)) \cdot p(\tilde{\theta}|\theta) \end{equation}
 For binned $n_i$ events in bin label $i$:
 \begin{equation}
 \text{Poisson}(\text{data},\mu\cdot s(\theta)+b(\theta)) = \prod_i \frac{(\mu s_i+b_i)^n}{n_i !}e^{-\mu s_i -b_i}
 \end{equation}
 
-In the case of the pseudoscalar analysis discussed in this paper a slightly different likelihood is considered. A shape-based approach is considered, which instead of a product of many simple Poisson probability density functions, probability distribution functions are used over the entirety of the fit variable (or parameter of interest POI). Multiple PDFs can be combined in this scenario, but the important difference is the absence of any binning. Therefore a good fit is required to have a good description of the events.  
+In the case of the pseudoscalar analysis discussed in this paper a slightly different likelihood is considered. A shape-based approach is considered, which instead of a product of many simple Poisson probability density functions, probability distribution functions are used over the entirety of the fit variable, otherwise known as the parameter of interest POI. Multiple PDFs can be combined in this scenario, but the important difference is the absence of any binning. Therefore a good fit is required to have a good description of the events.  
 
 Unbinned or Parametric likelihood functions over $k$ events, $S$ and $B$ the total event rate, $f_s(x_i)$ and $f_b(x_i)$ the \textit{pdfs}
  \begin{equation}\text{Poisson}(\text{data},\mu\cdot s(\theta)+b(\theta)) = k^-1 \prod_i(\mu S f_s(x_i) + B f_b(x_i))e^{-\mu S - B}\end{equation}
