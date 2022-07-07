@@ -1,3 +1,4 @@
+\section{Luminosity at the LHC}
 Luminosity sets the scale for the number of events recorded at the LHC. It is how bright the beam is and correspondingly, dictates how many interactions can be expected over a data taking period. Therefore, it is important for all physics analyses to use the correct luminosity, and its measured error, to obtain an accurate result. The number of expected events for any given process is the luminosity $\mathcal{L}$ times the cross section $\sigma$.  
 \begin{equation}
 N_{\text{event}} = \mathcal{L} \sigma_{\text{event}}
@@ -8,6 +9,7 @@ N_{\text{event}} = \mathcal{L} \sigma_{\text{event}}
 
 $N_b$ is the number of particles in the bunch crossing, $n_b$ the number of bunches, $f_{\text{LHC}}$ the revolution frequency of the LHC, $\gamma_r$ the relativistic factor, $\epsilon_n$ the normalized beam emmittance, $\beta*$ the beta function at the collision point (related to the crossing angle), $\theta_c$ is the full crossing angle, $\sigma_z$ the RMS bunch length and $\sigma^*$ the transverse RMS beam size at the interaction point.
 
+\section{Luminometers}
 Several subsystems are used to measure luminosity at CMS. Particularly the Pixel Luminosity Telescope, Hadronic Calorimeter (HF) with summed transverse energy(ET) and occupancy (OC), BCM1F, and Tracker based or Pixel based luminosity to name several. 
 In this section, the tracker based luminosity will be the focus. The pixel system is integral in the reconstruction of events for physics analysis and in measuring the luminosity.
 
@@ -22,7 +24,7 @@ We measure the luminosity by counting pixel clusters in a low channel occupancy 
 $\mathcal{L}_{\text{SBIL}}$ is the instantaneous luminosity of a single bunch crossing---the aggregate collection of protons that are in the beam typically 3564 total bunches during standard pp-collisions. $\sigma_{\text{cluster}}$ , is the cross section that is measured in a separate analysis involving Van-de-Meer scans (beam dynamic scans), more details can be found here ~\cite{Knolle:2792593}. 
 
 
-
+\subsection{Tracker luminosity}
 For the pixel luminosity, a two component correction is applied on the fly to correct for self-radiative effects on the pixel modules under particle fluence and for inefficiency.  
 One detail that is important in estimating the luminosity from the pixel detector is ensuring that the data that is taken and analyzed has consistent performance. Several times in a year, the Lumi-POG and Beam Radiation Instrumentation Luminosity (BRIL) groups analyze the performance of each sub-detector used to measure luminosity and certify the data once the analysis is complete. In 2017 and 2018 data taking campaigns, the luminosity from the pixel detector is vetted by looking at relative module performance over the runs of data taking for the year. If the modules don't have consistent performance they are removed from the final result. 
 
