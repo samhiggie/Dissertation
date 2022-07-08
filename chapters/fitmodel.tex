@@ -1,5 +1,6 @@
 %fit Models
 \section{Statistical Inference at CERN}
+\label{sec:statinf}
 In order to conduct a hypothesis test, a test statistic is needed. In high energy particle physics this is typically constructed through the \textit{profile likelihood ratio} and then a confidence level is set using the test statistic ~\cite{Cowan_2011}.
 The construction of a likelihood is required along with the test statistic from the likelihood and a way to calculate a confidence level.
 To start consider a binned histogram containing a distribution from a kinematic variable---like the mass of the parent particle---that we want to use in the hypothesis test. 
@@ -57,17 +58,21 @@ Selecting the signal acceptance from the pseudoscalar analysis (2016 $\mu\mu\mu\
 \begin{equation} A = \frac{\text{events pass all cuts}}{\text{starting events}} = \frac{1293}{250000} \approx 0.005 \end{equation}
 and taking the cross section for gluon gluon fusion production of the Higgs $\sigma = 48 \text{pb}$ along with the luminosity for 2016 $\mathcal{L} = 35,900 \text{pb}^{-1}$
 
-Then the upper 95\% limit on the branching fraction is 
+Then the upper 95\% CL limit on the branching fraction is 
 \begin{equation}B =  \frac{N}{\sigma \cdot A\cdot \mathcal{L}} = 0.00043 = 4.3 \times 10^{-4}\end{equation}
 
 
 
 \section{Fit model for pseudoscalar Higgs search}
+\label{sec:fitmodel}
 After the signal extraction cuts are applied, an unbinned parametric likelihood fit was done with various shapes depending on the background and signal categorization. There is one signal distribution depending on the hypothesized $a$ mass, and two background distributions that are considered in the final fit. The two contributing background distributions originate from ``Irreducible" events coming from two Z bosons (ZZ) and from ``Reducible" events coming from jets faking tau leptons (FF).  
 
 %%For the signal, a Voigtian function is used to fit the $a$ mass spectrum in a small window - 2GeV - of the hypothesized $a$ mass for the sample \ref{fig:fit_sig}. The Voigtian shape was chosen to reflect the narrow simulated peak that is statistically smeared by experimental measurement.
 
-For the signal, a Voigtian function is used to fit the pseudoscalar $a$ mass spectrum in a small window - 2GeV - of the hypothesized $a$ mass for the sample as in figure \ref{fig:fit_sig}. The Voigtian shape was chosen to reflect the narrow simulated peak that is statistically smeared by experimental measurement. The Voigtian shape has one extra degree of freedom compared to the Gaussian. This parameter controls the Lorentzian factor in the Voigtian. For the signal MC the distributions tend to increase in standard deviation as the mass approaches 60 GeV. To compare the signal MC distributions, they are all plotted in figure \ref{fig:fit_sig_all}.
+For the signal, a Voigtian function is used to fit the pseudoscalar $a$ mass spectrum in a small window - 2GeV - of the hypothesized $a$ mass for the sample as in figure \ref{fig:fit_sig}. The Voigtian shape was chosen to reflect the narrow simulated peak that is statistically smeared by experimental measurement. The Voigtian shape has one extra degree of freedom compared to the Gaussian. This parameter is the Lorentzian factor of the Voigtian. 
+%For the signal MC, the distributions tend to increase in standard deviation as the mass approaches 60 GeV. 
+For the signal MC, the standard deviation of the distributions tends to increase as the mass approaches 60 GeV. 
+To compare the signal MC distributions, they are all plotted in figure \ref{fig:fit_sig_all}.
 
 
 \begin{figure}[ht!b]
@@ -89,10 +94,14 @@ For the signal, a Voigtian function is used to fit the pseudoscalar $a$ mass spe
   \includegraphics[width=0.47\textwidth]{Figures/2016_mmet_combination/40_Nominal_a40_2016_mmet_Nominal.png}\\
   \includegraphics[width=0.47\textwidth]{Figures/2016_mmtt_combination/40_Nominal_a40_2016_mmtt_Nominal.png}
   \includegraphics[width=0.47\textwidth]{Figures/2016_mmem_combination/40_Nominal_a40_2016_mmem_Nominal.png}\\
-    \caption{\label{fig:fit_sig} Signal fits using a voiigtian function for a-mass at 40GeV }
+    \caption{\label{fig:fit_sig} Signal fits using a Voigtian function for a-mass at 40GeV }
 \end{figure}
 
-Shapes from the signal samples in intervals of 5 GeV across the whole fit range 20-60 GeV are interpolated using spline functions. Thus precise limits can be obtained at the 1 GeV granularity. Predicated upon the fit model, using the spline in a refit would produce results that are close to the original fit to signal ensuring that in the statistical inference model that the signal is well modeled for all mass points. A spline function is necessary for each degree of freedom in the model. An example of such functions are shown in figure \ref{fig:spline_2016_mmmt}. The bands that envelope the spline indicate the spread and the accepted error on the spline in the statistical inference model, more details are discussed in the systematics section.  
+Shapes from the signal samples in intervals of $5 GeV$ across the whole fit range $20-60 GeV$ are interpolated using spline functions for the fit parameters, thus precise limits can be obtained at the $1 GeV$ granularity. 
+The interpolated model describes the signal samples well and produces similar results for the distributions at the $5 GeV$ granularity.  
+A spline function is created for the mean, standard deviation, normalization,and the Lorentzian. 
+A first order polynomial is used to fit the mean and a third order polynomial is used to fit the standard deviation, normalization, and Lorentzian. 
+An example of such functions are shown in figure \ref{fig:spline_2016_mmmt}. The bands that envelope the spline indicate the spread and the accepted error on the spline in the statistical inference model.
 \begin{figure}[ht!b]
     \centering 
     \includegraphics[width=0.47\textwidth]{Figures/2016_mmmt_combination/DiMuonMass_AlphaConstraint_2016_mmmt.pdf}
@@ -126,7 +135,7 @@ Shapes from the signal samples in intervals of 5 GeV across the whole fit range 
     \caption{\label{fig:spline_2016_mmem} Spline functions for 2016 mmem a 3rd order polynomial is used for  for Alpha, Sigma, and Normalization, a 1st order polynomial is used for the Mean}
 \end{figure}
 
-For the irreducible background coming from $ZZ\rightarrow 4 l$, a Bernstein polynomial is used to fit the shape over the entire $a$ mass range in figure \ref{fig:fit_ZZ}. Depending on the final state and shape, the degree of the polynmoial is chosen by best fit. A Fischer F-test was conducted and there doesn't seem to be enough statistics in the bins to provide an accurate difference in the log-likelihood in order to recommend a particularly higher order polynomial over other orders. Thus for $\mu\mu\tau\tau$ and $\mu\mu e \tau$, a a 1st order polynomial is used is used. For the channels that do have more events like $\mu\mu\mu\tau$ and $\mu\mu e \mu$ - albeit even for a lower number of integrated events - a parabolic order is used. 
+For the irreducible background coming from $ZZ\rightarrow 4 l$, a Bernstein polynomial is used to fit the shape over the entire $a$ mass range in figure \ref{fig:fit_ZZ}. Depending on the final state and shape, the degree of the polynmoial is chosen by best fit. A Fischer F-test was conducted and there doesn't seem to be enough statistics in the bins to provide an accurate difference in the log-likelihood in order to recommend a particularly higher order polynomial over other orders. Thus for $\mu\mu\tau\tau$ and $\mu\mu e \tau$, a 1st order polynomial is used. For the channels that do have more events like $\mu\mu\mu\tau$ and $\mu\mu e \mu$ - albeit even for a lower number of integrated events---a quadratic function is used. 
 %Plotted error bands reflect a simulation of 315 events in a RooFit simulation and are only meant to visualize possible 1 sigma differences in the shape. 
 The true values of the error estimation on the parameters are taken from the fit itself and can be seen in the plots like figure \ref{fig:fit_ZZ}. The error on these shape parameters are shown in the impacts which demonstrate how the fit parameters effect the overall statistical inference model \ref{fig:impacts_2016_mmmt}. 
 

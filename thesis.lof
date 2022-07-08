@@ -16,9 +16,9 @@
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Schematic overiew of Tier0 computing, data can be available from different sections allowing for data quality monitoring and also storage to several databases \nobreakspace {}\cite {Hufnagel:1319049} }}{22}{figure.2.8}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces diagram depicting the possible decays of the tau lepton: 65\% of the time hadronically and 18\% to tau neutrino and electron with antielectron neutrino (17\% for muon)}}{31}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Tau mass distributions considering the nominal $\tau _h$ energy scale in simulation (left), or the $\tau _h$ energy scale shifted by -6 (left) or +6\% (right), in the $\mu \tau _h$ final state, for the 1 prong + pizero decay mode.}}{32}{figure.4.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Systematic Shift in the Uncertainty Model for 2016 $\mu \mu \tau \tau $ for the muon energy scale shift down (left), nominal (mid), and up (right), no data is shown on this plot as it directly reflects the signal region without the extraction cuts }}{34}{figure.4.3}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces diagram depicting the possible decays of the tau lepton: 65\% of the time hadronically and 18\% to tau neutrino and electron with antielectron neutrino (17\% for muon)}}{32}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Tau mass distributions considering the nominal $\tau _h$ energy scale in simulation (left), or the $\tau _h$ energy scale shifted by -6 (left) or +6\% (right), in the $\mu \tau _h$ final state, for the 1 prong + pizero decay mode.}}{33}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Systematic Shift in the Uncertainty Model for 2016 $\mu \mu \tau \tau $ for the muon energy scale shift down (left), nominal (mid), and up (right), no data is shown on this plot as it directly reflects the signal region without the extraction cuts }}{36}{figure.4.3}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Invariant mass of the four lepton system for 2018 data in all Channels}}{40}{figure.5.1}%
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Several data-MC control plots for full RunII data in all Channels}}{41}{figure.5.2}%
@@ -28,7 +28,7 @@
 \contentsline {figure}{\numberline {6.3}{\ignorespaces Validation of the fake factor method, fake factors are applied to the same sign tight region}}{48}{figure.6.3}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {7.1}{\ignorespaces Signal fit using a Voigtian function}}{53}{figure.7.1}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Signal fits using a voiigtian function for a-mass at 40GeV }}{54}{figure.7.2}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Signal fits using a Voigtian function for a-mass at 40GeV }}{54}{figure.7.2}%
 \contentsline {figure}{\numberline {7.3}{\ignorespaces Spline functions for 2016 mmmt a 3rd order polynomial is used for for Alpha, Sigma, and Normalization, a 1st order polynomial is used for the Mean}}{55}{figure.7.3}%
 \contentsline {figure}{\numberline {7.4}{\ignorespaces Spline functions for 2016 mmet a 3rd order polynomial is used for for Alpha, Sigma, and Normalization, a 1st order polynomial is used for the Mean}}{56}{figure.7.4}%
 \contentsline {figure}{\numberline {7.5}{\ignorespaces Spline functions for 2016 mmtt a 3rd order polynomial is used for for Alpha, Sigma, and Normalization, a 1st order polynomial is used for the Mean}}{57}{figure.7.5}%

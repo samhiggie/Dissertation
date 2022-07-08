@@ -1,13 +1,13 @@
-Before a presentation of the expected limits on the branching fractions is given, a view of the uncertainty model is discussed here. 
-In order to measure the systematic effects on the final distribution and the fits, changes in the fit templates are done and propigated to the fit model in the form of rate parameters. This is the accepted method to measure systematic impacts with a parametric fit model. These rate parameters differ slightly between the signal and background distributions. 
-For background the error in the fit parameters are directly included in the uncertainty model. 
+In order to measure the systematic effects on the final distribution and the fits, changes in the fit templates are done and propigated to the fit model in the form of rate parameters. These rate parameters differ slightly between the signal and background distributions. 
+For background, the error in the fit parameters is directly included in the uncertainty model. 
 
-For the signal, the uncertainty on the spline function is considered. As mentioned in the fit model section and shown in firgure \ref{fig:spline_2016_mmmt}, the magnitude of this uncertainty is estimated from the fit of the parameters for the spline. Overall a 10\% uncertainty is used for the lorenztian (alpha) and 20\% for the standard deviation (sigma) and 0.5\% for the mean (mean). Although the mean is measured very precisely, the energy scale shifts from the leptons are included in this figure. Please look back at the section highlighting the uncertainties to see the bin-shift from the energy scale. The bin-shift indicates the amount the mean of the distriubiton is effected from the energy scale shift.  
+For the signal, the uncertainty on the spline function must be considered because the spline is used in the fit. As mentioned in the fit model section ~\ref{sec:fitmodel} and shown in firgure \ref{fig:spline_2016_mmmt}, the magnitude of this uncertainty is estimated from the fit of the parameters for the spline. Overall, a 10\% uncertainty is used for the lorenztian (alpha) and 20\% for the standard deviation (sigma) and 0.5\% for the mean (mean). Although the mean is measured very precisely, the energy scale shifts from the leptons are included in this number. Please look back at the section highlighting the uncertainties ~\ref{sec:corrections} to see the bin-shift from the energy scale. The bin-shift indicates the amount the mean of the distriubiton is effected from the energy scale shift. The shift should fit within the envelope of the percentage on the parameter. 
 
 
-For the other systematic uncertainties that are not based on parametric shapes, like the energy scale of the leptons, a log-normal deviation to the normalization is considered. 
+For the other systematic uncertainties that are not based on parametric shapes, like the energy scale of the leptons, a log-normal deviation to the normalization is used. 
 The extent to which these systematics effect the search is calculated through the concept of the ``impact''. An impact is a way to see how that sytematic uncertainty impacts the overall statistical model. To measure an impact for a particular systematic uncertainty, it is allowed to vary within the fit range while the rest of the parameters in the likehood function are frozen. The corresponding difference in the signal strength is measured. 
 In order to read the impact plots and to understand what the impacts represenet in the fit model please look at table \ref{tab:impact_guide}:
+Each impact has a corresponding nomenclature, range of variation, and effect on the POI. The nomenclature is listed in \ref{tab:impact_guide} and the variation and effect on the POI is seen in the plots \ref{fig:impacts_2017_mmmt}.
 
 \begin{table}[h!tb]
 \centering
@@ -19,7 +19,7 @@ In order to read the impact plots and to understand what the impacts represenet 
 Type of Uncertainty & Brief Description \\\hline
 scale & log-normal uncertainties that effect overall scale of the distribution these include e, $\mu$, and $\tau$ (split by decay mode) energy scales  \\\hline
  c0\_, c1\_, ... cN\_& Coefficents of the Bkg (datadriven) or irBkg (ZZ) parametric shape \\\hline
-lumi & luminosity uncertainty (1.016 representing 1.6\% uncertainty) \\\hline
+lumi & luminosity uncertainty (1.6\% ) \\\hline
 intAlpha & alpha interpolated spline function shape uncertainty (10\%) \\\hline
 intSigma & sigma interpolated spline function shape uncertainty (20\%) \\\hline
 intMean & mean interpolated spline function shape uncertainty energy scale shift uncertainties for signal included (5\%) \\\hline

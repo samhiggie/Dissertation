@@ -97,6 +97,24 @@ A.~Sirunyan, A.~Tumasyan, {\em et~al.}, ``Performance of reconstruction and
   collisions at $\sqrt{s}$ =13 {TeV},'' {\em Journal of Instrumentation},
   vol.~13, pp.~P10005--P10005, oct 2018.
 
+\bibitem{Sirunyan_2017}
+A.~Sirunyan, A.~Tumasyan, {\em et~al.}, ``Particle-flow reconstruction and
+  global event description with the {CMS} detector,'' {\em Journal of
+  Instrumentation}, vol.~12, pp.~P10003--P10003, oct 2017.
+
+\bibitem{Sirunyan:2018pgf}
+A.~M. Sirunyan {\em et~al.}, ``Performance of reconstruction and identification
+  of $\tau$ leptons decaying to hadrons and $\nu_\tau$ in pp collisions at
+  $\sqrt{s}=$ 13 {TeV},'' {\em JINST}, vol.~13, p.~P10005, 2018.
+
+\bibitem{Hassanshahi:2797703}
+M.~H. Hassanshahi, ``{Tau identification in CMS during LHC Run 2},'' tech.
+  rep., CERN, Geneva, Nov 2021.
+
+\bibitem{https://doi.org/10.48550/arxiv.2201.08458}
+{CMS Collaboration}, ``Identification of hadronic tau lepton decays using a
+  deep neural network,'' 2022.
+
 \bibitem{EGammaEnergyScale}
 E.~P.~O. Group, ``Egamma miniaod v2 apply energy scale 13 tev,'' August 2022.
 \newblock https://twiki.cern.ch/twiki/bin/view/CMS/EgammaMiniAODV2.
@@ -114,24 +132,6 @@ CMS, ``Search for the standard model higgs boson decaying to a pair of tau
 E.~P.~O. Group, ``Electron mva recommendations 13 tev,'' August 2022.
 \newblock
   https://twiki.cern.ch/twiki/bin/view/CMS/MultivariateElectronIdentificationRun2.
-
-\bibitem{Hassanshahi:2797703}
-M.~H. Hassanshahi, ``{Tau identification in CMS during LHC Run 2},'' tech.
-  rep., CERN, Geneva, Nov 2021.
-
-\bibitem{Sirunyan_2017}
-A.~Sirunyan, A.~Tumasyan, {\em et~al.}, ``Particle-flow reconstruction and
-  global event description with the {CMS} detector,'' {\em Journal of
-  Instrumentation}, vol.~12, pp.~P10003--P10003, oct 2017.
-
-\bibitem{Sirunyan:2018pgf}
-A.~M. Sirunyan {\em et~al.}, ``Performance of reconstruction and identification
-  of $\tau$ leptons decaying to hadrons and $\nu_\tau$ in pp collisions at
-  $\sqrt{s}=$ 13 {TeV},'' {\em JINST}, vol.~13, p.~P10005, 2018.
-
-\bibitem{https://doi.org/10.48550/arxiv.2201.08458}
-{CMS Collaboration}, ``Identification of hadronic tau lepton decays using a
-  deep neural network,'' 2022.
 
 \bibitem{CMS-PAS-HIG-19-010}
 ``{Measurement of Higgs boson production in the decay channel with a pair of

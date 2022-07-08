@@ -1,8 +1,8 @@
 
-\section{Lepton Identification}
+\section{Lepton identification}
 The following three sections briefly describe how certain subsystems of the CMS detector work together to identify muons, electrons, and tau leptons. 
 
-\subsection{Muon Identification Systems}
+\subsection{Muon identification systems}
 
 In order to identify good muons, several subdetector work together to reconstruct muons. Looking at muons that come from the interaction vertex---prompt muons---the tracker plays an important role in identifying charged particle tracks. 
 
@@ -14,7 +14,7 @@ The tracker system works in tandem with the gas chambers to reconstruct muons, a
 During reconstruction, tracker or global muons are identified and are ultimately divided into four sub types depending on the $\chi^2$ of the track and momentum of the candidate muon ~\cite{CMS-PAS-PFT-09-001,Kratschmer:1956760}
 
 
-\subsection{Electron Identification Systems}
+\subsection{Electron identification systems}
 
 The main sub detector system that is involved with electron identification is the ECAL. To identify electrons a cluster of energy in the ECAL is associated with a track that is constructed in the silicon detector system. 
 
@@ -28,7 +28,7 @@ This association amounts to an overall efficiency of about 93\% ~\cite{Khachatry
 %In 2016 better calibration studies were completed at lower energy increasing the ECAL performance and the pixel upgrade in 2017 helped track reconstruction resulting in better electron identification ~\cite{Micheli:2727506}.
 
 
-\subsection{Tau Identification Systems}
+\subsection{Tau identification systems}
 Tau leptons are one of the most diverse particles in the Standard Model, decaying in many different ways. It is the heaviest lepton, so heavy that even tau decays to intermediate mesons are possible. The $\rho$, $a$, and $\pi$ mesons are several possible mesons that the tau can decay to. Therefore, when it comes to tau identification many subsystems are needed to properly identify them in addition to higher level algorithms. The focus of this section is on the hardware components that are needed to identify tau leptons. Tau leptons decay both hadronically and leptonically as shown in the table below \ref{tab:taudecay}. 
 
 
@@ -60,7 +60,7 @@ The Hadron Plus Strips (HPS) combines the use of the tracker system and the elec
  
 
 
-\section{Data and Simulation Used for Analysis}
+\section{Data and simulation}
 Data gathered at CMS is organized primarily on the trigger implemented to identify events. For this analysis, requiring muons is paramount and the search should be inclusive. Therefore datasets published by CMS that are considered are single muon, double muon, and electron plus photon datasets depending on the year. These datasets contain the triggers that are the most important for event selection. Single muon triggers that contain isolated muons at 24 and 27 GeV thresholds are implemented, along with double muon triggers with good reconstructed muons that have 17 GeV threshold. More information on triggers and selection will be given in the event selection section. 
 
 The simulation used to compare to data typically use MadGraph5@NLO along with a PYTHIA 8 hadronizer. These CMS-centrally generated samples are then digitized to the same format as real data events collected and processed at CMS high level trigger. These raw data formats are then reconstructed to physics objects - like tracks and higher level objects like muons and $\tau$leptons. A direct comparison between data and simulation can then be made after calibrating simulation in control regions. 
@@ -75,16 +75,60 @@ https://cms-project-generators.web.cern.ch/cms-project-generators/ .
 
 
 
-\subsection{2 $\mu$ 2 $\tau$ Signal Samples }
-For the Monte Carlo production of the signal samples, to reflect the 2HDM modeling, events were generated at tree level for a pseudoscalar Higgs like boson between the masses of 15 and 60 in intervals of 5 GeV with gluon fusion production. These masses are sufficient for the parametric modeling described in the fit to obtain a more precise peak resolution.
-MadGraph5@NLO v2.6.5 was used to generate these events with a PYTHIA 8 hadronizer. Privately produced samples were used for 2017 and 2018. However, the scripts and conditions used are located here:
- \texttt{https://github.com/samhiggie/iDM-analysis-AODproducer/tree/haa} .
-The NMSSMHET model was used to simulate the events. Parameters and information can be seen in the package:
-https://cms-project-generators.web.cern.ch/cms-project-generators/ .
- 
+\section{Physics object selection} 
+\label{sec:objsel}
+Baseline selections are recommended by the various Physics Object Groups (POGs) for object selection. Ultimately, these take the form of cuts for leptons based primary on kinematic variables like the momentum. 
+Based on the final state, selections are made to identify muons, electrons, and tau leptons. These three leptons form the objects under selection. 
+All leptons under consideration must pass trigger requirements that depend on momentum of the lepton. Special triggers are used for the different final states depending on the number of muons in the event. A precise description of the triggers used are given later in section ~\ref{sec:trig}.
+Of critical importance in object selection is identification of unique particles, particularly differentiating between lepton candidates that come from the interaction vertex (prompt) and those that appear from decays down the line (nonprompt). Relative isolation is typically defined in order to ensure there is no overlap between candidate leptons. More details on this variable and it's usage in the Particle Flow algorithm can be found here  ~\cite{Sirunyan_2017}. 
+\begin{equation}
+I^{\ell} \equiv \frac{\sum_\text{charged}  \PT + \max\left( 0, \sum_\text{neutral}  \PT
+                                         - \frac{1}{2} \sum_\text{charged, PU} \PT  \right )}{\PT^{\ell}}.
+\label{eq:reconstruction_isolation}
+\end{equation}
+$\sum_\text{charged}  \PT$ is the scalar sum of the
+transverse momenta of the charged particles originating from
+the primary vertex and contained in a cone of size
+$\Delta R = \sqrt{\smash[b]{(\Delta \eta)^2 + (\Delta \phi)^2}} = 0.4$\,(0.3)
+centered on the muon (electron) direction. The sum $\sum_\text{neutral}  \PT$ is
+a similar quantity for neutral particles.
+
+As mentioned in the instrumentation and detector section, the muon identification system uses the tracker to identify charged tracks and the muon chambers identify the particles later in their trajectory after they exit the solenoid. Typically ``good" muons are those that are both associated with a track and their subsequent identification in the drift tubes or the CSC chambers. The average muon lifetime is 2.2 $\mu$s so they travel quite far from the interaction point the sub detectors.  The physics object group's recommendations are followed, which select muons with $\pt>15\GeV$ and $\abs{\eta}<2.4$ in addition to selecting only ``good" muons.
+Electrons originating from the tau decay are reconstructed in by track association in tandem with energy deposition in the Electronic Calorimeter (ECAL). To clarify selection in the calorimeter systems, events are vetoed for candidate electrons that also show a substantial energy deposition in the HCAL. The hits and track quality from two separate algorithms, along with the geometrical and energy matching from the ECAL are used in a Multivariate Analysis (MVA) technique like Boosted Decision Trees (BDTs) to select good electrons for analysis 
+~\cite{Khachatryan:2015hwa}.
+To identify $\tauh$ candidates, the hadron-plus-strips (HPS) algorithm is used to identify the major modes of the hadronic tau decay ~\cite{Sirunyan_2018}. Typically events with hadronic prong are considered in combination with a number of neutral pions and missing transverse energy from the neutrinos. Pions almost always decay to photons, so an algorithm is considered that joins the identification of charged hadrons and neutral pions. 
+The HPS algorithm combines inner track information, hits in the HCAL, and pion association in the ECAL by deposits in a $\eta,\phi$ strip region to identify hadronic tau leptons. 
+The $\tauh$ is matched to $h^{\pm}$, $h^{\pm}\pi^{0}$, $h^{\pm}h^{\mp}h^{\pm}$, or $h^{\pm}h^{\mp}h^{\pm}\pi^{0}$ depending on the overall charge vs neutral constituents ~\cite{Sirunyan:2018pgf,Hassanshahi:2797703}.
+In addition to HPS algorithms, a Deep Neural Network (DNN) was constructed to further aid in identification by discriminate between genuine tau leptons and those that originate from quark or gluon jets, electrons, or muons.  
+In the DNN, the tau four-momentum and charge,
+the number of charged and neutral particles used to reconstruct the tau candidate,
+the isolation variables,
+the compatibility of the leading tau track with coming from the primary vertex,
+the properties of a secondary vertex in case of a multiprong tau decay,
+observables related to the $\eta$ and $\phi$ distributions of energy reconstructed in the ECAL strips,
+observables related to the compatibility of the tau candidate with being an electron, 
+and the estimated pileup density in the event are all used. In total, 47 high-level input variables are incorporated 
+~\cite{https://doi.org/10.48550/arxiv.2201.08458}.
+In practice, the DNN has discriminators for muons, electrons, and jets that fake genuine taus and have efficiencies that go from 40\% to 90\% in a 10\% granularity of the discriminating variable. The medium working point is used for each of these discriminators. 
+All leptons also have a momentum threshold and isolation requirements to place them in a kinematic region where good agreement between data and MC is expected in control regions.  
+
+\begin{table}[h!tbp]
+\centering
+\topcaption{$t\bar{t}$ baseline cuts and identification for lepton selection
+\label{tab:basecuts}
+}
+\begin{tabular*}{0.8\textwidth}{c|p{0.6\linewidth}}
+\hline
+lepton          & baseline cuts \\\hline 
+Muon            & $\delta Z < 0.2$, $\delta xy < 0.045$, $\pt > 5.0 GeV$, $\text{Iso.} <= 0.2$, $\eta \geq 2.4$\\\hline
+Electron        & $\delta Z < 0.2$, $\delta xy < 0.045$, $\pt > 7.0 GeV$, $\text{Iso.} <= 0.15$, $\eta \geq 2.5$ \\\hline
+Tau             & $\delta Z < 0.2$, $\delta xy < 0.045$, $\pt > 18.5 GeV$, $\text{Iso.} <= 0.2$, $\eta \geq 2.3$, Med. DNN \\\hline
+\end{tabular*}
+\end{table}
 
 
-\section{Corrections to Simulations }
+\section{Corrections to simulations }
+\label{sec:corrections}
 
 %corrections.TeX
 For accurate results that reflect true experimental data, many corrections to MC samples are made. In general, in compliance with CMS's Physics Object Groups (POGs), standard techniques are applied to ensure proper simulation. Of critical importance is the corrections to energy scales for the leptons in the analysis. These corrections will affect the nominal energy recorded for the event as well as the rates in which objects are identified.  In order to protect against bias and to investigate systematic errors, corrections that could effect the results are considered in the overall error in the statistical inference model.
@@ -237,6 +281,7 @@ Muons with $9 < pT < 10$ GeV & 0.916 & 0.897\\\hline
 
 
 \subsection{Visualizing the Corrections}
+
 The energy scales for the various leptons used in the analysis are not only changed in the nominal case, but their uncertainty is measured and then propagated to the fit model via changes in the normalization for the distribution. To visualize this and provide a cross check distributions for the $\tau$, $\mu$, and $e$ energy scales are cross checked in the parameter of interest ( the mass of the di-muon system from the leading $\pt$ pseudoscalar $a$ particle). 
 These systematics for $\mu\mu\tau\tau$ channel are visualized here in figure \ref{fig:sys_shift_mmtt2016}.
 \begin{figure}[ht!b]
