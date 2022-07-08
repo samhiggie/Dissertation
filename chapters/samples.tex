@@ -4,32 +4,29 @@ The following three sections briefly describe how certain subsystems of the CMS 
 
 \subsection{Muon identification systems}
 
-In order to identify good muons, several subdetector work together to reconstruct muons. Looking at muons that come from the interaction vertex---prompt muons---the tracker plays an important role in identifying charged particle tracks. 
-
 As CMS implies in its name, muons are certainly a focal point in particle detection. 
-
-The tracker system works in tandem with the gas chambers to reconstruct muons, and the solenoid measures charge particle's momentum allowing for an accurate mass resolution.  
-
-
-During reconstruction, tracker or global muons are identified and are ultimately divided into four sub types depending on the $\chi^2$ of the track and momentum of the candidate muon ~\cite{CMS-PAS-PFT-09-001,Kratschmer:1956760}
+Looking at muons that come from the interaction vertex---prompt muons---the tracker plays an important role in identifying charged particle tracks. 
+The tracker system works in conjunction with the gas chambers to reconstruct muons, and the solenoid bends the charged particle's tracks allowing the momentum to be measured for an accurate mass resolution. By design, muons should be the only particle that should reach the gas chambers, making for great muon efficiency. 
+During reconstruction, muons are identified and are ultimately divided into four working points (very loose, loose, medium, tight). These points are defined on their efficiencies and depend on the $\chi^2$ of the track and momentum of the candidate muon ~\cite{CMS-PAS-PFT-09-001,Kratschmer:1956760}.
 
 
 \subsection{Electron identification systems}
 
-The main sub detector system that is involved with electron identification is the ECAL. To identify electrons a cluster of energy in the ECAL is associated with a track that is constructed in the silicon detector system. 
-
-The tracks are identified in the typical fashion by using the Kalman Filter tracking technique to pick good quality tracks, then the tracks are refitted using a Gaussian Sum Filter (GSF). 
-This track would then be associated with the ECAL super cluster (SC) by requiring matching in $\eta,\;\phi$ space
+The main subdetector involved with electron identification is the ECAL. To identify electrons, a cluster of energy in the ECAL is associated with a track that is constructed in the silicon detector system. 
+The tracks are identified in the typical fashion by using the Kalman Filter tracking technique to pick good quality tracks, then the tracks are refitted using a Gaussian Sum Filter. 
+These tracks would then be associated with an ECAL super cluster by requiring matching in $\eta,\;\phi$ space
 \begin{equation}|\Delta\eta| = |\eta_{\text{SC}} - \eta_{\text{in}}^{\text{extrap}}| < 0.02\end{equation}
 \begin{equation}|\Delta\phi| = |\phi_{\text{SC}} - \phi_{\text{in}}^{\text{extrap}}| < 0.15\end{equation}
-This association amounts to an overall efficiency of about 93\% ~\cite{Khachatryan:2015hwa}. 
+This method has an overall efficiency of about 93\% ~\cite{Khachatryan:2015hwa}. 
 
 
 %In 2016 better calibration studies were completed at lower energy increasing the ECAL performance and the pixel upgrade in 2017 helped track reconstruction resulting in better electron identification ~\cite{Micheli:2727506}.
 
 
 \subsection{Tau identification systems}
-Tau leptons are one of the most diverse particles in the Standard Model, decaying in many different ways. It is the heaviest lepton, so heavy that even tau decays to intermediate mesons are possible. The $\rho$, $a$, and $\pi$ mesons are several possible mesons that the tau can decay to. Therefore, when it comes to tau identification many subsystems are needed to properly identify them in addition to higher level algorithms. The focus of this section is on the hardware components that are needed to identify tau leptons. Tau leptons decay both hadronically and leptonically as shown in the table below \ref{tab:taudecay}. 
+Tau leptons decay in many different ways. It is the heaviest lepton, so heavy that it can decay to intermediate mesons. The $\rho$, $a$, and $\pi$ mesons are several possible mesons that the tau can decay to. 
+Therefore, when it comes to tau identification, many algorithms are needed to properly identify them using information across the detector. 
+Tau leptons decay both hadronically and leptonically as shown in the table below \ref{tab:taudecay}. 
 
 
 
@@ -61,14 +58,13 @@ The Hadron Plus Strips (HPS) combines the use of the tracker system and the elec
 
 
 \section{Data and simulation}
-Data gathered at CMS is organized primarily on the trigger implemented to identify events. For this analysis, requiring muons is paramount and the search should be inclusive. Therefore datasets published by CMS that are considered are single muon, double muon, and electron plus photon datasets depending on the year. These datasets contain the triggers that are the most important for event selection. Single muon triggers that contain isolated muons at 24 and 27 GeV thresholds are implemented, along with double muon triggers with good reconstructed muons that have 17 GeV threshold. More information on triggers and selection will be given in the event selection section. 
+For this analysis, muons are paramount, so there must be a certain number of muons triggered for the event to be selected. Two final states contain electrons, so datasets containing electrons are also used. The single muon, double muon, and electron plus photon datasets are used depending on the year. These datasets contain the triggers that are the most important for object selection. Single muon triggers that contain isolated muons at 22, 24, and 27 GeV thresholds are implemented, along with double muon triggers with good reconstructed muons that have 17 GeV threshold. More information on triggers and selection is given in the event selection section ~\ref{sec:trig}. 
 
-The simulation used to compare to data typically use MadGraph5@NLO along with a PYTHIA 8 hadronizer. These CMS-centrally generated samples are then digitized to the same format as real data events collected and processed at CMS high level trigger. These raw data formats are then reconstructed to physics objects - like tracks and higher level objects like muons and $\tau$leptons. A direct comparison between data and simulation can then be made after calibrating simulation in control regions. 
+The simulation used to compare to data typically use MadGraph5@NLO along with PYTHIA 8 for hadronization. These CMS centrally-generated samples are then digitized using GEANT4 to the same format as real data events collected and processed at CMS high level trigger. These raw data formats are then reconstructed to physics objects---such as tracks and higher level objects like muons and leptons. A direct comparison between data and simulation can be made after calibrating simulation in control regions. 
 
-Data taken from CMS during the entire Run II period was examined. This corresponds to 137 $\text{fb}^{-1}$ of integrated luminosity. The list for data and simulation Monte Carlo(MC) is exhaustive and listed in the appendix \ref{app:data}.   
+Data taken from CMS during the entire Run II period was examined, corresponding to 137 $\text{fb}^{-1}$ of integrated luminosity. The list for data and simulation Monte Carlo(MC) is exhaustive and listed in the appendix \ref{app:data}.   
 
-For the MC production of the signal samples, to reflect the 2HDM modeling, events were generated at tree level for a pseudoscalar Higgs like boson between the masses of 15 and 60 in intervals of 5 GeV with gluon fusion production. These masses are sufficient for the parametric modeling described in the fit to obtain a more precise peak resolution. The signal samples were privately produced for 2017 and 2018, because CMS MC generator contacts weren't sufficient in providing the samples in an acceptable manner. Sampled existed from the 2016 analysis. 
-MadGraph5@NLO v2.6.5 was used to generate these events with a PYTHIA 8 hadronizer. Privately produced samples were used for 2017 and 2018. However, the scripts and conditions used are located here:
+For the MC production of the signal samples, to reflect the 2HDM modeling, events were generated at tree level for a pseudoscalar Higgs like boson between the masses of 15 and 60 GeV in intervals of 5 GeV with the parent Higgs produced through gluon fusion. These masses are sufficient for the parametric modeling described in the fit to obtain a more precise peak resolution ~\ref{sec:fitmodel}. Privately produced samples were used for 2017 and 2018. The scripts and conditions used are located here:
  \texttt{https://github.com/samhiggie/iDM-analysis-AODproducer/tree/haa} .
 The NMSSMHET model was used to simulate the events. Parameters and information can be seen in the package:
 https://cms-project-generators.web.cern.ch/cms-project-generators/ .
@@ -80,7 +76,7 @@ https://cms-project-generators.web.cern.ch/cms-project-generators/ .
 Baseline selections are recommended by the various Physics Object Groups (POGs) for object selection. Ultimately, these take the form of cuts for leptons based primary on kinematic variables like the momentum. 
 Based on the final state, selections are made to identify muons, electrons, and tau leptons. These three leptons form the objects under selection. 
 All leptons under consideration must pass trigger requirements that depend on momentum of the lepton. Special triggers are used for the different final states depending on the number of muons in the event. A precise description of the triggers used are given later in section ~\ref{sec:trig}.
-Of critical importance in object selection is identification of unique particles, particularly differentiating between lepton candidates that come from the interaction vertex (prompt) and those that appear from decays down the line (nonprompt). Relative isolation is typically defined in order to ensure there is no overlap between candidate leptons. More details on this variable and it's usage in the Particle Flow algorithm can be found here  ~\cite{Sirunyan_2017}. 
+Identifying unique particles in object selection is critical, particularly differentiating between lepton candidates that come from the interaction vertex (prompt) and those that appear from decays down the line (nonprompt). Relative isolation is typically defined in order to ensure there is no overlap between candidate leptons. More details on this variable and it's usage in the Particle Flow algorithm can be found here  ~\cite{Sirunyan_2017}. 
 \begin{equation}
 I^{\ell} \equiv \frac{\sum_\text{charged}  \PT + \max\left( 0, \sum_\text{neutral}  \PT
                                          - \frac{1}{2} \sum_\text{charged, PU} \PT  \right )}{\PT^{\ell}}.
@@ -93,7 +89,7 @@ $\Delta R = \sqrt{\smash[b]{(\Delta \eta)^2 + (\Delta \phi)^2}} = 0.4$\,(0.3)
 centered on the muon (electron) direction. The sum $\sum_\text{neutral}  \PT$ is
 a similar quantity for neutral particles.
 
-As mentioned in the instrumentation and detector section, the muon identification system uses the tracker to identify charged tracks and the muon chambers identify the particles later in their trajectory after they exit the solenoid. Typically ``good" muons are those that are both associated with a track and their subsequent identification in the drift tubes or the CSC chambers. The average muon lifetime is 2.2 $\mu$s so they travel quite far from the interaction point the sub detectors.  The physics object group's recommendations are followed, which select muons with $\pt>15\GeV$ and $\abs{\eta}<2.4$ in addition to selecting only ``good" muons.
+As mentioned in the instrumentation and detector section, the muon identification system uses the tracker to identify charged tracks and the muon chambers identify the particles later in their trajectory after they exit the solenoid. Typically ``good" muons are those that are both associated with a track and their subsequent identification in the drift tubes or the CSC chambers. The average muon lifetime is 2.2 $\mu$s so they travel quite far from the interaction point the subdetectors.  The physics object group's recommendations are followed, which select muons with $\pt>15\GeV$ and $\abs{\eta}<2.4$ in addition to selecting only ``good" muons.
 Electrons originating from the tau decay are reconstructed in by track association in tandem with energy deposition in the Electronic Calorimeter (ECAL). To clarify selection in the calorimeter systems, events are vetoed for candidate electrons that also show a substantial energy deposition in the HCAL. The hits and track quality from two separate algorithms, along with the geometrical and energy matching from the ECAL are used in a Multivariate Analysis (MVA) technique like Boosted Decision Trees (BDTs) to select good electrons for analysis 
 ~\cite{Khachatryan:2015hwa}.
 To identify $\tauh$ candidates, the hadron-plus-strips (HPS) algorithm is used to identify the major modes of the hadronic tau decay ~\cite{Sirunyan_2018}. Typically events with hadronic prong are considered in combination with a number of neutral pions and missing transverse energy from the neutrinos. Pions almost always decay to photons, so an algorithm is considered that joins the identification of charged hadrons and neutral pions. 
@@ -134,10 +130,11 @@ Tau             & $\delta Z < 0.2$, $\delta xy < 0.045$, $\pt > 18.5 GeV$, $\tex
 For accurate results that reflect true experimental data, many corrections to MC samples are made. In general, in compliance with CMS's Physics Object Groups (POGs), standard techniques are applied to ensure proper simulation. Of critical importance is the corrections to energy scales for the leptons in the analysis. These corrections will affect the nominal energy recorded for the event as well as the rates in which objects are identified.  In order to protect against bias and to investigate systematic errors, corrections that could effect the results are considered in the overall error in the statistical inference model.
 
 \subsection{Muon energy scale}
-Corrections to the muon's energy scale are computed for the muons that pass selection for the analysis. Medium muon ID with track based isolation that pass the isolated single muon triggers at 24 GeV and 27GeV are then rescaled for pileup, efficiency, di-lepton $P_T$ and EWK re-weighting of based on accurate gauge boson measurements. After selection, the scale factors for energy corrections are measured and parametrized in $\phi$ and $\eta$ in multiplicative and additive corrections 
-\begin{equation}\rho^{\text{cor}}=\kappa(\eta,\phi)\rho+Q \lambda(\eta,\phi)\end{equation} 
+Corrections to the muon's energy scale are computed for the muons that pass selection for the analysis. Medium muon ID with track based isolation that pass the isolated single muon triggers at 22 GeV, 24 GeV, and 27GeV are then rescaled for pileup, efficiency, di-lepton $P_T$ and EWK re-weighting of based on accurate gauge boson measurements. After selection, the scale factors for energy corrections are measured and parametrized in $\phi$ and $\eta$ in multiplicative and additive corrections 
+\begin{equation}\rho^{\text{cor}}=\kappa(\eta,\phi)\rho+Q \lambda(\eta,\phi)\end{equation}. 
+The correction coefficients $\kappa$, and $\lambda$ are measured in a tag and probe method and $\rho$, $Q$ related to the energy scale.
 
-In practice these are just scale factors applied to the energy scale in certain eta phi regions. \\
+In practice, these are just scale factors applied to the energy scale in certain eta phi regions. \\
 \begin{table}[h]
   \begin{center}
     \topcaption{Measured \Pmu energy scale correction for genuine \Pmu across all years.}
@@ -172,7 +169,7 @@ The energy shift is split depending on the $\eta$ of the electron shown in table
 \end{table}\\
 
 \subsection{$\tau$ energy scale}
-There is a central energy shift based on the type of tau decay. Due to the electroweak interactions $\tau$ leptons decay hadronically and leptonically. Figure \ref{fig:taudecay} shows the typical tau decay leptonically or hadronically.  \\
+There is a central energy shift based on the type of tau decay. Due to the electroweak interactions, $\tau$ leptons decay hadronically and leptonically. Figure \ref{fig:taudecay} shows the typical tau decay leptonically or hadronically.  \\
 
 \begin{figure}[ht!b]
 \begin{center}
@@ -180,7 +177,7 @@ There is a central energy shift based on the type of tau decay. Due to the elect
     \caption{\label{fig:taudecay} diagram depicting the possible decays of the tau lepton: 65\% of the time hadronically and 18\% to tau neutrino and electron with antielectron neutrino (17\% for muon)}
 \end{center}
 \end{figure} 
-When the tau decays hadronically, many different intermediate mesons are produced and each type of decay has different kinds of signatures particularly when they hadronize and deposit the energy within the hadronic calorimeter of CMS. The Tau-POG has measured the central value systematic deviation as a form of scalar factor that should be applied for an accurate result of measuring the tau's energy. This is split by the prongs (charged hadrons) and $\pi^0$ s.  
+When the tau decays hadronically, many different intermediate mesons are produced and each type of decay has a different signature particularly when they hadronize and deposit the energy within HCAL. The Tau-POG has measured the central value systematic deviation as a form of scalar factor that is applied for an accurate result of measuring the tau's energy. This is split by the prongs (charged hadrons) and $\pi^0$ s.  
 
 \begin{table}[h]
   \begin{center}
@@ -196,7 +193,7 @@ When the tau decays hadronically, many different intermediate mesons are produce
   \end{center}
 \end{table}
 
-The deviation in the model is measured by between the difference in data and MC for different values of hadronic tau energy. The uncertainty is measured for each decay mode considered in the analysis. Figures \ref{fig:taues} shows the differences in data and MC for the 1 prong + $\pi_0$ decay mode as a function of tau energy, all other tau decay modes are also measured. 
+The deviation in the model is measured by between the difference in data and MC for different values of hadronic tau energy. The uncertainty is measured for each decay mode considered in the analysis. Figures \ref{fig:taues} shows the differences in data and MC for the 1 prong + $\pi_0$ decay mode as a function of tau energy; all other tau decay modes are also measured. 
 
 \begin{figure}[h!]
     \begin{center}
@@ -204,16 +201,14 @@ The deviation in the model is measured by between the difference in data and MC 
         \includegraphics[width=0.32\textwidth]{Figures/TauPOG/mtau_1ProngPi0_minus6percent_v3.pdf}
         \includegraphics[width=0.32\textwidth]{Figures/TauPOG/mtau_1ProngPi0_plus6percent_v3.pdf}
     \end{center}
-    \caption{Tau mass distributions considering the nominal $\tau_h$ energy scale in simulation (left), or the $\tau_h$ energy scale shifted by -6 (left) or +6\% (right), in the $\mu\tau_h$ final state, for the 1 prong + pizero decay mode.}
+    \caption{Tau mass distributions considering the nominal $\tau_h$ energy scale in simulation (left), or the $\tau_h$ energy scale shifted by -6 (left) or +6\% (right), in the $\mu\tau_h$ final state, for the 1 prong + $\pi^0$ decay mode.}
     \label{fig:taues}
 \end{figure}
 
 \subsection{$\tauh$ ID efficiency}
 
 Genuine $\tauh$ identification efficiency can be different in Data and MC ~\cite{TAUIDTwiki}. To correct for this difference, measurements are 
-made in an inclusive $\mu\tau$ channel, using genuine Drell-Yan to $\tauh$ as a signal and using the invariant mass
-of the $\Pgm\tauh$ as an observable. Naturally, this region has far more statistics than the control and signal regions in the pseudoscalar analysis. To measure the identification efficiency precisely, it is done in the inclusive regions with an emphasis of simulation containing real taus. This measurement is done by the Tau POG, and the scale factors are provided to CMS. 
-
+made using genuine Z+jets production (Drell-Yan) to two $\tau$ leptons, one decays leptonically and the other hadronically. The invariant mass of the system is used as an observable. Naturally, this region has far more statistics than the control and signal regions in the pseudoscalar analysis. To measure the identification efficiency precisely, it is done in the inclusive regions with an emphasis of simulation containing real taus. This measurement is done by the Tau POG, and the scale factors are provided to CMS. 
 For the $\mu\mu e \tauh$ and $\mu\mu\mu\tauh$ channels, scale factors are binned in 3 different $\pt$ bins: 30--35, 35--40, and 40+ \GeV. In the $\tauh\tauh$ final state, the efficiencies are also binned by decay mode. 
 
 
@@ -221,14 +216,13 @@ These efficiencies, while used in the primary event and the parameter of interes
 
 
 \subsection{$e \rightarrow \tauh$  and $\mu \rightarrow \tauh$ misidentification rate}
-The efficiencies associated with $\tau$ identification through the Deep Neural Net approach is considered. 
-The efficiency of the discriminators against electrons or muons misidentified as $\tauh$ candidates can be miss-modeled in simulation. 
+The efficiency of the discriminators against electrons or muons misidentified as $\tauh$ candidates can also be different between simulation and data. 
 These data/MC scale factors are
-binned by barrel/endcap region of the measured $\eta_{\tauh}$, and by $\tauh$ decay mode. They depend on the anti-electron or anti-muon discriminator used. 
-Scale factors are measured to correct this and are applied to $e \rightarrow \tauh$ or $\mu \rightarrow \tauh$ in MC. Full information on misidentification measurements and application in analyses can be found in reference ~\cite{TAUIDTwiki}. 
+binned by barrel/endcap region of the measured $\eta(\tauh)$, and by $\tauh$ decay mode. They depend on the discriminators against electrons and muons used in the DNN. 
+Scale factors are measured to correct this difference and are applied to $e \rightarrow \tauh$ or $\mu \rightarrow \tauh$ in MC. Full information on misidentification measurements and application in analyses can be found in reference ~\cite{TAUIDTwiki}. 
 
 
-The misidentification scale factors are derived by pass and fail regions. The regions are set up by selecting events where a reconstructed $\tauh$ passes the DNN working point and also fails the DNN discriminant against muons. QCD multijet is estimated from same sign lepton region within data - similar to the fake rate calculation like in chapter \ref{chap:background}. W+Jets normalization is carefully selection from a region with high transverse mass. The visible mass distributions of the events in these regions are fit and the overall signal yield remains constant in the pass and fail regions. The normalization of $Z \to e e $ background is allowed to vary in this muon faking tau measurement.   
+The misidentification scale factors are derived by pass and fail regions. The regions are set up by selecting events where a reconstructed $\tauh$ passes the DNN working point and also fails the DNN discriminant against muons or electrons. The regions considered are QCD multijet, W+jets, and Z+jets---similar to the fake rate calculation like in chapter \ref{chap:background}. QCD multijet is estimated from same sign lepton region within data. W+Jets normalization is carefully selection from a region with high transverse mass. The visible mass distributions of the events in these regions are fit and the overall signal yield remains constant in the pass and fail regions. The normalization of $Z \to e e $ background is allowed to vary in this muon faking tau measurement.   
 The expected impact on the systematic model from these anti-lepton discriminators are expected to be very small so they are not included in the uncertainty model.
 
 %The scale factors are obtained by separating events with a reconstructed muon and a reconstructed $\tauh$ passing
@@ -254,19 +248,20 @@ Scale factors derived within the HTT group are applied for muons~\cite{AN16355},
 \subsection{Generator event weights and luminosity}
 
 Generator weights are applied on an event-by-event basis. Samples produced with the aMCatNLO generator contain both positive and negative event weights. The presence of negative event weights reduces the
-effective statistics of the samples.
+effective yield of the samples.
 The event weights for simulation are scaled to the expected yields for each sample. The number
-of generated events in each sample is used, however in the aMCatNLO sample this sum of
+of generated events in each sample is used, however in the aMCatNLO sample, this sum of
 generated events is weighted by the generator weights, effectively making the aMCatNLO
 samples smaller when weighting for luminosity and cross section.
-Additionally, K-factors are considered for W+Jets and Drell-Yan samples in order to correct between purely generated events and reconstructed event yeilds for Drell-Yan a factor of 1.1637 is used and for W+Jets a factor of 1.221 is used. These are applied to each exclusive and inclusive samples during the combination of inclusive and exclusive sample processing.   
+
+To correct for differences between leading order and next to leading order cross sections, scale factors called K-factors are used. They are applied to W+Jets and Drell-Yan samples in order to correct between purely generated events and reconstructed event yields. For Drell-Yan a factor of 1.1637 is used and for W+Jets a factor of 1.221 is used.
 %\subsection{Trigger weights}
 %
 %We use a trigger scale factor of 1.0 for the soup of single muon, double muon, and triple muon triggers. This is consistent with what was measured by various analyses, for example in Refs \cite{AN16392}, \cite{AN17020}.
 %
 
 \subsection{Offline Muon Selection}
-Due to the selection of muons at 5 GeV, which is below the trigger threshold, scale factors were measured in the barrel and encaps using the tag and probe technique in the 2016 analysis. These factors are considered, in addition to the Muon POG's recommendation, to support correct simulation of data. 
+Due to the selection of muons at 5 GeV, which is below the trigger threshold, scale factors were measured in the barrel and encaps using the tag and probe technique in the 2016 analysis. These factors are used to correct for low pt muon selection, in addition to the Muon POG's recommendation, to support correct simulation of data. 
 \begin{table}[h!tbp]
 \centering
 \topcaption{Scale factors to correct for Offline muon selection being less than the online trigger threshold. 
@@ -293,4 +288,4 @@ These systematics for $\mu\mu\tau\tau$ channel are visualized here in figure \re
     \caption{\label{fig:sys_shift_mmtt2016} Systematic Shift in the Uncertainty Model for 2016 $\mu\mu\tau\tau$ for the muon energy scale shift down (left), nominal (mid), and up (right), no data is shown on this plot as it directly reflects the signal region without the extraction cuts }
 \end{figure}
 
-In the end, the uncertainty considered in the fit model would then be the percent yield up and down as a log-normal that affects the normalization of the template. Because the model is so statistically limited the log-normal is sufficient in capturing the changes in the distributions over the fit range.  
+In the end, the uncertainty considered in the fit model would then be the percent yield up and down as a flat error (log-normal) that affects the normalization of the template. Because the model is so statistically limited, the log-normal is sufficient in capturing the changes in the distributions over the fit range.  

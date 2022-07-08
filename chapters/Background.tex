@@ -11,8 +11,7 @@ The shape of the kinematic distributions should not change between the tight and
 Therefore, using the orthogonal reigons---same sign and opposite sign---along with the loose signal region one can extrapolate the number of events in the tight signal region. Due to the four regions, the method is also referred to as the ``ABCD" method. 
 
 
-\section{Brief Outline of the Fake Rate Method}
-The general outline to measure the fake rate is as follows.
+\section{Brief outline of the fake rate method}
 The fake rate function in the same sign (SS) region is \textit{known}.
 Events passing loose identification in the opposite sign (OS) region is \textit{known}.
 Events passing in the signal region is \textit{unknown}. 
@@ -23,18 +22,18 @@ Assuming the shapes are similar and that the loose and tight identification is n
 \end{equation}
 To make the expression more precise, the fake rate function is typically parametrized in lepton candidate transverse momentum. 
  Also, prompt MC is subtracted from data, which is motivated by estimating the true jet faking taus background (non-prompt taus). If MC is matched to prompt then it is unlikely a jet faking tau, so they are removed. 
-\begin{equation}f_r(pt)=\frac{\text{Data Events S.S. Tight - Prompt MC Background}}{\text{Data Events S.S. Loose - Prompt MC Background}}\end{equation} 
+\begin{equation}f(pt)=\frac{\text{Data Events S.S. Tight - Prompt MC Background}}{\text{Data Events S.S. Loose - Prompt MC Background}}\end{equation} 
 
-After the measurement is made for each leg, then apply the fake rate as an event weight to the Opposite Sign loose region one leg at a time to extrapolate to the signal region. So isolating the events in the signal region and flipping the relation in equation \ref{eq:abcd}, one obtains the result for each lepton candidate in the final state: 
+After the measurement is made for each tau candidate, then the fake rate is applied as an event weight to the opposite sign loose region in order to extrapolate to the signal region. So isolating the events in the signal region and flipping the relation in equation \ref{eq:abcd}, one obtains the result for each lepton candidate in the final state: 
 \begin{equation}
-\text{Events}_\text{OS Tight} = f_r(pt)\cdot \text{Events}_\text{OS Loose}  
+\text{Events}_\text{OS Tight} = f(pt)\cdot \text{Events}_\text{OS Loose}  
 \end{equation}
 
 \section{Measurement of the Fake Rate}
 To measure the fake rate, multiple categories are considered and motivated through the production processes which produce jets. As outlined in the SM Higgs decays to tau leptons analysis and its supporting document on fake rate measurements, several regions are used to determine the fake rate ~\cite{AN16355}. The separate jet ``enriched" background regions are considered for each final state
 \begin{itemize}
-	\item QCD multijet targeting the majority of jet→ \tauh fake events in the \tauh \tauh final state
-	\item W+jets targeting jets mostly in the e\tauh and µ\tauh final states
+	\item QCD multijet targeting the majority of jet→ \tauh fake events in the \tauh \tauh final state,
+	\item W+jets targeting jets mostly in the e\tauh and µ\tauh final states,
 	\item \ttbar events targeting fully-hadronic or semi-leptonic decays.
 \end{itemize} 
 
@@ -137,17 +136,14 @@ The rest of the measurements are included in the Appendix \ref{app:ffmeas}. For 
 
 \section{Application of the Fake Rate Method}
 
-After the jet faking tau rate is measured, it is then applied to events that are identified as loose. Since the final state involves two tau leptons, this procedure is applied to each tau lepton in the final state thus requiring application of the fake rate to four different possibilities. Each lepton ``leg" may be identify as loose or equivalently, failing the tight identification. The fake rate is then applied depending on the identification for each leg and in the case the event fails both legs then a minus sign is included to avoid the case of double counting. 
+After the jet faking tau rate is measured, it is then applied to events that are identified as loose. Since the final state involves two tau leptons, this procedure is applied to each tau lepton in the final state thus requiring application of the fake rate to four different possibilities. Each lepton candidate may be identify as loose or equivalently, failing the tight identification. The fake rate is then applied depending on the identification for each lepton candidate and in the case the event fails both candidate requirements then a minus sign is included to avoid the case of double counting.  
+The final weight is then applied depending on the pass and fail criteria of each lepton candidate. The weight is effectively a transfer factor that is created using the fake rate measured earlier.j
 \begin{itemize}
-\item{The final weight is then 
-applied depending on the 
-pass and fail criteria of each 
-lepton candidate}
-\item{If event fails identification for leg 1:\begin{equation}f_1(pt)=\frac{f_{r_1}(pt)}{1-f_{r_1}(pt)}\end{equation}}
-\item{If event fails identification for leg 2:\begin{equation}f_2(pt)=\frac{f_{r_2}(pt)}{1-f_{r_2}(pt)}\end{equation}}
-\item{If event fails identification for both:\begin{equation}f_{12}(pt)=-\frac{f_{r_1}(pt)}{1-f_{r_1}(pt)}\cdot\frac{f_{r_2}(pt)}{1-f_{r_2}(pt)}\end{equation}}
+\item{If event fails identification for $\tau$ 1:\begin{equation}w_1(pt)=\frac{f_{1}(pt)}{1-f_{1}(pt)}\end{equation}}
+\item{If event fails identification for $\tau$ 2:\begin{equation}w_2(pt)=\frac{f_{2}(pt)}{1-f_{2}(pt)}\end{equation}}
+\item{If event fails identification for both:\begin{equation}w_{12}(pt)=-\frac{f_{1}(pt)}{1-f_{1}(pt)}\cdot\frac{f_{2}(pt)}{1-f_{2}(pt)}\end{equation}}
 \end{itemize}
-
+The weight is the ratio of tight events to loose events that explicitly fail the tight requirement.
 
 To illustrate the different regions please consider the diagram outlining the different regions in the ``ABCD" method \ref{fig:fakefactor_reg}. 
 \begin{figure}[ht!b]
