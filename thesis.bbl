@@ -27,8 +27,8 @@ D.~Curtin, R.~Essig, S.~Gori, P.~Jaiswal, A.~Katz, T.~Liu, Z.~Liu, D.~McKeen,
 \bibitem{CMS-HIG-17-029}
 A.~M. Sirunyan {\em et~al.}, ``Search for an exotic decay of the higgs boson to
   a pair of light pseudoscalars in the final state of two muons and two $\tau$
-  leptons in proton-proton collisions at s=13$$ \sqrt{s}=13 $$tev leptons with
-  the {CMS} detector,'' {\em Journal of High Energy Physics}, p.~283, 2017.
+  leptons in proton-proton collisions at $ \sqrt{s}=13 $tev leptons with the
+  {CMS} detector,'' {\em Journal of High Energy Physics}, p.~283, 2017.
 
 \bibitem{Bruning:782076}
 O.~S. Brüning, P.~Collier, P.~Lebrun, S.~Myers, R.~Ostojic, J.~Poole, and
@@ -132,6 +132,11 @@ CMS, ``Search for the standard model higgs boson decaying to a pair of tau
 E.~P.~O. Group, ``Electron mva recommendations 13 tev,'' August 2022.
 \newblock
   https://twiki.cern.ch/twiki/bin/view/CMS/MultivariateElectronIdentificationRun2.
+
+\bibitem{SMHTTarXiv}
+{CMS Collaboration}, ``Measurements of higgs boson production in the decay
+  channel with a pair of $\tau$ leptons in proton-proton collisions at
+  $\sqrt{s}$ = 13 tev,'' 2022.
 
 \bibitem{CMS-PAS-HIG-19-010}
 ``{Measurement of Higgs boson production in the decay channel with a pair of

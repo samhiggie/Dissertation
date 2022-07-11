@@ -6,27 +6,22 @@ The following three sections briefly describe how certain subsystems of the CMS 
 
 As CMS implies in its name, muons are certainly a focal point in particle detection. 
 Looking at muons that come from the interaction vertex---prompt muons---the tracker plays an important role in identifying charged particle tracks. 
-The tracker system works in conjunction with the gas chambers to reconstruct muons, and the solenoid bends the charged particle's tracks allowing the momentum to be measured for an accurate mass resolution. By design, muons should be the only particle that should reach the gas chambers, making for great muon efficiency. 
-During reconstruction, muons are identified and are ultimately divided into four working points (very loose, loose, medium, tight). These points are defined on their efficiencies and depend on the $\chi^2$ of the track and momentum of the candidate muon ~\cite{CMS-PAS-PFT-09-001,Kratschmer:1956760}.
+The tracker system works in conjunction with the gas chambers to reconstruct muons, and the solenoid bends the muon's tracks allowing the momentum to be measured for an accurate mass resolution. By design, muons should be the only particle that should reach the gas chambers, making for great muon efficiency. 
+During reconstruction, muons are identified and divided into four working points (very loose, loose, medium, tight). These points are based on their efficiencies and depend on the $\chi^2$ of the track and momentum of the candidate muon ~\cite{CMS-PAS-PFT-09-001,Kratschmer:1956760}.
 
 
 \subsection{Electron identification systems}
-
 The main subdetector involved with electron identification is the ECAL. To identify electrons, a cluster of energy in the ECAL is associated with a track that is constructed in the silicon detector system. 
-The tracks are identified in the typical fashion by using the Kalman Filter tracking technique to pick good quality tracks, then the tracks are refitted using a Gaussian Sum Filter. 
-These tracks would then be associated with an ECAL super cluster by requiring matching in $\eta,\;\phi$ space
+The tracks are identified in the typical fashion using the Kalman Filter tracking technique to pick good quality tracks. Then the tracks are refitted using a Gaussian Sum Filter. 
+These tracks are then associated with an ECAL super cluster by requiring matching in $\eta,\;\phi$ space
 \begin{equation}|\Delta\eta| = |\eta_{\text{SC}} - \eta_{\text{in}}^{\text{extrap}}| < 0.02\end{equation}
 \begin{equation}|\Delta\phi| = |\phi_{\text{SC}} - \phi_{\text{in}}^{\text{extrap}}| < 0.15\end{equation}
 This method has an overall efficiency of about 93\% ~\cite{Khachatryan:2015hwa}. 
 
-
-%In 2016 better calibration studies were completed at lower energy increasing the ECAL performance and the pixel upgrade in 2017 helped track reconstruction resulting in better electron identification ~\cite{Micheli:2727506}.
-
-
 \subsection{Tau identification systems}
-Tau leptons decay in many different ways. It is the heaviest lepton, so heavy that it can decay to intermediate mesons. The $\rho$, $a$, and $\pi$ mesons are several possible mesons that the tau can decay to. 
-Therefore, when it comes to tau identification, many algorithms are needed to properly identify them using information across the detector. 
-Tau leptons decay both hadronically and leptonically as shown in the table below \ref{tab:taudecay}. 
+Tau leptons decay in many different ways. It is the heaviest lepton; therefore, it can decay to intermediate mesons such as the $\rho$, $a$, and $\pi$ mesons.
+Ergo, when it comes to tau identification, many algorithms are needed to properly identify them using information across the detector. 
+Tau leptons decay both hadronically and leptonically as shown in the table \ref{tab:taudecay} below. 
 
 
 
@@ -34,7 +29,7 @@ Tau leptons decay both hadronically and leptonically as shown in the table below
 \centering
     \topcaption{Possible hadronic tau decays, $h$ doesn't indicate a Higgs particle but a hadronic prong~\cite{Workman:2022}}
 \label{tab:taudecay}
-\begin{tabular}{c  c r}
+\begin{tabular}{c c r}
 Decay Modes & Resonance & \multicolumn{1}{c}{$\mathcal{B}(\%)$} \\\hline
 Leptonic Decay && \multicolumn{1}{l}{35.2}\\
 $\tau^- \rightarrow e^- \bar{\nu}_e \nu_\tau $ & & 17.8 \\
