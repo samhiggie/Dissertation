@@ -97,6 +97,14 @@ A.~Sirunyan, A.~Tumasyan, {\em et~al.}, ``Performance of reconstruction and
   collisions at $\sqrt{s}$ =13 {TeV},'' {\em Journal of Instrumentation},
   vol.~13, pp.~P10005--P10005, oct 2018.
 
+\bibitem{PYTHIA}
+T.~Sjostrand, S.~Mrenna, and P.~Z. Skands, ``{PYTHIA 6.4 Physics and Manual},''
+  {\em JHEP}, vol.~0605, p.~026, 2006.
+
+\bibitem{GEANT4}
+S.~Agostinelli {\em et~al.}, ``{GEANT4: A simulation toolkit},'' {\em Nucl.
+  Instrum. Meth. A}, vol.~506, p.~250, 2003.
+
 \bibitem{Sirunyan_2017}
 A.~Sirunyan, A.~Tumasyan, {\em et~al.}, ``Particle-flow reconstruction and
   global event description with the {CMS} detector,'' {\em Journal of
@@ -124,19 +132,19 @@ T.~P.~O. Group, ``Tauid recommendations 13 tev,'' August 2022.
 \newblock
   https://twiki.cern.ch/twiki/bin/viewauth/CMS/TauIDRecommendation13TeV.
 
-\bibitem{AN16355}
-CMS, ``Search for the standard model higgs boson decaying to a pair of tau
-  leptons in 2016 data,'' CMS Note 2016/355, 2016.
+\bibitem{SMHTTarXiv}
+{CMS Collaboration}, ``Measurements of higgs boson production in the decay
+  channel with a pair of $\tau$ leptons in proton-proton collisions at
+  $\sqrt{s}$ = 13 tev,'' 2022.
 
 \bibitem{EGammaMVAID}
 E.~P.~O. Group, ``Electron mva recommendations 13 tev,'' August 2022.
 \newblock
   https://twiki.cern.ch/twiki/bin/view/CMS/MultivariateElectronIdentificationRun2.
 
-\bibitem{SMHTTarXiv}
-{CMS Collaboration}, ``Measurements of higgs boson production in the decay
-  channel with a pair of $\tau$ leptons in proton-proton collisions at
-  $\sqrt{s}$ = 13 tev,'' 2022.
+\bibitem{AN16355}
+CMS, ``Search for the standard model higgs boson decaying to a pair of tau
+  leptons in 2016 data,'' CMS Note 2016/355, 2016.
 
 \bibitem{CMS-PAS-HIG-19-010}
 ``{Measurement of Higgs boson production in the decay channel with a pair of

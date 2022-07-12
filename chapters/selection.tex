@@ -2,14 +2,14 @@
 \section{Framing an analysis at CERN}
 In order to conduct a concrete hypothesis test, two perspectives are taken. 
 The null hypothesis is the SM, which will comprise all possible events that are categorized as \textit{background}.
-The alternative hypothesis is the SM with the addition of the \textit{signal}, ie ... $H \rightarrow a a \rightarrow \mu\mu\tau\tau$. 
+The alternative hypothesis is the SM with the addition of the \textit{signal}, ie. $H \rightarrow a a \rightarrow \mu\mu\tau\tau$. 
 
 \section{Defining signal and control regions}
-To optimize the analysis, regions of the data and simulation are cut away in order to increase the number of signal events relative to background events. This process is known as ``making cuts". In order to not bias the result, regions are setup to investigate the agreement of simulation with data (the control region) and to conduct the statistical hypothesis test (signal region). When the data and MC simulation agreement are reasonable in the control region, then the statistical test can be made in the signal region.  
+To optimize the analysis, regions of the data and simulation are cut away in order to increase the number of signal events relative to background events.  In order to not bias the result, regions are setup to investigate the agreement of simulation with data (the control region) and to conduct the statistical hypothesis test (signal region). When the data and MC simulation agreement are reasonable in the control region, then the statistical test can be made in the signal region.  
 
 \subsection{Triggers for event selection}
 \label{sec:trig}
-The trigger requirements are inclusive, selecting events that pass single muon and double muon triggers. Events that are triggered by the single muon triggers criteria contain muons that are isolated with either $22$, $24$, and $27$ GeV muons. Double muon triggers have a $17$ GeV threshold for the leading muon and $8$ GeV for the subleading muon. Triple muon triggers are used for the channels that have three muons in the final state and have a descending threshold of $12$, $10$, and $5$ GeV. In addition, to properly select objects that coincide with the trigger additional trigger matching is conducted. The lepton is matched to the seed and filter bit that is generated at the L1 system. Trigger filter bit matching ensures that the objects and events that are counted are genuine. 
+The trigger requirements are inclusive, selecting events that pass single muon and double muon triggers. Events that are triggered by the single muon triggers criteria contain muons that are isolated with either $22$, $24$, and $27$ GeV muons. Double muon triggers have a $17$ GeV threshold for the leading muon and $8$ GeV for the subleading muon. Triple muon triggers are used for the channels that have three muons in the final state and have a descending threshold of $12$, $10$, and $5$ GeV. In addition, to properly select objects that coincide with the trigger, matching the trigger and object is conducted. The lepton is matched to the seed and filter bit that is generated at the L1 system. Trigger filter bit matching ensures that the objects and events are correctly triggered. 
 
 %Selections.TeX
 \subsection{Optimizing lepton pair selection}
@@ -18,26 +18,28 @@ A simple selection algorithm was used to identify good lepton pairs that come fr
 Standard working point cuts are made, and two oppositely charged, isolated muons with the largest scalar summed $\pt$ are chosen to form the first decay products of the $a$. 
 Two opposite charged $\tau$ leptons with the largest scalar summed $\pt$ are chosen for the second $a$. 
 This approach increased the signal acceptance compared to choosing mass window cuts to form the $a$ pairs. 
-The following table reflects the pair matching efficiency study done with the preliminary dataset from 2016:
+The following table reflects the pair matching efficiency study done with the preliminary dataset from 2016 \ref{tab:paireff}.
 \begin{table}[h!tbp]
 \begin{center}
-    \topcaption{Lepton Pair Matching Efficiency}
+    \topcaption{Lepton pair matching efficiency}
     \label{tab:paireff}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}\hline
 $a$ - Mass & 15     & 20    & 25    & 30    & 35    & 40    & 45    & 50    & 55    & 60 \\\hline
 Efficiency & 0.87   & 0.82  &0.79   & 0.79  & 0.79  & 0.80  & 0.80  & 0.83  & 0.85  & 0.87 \\\hline 
 \end{tabular}
 \end{center}
-\end{table}.
-The dip in efficiency may be explained by the boosted or resolved $a$ particles and their decay products, assuming a Higgs particle is produced at rest. If the $a$ mass is low then it is more relativistic, resulting in collimated leptons. If the $a$ has a higher mass, then it is produced closer to rest and the leptons are identified back to back. It is possible that particle flow and association has a more difficult time in identifing decay products of the $a$ particles in between the mass extremes.
+\end{table}
+The dip in efficiency may be explained by the boosted or resolved $a$ particles depending on their mass and decay products. If the $a$ mass is low then it is more relativistic, resulting in collimated leptons. If the $a$ has a higher mass, then it is produced closer to rest and the leptons are identified back to back. It is likely that particle flow and association has a more difficult time in identifying decay products of the $a$ particles in between the mass extremes.
 
 \subsection{Optimizing final state event selection}
-After picking the leading prompt muons from the $a$ decay, the next step is to identify the other $a$ decay by using various leptons in the final state. The final state comprises four leptons two muons coming from the leading $a$ and two tau leptons coming from the subleading $a$. These $\tau$ leptons can decay leptonically or hadronically, and this analysis counts all possibilities for the tau decay. Therefore, event selection is driven to find two prompt muons and all decay products of the tau leptons. There are four final states in total: $\mu\mu e \mu$, $\mu\mu e \tau$, $\mu\mu\mu\tau$, and $\mu\mu\tau\tau$. For notation, when the final state is listed with a tau, such as $\mu\mu\mu\tau$ the $\tau$ is presumed to decay hadronically. The third muon in this context would also be coming from a leptonically decaying $\tau$.  
+After picking the leading prompt muons from the $a$ decay, the next step is to identify the other $a$ decay by using various leptons in the final state. The final state comprises four leptons: two muons coming from the leading $a$ and two tau leptons coming from the subleading $a$. These $\tau$ leptons can decay leptonically or hadronically, and this analysis counts all possibilities for the tau decay. Therefore, event selection is driven to find two prompt muons and all decay products of the tau leptons. There are four final states in total: $\mu\mu e \mu$, $\mu\mu e \tau$, $\mu\mu\mu\tau$, and $\mu\mu\tau\tau$. 
+The states $\mu\mu\mu\mu$ or $\mu\mu e e $ are not included, as the expected number of events would be extremely low based on the double leptonic tau decay. 
+For notation, when the final state is listed with a tau, such as $\mu\mu\mu\tau$, the $\tau$ is presumed to decay hadronically. The third muon in this context would also be coming from a leptonically decaying $\tau$.  
 In addition to the kinematic requirements listed in ~\ref{sec:objsel}, several cuts are made to select final state events. The following list contains cuts common to all channels:
 \begin{itemize}
     \item leading muons must have opposite charge coming from the $a$
     \item tau decay products must have opposite charge coming from the other $a$
-    \item no b-quark tag jets 
+    \item no b-quark identified jets 
     \item signal extraction cuts (not shown in data MC control plots used in statistical test)
     \begin{itemize}
     \item invariant mass of the 4 lepton system $M_{4l}<120GeV$ 
@@ -124,23 +126,6 @@ $\mu\mu\tau\tau$  &   $\tauh$ DNN against $\mu$ and $e$       \\\hline
 %    \caption{\label{fig:AMass_2018_v1} Invariant Mass of the four lepton system for 2018 data in all Channels}
 %\end{figure}
 
-\begin{figure}[ht!b]
-  \centering
-  \includegraphics[width=0.47\textwidth]{Figures/outplots_mmmt_combo_Nominal/AMass_blinded_combined.png}
-  \includegraphics[width=0.47\textwidth]{Figures/outplots_mmet_combo_Nominal/AMass_blinded_combined.png}\\
-  \includegraphics[width=0.47\textwidth]{Figures/outplots_mmem_combo_Nominal/AMass_blinded_combined.png}
-  \includegraphics[width=0.47\textwidth]{Figures/outplots_mmtt_combo_Nominal/AMass_blinded_combined.png}\\
-    \caption{\label{fig:AMass_v1} Invariant mass of the four lepton system for 2018 data in all Channels}
-\end{figure}
-
-\begin{figure}[ht!b]
-  \centering
-  \includegraphics[width=0.47\textwidth]{Figures/outplots_allyears_combo_Nominal/AMass_blinded_combined.png}
-  \includegraphics[width=0.47\textwidth]{Figures/outplots_allyears_combo_Nominal/pt_1_combined.png}\\
-  \includegraphics[width=0.47\textwidth]{Figures/outplots_allyears_combo_Nominal/eta_1_combined.png}
-  \includegraphics[width=0.47\textwidth]{Figures/outplots_allyears_combo_Nominal/pt_3_combined.png}\\
-    \caption{\label{fig:AMass_RunII}  Several data-MC control plots for full RunII data in all Channels}
-\end{figure}
 
 
 

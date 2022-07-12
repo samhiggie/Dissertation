@@ -10,12 +10,12 @@ N_{\text{event}} = \mathcal{L} \sigma_{\text{event}}
 $N_b$ is the number of particles in the bunch crossing, $n_b$ the number of bunches, $f_{\text{LHC}}$ the revolution frequency of the LHC, $\gamma_r$ the relativistic factor, $\epsilon_n$ the normalized beam emmittance, $\beta*$ the beta function at the collision point (related to the crossing angle), $\theta_c$ is the full crossing angle, $\sigma_z$ the RMS bunch length and $\sigma^*$ the transverse RMS beam size at the interaction point.
 
 \section{Luminometers}
-Several subsystems are used to measure luminosity at CMS. Particularly the Pixel Luminosity Telescope, HF with summed transverse energy (ET) and occupancy (OC), BCM1F, and Tracker/Pixel based luminosity detectors to name several. 
-In this section, the tracker based luminosity will be the focus. The pixel system is integral in the reconstruction of events for physics analysis and in measuring the luminosity.
+Several subsystems are used to measure luminosity at CMS. Particularly, the Pixel Luminosity Telescope, HF with summed transverse energy (ET) and occupancy (OC), BCM1F, and Tracker/Pixel based luminosity detectors to name several. 
+In this section, the tracker based luminosity will be the focus. The pixel system is integral in the reconstruction of events for physics analyses and in measuring the luminosity.
 
-There was validation of the new pixel detector in early 2017, from the BPIX and FPIX upgrades mentioned in section \ref{sec:pixeldet}. The Lumi-POG---Luminosity physics object group---commisioned luminosity measurement using the clusters from the new pixel detector in an automated workflow. 
+There was calibration of the new pixel detector in early 2017, from the BPIX and FPIX upgrades mentioned in section \ref{sec:pixeldet}. The Lumi-POG---Luminosity physics object group---commisioned luminosity measurement using the clusters from the new pixel detector in an automated workflow. 
 %Taking many local hits in the pixel module - a.k.a. a pixel cluster - 
-We measure the luminosity by counting pixel clusters in a low channel occupancy setting and scaling it by a visual cross section determined in a separate analysis. Using the relation in equation \ref{eq:pcclum}, the instantaneous luminosity can be obtained once the number of clusters and the visible cross section $\sigma_\text{cluster}$ are measured. 
+We measure the luminosity by counting pixel clusters in a low channel occupancy setting and scaling it by a visual cross section---the measured cross section for the instrument---determined in a separate analysis. Using the relation in equation \ref{eq:pcclum}, the instantaneous luminosity can be obtained once the number of clusters and the visible cross section $\sigma_\text{cluster}$ are measured. 
 \begin{equation}
 \label{eq:pcclum}
 \langle N_{\text{cluster}}\rangle\equiv\frac{\sigma_{\text{cluster}}}{f_{\text{LHC}}}\mathcal{L}_{\text{SBIL}}
@@ -28,10 +28,10 @@ $\mathcal{L}_{\text{SBIL}}$ is the instantaneous luminosity of a single bunch cr
 For the pixel luminosity, a two component correction is applied on the fly to correct for self-radiative effects on the pixel modules under particle fluence and for inefficiencies.  
 One detail that is important in estimating the luminosity from the pixel detector is ensuring that the data that is taken and analyzed has consistent performance. Several times in a year, the Lumi-POG and Beam Radiation Instrumentation Luminosity (BRIL) groups analyze the performance of each subdetector used to measure luminosity and certify the data once the analysis is complete. In 2017 and 2018 data taking campaigns, the luminosity from the pixel detector was vetted by looking at relative module performance over the runs of data taking for those years. If the modules didn't have consistent performance, they were removed from the final result. 
 
-Even though up to half of the modules were vetoed after this procedure, there was plenty of statistics due to the gathering of many pixel clusters per event. 
+Even though up to half of the modules were vetoed after this procedure, there was plenty of statistics due to high numbers of pixel clusters per event. 
 This module veto decision was made by taking the total clusters in each module and scaling them so that the overall total clusters are one. Then, on a per-module basis, the performance relative to the total clusters was compared. This helped the analyzer look at consistent performance and manage a list of passing modules used in a final luminosity measurement using the pixel detector. 
 
-For Run III data taking, integration of the cluster counting procedure was included at the HLT. A data compression of $10^3$ was made by taking the low level data from the silicon pixels and storing them in a simple data container, which saved a peta-byte of data. Online luminosity using these data containers and methods are being investigated as more CMS-physicists are interested in using the central tracking system for luminosity measurements.
+For Run III data taking, integration of the cluster counting procedure was included at the HLT. A data compression of $10^3$ was made by taking the low level data from the silicon pixels and storing them in a simple data container, which saved a peta-byte of data. Luminosity measurements using these data containers and methods are being investigated as more CMS-physicists are interested in using the central tracking system for luminosity measurements.
 
 
 
