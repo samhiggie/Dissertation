@@ -1,14 +1,13 @@
 %background.TeX
 
-Due to the stringent cuts in the tight signal region and absense of resonance, Monte Carlo (MC) simulation suffers from low statistics for some background processes.  
-Therefore, in addition to the Monte Carlo (MC) simulation, a data driven method is used to estimate a significant portion of background that simulation alone is not sufficient to measure. 
+Due to the stringent cuts in the tight signal region and absense of resonance, MC simulation suffers from low statistics for some background processes.  
+Therefore, in addition to the MC simulation, a data driven method is used to estimate a significant portion of background that is not reliably estimated using MC.
 
 Tau leptons decay hadronically about 65\% of the time forming intermediate mesons. 
 The clusters of hadrons that these decays produce are jets; therefore, jets coming from other processeses effectively fake the hadronic $\tau$ signature. This is a non-trival fake rate that needs to be measured and accounted for in this analysis. 
 
-In order to conduct the data driven method, a proportion is made to extract the jet faking tau background. Generally, this proportion is constructed using a region orthogonal to the statistical hypothesis test. For example, this could be a charge sign inversion on the lepton pair used in the final state. In this orthogonal region and in the tight signal region, tight and loose identification criteria are made to extrapolate the scale factor that estimate the tau's fake rate. 
-The tight identification should be excellent at selecting true genuine tau leptons and the loose identification more inclusive to all tau leptons, even those that are fake. 
-%The shape of the kinematic distributions should not change between the tight and loose regions for this method to hold true. 
+In order to conduct the data driven method, a proportion is made to extract the jet faking tau background. Generally, this proportion is constructed using a region orthogonal to the statistical hypothesis test. For example, this could be a charge sign inversion on a lepton pair used in the final state. In this orthogonal region and in the tight signal region, tight and loose identification criteria are made to extrapolate the scale factor that estimates the tau's fake rate. 
+The tight identification should be excellent at selecting genuine tau leptons and the loose identification more inclusive to all tau leptons, even those that are fake. 
 Therefore, using the orthogonal reigons---same sign and opposite sign---along with the loose signal region, one can extrapolate the number of events in the tight signal region. Due to the four regions, the method is also referred to as the ``ABCD" method. 
 
 
@@ -16,24 +15,24 @@ Therefore, using the orthogonal reigons---same sign and opposite sign---along wi
 The fake rate function in the same sign (SS) region is \textit{known}.
 Events passing loose identification---that includes tight indentification---in the opposite sign (OS) region is \textit{known}.
 Events passing in the tight signal region is \textit{unknown}. 
-Assuming the shapes are similar and that the loose and tight identification is not dependent on the sign of the leptons. Then one can make the equivalence statement: 
+Assuming that the loose and tight identification is not dependent on the sign of the leptons. Then one can make the equivalence statement: 
 \begin{equation}
 \label{eq:abcd}
 \frac{\text{Events}_\text{SS Tight}}{\text{Events}_\text{SS Loose}} \doteq \frac{\text{Events}_\text{OS Tight}}{\text{Events}_\text{OS Loose}}
 \end{equation}
 To make the expression more precise, the fake rate function is typically parametrized in lepton candidate transverse momentum. 
- Also, prompt MC is subtracted from data, which is motivated by estimating the true jet faking taus background (non-prompt taus). If tau leptons in MC are prompt tau leptons then it is unlikely that the tau is a jet, so they are removed. 
+ Also, prompt MC is subtracted from data, which is motivated by estimating the true jet faking taus background (non-prompt taus). If tau leptons in MC are identified as prompt then it is unlikely that the tau is a jet, so they are removed. 
 \begin{equation}
 f(p_T)=\frac{\text{Data Events}_\text{S.S. Tight} - \text{Prompt MC Background}_\text{S.S. Tight}}{{\text{Data Events}_\text{S.S. Loose} - \text{Prompt MC Background}_\text{S.S. Loose}}}
 \end{equation} 
 
-After the measurement is made for each tau candidate, then the fake rate is applied as an event weight to the opposite sign loose region in order to extrapolate to the tight signal region. So isolating the events in the tight signal region and flipping the relation in equation \ref{eq:abcd}, one obtains the result: 
+After the measurement is made for each tau candidate, the fake rate is applied as an event weight to the opposite sign loose region in order to extrapolate to the tight signal region. So isolating the events in the tight signal region and flipping the relation in equation \ref{eq:abcd}, one obtains the result: 
 \begin{equation}
 \text{Events}_\text{OS Tight} = w(pt)\cdot \text{Events}_\text{OS Loose}  
 \end{equation}
 
 \section{Measurement of the fake rate}
-To measure the fake rate, multiple categories are considered and motivated through the production processes which produce jets. As outlined in the SM Higgs decays to tau leptons analysis and its supporting document on fake rate measurements, several regions are used to determine the fake rate ~\cite{SMHTTarXiv}. The separate jet ``enriched" background processes are used for each final state
+To measure the fake rate, multiple categories are considered and motivated through the processes which produce jets. As outlined in the SM Higgs decays to tau leptons analysis and its supporting document on fake rate measurements, several regions are used to determine the fake rate ~\cite{SMHTTarXiv}. The separate jet ``enriched" background processes are used for each final state
 \begin{itemize}
 	\item QCD multijet targeting the majority of jet→ \tauh fake events in the $\mu\mu\tau\tau$ final state,
 	\item W+jets targeting jets mostly in the $\mu\mu e\tau$ and $\mu\mu\mu\tau$ final states,
@@ -42,9 +41,9 @@ To measure the fake rate, multiple categories are considered and motivated throu
 
 
 
-The fake rates are then measured as a function of $p_T$ of the object and then for final states involving hadronic tau leptons, and are further split into subcategories depending on the decay mode.  
-W+jets with no jets and one jet, QCD multi-jet with no jets, one jet, and more jets, and $t\bar{t}$ make up the total number of background categories that are measured. 
-At high hadronic tau $p_T$ (greater than 100\GeV), negative fake rates are possible because of low statistics and the linear fit model extrapolation, so if the candidate tau has a $p_T$ of greater than 100\GeV then the rate at 100\GeV is applied. 
+The fake rates are then measured as a function of $p_T$ of the object and for final states involving hadronic tau leptons, and are further split into subcategories depending on the decay mode.  
+W+jets with no jets and one jet, QCD multi-jet with no jets, one jet, and more jets, and $t\bar{t}$ inclusive jets make up the total number of background categories that are measured. 
+At high hadronic tau $p_T$ (greater than 100\GeV), negative fake rates are possible because of low statistics and the linear fit model extrapolation, so if the candidate tau has a $p_T$ of greater than 100\GeV the rate at 100\GeV is applied. 
 In order to combine the fake rates from these ``enriched'' background processes and use it in an ``ABCD'' approach, the fraction of events for each of the background process are combined in an overall fake rate that is still parametrized by $\pt$ and category.  
 
 %In the QCD multijet region, there is no way to estimate it with pure MC simulation. Therefore, in order to estimate the QCD contribution all MC simulation events are subtracted before the measurements. Then the remaining fake rate measurement in the determination region is assumed to be from QCD.
@@ -64,31 +63,31 @@ So the following steps are done for each final state to measure the fake rate:
 \item[4.] Determine the fraction of QCD, W+jets, and $t\bar{t}$ events in the signal region.
 \end{enumerate} 
 
-To help in the presentation of the measurement regions, a table listing the enriched background and targeted final state along with the cuts and the anti-isolation requirement (the non-orthogonal condition in the ABCD method) will be presented. 
+To help in the understanding of the measurement regions, a table listing the enriched background and targeted final state along with the cuts and the anti-isolation requirement (the non-orthogonal condition in the ABCD method) will be presented. 
 As indicated in the tables below, $\mu\mu\mu\tau$ and $\mu\mu e \tau$ final states share the same categories. For the $\mu\mu\tau\tau$ channel, only the QCD ``enriched'' background category is considered. 
 For the $\mu\mu e\mu$ final state, the fake rate measurements from the $\mu\mu\mu\tau$ and $\mu\mu e \tau$ channels are used for the corresponding lepton. 
 
 
 \begin{table}[h!tbp]
 \centering
-\topcaption{``enriched'' background categories with cuts for each channel, $\mu\mu\mu\tau$ and $\mu\mu e \tau $ have the same so they will be combined with the assumption that $l$ demarcates the muon or electron. Baseline selection cuts for events are made by default as listed in section ~\ref{chap:selection} without the signal extraction cuts 
+\topcaption{Jet ``enriched'' background categories with cuts for each channel, $\mu\mu\mu\tau$ and $\mu\mu e \tau $ have the same so they will be combined with the assumption that $l$ demarcates the muon or electron. Baseline selection cuts for events are made by default as listed in section~\ref{chap:selection} without the signal extraction cuts. 
 \label{tab:ffmeasure}
 }
-\begin{tabular*}{0.9\textwidth}{|p{0.15\linewidth}|p{0.15\linewidth}|p{0.3\linewidth}|p{0.333\linewidth}|}
+\begin{tabular}{|c|c|p{0.3\textwidth}|p{0.3\textwidth}|}
 \hline
 background &  final state      &  cuts & anti-isolation \\\hline 
 
-QCD & $\mu\mu\mu\tau$/$\mu\mu e\tau$  & SS leptons Isolation \hspace{.05\linewidth} $l$ $\in(0.02,0.15)$ & $\tau$ VVVLoose DNN but fails Med. DNN \\
+QCD & $\mu\mu\mu\tau$/$\mu\mu e\tau$  & SS leptons Isolation \hspace{.1\linewidth} $l$ $\in(0.02,0.15)$ & $\tau$ VVVLoose DNN but fails Med. DNN \\
     & $\mu\mu\tau\tau$  & SS leptons subleading $\tau$ pass Med. DNN and leading VVVLoose DNN & leading $\tau$ fails Med DNN \\\hline
 
 W+Jets & $\mu\mu\mu\tau$/$\mu\mu e\tau$  & SS leptons $m_T$ between $l$ and $p_T^{\text{miss}}$ $> 70 $ GeV & $\tau$ VVVLoose DNN but fails Med. DNN \\\hline
 
 $t\bar{t}$ & $\mu\mu\mu\tau$/$\mu\mu e\tau$  & SS leptons number of b-tag jets $\geq 1 $ & $\tau$ VVVLoose DNN but fails Med. DNN \\\hline
-\end{tabular*}
+\end{tabular}
 \end{table}
 Fake factor measurements for the $\mu\mu\mu\tau$ channel in the QCD region for 2017 is included in figure \ref{fig:fit_raw_mt_0jet_qcd}. 
 Only plots pertaining to the $\mu\mu e \tau$ and $\mu\mu \mu \tau$ channels were created, but all final states measured. 
-The rest of the measurements are included in the Appendix \ref{app:ffmeas}. For a more detailed description of the data driven background method along with the measurements for the closure and extra correction terms regard reference ~\cite{AN16355}.
+The rest of the measurements are included in Appendix \ref{app:ffmeas}. For a more detailed description of the data driven background method along with the measurements for the closure and extra correction terms regard reference~\cite{AN16355}.
 
 
 
@@ -109,18 +108,18 @@ The rest of the measurements are included in the Appendix \ref{app:ffmeas}. For 
 
 \section{Application of the fake rate method}
 
-After the jet faking tau rate is measured, it is then applied to events that are identified as loose and not tight. Since the final state involves two tau leptons, this procedure is applied to each tau lepton in the final state thus requiring application of the fake rate to three different possibilities. The fake rate is then applied depending on the identification for each lepton candidate. In the scenario where the event fails both candidate requirements, then a minus sign is included, to avoid the case of double counting.  
-The final weight is then applied depending on the pass and fail criteria of each lepton candidate. The weight is effectively a transfer factor that is created using the fake rate measured earlier. The transfer factor has its form because the weight is the ratio of tight to loose tight excluded instead of tight to loose tight included. 
+After the jet faking tau rate is measured, it is then applied to events that are identified as loose and not tight. Since the final state involves two tau leptons, this procedure is applied to each tau lepton in the final state, thus requiring application of the fake rate in three different scenarios. The final weight is then applied depending on the pass and fail criteria of each lepton candidate. In the scenario where the event fails both candidate requirements, then a minus sign is included, to avoid the case of double counting.  
+ The weight is effectively a transfer factor that is created using the fake rate measured earlier. The transfer factor has its form because the weight is the ratio of tight to loose---tight excluded---instead of tight to loose---tight included. 
 \begin{itemize}
 \item{If event fails identification for $\tau$ 1:\begin{equation}w_1(p_T)=\frac{f_{1}(p_T)}{1-f_{1}(p_T)}\end{equation}}
 \item{If event fails identification for $\tau$ 2:\begin{equation}w_2(p_T)=\frac{f_{2}(p_T)}{1-f_{2}(p_T)}\end{equation}}
 \item{If event fails identification for both:\begin{equation}w_{12}(p_T)=-\frac{f_{1}(p_T)}{1-f_{1}(p_T)}\cdot\frac{f_{2}(p_T)}{1-f_{2}(p_T)}\end{equation}}
 \end{itemize}
 
-To illustrate the different regions the diagram outlining the regions in the ``ABCD" method are shown in figure \ref{fig:fakefactor_reg}. 
+To illustrate the different regions in the ``ABCD" method along with each tau candidate, a diagram was drawn depicting the scenarios and is shown in figure \ref{fig:fakefactor_reg}. 
 \begin{figure}[ht!b]
   \includegraphics[width=0.9\textwidth]{"Figures/fakefactor_diagram.pdf"}
-    \caption{\label{fig:fakefactor_reg} ``ABCD'' method diagram depicting the measurement and application regions for each \tauh lepton in the final sate}
+    \caption{\label{fig:fakefactor_reg} ``ABCD'' method diagram depicting the measurement and application regions for each \tauh lepton in the final sate.}
 \end{figure}
 
 This fake factor methodology has been used by other analyses such as the SM Higgs measurement with an associated Z boson ~\cite{CMS-PAS-HIG-19-010} . 
@@ -129,5 +128,5 @@ For a closure test, the same criteria are applied to the selection of the tight 
   
 \begin{figure}[ht!b]
   \includegraphics[width=0.65\textwidth]{"Figures/outplots_2016_smFF_mmmt_Nominal/AMass_blinded_mmmt_FF_SS_validation.png"}
-    \caption{\label{fig:fakefactor_validation} Validation of the fake factor method. Fake factors are applied to the same sign tight region}
+    \caption{\label{fig:fakefactor_validation} Validation of the fake factor method. Fake factors are applied to the same sign tight region.}
 \end{figure}

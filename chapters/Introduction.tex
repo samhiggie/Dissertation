@@ -23,7 +23,7 @@ Noether originally proved that local transformation symmetries imply conserved c
 After analyzing the $U(1)$ group, one typically extends the theory to include more fields and structures through higher dimensional groups. The gauge principle will be examined for $U(1)$ and then expanded to $SU(2)$ before taking the product of these groups to form the Weinberg-Salam Model.
 
 %\subsection{Symmetry}
-\section{Gauge Principle, Yang Mills Theories, and the Weinberg-Salam Model}
+\section{Gauge principle, Yang Mills theories, and the Weinberg-Salam model}
 The gauge principle sets the stage for interactions between particle-fields in a theory. Much like in differential geometry and general relativity, there is a cost to interacting with or changing through a transformation. Consider the covariant derivative on a vector field $V(x)$.
 \begin{equation}\mathcal{D}_\mu V(x) \equiv \text{lim}_{\Delta x^{\mu} \rightarrow 0 } \frac{V_{||}(x+\Delta x) - V(x)}{\Delta x^{\mu}} \end{equation} 
 How the field changes under the transformation will determine the nature of the field. The connection terms that link the field follow from the transformation. A unitary operator can capture the parallel component in the covariant derivative. This operator carries the field and the \textit{local} transformation law depending on the symmetries and complexity of the math structure that the unitary operator carries. 
@@ -44,7 +44,7 @@ B'^\mu = UB^\mu U^{-1} + \frac{i}{g}(\partial^\mu U)U^{-1} \;\;\text{gauge field
 \end{equation} 
 
 For $U(1)$ with a unitary transformation of the form $U(x) = \exp{\frac{ie}{2}Y\cdot\beta(x)}$ 
-\begin{equation}\Psi'(x)= (1+\frac{ie}{2}Y\cdot\beta(x))\Psi \;\;\text{particle field with local transformation}\end{equation}
+\begin{equation}\Psi'(x)= (1+\frac{ie}{2}Y\cdot\beta(x))\Psi \;\;\text{particle under local transformation}\end{equation}
 \begin{equation}\mathcal{D}_\mu = \partial_\mu + ieA_\mu \;\;\text{covariant derivative}\end{equation}
 \begin{equation}A^\mu \rightarrow A^\mu + \frac{1}{e}(\partial^\mu \beta) \;\;\text{gauge field transform.} \end{equation} 
 
@@ -55,7 +55,7 @@ Notably, the commutator between the covariant derivatives yields the practical f
 These relations are important when higher dimensional groups and more complex particle fields are considered. Yang-Mills theories take these components and analyze them under groups like $SU(2)$ or other special unitary groups. When one considers a local $SU(2)$ transformation, the terms that show up are more rich than $U(1)$.  
 
 For $SU(2)$ with a unitary transformation of the form $U(x) = \exp{\frac{ig}{2}\bm{\tau}\cdot\bm{\alpha(x)}}$ 
-\begin{equation}\Psi'(x)= (1 + \frac{ig}{2}\bm{\tau}\cdot\bm{\alpha})\Psi \;\;\text{particle field with local transformation}\end{equation}
+\begin{equation}\Psi'(x)= (1 + \frac{ig}{2}\bm{\tau}\cdot\bm{\alpha})\Psi \;\;\text{particle under local transformation}\end{equation}
 \begin{equation}\mathcal{D}_\mu = \partial_\mu -\frac{i}{2} g \bm{\tau}\cdot \bm{W}_\mu(x) \;\;\text{covariant derivative}\end{equation}
 \begin{equation}\bm{\tau}\cdot\bm{W}_\mu \rightarrow  \bm{\tau}\cdot\bm{W}_\mu + \frac{1}{g}\bm{\tau}\cdot(\partial_\mu \bm{\alpha}) - \bm{\tau}\cdot (\bm{\alpha}\times\bm{W}_\mu) \;\;\text{gauge field transform.} \end{equation}
 
@@ -133,6 +133,13 @@ here $\zeta$ is just the angle that mixes the singlet with the SM Higgs (needed 
 \item Type III: Branching ratios are directly dependent on $\tan\beta$ and are emphasized when more than one lepton is considered. $\tau^+ \tau^-$ can dominate in this scenario represented in figure \ref{fig:br2HDM-3}. 
 \item Type IV: Dependent on $\tan\beta$, for $\tan \beta < 1 $, branching ratios for $b\bar{b}$, $c\bar{c}$, and $\tau^+ \tau^-$ are similar (supports $2b2\tau$) represented in figure \ref{fig:br2HDM-4}.
 \end{itemize}
+
+For completeness, the tree level decay width to fermions $f$ for the $a$ is given by equation~\ref{eq:adecay}.
+\begin{equation}
+\label{eq:adecay}
+\Gamma(a \rightarrow f \bar{f}) = \frac{N_C G_F}{4\sqrt{2}\pi} g^2_{a f\bar{f}} m_a m_f^2 \sqrt{1 - \frac{4m^2_f}{m^2_a}}
+\end{equation}
+The coupling parameter $g^2_{a f\bar{f}} m_a m_f^2$ depends on the scenario and the fermions. Compelete information can be found in reference ~\cite{Branco_2012} and its supporting documentation.
 
 
 \begin{figure}[ht!b]
