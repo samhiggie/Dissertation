@@ -1,0 +1,29 @@
+\documentclass[aspectratio=1610]{standalone}
+\usepackage{tikz-feynman}
+\begin{document}
+\begin{tikzpicture}
+\node[anchor=south west,inner sep=0] at (0,0){
+\feynmandiagram [horizontal=t3 to b] {
+t3 -- [fermion, edge label=\(\tau^-\),near start] b,
+f1 [particle=\(\nu_\tau\)] -- [anti fermion] b -- [boson] f2 [particle=\(W^-\)],
+%f3 [particle=\($e^-,\mu^-,d$\)] -- f2 -- f4 [particle=\($\bar{\nu}_e,\bar{\nu}_\mu,\bar{u}$\)],
+f3 [particle=\(e^-\mu d\)] -- f2 -- f4 [particle=\(\bar{\nu}_e\bar{\nu}_{\mu} \bar{u}\)],
+};};
+\end{tikzpicture}
+\end{document}
+
+%\documentclass[aspectratio=1610]{standalone}
+%\usepackage{tikz-feynman}
+%\begin{document}
+%\begin{tikzpicture}
+%\node[anchor=south west,inner sep=0] at (0,0){
+%\feynmandiagram [horizontal=t3 to b] {
+%%i1 [particle=\(g\)] -- [gluon] t1, i2 [particle=\(g\)] -- [gluon] t2, -- [scalar] t1 -- [edge label=\(t\)] t2 -- [edge label=\(t\)] t3 -- [edge label=\(t\)] t1,
+%t3 -- [scalar, edge label=\(H\)] b,
+%%f1 [particle=\(a\)] -- [boson] b -- [boson] f2 [particle=\(a\)],
+%f1 [particle=\(a\)] -- [ghost] b -- [ghost] f2 [particle=\(a\)],
+%f3 [particle=\(\mu\)] -- f1 -- f4 [particle=\(\mu\)],
+%};};
+%%\draw<1>[red,ultra thick,rounded corners](4.0,3.5) rectangle(5.5,5.5);
+%\end{tikzpicture}
+%\end{document}

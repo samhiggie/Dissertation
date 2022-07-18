@@ -1,0 +1,18 @@
+%\documentclass[aspectratio=1610]{standalone}
+\documentclass[aspectratio=1610]{standalone}
+\usepackage{tikz-feynman}
+
+\begin{document}
+\begin{tikzpicture}
+\node[anchor=south west,inner sep=0] at (0,0){
+\feynmandiagram [vertical=t1 to t2,horizontal=t3 to b] {
+i1 [particle=\(g\)] -- [gluon] t1, i2 [particle=\(g\)] -- [gluon] t2, -- [scalar] t1 -- [edge label=\(t\)] t2 -- [edge label=\(t\)] t3 -- [edge label=\(t\)] t1,
+t3 -- [scalar, edge label=\(h\)] b,
+%f1 [particle=\(a\)] -- [boson] b -- [boson] f2 [particle=\(a\)],
+f1 [particle=\(a\)] -- [ghost] b -- [ghost] f2 [particle=\(a\)],
+f3 [particle=\(\mu\)] -- f1 -- f4 [particle=\(\mu\)],
+f5 [particle=\(\tau\)] -- f2 -- f6 [particle=\(\tau\)],
+};};
+%\draw<1>[red,ultra thick,rounded corners](4.0,3.5) rectangle(5.5,5.5);
+\end{tikzpicture}
+\end{document}

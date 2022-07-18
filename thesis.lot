@@ -2,9 +2,9 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Possible hadronic tau decays. $h$ doesn't indicate a Higgs particle, but a hadronic prong instead\nobreakspace {}\cite {Workman:2022}}}{27}{table.4.1}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Baseline cuts and identification for lepton selection $\delta Z$ and $\delta xy$ are distances from the interaction vertex }}{30}{table.4.2}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Measured $\mu $ energy scale correction for genuine $\mu $(s) across all years.}}{31}{table.4.3}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Possible hadronic tau decays. $h$ doesn't indicate a Higgs particle, but a hadronic prong instead\nobreakspace {}\cite {Workman:2022}}}{28}{table.4.1}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Baseline cuts and identification for lepton selection $\delta Z$ and $\delta xy$ are distances from the interaction vertex }}{31}{table.4.2}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Measured $\mu $ energy scale correction for genuine $\mu $(s) across all years.}}{32}{table.4.3}%
 \contentsline {table}{\numberline {4.4}{\ignorespaces Measured $e$ energy scale correction for genuine $e$(s) across all years.}}{32}{table.4.4}%
 \contentsline {table}{\numberline {4.5}{\ignorespaces Measured $\ensuremath {\tau _h}\xspace $ energy scale correction for genuine $\ensuremath {\tau _h}\xspace $(s) across all years.}}{33}{table.4.5}%
 \contentsline {table}{\numberline {4.6}{\ignorespaces Scale factors to correct for low momentum muon selection being less than the trigger threshold. }}{35}{table.4.6}%
@@ -12,7 +12,7 @@
 \contentsline {table}{\numberline {5.1}{\ignorespaces Lepton pair matching efficiency}}{38}{table.5.1}%
 \contentsline {table}{\numberline {5.2}{\ignorespaces additional final state selection cuts }}{39}{table.5.2}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Jet ``enriched'' background categories with cuts for each channel, $\mu \mu \mu \tau $ and $\mu \mu e \tau $ have the same so they will be combined with the assumption that $l$ demarcates the muon or electron. Baseline selection cuts for events are made by default as listed in section\nobreakspace {}\ref {chap:selection} without the signal extraction cuts. }}{43}{table.6.1}%
+\contentsline {table}{\numberline {6.1}{\ignorespaces Jet ``enriched'' background categories with cuts for each measured state, $\mu \tau $ and $e \tau $ have the same so they will be combined with the assumption that $l$ demarcates the muon or electron. Baseline selection cuts for events are made by default as listed in section\nobreakspace {}\ref {chap:selection} without the signal extraction cuts. }}{43}{table.6.1}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {8.1}{\ignorespaces List of uncertainties with the corresponding name and description. The name directly refers to the variable in the impact plots \nobreakspace {}\ref {fig:impacts_2017_mmmt}. }}{62}{table.8.1}%

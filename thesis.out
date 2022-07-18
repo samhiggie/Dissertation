@@ -12,12 +12,12 @@
 \BOOKMARK [0][-]{chapter.2}{CERN, The LHC, and The CMS Detector}{}% 12
 \BOOKMARK [1][-]{section.2.1}{CERN and the Large Hadron Collider}{chapter.2}% 13
 \BOOKMARK [1][-]{section.2.2}{The Compact Muon Solenoid detector}{chapter.2}% 14
-\BOOKMARK [1][-]{section.2.3}{Subdetector Systems}{chapter.2}% 15
+\BOOKMARK [1][-]{section.2.3}{Subdetector systems}{chapter.2}% 15
 \BOOKMARK [2][-]{subsection.2.3.1}{Tracker}{section.2.3}% 16
-\BOOKMARK [2][-]{subsection.2.3.2}{Electromagnetic Calorimeter \(ECAL\)}{section.2.3}% 17
-\BOOKMARK [2][-]{subsection.2.3.3}{Hadronic Calorimeter \(HCAL\)}{section.2.3}% 18
-\BOOKMARK [2][-]{subsection.2.3.4}{Muon System}{section.2.3}% 19
-\BOOKMARK [1][-]{section.2.4}{Level 1 Trigger System and High Level Trigger}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.3.2}{ECAL}{section.2.3}% 17
+\BOOKMARK [2][-]{subsection.2.3.3}{HCAL}{section.2.3}% 18
+\BOOKMARK [2][-]{subsection.2.3.4}{Muon system}{section.2.3}% 19
+\BOOKMARK [1][-]{section.2.4}{Level 1 Trigger system and High Level Trigger}{chapter.2}% 20
 \BOOKMARK [1][-]{section.2.5}{Particle flow algorithm}{chapter.2}% 21
 \BOOKMARK [1][-]{section.2.6}{Computational Infrastructure}{chapter.2}% 22
 \BOOKMARK [0][-]{chapter.3}{Luminosity}{}% 23
@@ -55,10 +55,10 @@
 \BOOKMARK [0][-]{chapter.7}{Control Plots}{}% 55
 \BOOKMARK [1][-]{section.7.1}{Data MC control plots}{chapter.7}% 56
 \BOOKMARK [0][-]{chapter.8}{Statistical Inference Modeling}{}% 57
-\BOOKMARK [1][-]{section.8.1}{Statistical Inference at CERN}{chapter.8}% 58
+\BOOKMARK [1][-]{section.8.1}{Hypothesis testing}{chapter.8}% 58
 \BOOKMARK [1][-]{section.8.2}{Worked example of an upper limit with low statistics}{chapter.8}% 59
-\BOOKMARK [1][-]{section.8.3}{Fit model for pseudoscalar Higgs search}{chapter.8}% 60
-\BOOKMARK [1][-]{section.8.4}{systematic uncertainties}{chapter.8}% 61
+\BOOKMARK [1][-]{section.8.3}{Fit model for the pseudoscalar Higgs search}{chapter.8}% 60
+\BOOKMARK [1][-]{section.8.4}{Systematic uncertainties}{chapter.8}% 61
 \BOOKMARK [0][-]{chapter.9}{Conclusions}{}% 62
 \BOOKMARK [1][-]{section.9.1}{Results}{chapter.9}% 63
 \BOOKMARK [1][-]{section.9.2}{Conclusion}{chapter.9}% 64
@@ -67,4 +67,3 @@
 \BOOKMARK [0][-]{appendix.B}{Fake Rate Measurements}{}% 67
 \BOOKMARK [0][-]{appendix.C}{Systematic Uncertainties}{}% 68
 \BOOKMARK [0][-]{appendix.D}{Fit Models}{}% 69
-\BOOKMARK [0][-]{appendix*.8}{References}{}% 70

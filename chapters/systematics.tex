@@ -1,14 +1,15 @@
-\section{systematic uncertainties}
-In order to measure the systematic effects on the final distribution and the fits, changes in the fit templates are done and propigated to the fit model in the form of rate parameters. These rate parameters differ slightly between the signal and background distributions. 
+\section{Systematic uncertainties}
+In order to measure the systematic effects on the final fit distributions, changes in the fit templates are done and propagated to the fit model in the form of rate parameters. These rate parameters differ slightly between the signal and background distributions. 
 For background, the error in the fit parameters is directly included in the uncertainty model. 
 
 The uncertainty of the spline function affects the uncertainty for the signal, so it is included in the fit model. 
-As mentioned in the fit model section ~\ref{sec:fitmodel} and shown in firgure \ref{fig:spline_2016_mmmt}, the magnitude of this uncertainty is estimated from the fit of the parameters for the spline. Overall, a 10\% uncertainty is used for the lorenztian (alpha) and 20\% for the standard deviation (sigma) and 0.5\% for the mean (mean). Although the mean is measured very precisely, the energy scale shifts from the leptons are included in this number. At the section highlighting the uncertainties ~\ref{sec:corrections}, one can see the bin-shift from the energy scale. The bin-shift indicates the amount the mean of the distriubiton is affected from the energy scale shift. The shift should fit within the envelope of the percentage on the parameter. 
+As mentioned in the fit model section~\ref{sec:fitmodel} and shown in figure~\ref{fig:spline_2016_mmmt}, the magnitude of this uncertainty is estimated from the fit of the parameters for the spline. Overall, a 10\% uncertainty is used for the Lorentzian (alpha) and 20\% for the standard deviation (sigma) and 0.5\% for the mean (mean). Although the mean is measured very precisely, the energy scale shifts from the leptons are included in this number. Regarding the section highlighting the corrections~\ref{sec:corrections}, one can see the bin-shift from the energy scale. The bin-shift indicates the amount the mean of the distribution is affected from the energy scale shift. The shift should fit within the envelope of the percentage on the parameter for it to be modeled correctly.
 
 
 For the other systematic uncertainties that are not based on parametric shapes, like the energy scale of the leptons, a log-normal deviation to the normalization is used. 
-The extent to which these systematics effect the search is calculated through the concept of the ``impact''. An impact is a way to see how that sytematic uncertainty impacts the overall statistical model. To measure an impact for a particular systematic uncertainty, it is allowed to vary within the fit range while the rest of the parameters in the likehood function are frozen. The corresponding difference in the signal strength is measured. 
-In order to read the impact plots and to understand what the impacts represenet in the fit model please look at table \ref{tab:impact_guide}:
+
+The extent to which these systematics effect the search is calculated through the concept of the ``impact''. An impact is a way to see how that systematic uncertainty impacts the overall statistical model. To measure an impact for a particular systematic uncertainty, it is allowed to vary within the fit range while the rest of the parameters in the likelihood function are frozen. The corresponding difference in the signal strength is measured. 
+In order to read the impact plots and to understand what the impacts represent in the fit model please look at table~\ref{tab:impact_guide}.
 Each impact has a corresponding nomenclature, range of variation, and effect on the POI. The nomenclature is listed in \ref{tab:impact_guide} and the variation and effect on the POI is seen in the plots \ref{fig:impacts_2017_mmmt}.
 
 \begin{table}[h!tb]
@@ -16,11 +17,12 @@ Each impact has a corresponding nomenclature, range of variation, and effect on 
 \topcaption{List of uncertainties with the corresponding name and description. The name directly refers to the variable in the impact plots ~\ref{fig:impacts_2017_mmmt}.
 \label{tab:impact_guide}
 }
-\begin{tabular}{|p{0.2\linewidth}|p{0.4\linewidth}|p{0.2\linewidth}|}
+\begin{tabular}{|p{0.2\linewidth}|p{0.4\linewidth}|r|}
 \hline  
 Name of Uncertainty & Description & Magnitude\\\hline
 scale &  e, $\mu$, and $\tau$ (split by decay mode) energy scales & \% ch. dep. \\\hline
  c0\_, c1\_, ... cN\_& Coefficents of the Bkg (datadriven) or irBkg (ZZ) parametric shape & \% ch. dep. \\\hline
+\_norm & normalization of the parametric shape for backgrounds & \% ch. dep. \\\hline
 lumi & luminosity uncertainty & 1.6\%  \\\hline
 intAlpha & alpha interpolated spline function shape uncertainty & 10\% \\\hline
 intSigma & sigma interpolated spline function shape uncertainty & 20\% \\\hline
@@ -29,12 +31,12 @@ intMean & mean interpolated spline function shape uncertainty energy scale shift
 \end{table}
 \clearpage 
 
-Systematic impact distributions, sometimes referred to as pull distributions, is listed in figure \ref{fig:impacts_2017_mmmt}. The rest of the channels and years are located in the appendix \ref{app:sysunc}.
+A systematic impact plot, sometimes referred to as a pull distribution, is listed in figure~\ref{fig:impacts_2017_mmmt}. The rest of the channels and years are located in the appendix~\ref{app:sysunc}.
 
 \begin{figure}[ht!b]
     \centering 
 \includegraphics[width=0.95\textwidth]{Figures/finalcards/2017_mmmt_combination/testimpacts_2017_mmmt-crop.pdf}
-    \caption{\label{fig:impacts_2017_mmmt} Expected systematic impacts for the fit model $\mu\mu\mu\tau$, as normalization impacts (shapeBkg\_Bkg and shapeBkg\_irBkg), these are expected to be one-sided, and ---as mentioned in the fit model ~\ref{sec:statinf}---the mean is precisely measured and is expected to be constrained less than one for most channels }
+    \caption{\label{fig:impacts_2017_mmmt} Expected systematic impacts for the fit model in the $\mu\mu\mu\tau$ final state, for normalization impacts (shapeBkg\_Bkg and shapeBkg\_irBkg), they are expected to be one-sided, and ---as mentioned in the fit model ~\ref{sec:statinf}---the mean is precisely measured and is expected to be constrained less than one for most channels.}
 \end{figure}
 
 

@@ -1,33 +1,34 @@
 %fit Models
-\section{Statistical Inference at CERN}
+\section{Hypothesis testing}
 \label{sec:statinf}
 In order to conduct a hypothesis test, a test statistic is needed. In high energy particle physics this is typically constructed through the \textit{profile likelihood ratio} and then a confidence level is set using the test statistic ~\cite{Cowan_2011}.
-The construction of a likelihood is required along with the test statistic from the likelihood and a way to calculate a confidence level.
+%The construction of a likelihood is required along with the test statistic from the likelihood and a way to calculate a confidence level.
 To start, a binned histogram containing a distribution from a kinematic variable is chosen---like the mass of the parent particle---to be used in the hypothesis test. 
-To construct the likelihood, the typical approach is to assume a Poisson distribution for the events in the $i^{th}$ bin of the kinematic variable and then ``smear" it by multiplying it with a Gaussian that is also dependent on the events. The Poisson distribution represents the true number of events one would expect and the Gaussian represents the systematic error---also denoted as nuisance parameters--- that are endemic to the model. The events are split, into signal and background by construction. Because the amount of signal events isn't known and is the subject of the search, they are allowed to vary by a coefficient denoted as $\mu$ - the signal strength. For an upper limit, the signal strength is changed until the cumulative distribution function of the likelihood reaches the desired confidence or $p$-value.  
+To construct the likelihood, the typical approach is to assume a Poisson distribution as the probability density function (PDF) for the events in the $i^{th}$ bin of the kinematic variable and then ``smear" it by multiplying it with a Gaussian that is also dependent on the events. The Poisson distribution represents the true number of events one would expect and the Gaussian represents the systematic error---also denoted as nuisance parameters--- that are endemic to the model. The events are split into signal and background by construction. The amount of signal events is not known and is the subject of the search, so they are allowed to vary by a coefficient denoted as $\mu$ - the signal strength. 
+For an upper limit, the signal strength is changed until the cumulative distribution function of the test statistic reaches the desired confidence or $p$-value. For binned analyses, the product of Poisson distriubitons is used for the likelihood:  
 \begin{equation}\mathcal{L}(\text{data}|\mu,\theta) = \text{Poisson}(\text{data},\mu\cdot s(\theta)+b(\theta)) \cdot p(\tilde{\theta}|\theta) \end{equation}
-For binned $n_i$ events in bin label $i$:
+For $n_i$ events in the $i^{\text{th}}$ bin:
 \begin{equation}
 \text{Poisson}(\text{data},\mu\cdot s(\theta)+b(\theta)) = \prod_i \frac{(\mu s_i+b_i)^n}{n_i !}e^{-\mu s_i -b_i}
-\end{equation}.
-For reference: $s$ and $b$ demarcate the signal and background events respectively,$i$ the bin number, $n$ the total number of expected events, and $\theta$ the Gaussian nuisance parameter.
+\end{equation}
+For reference: $s$ and $b$ demarcate the signal and background events respectively, $i$ the bin number, $n$ the total number of expected events, and $\theta$ the nuisance parameter of $p(\tilde{\theta}|\theta)$ the Gaussian.
 
-In the case of this analysis, a slightly different likelihood is considered. A shape-based approach is studied, which uses probability density functions over the entirety of the fit variable. The fit variable is often called the parameter of interest (POI). Multiple PDFs can be combined in this scenario, but the important difference is the absence of any binning. Therefore a good fit is required.  
+In the case of this analysis, a slightly different likelihood is considered. An unbinned parametric shape-based approach is studied, which uses probability density functions over the entirety of the fit variable. The fit variable is often called the parameter of interest (POI). Multiple PDFs can be combined in this scenario, but the important difference is the absence of any binning. Therefore a good fit is required.  
 The construction of the likelihood for the unbinned parametric shape is then:
- \begin{equation}\text{Poisson}(\text{data},\mu\cdot s(\theta)+b(\theta)) = k^{-1} \prod_i(\mu S f_s(x_i) + B f_b(x_i))e^{-\mu S - B}\end{equation}.
-Where $k$ is the number of events, $S$ and $B$ the total event rate, $f_s(x_i)$ and $f_b(x_i)$ the probability density function, and $i$ the number of different categories.
+ \begin{equation}\mathcal{L}(\text{data},\mu\cdot s(\theta)+b(\theta)) = k^{-1} \prod_i(\mu S f_s(x_i) + B f_b(x_i))e^{-\mu S - B}\end{equation}
+Where $k$ is the normalization, $S$ and $B$ the event rate for signal and background, $f_s(x_i)$ and $f_b(x_i)$ the probability density functions for signal and background, and $i$ the number of different categories. A similar approach can be found in reference~\cite{Aaboud_2018}.
 A Bernstein polynomial would capture the slow changing background and the Voigtian captures the sharp peaking dimuon mass signal.
 Therefore in the pseudoscalar analysis, a product of Bernstein polynomials for $f_b(x_i)$ and Voigtian functions for $f_s(x_i)$ are used.   
 
-To outline the typical approach in the profile likelihood method, the follow steps are done in an effort to set the limit
+To outline the typical approach in the profile likelihood method, the follow steps are done in an effort to set the limit:
 \begin{enumerate}
 \item {To form the test statistic, the \textit{profile likelihood ratio} is used 
   \begin{equation}\tilde{q}_\mu = -2 \ln \frac{\mathcal{L}(\text{D}|\mu,\hat{\hat{\theta}}_\mu)}{\mathcal{L}_\text{max}(\text{D}|\hat{\mu},\hat{\theta})} \;\; 0\leq \hat{\mu} \leq \mu \end{equation}
-  Where $\hat{\mu}$ and $\hat{\theta}$ are the maximum likelihood estimators, $\hat{\hat{\theta}}$ the optimized value of the estimator, and D is the input dataset typically chosen as simiulation for expected limits and real data for the observation.
+  Where $\hat{\mu}$ and $\hat{\theta}$ are the maximum likelihood estimators, $\hat{\hat{\theta}}$ the optimized value of the estimator for the nuissance parameters, and D is the input dataset typically chosen as simiulation for expected limits and real data for the observation.
   }
   \item Find the \textit{observed} value of the test statistic $\tilde{q}_\mu^{obs}$ for given signal strength $\mu$.
   \item Find values of the nuisance parameters that best describe the experimentally observed data by maximizing the likelihood.
-  \item Generate toy MC pseudo data to construct probability density functions for signal and background $f(\tilde{q}_\mu|\mu,\hat{\theta}_\mu)$ and $f(\tilde{q}_\mu|0,\hat{\theta}_\mu)$ for background only hypothesis. These pdfs are the pdfs of the test statistic under the assumption of a signal strength.
+  \item Generate toy MC pseudo data to construct PDFs for signal and background $f(\tilde{q}_\mu|\mu,\hat{\theta}_\mu)$ and $f(\tilde{q}_\mu|0,\hat{\theta}_\mu)$ for background only hypothesis. These PDFs are the test statistic's PDFs under the assumption of a signal strength.
   \item {Define $p$-values to be associated with the actual observation for both $s+b$ and $b$ only hypotheses
   \begin{equation} p_\mu = P(\tilde{q}_\mu \ge \tilde{q}_\mu^{obs}| s+b) = \int_{\tilde{q}_\mu^{obs}}^\infty f(\tilde{q}_\mu |\mu,\hat{\theta}_\mu^{obs} ) d\tilde{q}_\mu\end{equation}
   \begin{equation} 1- p_b = P(\tilde{q}_\mu \ge \tilde{q}_b^{obs}| b) = \int_{\tilde{q}_b^{obs}}^\infty f(\tilde{q}_\mu |\mu=0,\hat{\theta}_b^{obs} ) d\tilde{q}_\mu\end{equation}.
@@ -45,32 +46,28 @@ Order of magnitude estimates for low stat analyses like the Higgs decay to pseud
 Suppose there are $N$ events 
 \begin{equation}
 \label{eq:Nevents}
-N = B\cdot \sigma \cdot A\cdot \mathcal{L}
+N = B\cdot \sigma \cdot A\cdot \mathcal{L} \text{,}
 \end{equation}
 where $B$ is the branching fraction for the physics process, $A$ is the signal acceptance, $\sigma$ is the cross section, and $\mathcal{L}$ is the luminosity.
 %In general \ref{eq:Nevents} works; however, a likelihood model is needed to fully get the estimate of the number of events expected. 
-As outlined in the previous section, suppose that the number of expected events follows a Poisson distribution. In the case of a background model predicting 0 average events, the upper 95\% bound would be 3.7 events. 
+As outlined in the previous section, suppose that the number of expected events follows a Poisson distribution. In the case of a background model predicting zero average events, the upper 95\% bound would then be 3.7 events. 
 
 Inverting the relation
-\begin{equation}B = \frac{N}{\sigma \cdot A\cdot \mathcal{L}}\end{equation}
+\begin{equation}B = \frac{N}{\sigma \cdot A\cdot \mathcal{L}} \text{,} \end{equation}
 Selecting the signal acceptance from the pseudoscalar analysis (2016 $\mu\mu\mu\tau$) 
-\begin{equation} A = \frac{\text{events pass all cuts}}{\text{starting events}} = \frac{1293}{250000} \approx 0.005 \end{equation}
-and taking the cross section for gluon gluon fusion production of the Higgs $\sigma = 48 \text{pb}$ along with the luminosity for 2016 $\mathcal{L} = 35,900 \text{pb}^{-1}$
-
-Then the upper 95\% CL limit on the branching fraction is 
-\begin{equation}B =  \frac{N}{\sigma \cdot A\cdot \mathcal{L}} = 0.00043 = 4.3 \times 10^{-4}\end{equation}
+\begin{equation} A = \frac{\text{events pass all cuts}}{\text{starting events}} = \frac{1293}{250000} \approx 0.005 \text{,}\end{equation}
+and taking the cross section for gluon gluon fusion production of the Higgs $\sigma = 48 \text{pb}$, along with the luminosity for 2016 $\mathcal{L} = 35,900 \text{pb}^{-1}$. Then the upper 95\% CL limit on the branching fraction is 
+\begin{equation}B =  \frac{N}{\sigma \cdot A\cdot \mathcal{L}} = 0.00043 = 4.3 \times 10^{-4}\text{.}\end{equation}
 
 
 
-\section{Fit model for pseudoscalar Higgs search}
+\section{Fit model for the pseudoscalar Higgs search}
 \label{sec:fitmodel}
 After the signal extraction cuts are applied, an unbinned parametric likelihood fit was done with various shapes depending on the background and signal categorization. There is one signal distribution depending on the hypothesized $a$ mass, and two background distributions that are considered in the final fit. The two contributing background distributions originate from ``Irreducible" events coming from two Z bosons (ZZ) and from ``Reducible" events coming from jets faking tau leptons (FF).  
 
 %%For the signal, a Voigtian function is used to fit the $a$ mass spectrum in a small window - 2GeV - of the hypothesized $a$ mass for the sample \ref{fig:fit_sig}. The Voigtian shape was chosen to reflect the narrow simulated peak that is statistically smeared by experimental measurement.
 
-For the signal, a Voigtian function is used to fit the pseudoscalar $a$ mass spectrum in a small window - 2GeV - of the hypothesized $a$ mass for the sample as in figure \ref{fig:fit_sig}. The Voigtian shape was chosen to reflect the narrow simulated peak that is statistically smeared by experimental measurement. The Voigtian function is a Gaussian convoluted with a Lorentizian function, so in addition to the Gaussian paramters there is one extra degree of freedom which is assiociated with the Lorentzian. The Lorentizian controls the sharpness the distriubiton.  
-%This parameter is the Lorentzian factor of the Voigtian. 
-%For the signal MC, the distributions tend to increase in standard deviation as the mass approaches 60 GeV. 
+For the signal, a Voigtian function is used to fit the pseudoscalar $a$ mass spectrum in a small window - 2GeV - of the hypothesized $a$ mass for the sample as in figure \ref{fig:fit_sig}. The Voigtian shape was chosen to reflect the narrow simulated peak that is statistically smeared by experimental measurement. The Voigtian function is a Gaussian convoluted with a Lorentizian function, so in addition to the Gaussian paramters there is one extra degree of freedom which is assiociated with the Lorentzian. The Lorentizian parameter controls the sharpness the distriubiton.  
 For the signal MC, the standard deviation of the distributions tends to increase as the mass approaches 60 GeV. 
 To compare the signal MC distributions, they are all plotted in figure \ref{fig:fit_sig_all}.
 
@@ -78,7 +75,7 @@ To compare the signal MC distributions, they are all plotted in figure \ref{fig:
 \begin{figure}[ht!b]
     \centering 
     \includegraphics[width=0.47\textwidth]{Figures/DiMuonMass_combined_sig.pdf}
-    \caption{\label{fig:fit_sig_all} Signal fit using a Voigtian function}
+    \caption{\label{fig:fit_sig_all} Signal fit using a Voigtian function for all MC simulated mass points}
 \end{figure}
 %\begin{figure}[ht!b]
 %  \centering
@@ -100,8 +97,8 @@ To compare the signal MC distributions, they are all plotted in figure \ref{fig:
 Shapes from the signal samples in intervals of 5 GeV across the whole fit range 20-60 GeV are interpolated using spline functions for the fit parameters, thus precise limits can be obtained at the 1 GeV granularity. 
 The interpolated model describes the signal samples well and produces similar results for the distributions at the 5 GeV granularity.  
 A spline function is created for the mean, standard deviation, normalization,and the Lorentzian. 
-A first order polynomial is used to fit the mean and a third order polynomial is used to fit the standard deviation, normalization, and Lorentzian. 
-An example of such functions are shown in figure \ref{fig:spline_2016_mmmt}. The bands that envelope the spline indicate the spread and the accepted error on the spline in the statistical inference model.
+A first order polynomial is used to fit the mean and a third order polynomial is used to fit the standard deviation, normalization, and Lorentzian parameters. 
+Examples of such functions are shown in figure~\ref{fig:spline_2016_mmmt}. The bands that envelope the spline indicate the spread and the accepted error on the spline in the statistical inference model.
 \begin{figure}[ht!b]
     \centering 
     \includegraphics[width=0.47\textwidth]{Figures/2016_mmmt_combination/DiMuonMass_AlphaConstraint_2016_mmmt.pdf}
@@ -135,9 +132,9 @@ An example of such functions are shown in figure \ref{fig:spline_2016_mmmt}. The
     \caption{\label{fig:spline_2016_mmem} Spline functions for 2016 mmem a 3rd order polynomial is used for  for Alpha, Sigma, and Normalization, a 1st order polynomial is used for the Mean}
 \end{figure}
 
-For the irreducible background coming from $ZZ\rightarrow 4 l$, a Bernstein polynomial is used to fit the shape over the entire $a$ mass range in figure \ref{fig:fit_ZZ}. Depending on the final state and shape, the degree of the polynmoial is chosen by best fit. A Fischer F-test was conducted and there doesn't seem to be enough statistics in the bins to provide an accurate difference in the log-likelihood in order to recommend a particularly higher order polynomial over other orders. Thus for $\mu\mu\tau\tau$ and $\mu\mu e \tau$, a 1st order polynomial is used. For the channels that do have more events like $\mu\mu\mu\tau$ and $\mu\mu e \mu$---albeit even for a lower number of integrated events---a quadratic function is used. 
+For the irreducible background coming from $ZZ\rightarrow 4 l$, a Bernstein polynomial is used to fit the shape over the entire $a$ mass range in figure~\ref{fig:fit_ZZ}. Depending on the final state and shape, the degree of the polynmoial is chosen by best fit. A Fischer F-test was conducted and there is not enough statistics in the bins to provide an accurate difference in the log-likelihood in order to recommend a particularly higher order polynomial over other orders. Thus for $\mu\mu\tau\tau$ and $\mu\mu e \tau$, a 1st order polynomial is used. For the channels that do have more events like $\mu\mu\mu\tau$ and $\mu\mu e \mu$---albeit even for a lower number of integrated events---a quadratic function is used. 
 %Plotted error bands reflect a simulation of 315 events in a RooFit simulation and are only meant to visualize possible 1 sigma differences in the shape. 
-The true values of the error estimation on the parameters are taken from the fit itself and can be seen in the plots like figure \ref{fig:fit_ZZ}. The error on these shape parameters are shown in the impacts which demonstrate how the fit parameters effect the overall statistical inference model \ref{fig:impacts_2016_mmmt}. 
+The true values of the error estimation on the parameters are taken from the fit itself and can be seen in the plots like in figure~\ref{fig:fit_ZZ}. The error on these shape parameters are shown in the impacts, which demonstrate how the fit parameters affect the overall statistical inference model~\ref{fig:impacts_2017_mmmt}. 
 
 %\begin{figure}[ht!b]
 %  \centering
@@ -156,7 +153,7 @@ The true values of the error estimation on the parameters are taken from the fit
     \caption{\label{fig:fit_ZZ} Irreducible background fit using Bernstein polynomials}
 \end{figure}
 
-For the jet faking tau background, a Bernstein polynomial is also used to fit the shape over the entire $a$ mass range in figure \ref{fig:fit_FF}. Similar to the ZZ or irreducible background, the jet faking tau background polynomial degree is chosen by best fit. 
+For the jet faking tau background, a Bernstein polynomial is also used to fit the shape over the entire $a$ mass range indicated in figure \ref{fig:fit_FF}. Similar to the ZZ (irreducible) background, the jet faking tau background polynomial degree is chosen by best fit. The rest of the channels and years are shown in the appendix \ref{app:fitmodel}. 
 
 
 %\begin{figure}[ht!b]
@@ -177,5 +174,4 @@ For the jet faking tau background, a Bernstein polynomial is also used to fit th
     \caption{\label{fig:fit_FF} Reducible background fit using Bernstein polynomials}
 \end{figure}
 
-The rest of the channels and years are shown in the appendix \ref{app:fitmodel}. 
 

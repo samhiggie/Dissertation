@@ -1,8 +1,8 @@
 \contentsline {chapter}{Abstract}{iii}{chapter*.1}%
 \contentsline {chapter}{Acknowledgements}{iv}{chapter*.2}%
-\contentsline {chapter}{Contents}{v}{chapter*.2}%
-\contentsline {chapter}{List of Figures}{viii}{chapter*.3}%
-\contentsline {chapter}{List of Tables}{xv}{chapter*.4}%
+\contentsline {chapter}{Contents}{vi}{chapter*.2}%
+\contentsline {chapter}{List of Figures}{ix}{chapter*.3}%
+\contentsline {chapter}{List of Tables}{xvi}{chapter*.4}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}The Standard Model and beyond}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Gauge principle, Yang Mills theories, and the Weinberg-Salam model}{2}{section.1.2}%
@@ -12,14 +12,14 @@
 \contentsline {chapter}{\numberline {2}CERN, The LHC, and The CMS Detector}{13}{chapter.2}%
 \contentsline {section}{\numberline {2.1}CERN and the Large Hadron Collider}{13}{section.2.1}%
 \contentsline {section}{\numberline {2.2}The Compact Muon Solenoid detector}{13}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Subdetector Systems}{15}{section.2.3}%
+\contentsline {section}{\numberline {2.3}Subdetector systems}{15}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Tracker}{15}{subsection.2.3.1}%
-\contentsline {subsubsection}{Pixel Detector}{17}{section*.6}%
-\contentsline {subsubsection}{Silicon Tracker}{18}{section*.7}%
-\contentsline {subsection}{\numberline {2.3.2}Electromagnetic Calorimeter (ECAL)}{18}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Hadronic Calorimeter (HCAL)}{18}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Muon System}{19}{subsection.2.3.4}%
-\contentsline {section}{\numberline {2.4}Level 1 Trigger System and High Level Trigger}{20}{section.2.4}%
+\contentsline {subsubsection}{Pixel detector}{16}{section*.6}%
+\contentsline {subsubsection}{Silicon tracker}{17}{section*.7}%
+\contentsline {subsection}{\numberline {2.3.2}ECAL}{18}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}HCAL}{18}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Muon system}{19}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Level 1 Trigger system and High Level Trigger}{19}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Particle flow algorithm}{21}{section.2.5}%
 \contentsline {section}{\numberline {2.6}Computational Infrastructure}{21}{section.2.6}%
 \contentsline {chapter}{\numberline {3}Luminosity}{23}{chapter.3}%
@@ -40,7 +40,7 @@
 \contentsline {subsection}{\numberline {4.4.4}$\ensuremath {\tau _h}\xspace $ identification efficiency}{33}{subsection.4.4.4}%
 \contentsline {subsection}{\numberline {4.4.5}$e \rightarrow \ensuremath {\tau _h}\xspace $ and $\mu \rightarrow \ensuremath {\tau _h}\xspace $ misidentification rate}{34}{subsection.4.4.5}%
 \contentsline {subsection}{\numberline {4.4.6}Pileup re-weighting}{34}{subsection.4.4.6}%
-\contentsline {subsection}{\numberline {4.4.7}Electron and muon identification efficiency}{35}{subsection.4.4.7}%
+\contentsline {subsection}{\numberline {4.4.7}Electron and muon identification efficiency}{34}{subsection.4.4.7}%
 \contentsline {subsection}{\numberline {4.4.8}Generator event weights and luminosity}{35}{subsection.4.4.8}%
 \contentsline {subsection}{\numberline {4.4.9}Low momentum muon selection}{35}{subsection.4.4.9}%
 \contentsline {subsection}{\numberline {4.4.10}Visualizing the corrections}{35}{subsection.4.4.10}%
@@ -57,16 +57,16 @@
 \contentsline {chapter}{\numberline {7}Control Plots}{47}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Data MC control plots}{47}{section.7.1}%
 \contentsline {chapter}{\numberline {8}Statistical Inference Modeling}{50}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Statistical Inference at CERN}{50}{section.8.1}%
+\contentsline {section}{\numberline {8.1}Hypothesis testing}{50}{section.8.1}%
 \contentsline {section}{\numberline {8.2}Worked example of an upper limit with low statistics}{52}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Fit model for pseudoscalar Higgs search}{53}{section.8.3}%
-\contentsline {section}{\numberline {8.4}systematic uncertainties}{54}{section.8.4}%
+\contentsline {section}{\numberline {8.3}Fit model for the pseudoscalar Higgs search}{53}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Systematic uncertainties}{54}{section.8.4}%
 \contentsline {chapter}{\numberline {9}Conclusions}{64}{chapter.9}%
 \contentsline {section}{\numberline {9.1}Results}{64}{section.9.1}%
 \contentsline {section}{\numberline {9.2}Conclusion}{70}{section.9.2}%
 \contentsline {chapter}{\numberline {A}Data and Simulation Samples}{71}{appendix.A}%
 \contentsline {section}{\numberline {A.1}Data and Simluation Used for Analysis}{71}{section.A.1}%
 \contentsline {chapter}{\numberline {B}Fake Rate Measurements}{77}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Systematic Uncertainties}{83}{appendix.C}%
-\contentsline {chapter}{\numberline {D}Fit Models}{94}{appendix.D}%
-\contentsline {chapter}{References}{109}{appendix*.8}%
+\contentsline {chapter}{\numberline {C}Systematic Uncertainties}{84}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Fit Models}{95}{appendix.D}%
+\contentsline {chapter}{References}{110}{appendix*.8}%

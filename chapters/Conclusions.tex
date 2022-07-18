@@ -7,11 +7,9 @@ The final number of events listed in each category for the full Run II dataset i
 
 
 \begin{table}[h!tbp]
-\centering
-\topcaption{Expected event yields of signal and background categories across all years with 137 $\text{fb}^{-1}$ of data. Signal normalized to .01\% of the SM Higgs Branching Fraction.
 \label{tab:event_yield}
-}
-\begin{tabular*}{0.9\textwidth}{l||c|c|c||c}
+\centering
+\begin{tabular}{l||c|c|c||c}
 \hline
 Year            &  Signal Total             & \multicolumn{3}{c}{Background Total} \\\hline
                 & $m_a=40\;\text{GeV}$ & Data Driven (FF)  & Irreducible (ZZ)                 & Total\\\hline
@@ -19,7 +17,9 @@ Year            &  Signal Total             & \multicolumn{3}{c}{Background Tota
 2017                      & 19.49                       & 6.63             & 3.26                   & 9.89\\\hline
 2018                      & 27.45                       & 14.93             & 2.79                  & 17.72\\\hline\hline
 Run II                      & 63.09                       & 24.77             & 7.48                & 32.25\\\hline
-\end{tabular*}
+\end{tabular}
+\caption{Expected event yields of signal and background categories across all years with 137 $\text{fb}^{-1}$ of data. Signal normalized to .01\% of the SM Higgs Branching Fraction.
+}
 \end{table}.
  
 
@@ -27,13 +27,13 @@ Run II                      & 63.09                       & 24.77             & 
 
 As discussed in the previous section~\ref{sec:fitmodel}, the shapes that were created are used in an upper limit for each mass point. 
 Initial values of the signal distributions are selected to make sure that the signal strength modifier ($\mu$) in the limit is of order unity. 
-The range of masses in the limit is between 20 GeV and 60 GeV to ensure compatibility with $h \rightarrow a a $ combination limits for more exotic Higgs models---like those at lower $a$ mass. 
+The range of masses in the limit is between 20 GeV and 60 GeV to ensure compatibility with $h \rightarrow a a $ combination limits for additional exotic Higgs models---like those at lower $a$ mass. 
 In order to estimate the upper limit at 95\% CL on the branching fraction, a simple Poisson model can be used. For a statistically limited search, we can estimate the background yield as no events. The estimated upper limit on the branching fraction calculated earlier is: 
-\begin{equation}B =  \frac{N}{\sigma \cdot A\cdot \mathcal{L}} = 0.00043\end{equation}. 
+\begin{equation}B =  \frac{N}{\sigma \cdot A\cdot \mathcal{L}} = 0.00043  \text{.}\end{equation} 
 This limit is set by adjusting the signal strength (event yield) until a p-value of 5\% is reached on the joint likelihood function for the fit model. 
 The event yield is normalized with a branching fraction, which was assumed to be $\sigma_{SM}(h) \times 0.01\%$.
 Multiplying the CL by 0.01\% returns the limit on $\frac{\sigma_h}{\sigma_{SM}} B(h\rightarrow aa\rightarrow2\mu2\tau)$.
-Preliminary limits are set using the asymptotic limit method ~\cite{Cowan_2011} for each mass point.
+Preliminary limits are set using the asymptotic limit method~\cite{Cowan_2011} for each mass point.
 
 
 \begin{figure}[ht!b]
@@ -42,7 +42,7 @@ Preliminary limits are set using the asymptotic limit method ~\cite{Cowan_2011} 
   \includegraphics[width=0.47\textwidth]{Figures/CLs/plotLimit_aa_2016_mmtt_2016.png}\\
   \includegraphics[width=0.47\textwidth]{Figures/CLs/plotLimit_aa_2016_mmmt_2016.png}
   \includegraphics[width=0.47\textwidth]{Figures/CLs/plotLimit_aa_2016_mmem_2016.png}\\
-    \caption{\label{fig:CLs2016} Asymptotic CL Limits on the branching fraction times ratio of the SM cross section for 2016}
+    \caption{\label{fig:CLs2016} Asymptotic upper 95\% CL Limits on the branching fraction times ratio of the SM cross section for 2016}
 \end{figure}
 
 \begin{figure}[ht!b]
@@ -51,7 +51,7 @@ Preliminary limits are set using the asymptotic limit method ~\cite{Cowan_2011} 
   \includegraphics[width=0.47\textwidth]{Figures/CLs/plotLimit_aa_2017_mmtt_2017.png}\\
   \includegraphics[width=0.47\textwidth]{Figures/CLs/plotLimit_aa_2017_mmmt_2017.png}
   \includegraphics[width=0.47\textwidth]{Figures/CLs/plotLimit_aa_2017_mmem_2017.png}\\
-    \caption{\label{fig:CLs2017} Asymptotic CL Limits on the branching fraction times ratio of the SM cross section for 2017}
+    \caption{\label{fig:CLs2017} Asymptotic upper 95\% CL Limits on the branching fraction times ratio of the SM cross section for 2017}
 \end{figure}
 
 \begin{figure}[ht!b]
@@ -60,18 +60,18 @@ Preliminary limits are set using the asymptotic limit method ~\cite{Cowan_2011} 
   \includegraphics[width=0.47\textwidth]{Figures/CLs/plotLimit_aa_2018_mmtt_2018.png}\\
   \includegraphics[width=0.47\textwidth]{Figures/CLs/plotLimit_aa_2018_mmmt_2018.png}
   \includegraphics[width=0.47\textwidth]{Figures/CLs/plotLimit_aa_2018_mmem_2018.png}\\
-    \caption{\label{fig:CLs2018} Asymptotic CL Limits on the branching fraction times ratio of the SM cross section for 2018}
+    \caption{\label{fig:CLs2018} Asymptotic upper 95\% CL Limits on the branching fraction times ratio of the SM cross section for 2018}
 \end{figure}
 
 \clearpage
 
-All of the years and channels are then added together to form the combined result and the model 2HDM+S interpretations for different scenarios. Type III, where coupling to $\tau$ leptons is favored, is expected to be the most stringent scenario for this final state. More parameter space in theory is excluded at the upper 95\% level in regions of lower values on the limit (regions in blue) in figure ~\ref{fig:2HDM}. Type I excludes mostly high mass particles and isn't depended on $\tan\beta$. Type II and III exclude more at high $\tan\beta$ region as opposed to Type IV which excludes at low $\tan\beta$.
+All of the years and channels are then added together to form the combined result~\ref{fig:CLsRunII} and the model 2HDM+S interpretations for different scenarios. Type III, where coupling to $\tau$ leptons is favored, is expected to be the most stringent scenario for this analysis. More parameter space in theory is excluded at the upper 95\% level in regions of lower values on the limit (regions in blue) in figure~\ref{fig:2HDM}. Type I excludes mostly high mass particles and isn't depended on $\tan\beta$. Type II and III exclude more at the high $\tan\beta$ region as opposed to Type IV which excludes at the low $\tan\beta$ region.
 
 \begin{figure}[ht!b]
 \label{fig:CLsRunII} 
 \centering
   \includegraphics[width=0.65\textwidth]{Figures/CLs/plotLimit_aa_2022_all_2022.png}
-    \caption{Asymptotic CL Limits on the branching fraction times ratio of the SM cross section for the full Run II dataset ($\text{137}\text{fb}^{-1}$)}
+    \caption{Asymptotic upper 95\% CL Limits on the branching fraction times ratio of the SM cross section for the full Run II dataset ($\text{137}\text{fb}^{-1}$)}
 \end{figure}
 
 \begin{figure}[ht!b]
@@ -80,7 +80,7 @@ All of the years and channels are then added together to form the combined resul
   \includegraphics[width=0.47\textwidth]{Figures/combination/2HDM_Model_2DLimits_II.png}\\
   \includegraphics[width=0.47\textwidth]{Figures/combination/2HDM_Model_2DLimits_III.png}
   \includegraphics[width=0.47\textwidth]{Figures/combination/2HDM_Model_2DLimits_IV.png}\\
-    \caption{\label{fig:2HDM}  upper 95\% CL limits on the branch fraction of $h\rightarrow a a $ times the ratio of the SM cross sections for the full Run II dataset ($\text{137}\text{fb}^{-1}$) for different 2HDM+S model specific scenarios.}
+    \caption{\label{fig:2HDM}  upper 95\% CL limits on the branch fraction of $h\rightarrow a a $ times the ratio of the SM cross sections for the full Run II dataset ($\text{137}\text{fb}^{-1}$) for different 2HDM+S model specific scenarios plotted also as a function of $\tan\beta$.}
 \end{figure}
 
 \clearpage
@@ -89,7 +89,8 @@ All of the years and channels are then added together to form the combined resul
 \label{sec:conc}
 An overview of the Large Hadron Collider, CERN, CMS, luminosity operations, and an analysis focusing on the search for a BSM processes involving an exotic Higgs-like particle was presented.
 Using the full Run II dataset collected at CMS corresponding to an integrated luminosity of $\text{137}\text{fb}^{-1}$, the search for the SM Higgs Boson, $h$, decaying to a pair of pseudoscalars, $a$, which then decay to pairs of muons and tau leptons was completed. 
-Expected upper 95\% confidence level limits are set to about $10^{-4}$ after the addition of all final decay modes. 
+Expected upper 95\% confidence level limits are set to about $10^{-4}$ after the addition of all final final states. 
 %No excess was observed and furthermore, the most stringent limits have been set for these decay modes. 
 These results are independent of separate 2HDM+S models and is considered a generic search that applies to multiple MSSM scenarios along with any BSM physics within the search window. 
+
 It has been an honor of a lifetime to work alongside CMS, Purdue University, and Princeton Univsersity to deliever this analysis and years of service work! 

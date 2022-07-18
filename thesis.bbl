@@ -35,6 +35,10 @@ O.~S. Brüning, P.~Collier, P.~Lebrun, S.~Myers, R.~Ostojic, J.~Poole, and
   P.~Proudlock, {\em {LHC Design Report}}.
 \newblock CERN Yellow Reports: Monographs, Geneva: CERN, 2004.
 
+\bibitem{25yrLHC}
+M.~B. Harriet~Jarlett, ``25 years of large hadron collider experimental
+  programme,'' {\em CERN News Topic: At CERN}, 2017.
+
 \bibitem{Chatrchyan:2008zzk}
 S.~Chatrchyan {\em et~al.}, ``The {CMS} experiment at the {CERN} {LHC},'' {\em
   JINST}, vol.~03, p.~S08004, 2008.
@@ -51,6 +55,23 @@ S.~Chatrchyan, G.~Hmayakyan, V.~Khachatryan, A.~M. Sirunyan, R.~Adolphi,
   The Compact Muon Solenoid experiment},'' {\em JINST}, vol.~3, p.~S08004. 361
   p, 2008.
 \newblock Also published by CERN Geneva in 2010.
+
+\bibitem{ABBIENDI2009192}
+G.~Abbiendi, N.~Amapane, C.~Battilana, C.~{Fernandez Bedoya}, R.~Bellan,
+  M.~Bellato, A.~Benvenuti, P.~Biallas, S.~Bolognesi, S.~Braibant, F.~Cavallo,
+  R.~Carlin, G.~Cerminara, M.~Chamizo, E.~Conti, G.~Dallavalle, D.~Dattola,
+  G.~Dellacasa, M.~Fouz, J.~Frangenheim, P.~Giacomelli, M.~Giunta, F.~Gonella,
+  A.~Gresele, L.~Guiducci, K.~Hoepfner, E.~Jacobi, S.~Marcellini, C.~Mariotti,
+  S.~Maselli, G.~Masetti, A.~Meneguzzo, G.~Mila, V.~Monaco, A.~Montanari,
+  F.~Montecassiano, F.~Navarria, M.~Nervo, F.~Odorici, M.~Passaseo, A.~Parenti,
+  A.~Perrotta, J.~Puerta, H.~Reithler, P.~Ronchese, T.~Rovelli, R.~Sacchi,
+  G.~Siroli, M.~Sowa, A.~Staiano, D.~Teyssier, E.~Torassa, R.~Travaglini,
+  A.~Triossi, O.~Tsigenov, S.~Vanini, S.~Ventura, C.~Villanueva, M.~Zanetti,
+  and P.~Zotto, ``The cms muon barrel drift tubes system commissioning,'' {\em
+  Nuclear Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment}, vol.~598, no.~1,
+  pp.~192--195, 2009.
+\newblock Instrumentation for Collding Beam Physics.
 
 \bibitem{Foudas:2232067}
 C.~Foudas, ``{The CMS Level-1 Trigger at LHC and Super-LHC. The CMS Level-1
@@ -97,6 +118,19 @@ A.~Sirunyan, A.~Tumasyan, {\em et~al.}, ``Performance of reconstruction and
   collisions at $\sqrt{s}$ =13 {TeV},'' {\em Journal of Instrumentation},
   vol.~13, pp.~P10005--P10005, oct 2018.
 
+\bibitem{Sirunyan:2018pgf}
+A.~M. Sirunyan {\em et~al.}, ``Performance of reconstruction and identification
+  of $\tau$ leptons decaying to hadrons and $\nu_\tau$ in pp collisions at
+  $\sqrt{s}=$ 13 {TeV},'' {\em JINST}, vol.~13, p.~P10005, 2018.
+
+\bibitem{Hassanshahi:2797703}
+M.~H. Hassanshahi, ``{Tau identification in CMS during LHC Run 2},'' tech.
+  rep., CERN, Geneva, Nov 2021.
+
+\bibitem{https://doi.org/10.48550/arxiv.2201.08458}
+{CMS Collaboration}, ``Identification of hadronic tau lepton decays using a
+  deep neural network,'' 2022.
+
 \bibitem{PYTHIA}
 T.~Sjostrand, S.~Mrenna, and P.~Z. Skands, ``{PYTHIA 6.4 Physics and Manual},''
   {\em JHEP}, vol.~0605, p.~026, 2006.
@@ -110,18 +144,10 @@ A.~Sirunyan, A.~Tumasyan, {\em et~al.}, ``Particle-flow reconstruction and
   global event description with the {CMS} detector,'' {\em Journal of
   Instrumentation}, vol.~12, pp.~P10003--P10003, oct 2017.
 
-\bibitem{Sirunyan:2018pgf}
-A.~M. Sirunyan {\em et~al.}, ``Performance of reconstruction and identification
-  of $\tau$ leptons decaying to hadrons and $\nu_\tau$ in pp collisions at
-  $\sqrt{s}=$ 13 {TeV},'' {\em JINST}, vol.~13, p.~P10005, 2018.
-
-\bibitem{Hassanshahi:2797703}
-M.~H. Hassanshahi, ``{Tau identification in CMS during LHC Run 2},'' tech.
-  rep., CERN, Geneva, Nov 2021.
-
-\bibitem{https://doi.org/10.48550/arxiv.2201.08458}
-{CMS Collaboration}, ``Identification of hadronic tau lepton decays using a
-  deep neural network,'' 2022.
+\bibitem{Bodek_2012}
+A.~Bodek, A.~van Dyne, J.~Y. Han, W.~Sakumoto, and A.~Strelnikov, ``Extracting
+  muon momentum scale corrections for hadron collider experiments,'' {\em The
+  European Physical Journal C}, vol.~72, oct 2012.
 
 \bibitem{EGammaEnergyScale}
 E.~P.~O. Group, ``Egamma miniaod v2 apply energy scale 13 tev,'' August 2022.
@@ -154,5 +180,11 @@ CMS, ``Search for the standard model higgs boson decaying to a pair of tau
 G.~Cowan, K.~Cranmer, E.~Gross, and O.~Vitells, ``Asymptotic formulae for
   likelihood-based tests of new physics,'' {\em The European Physical Journal
   C}, vol.~71, feb 2011.
+
+\bibitem{Aaboud_2018}
+M.~Aaboud, G.~Aad, B.~Abbott, and et. all, ``Measurements of higgs boson
+  properties in the diphoton decay channel with 36$\text{fb}^{-1}$ of $pp$
+  collision data at $\sqrt{s} = 13 $ tev with the atlas detector,'' {\em
+  Physical Review D}, vol.~98, sep 2018.
 
 \end{thebibliography}
