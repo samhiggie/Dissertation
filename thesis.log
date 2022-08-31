@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.14)  23 AUG 2022 10:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2022.1.14)  31 AUG 2022 14:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -813,22 +813,22 @@ LaTeX Warning: Label `tab1:datasets2016' multiply defined.
 )
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -890,15 +890,15 @@ e
 
 Package tikz-feynman Warning: LuaTeX is required if you wish to have vertices a
 utomatically placed. You can disable this warning by setting /tikzfeynman/warn 
-luatex=false on input line 60.
+luatex=false on input line 61.
 
 
 Package tikz-feynman Warning: Consider loading TikZ-Feynman with \usepackage[co
 mpat=1.1.0]{tikz-feynman} so that you can be warned if TikZ-Feynman changes. on
- input line 60.
+ input line 61.
 
 \AtBeginShipoutBox=\box63
-Package hyperref Info: Link coloring OFF on input line 60.
+Package hyperref Info: Link coloring OFF on input line 61.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -910,46 +910,46 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count317
 )
-LaTeX Info: Redefining \ref on input line 60.
-LaTeX Info: Redefining \pageref on input line 60.
-LaTeX Info: Redefining \nameref on input line 60.
+LaTeX Info: Redefining \ref on input line 61.
+LaTeX Info: Redefining \pageref on input line 61.
+LaTeX Info: Redefining \nameref on input line 61.
 
 (./thesis.out) (./thesis.out)
 \@outlinefile=\write4
 \openout4 = `thesis.out'.
 
-LaTeX Info: Redefining \HepProcess on input line 60.
-LaTeX Info: Redefining \HepProcess on input line 60.
+LaTeX Info: Redefining \HepProcess on input line 61.
+LaTeX Info: Redefining \HepProcess on input line 61.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Info: Redefining \HepProcess on input line 60.
-LaTeX Info: Redefining \HepProcess on input line 60.
+LaTeX Info: Redefining \HepProcess on input line 61.
+LaTeX Info: Redefining \HepProcess on input line 61.
  [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
 
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Info: Redefining \HepProcess on input line 62.
+LaTeX Info: Redefining \HepProcess on input line 63.
  (./abstract.tex)
-LaTeX Info: Redefining \HepProcess on input line 64.
-LaTeX Info: Redefining \HepProcess on input line 64.
+LaTeX Info: Redefining \HepProcess on input line 65.
+LaTeX Info: Redefining \HepProcess on input line 65.
 
 [3
 
 
 
 ]
-LaTeX Info: Redefining \HepProcess on input line 65.
+LaTeX Info: Redefining \HepProcess on input line 66.
  (./acknowledgements.tex
 LaTeX Info: Redefining \HepProcess on input line 15.
 LaTeX Info: Redefining \HepProcess on input line 15.
@@ -982,10 +982,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--25
  []
 
 )
-LaTeX Info: Redefining \HepProcess on input line 67.
-LaTeX Info: Redefining \HepProcess on input line 67.
- [5]
 LaTeX Info: Redefining \HepProcess on input line 68.
+LaTeX Info: Redefining \HepProcess on input line 68.
+ [5]
+LaTeX Info: Redefining \HepProcess on input line 69.
  (./thesis.toc
 LaTeX Info: Redefining \HepProcess on input line 23.
 LaTeX Info: Redefining \HepProcess on input line 23.
@@ -999,10 +999,10 @@ LaTeX Info: Redefining \HepProcess on input line 51.
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
-LaTeX Info: Redefining \HepProcess on input line 68.
-LaTeX Info: Redefining \HepProcess on input line 68.
+LaTeX Info: Redefining \HepProcess on input line 69.
+LaTeX Info: Redefining \HepProcess on input line 69.
  [8]
-LaTeX Info: Redefining \HepProcess on input line 68.
+LaTeX Info: Redefining \HepProcess on input line 69.
  (./thesis.lof
 LaTeX Info: Redefining \HepProcess on input line 19.
 LaTeX Info: Redefining \HepProcess on input line 19.
@@ -1028,11 +1028,11 @@ LaTeX Info: Redefining \HepProcess on input line 82.
 \tf@lof=\write6
 \openout6 = `thesis.lof'.
 
-LaTeX Info: Redefining \HepProcess on input line 68.
-LaTeX Info: Redefining \HepProcess on input line 68.
+LaTeX Info: Redefining \HepProcess on input line 69.
+LaTeX Info: Redefining \HepProcess on input line 69.
 
 [15]
-LaTeX Info: Redefining \HepProcess on input line 68.
+LaTeX Info: Redefining \HepProcess on input line 69.
  (./thesis.lot
 LaTeX Info: Redefining \HepProcess on input line 24.
 LaTeX Info: Redefining \HepProcess on input line 24.
@@ -1043,11 +1043,11 @@ LaTeX Info: Redefining \HepProcess on input line 24.
 \tf@lot=\write7
 \openout7 = `thesis.lot'.
 
-LaTeX Info: Redefining \HepProcess on input line 68.
-LaTeX Info: Redefining \HepProcess on input line 68.
+LaTeX Info: Redefining \HepProcess on input line 69.
+LaTeX Info: Redefining \HepProcess on input line 69.
  [17]
 Chapter 1.
-LaTeX Info: Redefining \HepProcess on input line 74.
+LaTeX Info: Redefining \HepProcess on input line 75.
 (./chapters/Introduction.tex
 LaTeX Info: Redefining \HepProcess on input line 2.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/750px-Standa
@@ -1194,29 +1194,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 193--195
  []
 
 )
-LaTeX Info: Redefining \HepProcess on input line 78.
-LaTeX Info: Redefining \HepProcess on input line 78.
+LaTeX Info: Redefining \HepProcess on input line 79.
+LaTeX Info: Redefining \HepProcess on input line 79.
  [8]
-LaTeX Info: Redefining \HepProcess on input line 78.
-LaTeX Info: Redefining \HepProcess on input line 78.
+LaTeX Info: Redefining \HepProcess on input line 79.
+LaTeX Info: Redefining \HepProcess on input line 79.
  [9 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/aToSMvsaMass_type2_tbeta0.5.png>
  </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/aToSMvsaMass_type2_tbeta5.png>]
-LaTeX Info: Redefining \HepProcess on input line 78.
-LaTeX Info: Redefining \HepProcess on input line 78.
+LaTeX Info: Redefining \HepProcess on input line 79.
+LaTeX Info: Redefining \HepProcess on input line 79.
  [10 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/aToSMvsaMass_type3_tbeta0.5.png
 > </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/aToSMvsaMass_type3_tbeta5.png>]
-LaTeX Info: Redefining \HepProcess on input line 78.
-LaTeX Info: Redefining \HepProcess on input line 78.
+LaTeX Info: Redefining \HepProcess on input line 79.
+LaTeX Info: Redefining \HepProcess on input line 79.
 
 [11 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/aToSMvsaMass_type4_tbeta0.5.png>
  </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/aToSMvsaMass_type4_tbeta5.png>]
-LaTeX Info: Redefining \HepProcess on input line 78.
-LaTeX Info: Redefining \HepProcess on input line 78.
+LaTeX Info: Redefining \HepProcess on input line 79.
+LaTeX Info: Redefining \HepProcess on input line 79.
 
 [12 <./figures/feynman_haa.pdf> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/pape
 r/AN-20-208/Figures/2m2t_BR_a40_t1-4.png>]
 Chapter 2.
-LaTeX Info: Redefining \HepProcess on input line 78.
+LaTeX Info: Redefining \HepProcess on input line 79.
 (./chapters/CMSdetector.tex
 LaTeX Info: Redefining \HepProcess on input line 1.
 <figures/LHC_map-s.jpg, id=891, 1606.0pt x 903.375pt>
@@ -1362,12 +1362,12 @@ Package pdftex.def Info: figures/Tier0.png  used on input line 175.
 LaTeX Info: Redefining \HepProcess on input line 181.
 LaTeX Info: Redefining \HepProcess on input line 181.
  [21 <./figures/Tier0.png>])
-LaTeX Info: Redefining \HepProcess on input line 82.
-LaTeX Info: Redefining \HepProcess on input line 82.
+LaTeX Info: Redefining \HepProcess on input line 83.
+LaTeX Info: Redefining \HepProcess on input line 83.
 
 [22]
 Chapter 3.
-LaTeX Info: Redefining \HepProcess on input line 82.
+LaTeX Info: Redefining \HepProcess on input line 83.
 (./chapters/luminosity.tex
 LaTeX Info: Redefining \HepProcess on input line 1.
 LaTeX Info: Redefining \HepProcess on input line 12.
@@ -1380,11 +1380,11 @@ LaTeX Info: Redefining \HepProcess on input line 27.
 LaTeX Info: Redefining \HepProcess on input line 33.
 LaTeX Info: Redefining \HepProcess on input line 33.
  [24])
-LaTeX Info: Redefining \HepProcess on input line 86.
-LaTeX Info: Redefining \HepProcess on input line 86.
+LaTeX Info: Redefining \HepProcess on input line 87.
+LaTeX Info: Redefining \HepProcess on input line 87.
  [25]
 Chapter 4.
-LaTeX Info: Redefining \HepProcess on input line 86.
+LaTeX Info: Redefining \HepProcess on input line 87.
 (./chapters/samples.tex
 LaTeX Info: Redefining \HepProcess on input line 2.
 LaTeX Info: Redefining \HepProcess on input line 5.
@@ -1602,11 +1602,11 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 png  used on input line 277.
 (pdftex.def)             Requested size: 145.6229pt x 139.76001pt.
 )
-LaTeX Info: Redefining \HepProcess on input line 89.
-LaTeX Info: Redefining \HepProcess on input line 89.
+LaTeX Info: Redefining \HepProcess on input line 90.
+LaTeX Info: Redefining \HepProcess on input line 90.
  [35]
-LaTeX Info: Redefining \HepProcess on input line 90.
-LaTeX Info: Redefining \HepProcess on input line 90.
+LaTeX Info: Redefining \HepProcess on input line 91.
+LaTeX Info: Redefining \HepProcess on input line 91.
  [36 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplot
 s_v7plots_allsys_scale_m_etalt1p2Down/mll_fine_mmtt_inclusive.png> </mnt/c/User
 s/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplots_v7plots_allsys_
@@ -1614,7 +1614,7 @@ Nominal/mll_fine_mmtt_inclusive.png> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA
 /paper/AN-20-208/Figures/outplots_v7plots_allsys_scale_m_etalt1p2Up/mll_fine_mm
 tt_inclusive.png>]
 Chapter 5.
-LaTeX Info: Redefining \HepProcess on input line 90.
+LaTeX Info: Redefining \HepProcess on input line 91.
 (./chapters/selection.tex
 LaTeX Info: Redefining \HepProcess on input line 2.
 LaTeX Info: Redefining \HepProcess on input line 7.
@@ -1634,11 +1634,11 @@ Underfull \hbox (badness 10000) in alignment at lines 61--68
  []
 
 )
-LaTeX Info: Redefining \HepProcess on input line 94.
-LaTeX Info: Redefining \HepProcess on input line 94.
+LaTeX Info: Redefining \HepProcess on input line 95.
+LaTeX Info: Redefining \HepProcess on input line 95.
  [39]
 Chapter 6.
-LaTeX Info: Redefining \HepProcess on input line 94.
+LaTeX Info: Redefining \HepProcess on input line 95.
 (./chapters/Background.tex
 LaTeX Info: Redefining \HepProcess on input line 13.
 LaTeX Info: Redefining \HepProcess on input line 18.
@@ -1701,18 +1701,18 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 .png  used on input line 132.
 (pdftex.def)             Requested size: 305.33789pt x 293.04662pt.
 )
-LaTeX Info: Redefining \HepProcess on input line 98.
-LaTeX Info: Redefining \HepProcess on input line 98.
+LaTeX Info: Redefining \HepProcess on input line 99.
+LaTeX Info: Redefining \HepProcess on input line 99.
  [45
 
 ]
-LaTeX Info: Redefining \HepProcess on input line 98.
-LaTeX Info: Redefining \HepProcess on input line 98.
+LaTeX Info: Redefining \HepProcess on input line 99.
+LaTeX Info: Redefining \HepProcess on input line 99.
  [46 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/fakefac
 tor_diagram.pdf> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Fig
 ures/outplots_2016_smFF_mmmt_Nominal/AMass_blinded_mmmt_FF_SS_validation.png>]
 Chapter 7.
-LaTeX Info: Redefining \HepProcess on input line 98.
+LaTeX Info: Redefining \HepProcess on input line 99.
 (./chapters/Controlplots.tex
 LaTeX Info: Redefining \HepProcess on input line 2.
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplots_mmm
@@ -1797,13 +1797,13 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 ne 20.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 )
-LaTeX Info: Redefining \HepProcess on input line 102.
-LaTeX Info: Redefining \HepProcess on input line 102.
+LaTeX Info: Redefining \HepProcess on input line 103.
+LaTeX Info: Redefining \HepProcess on input line 103.
  [47
 
 ]
-LaTeX Info: Redefining \HepProcess on input line 102.
-LaTeX Info: Redefining \HepProcess on input line 102.
+LaTeX Info: Redefining \HepProcess on input line 103.
+LaTeX Info: Redefining \HepProcess on input line 103.
  [48 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplot
 s_mmmt_combo_Nominal/AMass_blinded_combined.png> </mnt/c/Users/Sam Higginbotham
 /Dropbox/HAA/paper/AN-20-208/Figures/outplots_mmet_combo_Nominal/AMass_blinded_
@@ -1811,8 +1811,8 @@ combined.png> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figure
 s/outplots_mmem_combo_Nominal/AMass_blinded_combined.png> </mnt/c/Users/Sam Hig
 ginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplots_mmtt_combo_Nominal/AMass
 _blinded_combined.png>]
-LaTeX Info: Redefining \HepProcess on input line 102.
-LaTeX Info: Redefining \HepProcess on input line 102.
+LaTeX Info: Redefining \HepProcess on input line 103.
+LaTeX Info: Redefining \HepProcess on input line 103.
  [49 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/outplot
 s_allyears_combo_Nominal/AMass_blinded_combined.png> </mnt/c/Users/Sam Higginbo
 tham/Dropbox/HAA/paper/AN-20-208/Figures/outplots_allyears_combo_Nominal/pt_1_c
@@ -1821,7 +1821,7 @@ ombined.png> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures
 tham/Dropbox/HAA/paper/AN-20-208/Figures/outplots_allyears_combo_Nominal/pt_3_c
 ombined.png>]
 Chapter 8.
-LaTeX Info: Redefining \HepProcess on input line 102.
+LaTeX Info: Redefining \HepProcess on input line 103.
 (./chapters/fitmodel.tex
 LaTeX Info: Redefining \HepProcess on input line 2.
 LaTeX Info: Redefining \HepProcess on input line 16.
@@ -2264,14 +2264,14 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 ed on input line 38.
 (pdftex.def)             Requested size: 446.26582pt x 355.28802pt.
 )
-LaTeX Info: Redefining \HepProcess on input line 107.
-LaTeX Info: Redefining \HepProcess on input line 107.
+LaTeX Info: Redefining \HepProcess on input line 108.
+LaTeX Info: Redefining \HepProcess on input line 108.
  [63
 
  </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalcards/
 2017_mmmt_combination/testimpacts_2017_mmmt-crop.pdf>]
 Chapter 9.
-LaTeX Info: Redefining \HepProcess on input line 107.
+LaTeX Info: Redefining \HepProcess on input line 108.
 (./chapters/Conclusions.tex
 LaTeX Info: Redefining \HepProcess on input line 3.
 LaTeX Info: Redefining \HepProcess on input line 32.
@@ -2472,13 +2472,13 @@ _III.png> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/co
 mbination/2HDM_Model_2DLimits_IV.png>]
 LaTeX Info: Redefining \HepProcess on input line 88.
 )
-LaTeX Info: Redefining \HepProcess on input line 114.
-LaTeX Info: Redefining \HepProcess on input line 114.
+LaTeX Info: Redefining \HepProcess on input line 115.
+LaTeX Info: Redefining \HepProcess on input line 115.
  [70
 
 ]
 Appendix A.
-LaTeX Info: Redefining \HepProcess on input line 114.
+LaTeX Info: Redefining \HepProcess on input line 115.
 (./chapters/app-data.tex
 LaTeX Info: Redefining \HepProcess on input line 1.
 
@@ -2518,7 +2518,7 @@ LaTeX Info: Redefining \HepProcess on input line 358.
 
 ])
 Appendix B.
-LaTeX Info: Redefining \HepProcess on input line 118.
+LaTeX Info: Redefining \HepProcess on input line 119.
 (./chapters/app-ffmeas.tex
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/FF/plots_et_
 2016/fit_rawFF_et_w_0jet.pdf, id=2431, 569.12625pt x 552.0625pt>
@@ -3025,7 +3025,7 @@ _mt_tt.pdf, page is rotated 90 degrees> </mnt/c/Users/Sam Higginbotham/Dropbox/
 HAA/paper/AN-20-208/Figures/FF/plots_mt_2018/fit_mc_rawFF_mt_tt.pdf, page is ro
 tated 90 degrees>])
 Appendix C.
-LaTeX Info: Redefining \HepProcess on input line 122.
+LaTeX Info: Redefining \HepProcess on input line 123.
 (./chapters/app-sysunc.tex
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalcards/2
 016_mmmt_combination/testimpacts_2016_mmmt-crop.pdf, id=4449, 571.13374pt x 454
@@ -3167,49 +3167,49 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 ed on input line 68.
 (pdftex.def)             Requested size: 446.26582pt x 355.28802pt.
 )
-LaTeX Info: Redefining \HepProcess on input line 126.
-LaTeX Info: Redefining \HepProcess on input line 126.
+LaTeX Info: Redefining \HepProcess on input line 127.
+LaTeX Info: Redefining \HepProcess on input line 127.
  [85 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2016_mmet_combination/testimpacts_2016_mmet-crop.pdf>]
-LaTeX Info: Redefining \HepProcess on input line 126.
-LaTeX Info: Redefining \HepProcess on input line 126.
+LaTeX Info: Redefining \HepProcess on input line 127.
+LaTeX Info: Redefining \HepProcess on input line 127.
  [86 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2016_mmtt_combination/testimpacts_2016_mmtt-crop.pdf>]
-LaTeX Info: Redefining \HepProcess on input line 126.
-LaTeX Info: Redefining \HepProcess on input line 126.
+LaTeX Info: Redefining \HepProcess on input line 127.
+LaTeX Info: Redefining \HepProcess on input line 127.
  [87 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2016_mmem_combination/testimpacts_2016_mmem-crop.pdf>]
-LaTeX Info: Redefining \HepProcess on input line 126.
-LaTeX Info: Redefining \HepProcess on input line 126.
+LaTeX Info: Redefining \HepProcess on input line 127.
+LaTeX Info: Redefining \HepProcess on input line 127.
  [88 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2017_mmet_combination/testimpacts_2017_mmet-crop.pdf>]
-LaTeX Info: Redefining \HepProcess on input line 126.
-LaTeX Info: Redefining \HepProcess on input line 126.
+LaTeX Info: Redefining \HepProcess on input line 127.
+LaTeX Info: Redefining \HepProcess on input line 127.
  [89 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2017_mmtt_combination/testimpacts_2017_mmtt-crop.pdf>]
-LaTeX Info: Redefining \HepProcess on input line 126.
-LaTeX Info: Redefining \HepProcess on input line 126.
+LaTeX Info: Redefining \HepProcess on input line 127.
+LaTeX Info: Redefining \HepProcess on input line 127.
  [90 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2017_mmem_combination/testimpacts_2017_mmem-crop.pdf>]
-LaTeX Info: Redefining \HepProcess on input line 126.
-LaTeX Info: Redefining \HepProcess on input line 126.
+LaTeX Info: Redefining \HepProcess on input line 127.
+LaTeX Info: Redefining \HepProcess on input line 127.
  [91 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2018_mmmt_combination/testimpacts_2018_mmmt-crop.pdf>]
-LaTeX Info: Redefining \HepProcess on input line 126.
-LaTeX Info: Redefining \HepProcess on input line 126.
+LaTeX Info: Redefining \HepProcess on input line 127.
+LaTeX Info: Redefining \HepProcess on input line 127.
  [92 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2018_mmet_combination/testimpacts_2018_mmet-crop.pdf>]
-LaTeX Info: Redefining \HepProcess on input line 126.
-LaTeX Info: Redefining \HepProcess on input line 126.
+LaTeX Info: Redefining \HepProcess on input line 127.
+LaTeX Info: Redefining \HepProcess on input line 127.
 
 [93 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalcar
 ds/2018_mmtt_combination/testimpacts_2018_mmtt-crop.pdf>]
-LaTeX Info: Redefining \HepProcess on input line 126.
-LaTeX Info: Redefining \HepProcess on input line 126.
+LaTeX Info: Redefining \HepProcess on input line 127.
+LaTeX Info: Redefining \HepProcess on input line 127.
  [94 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/finalca
 rds/2018_mmem_combination/testimpacts_2018_mmem-crop.pdf>]
 Appendix D.
-LaTeX Info: Redefining \HepProcess on input line 126.
+LaTeX Info: Redefining \HepProcess on input line 127.
 (./chapters/app-fitmodel.tex
 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmmt_co
 mbination/40_Nominal_a40_2017_mmmt_Nominal.png, id=5005, 598.235pt x 574.145pt>
@@ -3836,13 +3836,13 @@ Package pdftex.def Info: /mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-
 input line 118.
 (pdftex.def)             Requested size: 220.78543pt x 211.89592pt.
 )
-LaTeX Info: Redefining \HepProcess on input line 130.
-LaTeX Info: Redefining \HepProcess on input line 130.
+LaTeX Info: Redefining \HepProcess on input line 131.
+LaTeX Info: Redefining \HepProcess on input line 131.
  [95
 
 ]
-LaTeX Info: Redefining \HepProcess on input line 130.
-LaTeX Info: Redefining \HepProcess on input line 130.
+LaTeX Info: Redefining \HepProcess on input line 131.
+LaTeX Info: Redefining \HepProcess on input line 131.
  [96 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 mt_combination/40_Nominal_a40_2017_mmmt_Nominal.png> </mnt/c/Users/Sam Higginbo
 tham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmet_combination/40_Nominal_a40_2
@@ -3850,8 +3850,8 @@ tham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmet_combination/40_Nominal_a40_2
 8/Figures/2017_mmtt_combination/40_Nominal_a40_2017_mmtt_Nominal.png> </mnt/c/U
 sers/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmem_combination
 /40_Nominal_a40_2017_mmem_Nominal.png>]
-LaTeX Info: Redefining \HepProcess on input line 130.
-LaTeX Info: Redefining \HepProcess on input line 130.
+LaTeX Info: Redefining \HepProcess on input line 131.
+LaTeX Info: Redefining \HepProcess on input line 131.
 
 [97 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmm
 t_combination/DiMuonMass_AlphaConstraint_2017_mmmt.pdf, page is rotated 90 degr
@@ -3862,8 +3862,8 @@ mmt_combination/DiMuonMass_MeanConstraint_2017_mmmt.pdf, page is rotated 90 deg
 rees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_m
 mmt_combination/DiMuonMass_NormConstraint_2017_mmmt.pdf, page is rotated 90 deg
 rees>]
-LaTeX Info: Redefining \HepProcess on input line 130.
-LaTeX Info: Redefining \HepProcess on input line 130.
+LaTeX Info: Redefining \HepProcess on input line 131.
+LaTeX Info: Redefining \HepProcess on input line 131.
  [98 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 et_combination/DiMuonMass_AlphaConstraint_2017_mmet.pdf, page is rotated 90 deg
 rees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_m
@@ -3873,8 +3873,8 @@ mmet_combination/DiMuonMass_MeanConstraint_2017_mmet.pdf, page is rotated 90 de
 grees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_
 mmet_combination/DiMuonMass_NormConstraint_2017_mmet.pdf, page is rotated 90 de
 grees>]
-LaTeX Info: Redefining \HepProcess on input line 130.
-LaTeX Info: Redefining \HepProcess on input line 130.
+LaTeX Info: Redefining \HepProcess on input line 131.
+LaTeX Info: Redefining \HepProcess on input line 131.
  [99 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 tt_combination/DiMuonMass_AlphaConstraint_2017_mmtt.pdf, page is rotated 90 deg
 rees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_m
@@ -3884,8 +3884,8 @@ mmtt_combination/DiMuonMass_MeanConstraint_2017_mmtt.pdf, page is rotated 90 de
 grees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_
 mmtt_combination/DiMuonMass_NormConstraint_2017_mmtt.pdf, page is rotated 90 de
 grees>]
-LaTeX Info: Redefining \HepProcess on input line 130.
-LaTeX Info: Redefining \HepProcess on input line 130.
+LaTeX Info: Redefining \HepProcess on input line 131.
+LaTeX Info: Redefining \HepProcess on input line 131.
  [100 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_m
 mem_combination/DiMuonMass_AlphaConstraint_2017_mmem.pdf, page is rotated 90 de
 grees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_
@@ -3895,8 +3895,8 @@ _mmem_combination/DiMuonMass_MeanConstraint_2017_mmem.pdf, page is rotated 90 d
 egrees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017
 _mmem_combination/DiMuonMass_NormConstraint_2017_mmem.pdf, page is rotated 90 d
 egrees>]
-LaTeX Info: Redefining \HepProcess on input line 130.
-LaTeX Info: Redefining \HepProcess on input line 130.
+LaTeX Info: Redefining \HepProcess on input line 131.
+LaTeX Info: Redefining \HepProcess on input line 131.
  [101 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_m
 mmt_combination/2_Nominal_irBkg_2017_mmmt_Nominal.png> </mnt/c/Users/Sam Higgin
 botham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmet_combination/1_Nominal_irBk
@@ -3904,8 +3904,8 @@ g_2017_mmet_Nominal.png> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20
 -208/Figures/2017_mmtt_combination/1_Nominal_irBkg_2017_mmtt_Nominal.png> </mnt
 /c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmem_combina
 tion/2_Nominal_irBkg_2017_mmem_Nominal.png>]
-LaTeX Info: Redefining \HepProcess on input line 130.
-LaTeX Info: Redefining \HepProcess on input line 130.
+LaTeX Info: Redefining \HepProcess on input line 131.
+LaTeX Info: Redefining \HepProcess on input line 131.
 
 [102 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mm
 mt_combination/2_Nominal_Bkg_2017_mmmt_Nominal.png> </mnt/c/Users/Sam Higginbot
@@ -3914,8 +3914,8 @@ ham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmet_combination/1_Nominal_Bkg_201
 Figures/2017_mmtt_combination/1_Nominal_Bkg_2017_mmtt_Nominal.png> </mnt/c/User
 s/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2017_mmem_combination/2_
 Nominal_Bkg_2017_mmem_Nominal.png>]
-LaTeX Info: Redefining \HepProcess on input line 130.
-LaTeX Info: Redefining \HepProcess on input line 130.
+LaTeX Info: Redefining \HepProcess on input line 131.
+LaTeX Info: Redefining \HepProcess on input line 131.
  [103 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_m
 mmt_combination/40_Nominal_a40_2018_mmmt_Nominal.png> </mnt/c/Users/Sam Higginb
 otham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmet_combination/40_Nominal_a40_
@@ -3923,8 +3923,8 @@ otham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmet_combination/40_Nominal_a40_
 08/Figures/2018_mmtt_combination/40_Nominal_a40_2018_mmtt_Nominal.png> </mnt/c/
 Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmem_combinatio
 n/40_Nominal_a40_2018_mmem_Nominal.png>]
-LaTeX Info: Redefining \HepProcess on input line 130.
-LaTeX Info: Redefining \HepProcess on input line 130.
+LaTeX Info: Redefining \HepProcess on input line 131.
+LaTeX Info: Redefining \HepProcess on input line 131.
 
 [104 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 mt_combination/DiMuonMass_AlphaConstraint_2018_mmmt.pdf, page is rotated 90 deg
@@ -3935,8 +3935,8 @@ mmmt_combination/DiMuonMass_MeanConstraint_2018_mmmt.pdf, page is rotated 90 de
 grees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_
 mmmt_combination/DiMuonMass_NormConstraint_2018_mmmt.pdf, page is rotated 90 de
 grees>]
-LaTeX Info: Redefining \HepProcess on input line 130.
-LaTeX Info: Redefining \HepProcess on input line 130.
+LaTeX Info: Redefining \HepProcess on input line 131.
+LaTeX Info: Redefining \HepProcess on input line 131.
  [105 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_m
 met_combination/DiMuonMass_AlphaConstraint_2018_mmet.pdf, page is rotated 90 de
 grees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_
@@ -3946,8 +3946,8 @@ _mmet_combination/DiMuonMass_MeanConstraint_2018_mmet.pdf, page is rotated 90 d
 egrees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018
 _mmet_combination/DiMuonMass_NormConstraint_2018_mmet.pdf, page is rotated 90 d
 egrees>]
-LaTeX Info: Redefining \HepProcess on input line 130.
-LaTeX Info: Redefining \HepProcess on input line 130.
+LaTeX Info: Redefining \HepProcess on input line 131.
+LaTeX Info: Redefining \HepProcess on input line 131.
  [106 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_m
 mtt_combination/DiMuonMass_AlphaConstraint_2018_mmtt.pdf, page is rotated 90 de
 grees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_
@@ -3957,8 +3957,8 @@ _mmtt_combination/DiMuonMass_MeanConstraint_2018_mmtt.pdf, page is rotated 90 d
 egrees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018
 _mmtt_combination/DiMuonMass_NormConstraint_2018_mmtt.pdf, page is rotated 90 d
 egrees>]
-LaTeX Info: Redefining \HepProcess on input line 130.
-LaTeX Info: Redefining \HepProcess on input line 130.
+LaTeX Info: Redefining \HepProcess on input line 131.
+LaTeX Info: Redefining \HepProcess on input line 131.
  [107 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_m
 mem_combination/DiMuonMass_AlphaConstraint_2018_mmem.pdf, page is rotated 90 de
 grees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_
@@ -3968,8 +3968,8 @@ _mmem_combination/DiMuonMass_MeanConstraint_2018_mmem.pdf, page is rotated 90 d
 egrees> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018
 _mmem_combination/DiMuonMass_NormConstraint_2018_mmem.pdf, page is rotated 90 d
 egrees>]
-LaTeX Info: Redefining \HepProcess on input line 130.
-LaTeX Info: Redefining \HepProcess on input line 130.
+LaTeX Info: Redefining \HepProcess on input line 131.
+LaTeX Info: Redefining \HepProcess on input line 131.
  [108 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_m
 mmt_combination/2_Nominal_irBkg_2018_mmmt_Nominal.png> </mnt/c/Users/Sam Higgin
 botham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmet_combination/1_Nominal_irBk
@@ -3977,8 +3977,8 @@ g_2018_mmet_Nominal.png> </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20
 -208/Figures/2018_mmtt_combination/1_Nominal_irBkg_2018_mmtt_Nominal.png> </mnt
 /c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mmem_combina
 tion/2_Nominal_irBkg_2018_mmem_Nominal.png>]
-LaTeX Info: Redefining \HepProcess on input line 130.
-LaTeX Info: Redefining \HepProcess on input line 130.
+LaTeX Info: Redefining \HepProcess on input line 131.
+LaTeX Info: Redefining \HepProcess on input line 131.
 
 [109 </mnt/c/Users/Sam Higginbotham/Dropbox/HAA/paper/AN-20-208/Figures/2018_mm
 mt_combination/2_Nominal_Bkg_2018_mmmt_Nominal.png> </mnt/c/Users/Sam Higginbot
@@ -4020,23 +4020,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--170
 LaTeX Info: Redefining \HepProcess on input line 190.
 LaTeX Info: Redefining \HepProcess on input line 190.
 [113])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 133.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
  (./thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 133.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
 (rerunfilecheck)             Checksum: D14ECC6A44AF167D7BD06BD102D31ECE;4917.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 133.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
  ) 
 Here is how much of TeX's memory you used:
  25321 strings out of 481239
  567943 string characters out of 5920377
- 808968 words of memory out of 5000000
+ 808969 words of memory out of 5000000
  39267 multiletter control sequences out of 15000+600000
  549124 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -4064,7 +4064,7 @@ msfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 i10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr
 /share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on thesis.pdf (130 pages, 10254991 bytes).
+Output written on thesis.pdf (130 pages, 10254773 bytes).
 PDF statistics:
  6680 PDF objects out of 7423 (max. 8388607)
  3486 compressed objects within 35 object streams
